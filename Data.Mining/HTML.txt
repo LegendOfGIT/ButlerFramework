@@ -1,0 +1,2464 @@
+<!doctype html>
+<!--[if lte IE 8]> <html lang="de" class="no-js ie ie8"> <![endif]-->
+<!--[if IE 9]>     <html lang="de" class="no-js ie ie9"> <![endif]-->
+<!--[if gt IE 9]>  <html lang="de" class="no-js gt9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="de" class="no-js"><!--<![endif]-->
+    <head>
+        
+<meta charset="iso-8859-1">
+
+<meta http-equiv="x-ua-compatible" content="IE=edge">
+
+<title>K&auml;sekuchen Rezepte | Chefkoch.de</title>
+
+
+<meta name="description" content="1.495 leckere k&auml;sekuchen Rezepte auf Chefkoch.de - Deutschlands bester Rezepteseite">
+<meta name="robots" content="index,follow">
+
+
+
+<meta name="application-name" content="Chefkoch.de"/>
+<meta name="msapplication-starturl" content="http://www.chefkoch.de" />
+
+<meta name="msapplication-navbutton-color" content="#7ba344" />
+<meta name="msapplication-tooltip" content="Chefkoch.de" />
+
+<meta name="msapplication-TileImage" content="http://img.chefkoch-cdn.de/img/header-icons/tile-image-144x144.png" />
+<meta name="msapplication-TileColor" content="#7ba344" />
+
+<link rel="apple-touch-icon" sizes="152x152" href="http://img.chefkoch-cdn.de/img/header-icons/apple-touch-icon-152x152.png" /> <link rel="apple-touch-icon" sizes="144x144" href="http://img.chefkoch-cdn.de/img/header-icons/apple-touch-icon-144x144.png" /> <link rel="apple-touch-icon" sizes="120x120" href="http://img.chefkoch-cdn.de/img/header-icons/apple-touch-icon-120x120.png" /> <link rel="apple-touch-icon" sizes="114x114" href="http://img.chefkoch-cdn.de/img/header-icons/apple-touch-icon-114x114.png" /> <link rel="apple-touch-icon" sizes="76x76" href="http://img.chefkoch-cdn.de/img/header-icons/apple-touch-icon-76x76.png" /> <link rel="apple-touch-icon" sizes="72x72" href="http://img.chefkoch-cdn.de/img/header-icons/apple-touch-icon-72x72.png" /> <link rel="apple-touch-icon" sizes="60x60" href="http://img.chefkoch-cdn.de/img/header-icons/apple-touch-icon-60x60.png" /> <link rel="apple-touch-icon" sizes="57x57" href="http://img.chefkoch-cdn.de/img/header-icons/apple-touch-icon-57x57.png" /> <link rel="apple-touch-icon" href="http://img.chefkoch-cdn.de/img/header-icons/apple-touch-icon.png" /> 
+<link rel="shortcut icon" href="http://img.chefkoch-cdn.de/favicon.ico" />
+
+
+
+
+
+    <link rel="alternate" type="application/rss+xml" title="Chefkoch.de: Rezept des Tages (RSS 2.0)" href="http://www.chefkoch.de/rss/rezept-des-tages.php">
+
+    <link rel="alternate" media="only screen and (max-width: 640px)" href="http://mobile.chefkoch.de/ms/s0/k%E4sekuchen/Rezepte.html" >
+
+    <link rel="alternate" href="chefkoch://search/0/k%E4sekuchen" >
+
+
+    <link rel="canonical" href="http://www.chefkoch.de/rs/s0/k%E4sekuchen/Rezepte.html">
+
+<link rel="stylesheet" href="http://css.chefkoch-cdn.de/css/ck.de/main.css?v=44"/>
+
+
+    <link rel="stylesheet" href="http://css.chefkoch-cdn.de/css/ck.de/recipes/page-recipe-search.css?v=44" media="all">
+
+
+
+<!-- Optimizely -->
+<script src="/ajax/optimizely-config.js.php" type="text/javascript"></script>
+
+<script>
+    var CkConfig = CkConfig || {};
+    CkConfig.auth =  false;
+    CkConfig.apiToken = '';
+    CkConfig.apiBaseUrl = '/api/v2';
+    CkConfig.devel = false; ;
+</script>
+
+
+
+
+
+
+
+
+
+
+    <script src="http://js.chefkoch-cdn.de/js/default/userinfo/doubleclicktag.js?v=47"></script>
+    <script src="http://js.chefkoch-cdn.de/js/default/jquery/jquery-1.9.1.min.js?v=47"></script>
+    <script src="http://js.chefkoch-cdn.de/js/default/jquery/jquery.cookie.js?v=47"></script>
+    <script src="http://js.chefkoch-cdn.de/js/ads/AdOptimizer.js?v=47"></script>
+    <script src="http://js.chefkoch-cdn.de/js/ads/AdManager.js?v=47"></script>
+    <script src="http://js.chefkoch-cdn.de/js/main.js?v=47"></script>
+    <script src="http://js.chefkoch-cdn.de/js/default/navigation-data.js?v=47"></script>
+    <script src="http://js.chefkoch-cdn.de/js/default/functions.js?v=47"></script>
+    <script src="http://js.chefkoch-cdn.de/js/default/jquery/jquery.colorbox-min.js?v=47"></script>
+
+<!--[if lt IE 8]>
+<script src="http://js.chefkoch-cdn.de/js/default/json3.min.js?v=47"></script>
+<![endif]-->
+
+
+        
+        <meta name="apple-itunes-app" content="app-id=478618165">
+
+<meta name="verification" content="6e551582b4cb1fcd014a0e3a6b90a0bb" />
+
+
+    <script type="text/javascript" charset="utf-8">
+        (function(G,o,O,g,L,e){G[g]=G[g]||function(){(G[g]['q']=G[g]['q']||[]).push(
+                arguments)},G[g]['t']=1*new Date;L=o.createElement(O),e=o.getElementsByTagName(
+                O)[0];L.async=1;L.src='//www.google.com/adsense/search/async-ads.js';
+            e.parentNode.insertBefore(L,e)})(window,document,'script','_googCsa');
+    </script>
+
+
+<script language="JavaScript">
+
+    $(document).ready(function() {
+
+        // Freunde-Online-Liste dauerhaft ein- und ausblenden
+        $('#friends_show_online_list' ).change( function(){
+
+            $('#friends-online-list').toggle();
+
+                                $.ajax({
+                        type : 'POST',
+                        url  : 'http://www.chefkoch.de/ajax/website-display-options.php',
+                        data : { friends_online_list_on : this.checked }
+                    });
+        })
+    });
+
+</script>
+    </head>
+    <body>
+        <div id="wrapper">
+
+                        <span id="banner-wallpaper">
+                <div id="wallpaperbanner"></div>
+            </span>
+            <div id="page-wrapper">
+
+                                
+                                                    <div id="header" class="header" role="banner">
+
+        
+<div id="header-logo">
+    <a href="http://www.chefkoch.de">
+        <img src="http://img.chefkoch-cdn.de/img/ck.de/ck-logo-de.png" width="113" height="75" alt="Chefkoch.de - Rezepte Kochrezepte" />
+            </a>
+</div>
+
+    <div class="header-wrapper">
+
+        <div class="header-right">
+
+                        <ul class="header-menu">
+                                    <li><a href="/register/index.php">Kostenlos registrieren</a></li>
+                                <li><a href="/newsletter.php">Newsletter</a></li>
+                <li><a href="/faq/">Hilfe/FAQ</a></li>
+            </ul>
+
+                        <form class="header-search" name="searchform" action="/suche.php" method="get">
+    <input type="text" id="inputfield_quicksearch" name="suche" value="käsekuchen"  class="input-text" placeholder="Suche..."/>
+    <span class="header-select-wrapper">
+        <select name="wo">
+            <option value="0">... überall</option>
+            <option value="4">... nur Magazin</option>
+            <option value="2" selected>... nur Rezepte</option>
+
+                            <option value="10">... nur Sammlungen</option>
+            
+            <option value="1">... nur Foren</option>
+
+                        <option value="7">... nur Gruppen</option>
+            <option value="3">... nur User</option>
+        </select>
+    </span>
+    <input type="submit" class="input-submit sprite-lupe" value=""/>
+</form>
+
+        </div><!-- /header-right -->
+
+    </div>
+
+        <div class="nav main-navigation no-touch">
+    <ul class="navigation-top">
+        <li class="startseite">
+            <a href="/" class="mainmenu-startseite">Startseite</a>
+        </li>
+
+        <li class="magazin">
+            <a href="/magazin/" class="mainmenu has-submenu">Magazin</a>
+            <div class="submenu clearfix">
+                <ul id="submenu-partner">
+                    <li class="submenu-headline"><span id="menu-magazin" class="spanlink">Chefkoch.de Magazin</span></li>
+                    <li><span id="menu-artikel" class="spanlink">Aktuelle Artikel</span></li>
+                    <li class="submenu-headline submenu-headline-spacer"><span id="menu-partner" class="spanlink">Partnermagazine</span></li>
+                    <li><span id="menu-aeg" class="spanlink"><b>AEG</b> - perfekt in form und funktion</span></li>
+                    <li><span id="menu-wmf" class="spanlink"><b>WMF</b> - das Leben schmeckt sch&ouml;n</span></li>
+                </ul>
+                <ul id="submenu-rubriken">
+                    <li class="submenu-headline">Rubriken</li>
+                    <li><span id="menu-rubriken-besterezepte" class="spanlink">Die besten Rezepte</span></li>
+                    <li><a href="/magazin/6,278,0/Chefkoch/">Saisonal</a></li>
+                    <li><a href="/magazin/6,277,0/Chefkoch/">Backen</a></li>
+                    <li><a href="/magazin/6,272,0/Chefkoch/">Reis, Pasta &amp; Co.</a></li>
+                    <li><a href="/magazin/6,273,0/Chefkoch/">Fleisch &amp; Fisch</a></li>
+                    <li><a href="/magazin/6,274,0/Chefkoch/">Obst &amp; Gemüse</a></li>
+                    <li><a href="/magazin/6,279,0/Chefkoch/">Regionale Küche</a></li>
+                    <li><a href="/magazin/6,280,0/Chefkoch/">Ernährung</a></li>
+                    <li><a href="/magazin/6,276,0/Chefkoch/">Küchenpraxis</a></li>
+                    <li><a href="/magazin/6,281,0/Chefkoch/">Kräuter &amp; Gewürze</a></li>
+                    <li><a href="/magazin/6,282,0/Chefkoch/">Trinken</a></li>
+                    <li><a href="/magazin/6,275,0/Chefkoch/">Aktuelle Themen</a></li>
+                </ul>
+            </div>
+        </li>
+
+        <li class="rezepte on">
+            <a href="/rezepte/" class="mainmenu has-submenu">Rezepte</a>
+            <div class="submenu clearfix">
+                <ul>
+                    <li class="submenu-headline"><span id="menu-rezepte-finden" class="spanlink">Rezepte finden</span></li>
+                    <li><span id="menu-rezeptsuche" class="spanlink">Rezeptsuche</span></li>
+                    <li><a href="/rezepte/kategorien/">Kategorien</a></li>
+                    <li><span id="menu-kochen-ohne-einkaufen" class="spanlink">Resteverwertung</span></li>
+
+                    <li class="submenu-headline submenu-headline-spacer">Empfehlungen</li>
+                    <li><a href="/rezeptsammlung/">Rezeptsammlungen</a></li>
+                    <li><a href="/rezepte/was-koche-ich-heute/">Was koche ich heute?</a></li>
+                    <li class="submenu-headline submenu-headline-spacer"><span id="menu-rezepte-eintragen" class="spanlink">Rezepte eintragen</span></li>
+                    <li><span id="menu-neues-rezept-eintragen" class="spanlink">Neues Rezept eintragen</span></li>
+                </ul>
+                <ul>
+                    <li class="submenu-headline"><span id="menu-rezept-aktuelles" class="spanlink">Aktuelles</span></li>
+                    <li><span id="menu-rezept-des-tages" class="spanlink">Rezept des Tages</span></li>
+                    <li><a href="/rs/s0o3/neue-rezepte.html">Neue Rezepte</a></li>
+                    <li><a href="/rezeptbilder.php">Neue Rezeptbilder</a></li>
+                    <li><span id="menu-zufallsrezept" class="spanlink">Zufallsrezept</span></li>
+
+                    <li class="submenu-headline submenu-headline-spacer">Markenrezepte</li>
+                    <li><span id="menu-marke-barilla" class="marke-barilla spanlink"><img src="http://cdn.chefkoch.de/ck.de/comrezept-img/barilla/barilla_logo_mini.gif" alt="" />Barilla</span></li>
+                    <li><span id="menu-marke-henglein" class="marke-henglein spanlink"><img src="http://cdn.chefkoch.de/ck.de/comrezept-img/henglein/henglein_logo_mini.gif" alt="" />Henglein</span></li>
+                    <li><span id="menu-marke-mazzetti" class="marke-mazzetti spanlink"><img src="http://cdn.chefkoch.de/ck.de/comrezept-img/mazzetti/mazzetti_logo_mini.gif" alt="" />Mazzetti</span></li>
+                    <li><span id="menu-marke-milram" class="marke-milram spanlink"><img src="http://cdn.chefkoch.de/ck.de/comrezept-img/milram/milram_logo_mini.gif" alt="" />Milram</span></li>
+                    <li><span id="menu-marke-minusl" class="marke-minusl spanlink"><img src="http://cdn.chefkoch.de/ck.de/comrezept-img/minusl/minusl_logo_mini.gif" alt="" />MinusL</span></li>
+                    <li><span id="menu-marke-rama" class="marke-rama spanlink"><img src="http://cdn.chefkoch.de/ck.de/comrezept-img/rama/rama_logo_mini.gif" alt="" />Rama Cremefine</span></li>
+                    <li><span id="menu-marke-fachingen" class="marke-fachingen spanlink"><img src="http://cdn.chefkoch.de/ck.de/comrezept-img/staatl-fachingen/staatl-fachingen_logo_mini.gif" alt="" />Staatl. Fachingen</span></li>
+                </ul>
+            </div>
+        </li>
+
+        <li>
+            <a href="/magazin/" class="mainmenu has-submenu">Specials</a>
+            <div class="submenu clearfix">
+                			<ul>
+							<li class="submenu-headline">
+						<a href="/magazin/">Aktuelles</a>
+			</li>
+									<li>
+						<a href="http://www.chefkoch.de/magazin/artikel/667,0/Chefkoch/Auf-die-Schnelle-leckere-Gerichte-zaubern.html">Schnelle Rezepte</a>
+			</li>
+									<li>
+						<a href="/magazin/artikel/732,1/Chefkoch/Kochbuecher-im-Test-Bewertungen-der-Redaktion.html">Kochb&uuml;cher im Test</a>
+			</li>
+									<li>
+						<a href="http://www.chefkoch.de/magazin/6,357,0/Chefkoch/">Alles f&uuml;r die K&uuml;che</a>
+			</li>
+									<li>
+						<a href="http://www.chefkoch.de/magazin/6,358,0/Chefkoch/">Unsere Top-Rezepte</a>
+			</li>
+									<li>
+						<a href="http://www.chefkoch.de/magazin/6,334,0/Chefkoch/">Spiele, R&auml;tsel, Quiz</a>
+			</li>
+				</ul>
+				<ul>
+							<li class="submenu-headline">
+						<a href="/magazin/6,275,0/Chefkoch/">Empfehlungen</a>
+			</li>
+									<li>
+						<a href="/magazin/artikel/1990,0/Chefkoch/Abnehmen-Rund-um-Diaet-und-Co.html">Abnehmen &amp; Di&auml;ten</a>
+			</li>
+									<li>
+						<a href="http://www.chefkoch.de/magazin/artikel/1891,0/Chefkoch/Vegetarier-fleischlos-gluecklich.html">Vegetarisch kochen</a>
+			</li>
+									<li>
+						<a href="http://www.chefkoch.de/magazin/artikel/667,0/Chefkoch/Auf-die-Schnelle-leckere-Gerichte-zaubern.html">Schnelle K&uuml;che</a>
+			</li>
+									<li>
+						<a href="http://www.chefkoch.de/magazin/artikel/1905,0/Chefkoch/Brot-backen-So-gelingen-Brot-und-Broetchen.html">Brot &amp; Br&ouml;tchen backen</a>
+			</li>
+									<li>
+						<a href="http://www.chefkoch.de/magazin/artikel/2754,0/Chefkoch/Kochen-Welcher-Koch-Typ-sind-Sie-Machen-Sie-den-Test.html">Kochtypen-Test mit Rezepten</a>
+			</li>
+				</ul>
+	
+            </div>
+        </li>
+
+        <li class="community">
+            <a href="/forum/" class="mainmenu has-submenu">Community</a>
+            <div class="submenu clearfix">
+                <ul>
+                    <li class="submenu-headline"><span id="menu-foren" class="spanlink">Foren</span></li>
+                    <li><span id="menu-foren-kochen" class="spanlink">Kochen</span></li>
+                    <li><span id="menu-foren-backen" class="spanlink">Backen</span></li>
+                    <li><span id="menu-foren-getraenke" class="spanlink">Getr&auml;nke</span></li>
+                    <li><span id="menu-foren-sonstige" class="spanlink">Sonstige Kochthemen</span></li>
+                    <li><span id="menu-foren-lifestyle" class="spanlink">Lifestyle</span></li>
+                    <li><span id="menu-foren-plauderecke" class="spanlink">Plauderecke/Sonstiges</span></li>
+                    <li class="submenu-headline-spacer"><span id="menu-foren-moderatoren" class="spanlink">Forenmoderatoren</span></li>
+                    <li><span id="menu-foren-suche" class="spanlink">Forensuche</span></li>
+                    <li><span id="menu-foren-aktuell" class="spanlink">Aktuelle Beitr&auml;ge</span></li>
+                </ul>
+                <ul>
+                    <li class="submenu-headline">Weitere Inhalte</li>
+                    <li><span id="menu-chefkoch-events" class="spanlink">Chefkoch Events</span></li>
+                    <li><span id="menu-chefkoch-gruppen" class="spanlink">Chefkoch Gruppen</span></li>
+                    <li><span id="menu-userblogs" class="spanlink">Blogs unserer User</span></li>
+                    <li><span id="menu-fotoalben" class="spanlink">Fotoalben</span></li>
+                    <li><span id="menu-umfragen" class="spanlink">Umfragen</span></li>
+
+                    <li class="submenu-headline submenu-headline-spacer"><span id="menu-aktive-user" class="spanlink">Aktive User</span></li>
+                    <li><span id="menu-hitliste" class="spanlink">Hitliste</span></li>
+
+                    <li class="submenu-headline submenu-headline-spacer"><span id="menu-fanshop" class="spanlink">Fanshop</span></li>
+                    <li><span id="menu-fanartikel" class="spanlink">Chefkoch Fanartikel</span></li>
+                </ul>
+            </div>
+        </li>
+
+        <li>
+            <a href="/rezeptbilder/" class="mainmenu has-submenu">Bilder</a>
+            <div class="submenu clearfix" id="submenu-bilder">
+                <ul>
+                    <li class="submenu-headline"><span id="menu-bilder-aktuelles" class="spanlink">Aktuelles</span></li>
+                    <li><span id="menu-bilder-neue-rezeptbilder" class="spanlink">Neue Rezeptbilder</span></li>
+                    <li><span id="menu-bilder-waskocheichheute" class="spanlink">Was koche ich heute?</span></li>
+                </ul>
+                <ul>
+                    <li class="submenu-headline"><span id="menu-bilder-fotoalben" class="spanlink">Fotoalben</span></li>
+                    <li><span id="menu-bilder-kochenrezepte" class="spanlink">Kochen &amp; Rezepte</span></li>
+                    <li><span id="menu-bilder-tiere" class="spanlink">Tiere</span></li>
+                    <li><span id="menu-bilder-landschaft" class="spanlink">Landschaft</span></li>
+                    <li><span id="menu-bilder-menschen" class="spanlink">Menschen &amp; Portrait</span></li>
+                    <li><span id="menu-bilder-reisen" class="spanlink">Reisen</span></li>
+                    <li><span id="menu-bilder-technik" class="spanlink">Technik</span></li>
+                </ul>
+            </div>
+        </li>
+
+        <li class="video">
+            <a href="/video/" class="mainmenu has-submenu">Video</a>
+            <div class="submenu clearfix" id="submenu-videos">
+                <ul>
+                    <li class="submenu-headline"><span id="menu-video-chefkochtv" class="spanlink">Chefkoch.de Videos</span></li>
+                    <li><a href="/video/6,327,0/Chefkoch/">Fabios Kochschule</a></li>
+                    <li><a href="/video/6,328,0/Chefkoch/">Rikes Backschule</a></li>
+                    <li><a href="/video/6,329,0/Chefkoch/">Einfach lecker</a></li>
+                    <li><a href="/video/6,330,0/Chefkoch/">Grillen für Profis mit Hack'n'Roll</a></li>
+                    <li><a href="/video/6,331,0/Chefkoch/">Pimp my Fast Food</a></li>
+                    <li><a href="/video/6,332,0/Chefkoch/">Chefkoch.tv Classics</a></li>
+                    <li class="submenu-headline-spacer"><span id="menu-video-forum" class="spanlink">Chefkoch.de Video Forum</span></li>
+                </ul>
+            </div>
+        </li>
+
+        <li>
+            <a href="http://www.chefkoch-blog.de" class="mainmenu" target="_blank">Blog</a>
+        </li>
+
+        <li id="menu-right">
+        <a href="/user/profil/" class="mainmenu has-submenu ga-tr" data-category="Navigation" data-action="myChefkoch">myChefkoch</a>
+        <div class="submenu clearfix align-right">
+            <ul>
+                <li class="submenu-headline">Rezepte</li>
+                <li><span id="menu-myck-meinkochbuch" class="spanlink">Mein Kochbuch</span></li>
+                <li><span id="menu-myck-shoppinglist" class="spanlink">Einkaufsliste</span></li>
+                <li><span id="menu-myck-rezepteinstellen" class="spanlink">Rezept einstellen</span></li>
+                <li><span id="menu-myck-meinerezeptfotos" class="spanlink">Meine Rezeptfotos</span></li>
+                <li><span id="menu-myck-privatrezepteinstellen" class="spanlink">Privatrezept einstellen</span></li>
+                <li class="submenu-headline submenu-headline-spacer">Profil</li>
+                <li><span id="menu-myck-meineprofilseite" class="spanlink">Meine Profilseite</span></li>
+                <li><span id="menu-myck-einstellungen" class="spanlink">Einstellungen</span></li>
+            </ul>
+            <ul>
+                <li class="submenu-headline">Community</li>
+                <li><span id="menu-myck-forenfavoriten" class="spanlink">Foren-Favoriten</span></li>
+                <li><span id="menu-myck-meinpostfach" class="spanlink">Mein Postfach</span></li>
+                <li><span id="menu-myck-meinegruppen" class="spanlink">Meine Gruppen</span></li>
+                <li><span id="menu-myck-meinefreunde" class="spanlink">Meine Freunde</span></li>
+                <li><span id="menu-myck-meinefotoalben" class="spanlink">Meine Fotoalben</span></li>
+                <li><span id="menu-myck-meinblog" class="spanlink">Mein Blog</span></li>
+                <li class="submenu-headline submenu-headline-spacer">Anmeldung</li>
+                                <li><span id="menu-myck-login" class="spanlink">Login</span></li>
+                <li><span id="menu-myck-registrierung" class="spanlink">Registrierung</span></li>
+                                <li><span id="menu-myck-club" class="spanlink">Chefkoch.de Club</span></li>
+            </ul>
+        </div>
+        </li>
+                <li id="menu-login">
+            <a href="/login.php" class="mainmenu has-submenu" id="loginlink">Login</a>
+        <div class="submenu submenu-login align-right">
+            <strong>Jetzt anmelden</strong>
+            <form action="https://www.chefkoch.de/login.php" method="post" id="login">
+                <p>
+                    <label for="username">Benutzername / E-Mail:</label><br/>
+                    <input name="login" type="text" class="login" id="username" tabindex="100" value="" maxlength="255" />
+                </p>
+                <p>
+                    <label for="password">Passwort:</label><br/>
+                    <input name="password" type="password" class="login" id="password" tabindex="101" maxlength="32" />
+                </p>
+                <p>
+                    <input name="setalltimelogin" type="checkbox" id="setalltimelogin" tabindex="102" value="1">
+                    <label for="setalltimelogin"> <acronym title="Speichert Ihre Details in einem 'Cookie', so dass Sie diese beim nächsten Besuch nicht mehr einzugeben brauchen">Eingeloggt bleiben</acronym></label>
+                </p>
+                <p>
+                    <input type="submit" class="button-green" value="Einloggen" tabindex="103"> <a href="/userdatalost.php">Zugangsdaten vergessen?</a>
+                </p>
+            </form>
+            <hr>
+            <strong>Noch nicht registriert?</strong>
+            <p><a href="/register/index.php">Hier können Sie sich kostenlos registrieren</a>.</p>
+        </div>
+    </li>
+    </ul>
+</div>
+
+</div><!-- /header -->
+                
+
+                
+    <div id="page">
+
+	<div class="content-wrapper">
+
+		<!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
+		<!--  Breadcrumb Navigation  -->
+		<!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
+        <div id="breadcrumb" role="navigation" class="nav">
+                        <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">&raquo;
+                                    <a href="/" itemprop="url"><span
+                            itemprop="title">Startseite</span></a>
+                            </span>
+                                <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">&raquo;
+                                    <span
+                        itemprop="title">Rezepte</span>
+                            </span>
+            </div>
+
+		<!-- ~~~~~~~~~~~~~~~~~~~~~~ -->
+		<!--  Superbanner (mittig)  -->
+		<!-- ~~~~~~~~~~~~~~~~~~~~~~ -->
+
+		<div id="banner-top">
+			<div id="topbanner"></div>		</div>
+
+	</div><!-- /content-wrapper -->
+
+	<!-- ~~~~~~~~~ -->
+	<!--  Content  -->
+	<!-- ~~~~~~~~~ -->
+
+	<div class="content-wrapper clearfix">
+
+		<div id="content-1" class="content">
+
+						
+			
+			
+			
+				<!-- ~~~~~~~~~~~~~~ -->
+				<!--  Suchergebnis  -->
+				<!-- ~~~~~~~~~~~~~~ -->
+
+				<div id="search-result-title" class="content-box">
+					<div class="content-box-gradient">
+
+						<div class="content-box-padding">
+
+							<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+							<!--  Ueberschrift des Suchergebnisses  -->
+							<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+							
+							<h1 class="page-title h1-small">
+								1.495 k&auml;sekuchen Rezepte							</h1>
+
+						</div><!-- /content-box-padding -->
+
+					</div><!-- /content-box-gradient -->
+				</div><!-- /content-box -->
+
+			  	<!-- ~~~~~~~~~~ -->
+			  	<!--  Text-Ads  -->
+			  	<!-- ~~~~~~~~~~ -->
+				<div id="text-ads">
+					<div id="text-ads-oben">
+<div style="margin-top: 15px; margin-bottom: 15px;">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- ck_suche_oben_csi -->
+<ins class="adsbygoogle"
+style="display:inline-block;width: 620px;height: 65px"
+data-ad-client="ca-pub-5214522864208164"
+data-ad-slot="5965073333"
+data-max-num-ads="2"
+data-color-url ="b80e0e"
+data-color-bg ="FFFFFF"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+</div>				</div>
+
+				
+					<!-- ~~~~~~~~~~~~~~~~~ -->
+					<!--  Seitenblaettern  -->
+					<!-- ~~~~~~~~~~~~~~~~~ -->
+
+					<div class="pagination clearfix">
+						<span class="pagination-count">50 Seiten</span>
+						<div class="pagination-right">
+														<span class="pagination-item pagination-item-current">1</span><a class="pagination-item" href="/rs/s30/k%E4sekuchen/Rezepte.html">2</a><a class="pagination-item" href="/rs/s60/k%E4sekuchen/Rezepte.html">3</a><a class="pagination-item" href="/rs/s90/k%E4sekuchen/Rezepte.html">4</a><a class="pagination-item" href="/rs/s120/k%E4sekuchen/Rezepte.html">5</a><a class="pagination-item" href="/rs/s150/k%E4sekuchen/Rezepte.html">6</a><a class="pagination-item" href="/rs/s180/k%E4sekuchen/Rezepte.html">7</a><a class="pagination-item" href="/rs/s210/k%E4sekuchen/Rezepte.html">8</a><a class="pagination-item" href="/rs/s240/k%E4sekuchen/Rezepte.html">9</a><a class="pagination-item" href="/rs/s270/k%E4sekuchen/Rezepte.html">10</a><a class="pagination-item pagination-next-x" href="/rs/s300/k%E4sekuchen/Rezepte.html">...</a>							<a class="pagination-item pagination-next" href="/rs/s30/k%E4sekuchen/Rezepte.html">&raquo;</a>						</div>
+					</div>
+
+				
+				<!-- ~~~~~~~~~~~~~~~ -->
+				<!--  Ergebnisliste  -->
+				<!-- ~~~~~~~~~~~~~~~ -->
+
+				<table class="search-result-table recipe-result">
+
+					<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+					<!--  Spaltenbeschriftung / Sortierung -->
+					<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+					<thead>
+						<tr>
+							<th class="recipe-result-col-1">
+								<!-- Sortierung mit Bild -->
+								<a href="/rs/s0o6/k%E4sekuchen/Rezepte.html" title="nach Bild sortieren">Bild</a>
+							</th>
+							<th class="recipe-result-col-2">
+								<!-- Sortierung nach Name -->
+								<a href="/rs/s0o1/k%E4sekuchen/Rezepte.html" title="nach Namen sortieren">Name</a>
+								/<br>
+								<!-- Sortierung nach Wertung -->
+								<a href="/rs/s0o8/k%E4sekuchen/Rezepte.html" title="nach Rezeptwertung sortieren">Wertung</a>
+							</th>
+							<th class="recipe-result-col-3">
+								<!-- Sortierung nach Zeit -->
+								<a href="/rs/s0o4/k%E4sekuchen/Rezepte.html" title="nach Arbeitszeit sortieren">Zeit</a>
+								/<br>
+								<!-- Sortierung nach Aufwand -->
+								<a href="/rs/s0o5/k%E4sekuchen/Rezepte.html" title="nach Schwierigkeit sortieren">Aufwand</a>
+							</th>
+							<th class="recipe-result-col-4">
+								<!-- Sortierung nach Hits -->
+								<a href="/rs/s0o2/k%E4sekuchen/Rezepte.html" title="Sortieren nach Zugriffen der letzten 60 Tage">Aufrufe</a>
+								/<br>
+								<!-- Sortierung nach Datum -->
+								<a href="/rs/s0o3/k%E4sekuchen/Rezepte.html" title="nach Datum sortieren">Datum</a>
+							</th>
+						</tr>
+					</thead>
+					<tbody>
+
+						<!-- ~~~~~~~~~~~~~~~~~~~~~~~~ -->
+						<!--  Ausgabe der Suchtreffer -->
+						<!-- ~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+						
+							<tr class="rowclick hrecipe" data-url="/rezepte/916021197016953/Kaesekuchen-bzw-Quarkkuchen.html">
+								<td class="recipe-result-col-1">
+									
+									<a href="/rezepte/916021197016953/Kaesekuchen-bzw-Quarkkuchen.html" title="gelingt immer, superleicht und schnell">
+																					<img src="http://static.chefkoch-cdn.de/ck.de/rezepte/91/91602/612114-rsmain-kaesekuchen-bzw-quarkkuchen.jpg" width="115" height="82" alt="K&auml;sekuchen bzw. Quarkkuchen" title="K&auml;sekuchen bzw. Quarkkuchen" class="photo">
+																			</a>
+								</td>
+								<td class="recipe-result-col-2">
+
+									
+									<a class="search-result-title fn" href="/rezepte/916021197016953/Kaesekuchen-bzw-Quarkkuchen.html" title="gelingt immer, superleicht und schnell"><span class="highlighting">Käsekuchen</span> bzw. <span class="highlighting">Quarkkuchen</span></a>
+
+																		
+																		<span class="rating-small" title="114 Bewertungen - &Oslash; 4.47"><span class="rating rating-4_5"></span></span>
+
+																		gelingt immer, superleicht und schnell								</td>
+								<td class="recipe-result-col-3">
+																		30 Min.<br>
+
+																			<span class="prepTime">
+											<span class="value-title" title="PT30M"></span>
+										</span>
+									
+																		simpel								</td>
+								<td class="recipe-result-col-4">
+
+																		235.880<br>
+
+																											07.12.07								</td>
+							</tr>
+						
+							<tr class="rowclick" data-url="/rezepte/1113041217339660/Kaesekuchen-Quarkkuchen-mit-Streusel.html">
+								<td class="recipe-result-col-1">
+									
+									<a href="/rezepte/1113041217339660/Kaesekuchen-Quarkkuchen-mit-Streusel.html" title="altes Familienrezept">
+																					<img src="http://static.chefkoch-cdn.de/ck.de/rezepte/111/111304/685178-rsmain-kaesekuchen-quarkkuchen-mit-streusel.jpg" width="115" height="82" alt="K&auml;sekuchen / Quarkkuchen mit Streusel" title="K&auml;sekuchen / Quarkkuchen mit Streusel">
+																			</a>
+								</td>
+								<td class="recipe-result-col-2">
+
+									
+									<a class="search-result-title" href="/rezepte/1113041217339660/Kaesekuchen-Quarkkuchen-mit-Streusel.html" title="altes Familienrezept"><span class="highlighting">Käsekuchen</span> / <span class="highlighting">Quarkkuchen</span> mit Streusel</a>
+
+																		
+																		<span class="rating-small" title="11 Bewertungen - &Oslash; 4.15"><span class="rating rating-4"></span></span>
+
+																		altes Familienrezept								</td>
+								<td class="recipe-result-col-3">
+																		30 Min.<br>
+
+									
+																		simpel								</td>
+								<td class="recipe-result-col-4">
+
+																		13.882<br>
+
+																											29.07.08								</td>
+							</tr>
+						
+							<tr class="rowclick" data-url="/rezepte/1417931246631521/Saftiger-Kaesekuchen-ohne-Boden.html">
+								<td class="recipe-result-col-1">
+									
+									<a href="/rezepte/1417931246631521/Saftiger-Kaesekuchen-ohne-Boden.html" title="">
+																					<img src="http://static.chefkoch-cdn.de/ck.de/rezepte/141/141793/669527-rsmain-saftiger-kaesekuchen-ohne-boden.jpg" width="115" height="82" alt="Saftiger K&auml;sekuchen ohne Boden" title="Saftiger K&auml;sekuchen ohne Boden">
+																			</a>
+								</td>
+								<td class="recipe-result-col-2">
+
+									
+									<a class="search-result-title" href="/rezepte/1417931246631521/Saftiger-Kaesekuchen-ohne-Boden.html"><span class="recipe-result-com-name">Saftiger <span class="highlighting">Käsekuchen</span> ohne Boden</span></a>
+
+																		
+										&nbsp;<img src="http://static.chefkoch-cdn.de/ck.de/comrezept-img/chefkoch/movie.gif" alt="">
+
+									
+																		<span class="rating-small" title="133 Bewertungen - &Oslash; 4.35"><span class="rating rating-4_5"></span></span>
+
+																		Den Boden der Springform mit Backpapier auslegen. Den Rand buttern und mit Mehl bestäuben. ...								</td>
+								<td class="recipe-result-col-3">
+																		20 Min.<br>
+
+									
+																		normal								</td>
+								<td class="recipe-result-col-4">
+
+																		68.572<br>
+
+																											14.10.09								</td>
+							</tr>
+						
+							<tr class="rowclick" data-url="/rezepte/1316541236346986/Kaesekuchen-von-Tante-Gertrud.html">
+								<td class="recipe-result-col-1">
+									
+									<a href="/rezepte/1316541236346986/Kaesekuchen-von-Tante-Gertrud.html" title="Dieser K&auml;sekuchen f&auml;llt nicht zusammen und schmeckt prima!">
+																					<img src="http://static.chefkoch-cdn.de/ck.de/rezepte/131/131654/367564-rsmain-kaesekuchen-von-tante-gertrud.jpg" width="115" height="82" alt="K&auml;sekuchen von Tante Gertrud" title="K&auml;sekuchen von Tante Gertrud">
+																			</a>
+								</td>
+								<td class="recipe-result-col-2">
+
+									
+									<a class="search-result-title" href="/rezepte/1316541236346986/Kaesekuchen-von-Tante-Gertrud.html" title="Dieser K&auml;sekuchen f&auml;llt nicht zusammen und schmeckt prima!"><span class="highlighting">Käsekuchen</span> von Tante Gertrud</a>
+
+																		
+																		<span class="rating-small" title="583 Bewertungen - &Oslash; 4.58"><span class="rating rating-4_5"></span></span>
+
+																		Dieser <span class="highlighting">Käsekuchen</span> fällt nicht zusammen und schmeckt prima!								</td>
+								<td class="recipe-result-col-3">
+																		30 Min.<br>
+
+									
+																		normal								</td>
+								<td class="recipe-result-col-4">
+
+																		116.018<br>
+
+																											06.03.09								</td>
+							</tr>
+						
+							<tr class="rowclick" data-url="/rezepte/2019171327184712/Zebra-Himbeer-Kaesekuchen.html">
+								<td class="recipe-result-col-1">
+									
+									<a href="/rezepte/2019171327184712/Zebra-Himbeer-Kaesekuchen.html" title="K&auml;sekuchen mit fruchtiger Note, optisches Highlight">
+																					<img src="http://static.chefkoch-cdn.de/ck.de/rezepte/201/201917/700831-rsmain-zebra-himbeer-kaesekuchen.jpg" width="115" height="82" alt="Zebra-Himbeer-K&auml;sekuchen" title="Zebra-Himbeer-K&auml;sekuchen">
+																			</a>
+								</td>
+								<td class="recipe-result-col-2">
+
+									
+									<a class="search-result-title" href="/rezepte/2019171327184712/Zebra-Himbeer-Kaesekuchen.html" title="K&auml;sekuchen mit fruchtiger Note, optisches Highlight">Zebra-Himbeer-<span class="highlighting">Käsekuchen</span></a>
+
+																		
+																		<span class="rating-small" title="62 Bewertungen - &Oslash; 4.44"><span class="rating rating-4_5"></span></span>
+
+																		<span class="highlighting">Käsekuchen</span> mit fruchtiger Note, optisches Highlight								</td>
+								<td class="recipe-result-col-3">
+																		50 Min.<br>
+
+									
+																		normal								</td>
+								<td class="recipe-result-col-4">
+
+																		21.537<br>
+
+																											22.01.12								</td>
+							</tr>
+						
+							<tr class="rowclick" data-url="/rezepte/1202691226052316/Kaesekuchen.html">
+								<td class="recipe-result-col-1">
+									
+									<a href="/rezepte/1202691226052316/Kaesekuchen.html" title="coolcals schneller K&auml;sekuchen">
+																					<img src="http://static.chefkoch-cdn.de/ck.de/rezepte/120/120269/554003-rsmain-kaesekuchen.jpg" width="115" height="82" alt="K&auml;sekuchen" title="K&auml;sekuchen">
+																			</a>
+								</td>
+								<td class="recipe-result-col-2">
+
+									
+									<a class="search-result-title" href="/rezepte/1202691226052316/Kaesekuchen.html" title="coolcals schneller K&auml;sekuchen"><span class="highlighting">Käsekuchen</span></a>
+
+																		
+																		<span class="rating-small" title="77 Bewertungen - &Oslash; 4.41"><span class="rating rating-4_5"></span></span>
+
+																		coolcals schneller <span class="highlighting">Käsekuchen</span>								</td>
+								<td class="recipe-result-col-3">
+																		15 Min.<br>
+
+									
+																		simpel								</td>
+								<td class="recipe-result-col-4">
+
+																		14.945<br>
+
+																											07.11.08								</td>
+							</tr>
+						
+							<tr class="rowclick" data-url="/rezepte/389361126172855/Ultra-cremiger-Kaesekuchen.html">
+								<td class="recipe-result-col-1">
+									
+									<a href="/rezepte/389361126172855/Ultra-cremiger-Kaesekuchen.html" title="die wohl zarteste Versuchung, seit es K&auml;sekuchen gibt">
+																					<img src="http://static.chefkoch-cdn.de/ck.de/rezepte/38/38936/573638-rsmain-ultra-cremiger-kaesekuchen.jpg" width="115" height="82" alt="Ultra - cremiger K&auml;sekuchen" title="Ultra - cremiger K&auml;sekuchen">
+																			</a>
+								</td>
+								<td class="recipe-result-col-2">
+
+									
+									<a class="search-result-title" href="/rezepte/389361126172855/Ultra-cremiger-Kaesekuchen.html" title="die wohl zarteste Versuchung, seit es K&auml;sekuchen gibt">Ultra - cremiger <span class="highlighting">Käsekuchen</span></a>
+
+																		
+																		<span class="rating-small" title="203 Bewertungen - &Oslash; 4.39"><span class="rating rating-4_5"></span></span>
+
+																		die wohl zarteste Versuchung, seit es <span class="highlighting">Käsekuchen</span> gibt								</td>
+								<td class="recipe-result-col-3">
+																		45 Min.<br>
+
+									
+																		normal								</td>
+								<td class="recipe-result-col-4">
+
+																		59.452<br>
+
+																											08.09.05								</td>
+							</tr>
+						
+							<tr class="rowclick" data-url="/rezepte/874761192881889/Heisse-Liebe-Kaesekuchen.html">
+								<td class="recipe-result-col-1">
+									
+									<a href="/rezepte/874761192881889/Heisse-Liebe-Kaesekuchen.html" title="cremiger K&auml;sekuchen mit Himbeeren und Cremebelag">
+																					<img src="http://static.chefkoch-cdn.de/ck.de/rezepte/87/87476/345175-rsmain-heisse-liebe-kaesekuchen.jpg" width="115" height="82" alt="Hei&szlig;e Liebe - K&auml;sekuchen" title="Hei&szlig;e Liebe - K&auml;sekuchen">
+																			</a>
+								</td>
+								<td class="recipe-result-col-2">
+
+									
+									<a class="search-result-title" href="/rezepte/874761192881889/Heisse-Liebe-Kaesekuchen.html" title="cremiger K&auml;sekuchen mit Himbeeren und Cremebelag">Heiße Liebe - <span class="highlighting">Käsekuchen</span></a>
+
+																		
+																		<span class="rating-small" title="64 Bewertungen - &Oslash; 4.36"><span class="rating rating-4_5"></span></span>
+
+																		cremiger <span class="highlighting">Käsekuchen</span> mit Himbeeren und Cremebelag								</td>
+								<td class="recipe-result-col-3">
+																		45 Min.<br>
+
+									
+																		normal								</td>
+								<td class="recipe-result-col-4">
+
+																		25.266<br>
+
+																											14.11.07								</td>
+							</tr>
+						
+							<tr class="rowclick" data-url="/rezepte/1335951238482426/Kaesekuchen.html">
+								<td class="recipe-result-col-1">
+									
+									<a href="/rezepte/1335951238482426/Kaesekuchen.html" title="Quarkkuchen">
+																					<img src="http://static.chefkoch-cdn.de/ck.de/rezepte/133/133595/706430-rsmain-kaesekuchen.jpg" width="115" height="82" alt="K&auml;sekuchen" title="K&auml;sekuchen">
+																			</a>
+								</td>
+								<td class="recipe-result-col-2">
+
+									
+									<a class="search-result-title" href="/rezepte/1335951238482426/Kaesekuchen.html" title="Quarkkuchen"><span class="highlighting">Käsekuchen</span></a>
+
+																		
+																		<span class="rating-small" title="75 Bewertungen - &Oslash; 4.31"><span class="rating rating-4_5"></span></span>
+
+																		<span class="highlighting">Quarkkuchen</span>								</td>
+								<td class="recipe-result-col-3">
+																		30 Min.<br>
+
+									
+																		simpel								</td>
+								<td class="recipe-result-col-4">
+
+																		16.661<br>
+
+																											31.03.09								</td>
+							</tr>
+						
+							<tr class="rowclick" data-url="/rezepte/1268281232032578/Kaesekuchen.html">
+								<td class="recipe-result-col-1">
+									
+									<a href="/rezepte/1268281232032578/Kaesekuchen.html" title="bodenloser K&auml;sekuchen">
+																					<img src="http://static.chefkoch-cdn.de/ck.de/rezepte/126/126828/516534-rsmain-kaesekuchen.jpg" width="115" height="82" alt="K&auml;sekuchen" title="K&auml;sekuchen">
+																			</a>
+								</td>
+								<td class="recipe-result-col-2">
+
+									
+									<a class="search-result-title" href="/rezepte/1268281232032578/Kaesekuchen.html" title="bodenloser K&auml;sekuchen"><span class="highlighting">Käsekuchen</span></a>
+
+																		
+																		<span class="rating-small" title="136 Bewertungen - &Oslash; 4.28"><span class="rating rating-4_5"></span></span>
+
+																		bodenloser <span class="highlighting">Käsekuchen</span>								</td>
+								<td class="recipe-result-col-3">
+																		20 Min.<br>
+
+									
+																		simpel								</td>
+								<td class="recipe-result-col-4">
+
+																		21.640<br>
+
+																											15.01.09								</td>
+							</tr>
+						
+							<tr class="rowclick" data-url="/rezepte/751571177827706/Quarkkuchen-vom-Blech-mit-Fruechten.html">
+								<td class="recipe-result-col-1">
+									
+									<a href="/rezepte/751571177827706/Quarkkuchen-vom-Blech-mit-Fruechten.html" title="K&auml;sekuchen ganz einfach, mit leckeren Fr&uuml;chten">
+																					<img src="http://static.chefkoch-cdn.de/ck.de/rezepte/75/75157/604869-rsmain-quarkkuchen-vom-blech-mit-fruechten.jpg" width="115" height="82" alt="Quarkkuchen vom Blech mit Fr&uuml;chten" title="Quarkkuchen vom Blech mit Fr&uuml;chten">
+																			</a>
+								</td>
+								<td class="recipe-result-col-2">
+
+									
+									<a class="search-result-title" href="/rezepte/751571177827706/Quarkkuchen-vom-Blech-mit-Fruechten.html" title="K&auml;sekuchen ganz einfach, mit leckeren Fr&uuml;chten"><span class="highlighting">Quarkkuchen</span> vom Blech mit Früchten</a>
+
+																		
+																		<span class="rating-small" title="20 Bewertungen - &Oslash; 4.27"><span class="rating rating-4_5"></span></span>
+
+																		<span class="highlighting">Käsekuchen</span> ganz einfach, mit leckeren Früchten								</td>
+								<td class="recipe-result-col-3">
+																		30 Min.<br>
+
+									
+																		normal								</td>
+								<td class="recipe-result-col-4">
+
+																		5.647<br>
+
+																											03.05.07								</td>
+							</tr>
+						
+							<tr class="rowclick" data-url="/rezepte/369841122576721/Kaesekuchen-2-Schichten.html">
+								<td class="recipe-result-col-1">
+									
+									<a href="/rezepte/369841122576721/Kaesekuchen-2-Schichten.html" title="">
+																					<img src="http://static.chefkoch-cdn.de/ck.de/rezepte/36/36984/431633-rsmain-kaesekuchen-2-schichten.jpg" width="115" height="82" alt="K&auml;sekuchen 2 - Schichten" title="K&auml;sekuchen 2 - Schichten">
+																			</a>
+								</td>
+								<td class="recipe-result-col-2">
+
+									
+									<a class="search-result-title" href="/rezepte/369841122576721/Kaesekuchen-2-Schichten.html"><span class="highlighting">Käsekuchen</span> 2 - Schichten</a>
+
+																		
+																		<span class="rating-small" title="418 Bewertungen - &Oslash; 4.73"><span class="rating rating-4_5"></span></span>
+
+																		Aus Butter, 75 g Zucker, Mehl, Backpulver und 1 Ei einen Mürbeteig kneten und kurz in den Kühlschrank stellen. ...								</td>
+								<td class="recipe-result-col-3">
+																		35 Min.<br>
+
+									
+																		normal								</td>
+								<td class="recipe-result-col-4">
+
+																		55.136<br>
+
+																											29.07.05								</td>
+							</tr>
+						
+							<tr class="rowclick" data-url="/rezepte/1719311280655434/Johannisbeer-Kaesekuchen-mit-Streusel.html">
+								<td class="recipe-result-col-1">
+									
+									<a href="/rezepte/1719311280655434/Johannisbeer-Kaesekuchen-mit-Streusel.html" title="">
+																					<img src="http://static.chefkoch-cdn.de/ck.de/rezepte/171/171931/715177-rsmain-johannisbeer-kaesekuchen-mit-streusel.jpg" width="115" height="82" alt="Johannisbeer  - K&auml;sekuchen mit Streusel" title="Johannisbeer  - K&auml;sekuchen mit Streusel">
+																			</a>
+								</td>
+								<td class="recipe-result-col-2">
+
+									
+									<a class="search-result-title" href="/rezepte/1719311280655434/Johannisbeer-Kaesekuchen-mit-Streusel.html">Johannisbeer  - <span class="highlighting">Käsekuchen</span> mit Streusel</a>
+
+																		
+																		<span class="rating-small" title="49 Bewertungen - &Oslash; 4.73"><span class="rating rating-4_5"></span></span>
+
+																		Für den Streuselteig Mehl und Backpulver mischen und in eine Schüssel sieben. ...								</td>
+								<td class="recipe-result-col-3">
+																		50 Min.<br>
+
+									
+																		normal								</td>
+								<td class="recipe-result-col-4">
+
+																		12.681<br>
+
+																											02.08.10								</td>
+							</tr>
+						
+							<tr class="rowclick" data-url="/rezepte/1218391227356456/Der-beste-Kaesekuchen-der-Welt.html">
+								<td class="recipe-result-col-1">
+									
+									<a href="/rezepte/1218391227356456/Der-beste-Kaesekuchen-der-Welt.html" title="">
+																					<img src="http://static.chefkoch-cdn.de/ck.de/rezepte/121/121839/688844-rsmain-der-beste-kaesekuchen-der-welt.jpg" width="115" height="82" alt="Der beste K&auml;sekuchen der Welt" title="Der beste K&auml;sekuchen der Welt">
+																			</a>
+								</td>
+								<td class="recipe-result-col-2">
+
+									
+									<a class="search-result-title" href="/rezepte/1218391227356456/Der-beste-Kaesekuchen-der-Welt.html">Der beste <span class="highlighting">Käsekuchen</span> der Welt</a>
+
+																		
+																		<span class="rating-small" title="1019 Bewertungen - &Oslash; 4.7"><span class="rating rating-4_5"></span></span>
+
+																		Die Zutaten für den Knetteig werden in eine Schüssel gegeben, rasch zusammengeknetet und zur Seite gestellt. ...								</td>
+								<td class="recipe-result-col-3">
+																		20 Min.<br>
+
+									
+																		simpel								</td>
+								<td class="recipe-result-col-4">
+
+																		198.944<br>
+
+																											22.11.08								</td>
+							</tr>
+						
+							<tr class="rowclick" data-url="/rezepte/461091139212032/Kaesekuchen-vom-Blech.html">
+								<td class="recipe-result-col-1">
+									
+									<a href="/rezepte/461091139212032/Kaesekuchen-vom-Blech.html" title="">
+																					<img src="http://static.chefkoch-cdn.de/ck.de/rezepte/46/46109/392426-rsmain-kaesekuchen-vom-blech.jpg" width="115" height="82" alt="K&auml;sekuchen vom Blech" title="K&auml;sekuchen vom Blech">
+																			</a>
+								</td>
+								<td class="recipe-result-col-2">
+
+									
+									<a class="search-result-title" href="/rezepte/461091139212032/Kaesekuchen-vom-Blech.html"><span class="highlighting">Käsekuchen</span> vom Blech</a>
+
+																		
+																		<span class="rating-small" title="53 Bewertungen - &Oslash; 4.67"><span class="rating rating-4_5"></span></span>
+
+																		Für den Boden Fett, Zucker, Eier, Mehl und Backpulver zu einem glatten Teig verkneten. ...								</td>
+								<td class="recipe-result-col-3">
+																		45 Min.<br>
+
+									
+																		normal								</td>
+								<td class="recipe-result-col-4">
+
+																		26.230<br>
+
+																											06.02.06								</td>
+							</tr>
+						
+							<tr class="rowclick" data-url="/rezepte/1686731276944280/Apfel-Kaesekuchen.html">
+								<td class="recipe-result-col-1">
+									
+									<a href="/rezepte/1686731276944280/Apfel-Kaesekuchen.html" title="mit M&uuml;rbeteig">
+																					<img src="http://static.chefkoch-cdn.de/ck.de/rezepte/168/168673/403324-rsmain-apfel-kaesekuchen.jpg" width="115" height="82" alt="Apfel - K&auml;sekuchen" title="Apfel - K&auml;sekuchen">
+																			</a>
+								</td>
+								<td class="recipe-result-col-2">
+
+									
+									<a class="search-result-title" href="/rezepte/1686731276944280/Apfel-Kaesekuchen.html" title="mit M&uuml;rbeteig">Apfel - <span class="highlighting">Käsekuchen</span></a>
+
+																		
+																		<span class="rating-small" title="34 Bewertungen - &Oslash; 4.67"><span class="rating rating-4_5"></span></span>
+
+																		mit Mürbeteig								</td>
+								<td class="recipe-result-col-3">
+																		20 Min.<br>
+
+									
+																		normal								</td>
+								<td class="recipe-result-col-4">
+
+																		48.520<br>
+
+																											20.06.10								</td>
+							</tr>
+						
+							<tr class="rowclick" data-url="/rezepte/267091103106035/Kaesekuchen-vom-Feinsten.html">
+								<td class="recipe-result-col-1">
+									
+									<a href="/rezepte/267091103106035/Kaesekuchen-vom-Feinsten.html" title="">
+																					<img src="http://static.chefkoch-cdn.de/ck.de/rezepte/26/26709/175769-rsmain-kaesekuchen-vom-feinsten.jpg" width="115" height="82" alt="K&auml;sekuchen vom Feinsten" title="K&auml;sekuchen vom Feinsten">
+																			</a>
+								</td>
+								<td class="recipe-result-col-2">
+
+									
+									<a class="search-result-title" href="/rezepte/267091103106035/Kaesekuchen-vom-Feinsten.html"><span class="highlighting">Käsekuchen</span> vom Feinsten</a>
+
+																		
+																		<span class="rating-small" title="568 Bewertungen - &Oslash; 4.64"><span class="rating rating-4_5"></span></span>
+
+																		Zubereitung des Mürbteigs: Mehl, 75g Zucker, Butter in Flöckchen, 1 Ei, Backpulver und Salz verkneten. ...								</td>
+								<td class="recipe-result-col-3">
+																		30 Min.<br>
+
+									
+																		normal								</td>
+								<td class="recipe-result-col-4">
+
+																		28.636<br>
+
+																											15.12.04								</td>
+							</tr>
+						
+							<tr class="rowclick" data-url="/rezepte/319121113718872/Quarkkuchen.html">
+								<td class="recipe-result-col-1">
+									
+									<a href="/rezepte/319121113718872/Quarkkuchen.html" title="&auml;lteres Rezept">
+																					<img src="http://static.chefkoch-cdn.de/ck.de/rezepte/31/31912/716696-rsmain-quarkkuchen.jpg" width="115" height="82" alt="Quarkkuchen" title="Quarkkuchen">
+																			</a>
+								</td>
+								<td class="recipe-result-col-2">
+
+									
+									<a class="search-result-title" href="/rezepte/319121113718872/Quarkkuchen.html" title="&auml;lteres Rezept"><span class="highlighting">Quarkkuchen</span></a>
+
+																		
+																		<span class="rating-small" title="149 Bewertungen - &Oslash; 4.64"><span class="rating rating-4_5"></span></span>
+
+																		älteres Rezept								</td>
+								<td class="recipe-result-col-3">
+																		20 Min.<br>
+
+									
+																		normal								</td>
+								<td class="recipe-result-col-4">
+
+																		14.966<br>
+
+																											17.04.05								</td>
+							</tr>
+						
+							<tr class="rowclick" data-url="/rezepte/740661176726274/Kaesekuchen-mit-Mandarinchen.html">
+								<td class="recipe-result-col-1">
+									
+									<a href="/rezepte/740661176726274/Kaesekuchen-mit-Mandarinchen.html" title="Blechkuchen">
+																					<img src="http://static.chefkoch-cdn.de/ck.de/rezepte/74/74066/661429-rsmain-kaesekuchen-mit-mandarinchen.jpg" width="115" height="82" alt="K&auml;sekuchen mit Mandarinchen" title="K&auml;sekuchen mit Mandarinchen">
+																			</a>
+								</td>
+								<td class="recipe-result-col-2">
+
+									
+									<a class="search-result-title" href="/rezepte/740661176726274/Kaesekuchen-mit-Mandarinchen.html" title="Blechkuchen"><span class="highlighting">Käsekuchen</span> mit Mandarinchen</a>
+
+																		
+																		<span class="rating-small" title="330 Bewertungen - &Oslash; 4.64"><span class="rating rating-4_5"></span></span>
+
+																		Blechkuchen								</td>
+								<td class="recipe-result-col-3">
+																		30 Min.<br>
+
+									
+																		normal								</td>
+								<td class="recipe-result-col-4">
+
+																		35.957<br>
+
+																											16.04.07								</td>
+							</tr>
+						
+							<tr class="rowclick" data-url="/rezepte/539641151173978/Kaesekuchen-aus-Bayern.html">
+								<td class="recipe-result-col-1">
+									
+									<a href="/rezepte/539641151173978/Kaesekuchen-aus-Bayern.html" title="">
+																					<img src="http://static.chefkoch-cdn.de/ck.de/rezepte/53/53964/549218-rsmain-kaesekuchen-aus-bayern.jpg" width="115" height="82" alt="K&auml;sekuchen aus Bayern" title="K&auml;sekuchen aus Bayern">
+																			</a>
+								</td>
+								<td class="recipe-result-col-2">
+
+									
+									<a class="search-result-title" href="/rezepte/539641151173978/Kaesekuchen-aus-Bayern.html"><span class="highlighting">Käsekuchen</span> aus Bayern</a>
+
+																		
+																		<span class="rating-small" title="108 Bewertungen - &Oslash; 4.63"><span class="rating rating-4_5"></span></span>
+
+																		Für den Mürbeteig das Mehl, Backpulver, 1 Ei, Zucker und Butter verrühren und den Teig dann in 2 Hälften teilen. ...								</td>
+								<td class="recipe-result-col-3">
+																		30 Min.<br>
+
+									
+																		simpel								</td>
+								<td class="recipe-result-col-4">
+
+																		44.783<br>
+
+																											25.06.06								</td>
+							</tr>
+						
+							<tr class="rowclick" data-url="/rezepte/1255131230975627/Traenenkuchen-der-beste-Kaesekuchen-der-Welt.html">
+								<td class="recipe-result-col-1">
+									
+									<a href="/rezepte/1255131230975627/Traenenkuchen-der-beste-Kaesekuchen-der-Welt.html" title="">
+																					<img src="http://static.chefkoch-cdn.de/ck.de/rezepte/125/125513/573422-rsmain-traenenkuchen-der-beste-kaesekuchen-der-welt.jpg" width="115" height="82" alt="Tr&auml;nenkuchen - der beste K&auml;sekuchen der Welt!" title="Tr&auml;nenkuchen - der beste K&auml;sekuchen der Welt!">
+																			</a>
+								</td>
+								<td class="recipe-result-col-2">
+
+									
+									<a class="search-result-title" href="/rezepte/1255131230975627/Traenenkuchen-der-beste-Kaesekuchen-der-Welt.html">Tränenkuchen - der beste <span class="highlighting">Käsekuchen</span> der Welt!</a>
+
+																		
+																		<span class="rating-small" title="95 Bewertungen - &Oslash; 4.62"><span class="rating rating-4_5"></span></span>
+
+																		Aus dem Mehl, Zucker, Butter, Ei und Backpulver einen Knetteig herstellen. ...								</td>
+								<td class="recipe-result-col-3">
+																		45 Min.<br>
+
+									
+																		normal								</td>
+								<td class="recipe-result-col-4">
+
+																		33.353<br>
+
+																											03.01.09								</td>
+							</tr>
+						
+							<tr class="rowclick" data-url="/rezepte/283971106788348/Schokostreusel-Kaesekuchen.html">
+								<td class="recipe-result-col-1">
+									
+									<a href="/rezepte/283971106788348/Schokostreusel-Kaesekuchen.html" title="">
+																					<img src="http://static.chefkoch-cdn.de/ck.de/rezepte/28/28397/648148-rsmain-schokostreusel-kaesekuchen.jpg" width="115" height="82" alt="Schokostreusel - K&auml;sekuchen" title="Schokostreusel - K&auml;sekuchen">
+																			</a>
+								</td>
+								<td class="recipe-result-col-2">
+
+									
+									<a class="search-result-title" href="/rezepte/283971106788348/Schokostreusel-Kaesekuchen.html">Schokostreusel - <span class="highlighting">Käsekuchen</span></a>
+
+																		
+																		<span class="rating-small" title="109 Bewertungen - &Oslash; 4.61"><span class="rating rating-4_5"></span></span>
+
+																		Für den Boden und die Streusel: Butter, Ei, Zucker und Kakaopulver schaumig rühren und nach und nach Backpulver und Mehl ...								</td>
+								<td class="recipe-result-col-3">
+																		40 Min.<br>
+
+									
+																		normal								</td>
+								<td class="recipe-result-col-4">
+
+																		12.675<br>
+
+																											29.01.05								</td>
+							</tr>
+						
+							<tr class="rowclick" data-url="/rezepte/774371180345883/Kaesekuchen-ohne-Boden.html">
+								<td class="recipe-result-col-1">
+									
+									<a href="/rezepte/774371180345883/Kaesekuchen-ohne-Boden.html" title="ohne Vanillepudding">
+																					<img src="http://static.chefkoch-cdn.de/ck.de/rezepte/77/77437/720156-rsmain-kaesekuchen-ohne-boden.jpg" width="115" height="82" alt="K&auml;sekuchen ohne Boden" title="K&auml;sekuchen ohne Boden">
+																			</a>
+								</td>
+								<td class="recipe-result-col-2">
+
+									
+									<a class="search-result-title" href="/rezepte/774371180345883/Kaesekuchen-ohne-Boden.html" title="ohne Vanillepudding"><span class="highlighting">Käsekuchen</span> ohne Boden</a>
+
+																		
+																		<span class="rating-small" title="92 Bewertungen - &Oslash; 4.6"><span class="rating rating-4_5"></span></span>
+
+																		ohne Vanillepudding								</td>
+								<td class="recipe-result-col-3">
+																		20 Min.<br>
+
+									
+																		simpel								</td>
+								<td class="recipe-result-col-4">
+
+																		52.411<br>
+
+																											28.05.07								</td>
+							</tr>
+						
+							<tr class="rowclick" data-url="/rezepte/135261058263313/Leckerer-Kaesekuchen-v-Oma.html">
+								<td class="recipe-result-col-1">
+									
+									<a href="/rezepte/135261058263313/Leckerer-Kaesekuchen-v-Oma.html" title="">
+																					<img src="http://static.chefkoch-cdn.de/ck.de/rezepte/13/13526/459275-rsmain-leckerer-kaesekuchen-v-oma.jpg" width="115" height="82" alt="Leckerer K&auml;sekuchen v. Oma" title="Leckerer K&auml;sekuchen v. Oma">
+																			</a>
+								</td>
+								<td class="recipe-result-col-2">
+
+									
+									<a class="search-result-title" href="/rezepte/135261058263313/Leckerer-Kaesekuchen-v-Oma.html">Leckerer <span class="highlighting">Käsekuchen</span> v. Oma</a>
+
+																		
+																		<span class="rating-small" title="367 Bewertungen - &Oslash; 4.55"><span class="rating rating-4_5"></span></span>
+
+																		125g Butter, 125g Zucker, 250 g Mehl, 1 Teelöffel Backpulver, 1 Prise Salz, 1 Ei zu einem glatten Teig verkneten und in eine ...								</td>
+								<td class="recipe-result-col-3">
+																		20 Min.<br>
+
+									
+																		normal								</td>
+								<td class="recipe-result-col-4">
+
+																		29.431<br>
+
+																											15.07.03								</td>
+							</tr>
+						
+							<tr class="rowclick" data-url="/rezepte/355461120936853/Amerikanischer-Kaesekuchen.html">
+								<td class="recipe-result-col-1">
+									
+									<a href="/rezepte/355461120936853/Amerikanischer-Kaesekuchen.html" title="New York Cheese Cake">
+																					<img src="http://static.chefkoch-cdn.de/ck.de/rezepte/35/35546/33946-rsmain-amerikanischer-kaesekuchen.jpg" width="115" height="82" alt="Amerikanischer K&auml;sekuchen" title="Amerikanischer K&auml;sekuchen">
+																			</a>
+								</td>
+								<td class="recipe-result-col-2">
+
+									
+									<a class="search-result-title" href="/rezepte/355461120936853/Amerikanischer-Kaesekuchen.html" title="New York Cheese Cake">Amerikanischer <span class="highlighting">Käsekuchen</span></a>
+
+																		
+																		<span class="rating-small" title="451 Bewertungen - &Oslash; 4.55"><span class="rating rating-4_5"></span></span>
+
+																		New York Cheese Cake								</td>
+								<td class="recipe-result-col-3">
+																		20 Min.<br>
+
+									
+																		normal								</td>
+								<td class="recipe-result-col-4">
+
+																		24.192<br>
+
+																											11.07.05								</td>
+							</tr>
+						
+							<tr class="rowclick" data-url="/rezepte/451821137638073/Der-perfekte-Kaesekuchen.html">
+								<td class="recipe-result-col-1">
+									
+									<a href="/rezepte/451821137638073/Der-perfekte-Kaesekuchen.html" title="">
+																					<img src="http://static.chefkoch-cdn.de/ck.de/rezepte/45/45182/685599-rsmain-der-perfekte-kaesekuchen.jpg" width="115" height="82" alt="Der perfekte K&auml;sekuchen" title="Der perfekte K&auml;sekuchen">
+																			</a>
+								</td>
+								<td class="recipe-result-col-2">
+
+									
+									<a class="search-result-title" href="/rezepte/451821137638073/Der-perfekte-Kaesekuchen.html">Der perfekte <span class="highlighting">Käsekuchen</span></a>
+
+																		
+																		<span class="rating-small" title="164 Bewertungen - &Oslash; 4.54"><span class="rating rating-4_5"></span></span>
+
+																		Mehl, Butter oder Margarine, Zucker, Ei, Backpulver und Vanillezucker zu einem Mürbeteig verkneten und eine 26er-Springform damit ...								</td>
+								<td class="recipe-result-col-3">
+																		25 Min.<br>
+
+									
+																		normal								</td>
+								<td class="recipe-result-col-4">
+
+																		10.992<br>
+
+																											19.01.06								</td>
+							</tr>
+						
+							<tr class="rowclick" data-url="/rezepte/151551066648682/Schnell-Kaesekuchen-ohne-Boden.html">
+								<td class="recipe-result-col-1">
+									
+									<a href="/rezepte/151551066648682/Schnell-Kaesekuchen-ohne-Boden.html" title="">
+																					<img src="http://static.chefkoch-cdn.de/ck.de/rezepte/15/15155/496212-rsmain-schnell-kaesekuchen-ohne-boden.jpg" width="115" height="82" alt="Schnell - K&auml;sekuchen ohne Boden" title="Schnell - K&auml;sekuchen ohne Boden">
+																			</a>
+								</td>
+								<td class="recipe-result-col-2">
+
+									
+									<a class="search-result-title" href="/rezepte/151551066648682/Schnell-Kaesekuchen-ohne-Boden.html">Schnell - <span class="highlighting">Käsekuchen</span> ohne Boden</a>
+
+																		
+																		<span class="rating-small" title="432 Bewertungen - &Oslash; 4.53"><span class="rating rating-4_5"></span></span>
+
+																		Alle Zutaten miteinander mischen und in eine Springform geben. Bei 170° C Ober-/Unterhitze ca. 1 Stunde backen. ...								</td>
+								<td class="recipe-result-col-3">
+																		10 Min.<br>
+
+									
+																		simpel								</td>
+								<td class="recipe-result-col-4">
+
+																		44.738<br>
+
+																											20.10.03								</td>
+							</tr>
+						
+							<tr class="rowclick" data-url="/rezepte/468341140277458/Aprikosen-Kaesekuchen.html">
+								<td class="recipe-result-col-1">
+									
+									<a href="/rezepte/468341140277458/Aprikosen-Kaesekuchen.html" title="besonders fein">
+																					<img src="http://static.chefkoch-cdn.de/ck.de/rezepte/46/46834/150946-rsmain-aprikosen-kaesekuchen.jpg" width="115" height="82" alt="Aprikosen - K&auml;sekuchen" title="Aprikosen - K&auml;sekuchen">
+																			</a>
+								</td>
+								<td class="recipe-result-col-2">
+
+									
+									<a class="search-result-title" href="/rezepte/468341140277458/Aprikosen-Kaesekuchen.html" title="besonders fein">Aprikosen - <span class="highlighting">Käsekuchen</span></a>
+
+																		
+																		<span class="rating-small" title="89 Bewertungen - &Oslash; 4.53"><span class="rating rating-4_5"></span></span>
+
+																		besonders fein								</td>
+								<td class="recipe-result-col-3">
+																		30 Min.<br>
+
+									
+																		normal								</td>
+								<td class="recipe-result-col-4">
+
+																		5.755<br>
+
+																											19.02.06								</td>
+							</tr>
+						
+							<tr class="rowclick" data-url="/rezepte/542991151734483/Kaesekuchen.html">
+								<td class="recipe-result-col-1">
+									
+									<a href="/rezepte/542991151734483/Kaesekuchen.html" title="">
+																					<img src="http://static.chefkoch-cdn.de/ck.de/rezepte/54/54299/546129-rsmain-kaesekuchen.jpg" width="115" height="82" alt="K&auml;sekuchen" title="K&auml;sekuchen">
+																			</a>
+								</td>
+								<td class="recipe-result-col-2">
+
+									
+									<a class="search-result-title" href="/rezepte/542991151734483/Kaesekuchen.html"><span class="highlighting">Käsekuchen</span></a>
+
+																		
+																		<span class="rating-small" title="196 Bewertungen - &Oslash; 4.53"><span class="rating rating-4_5"></span></span>
+
+																		Alle Zutaten für den Boden zusammenrühren und auf dem gefetteten Boden einer Springform ausrollen oder reindrücken. ...								</td>
+								<td class="recipe-result-col-3">
+																		10 Min.<br>
+
+									
+																		simpel								</td>
+								<td class="recipe-result-col-4">
+
+																		7.343<br>
+
+																											02.07.06								</td>
+							</tr>
+						
+							<tr class="rowclick" data-url="/rezepte/1634091271061344/Supercremiger-Kaesekuchen-ohne-Boden.html">
+								<td class="recipe-result-col-1">
+									
+									<a href="/rezepte/1634091271061344/Supercremiger-Kaesekuchen-ohne-Boden.html" title="">
+																					<img src="http://static.chefkoch-cdn.de/ck.de/rezepte/163/163409/359912-rsmain-supercremiger-kaesekuchen-ohne-boden.jpg" width="115" height="82" alt="Supercremiger K&auml;sekuchen ohne Boden" title="Supercremiger K&auml;sekuchen ohne Boden">
+																			</a>
+								</td>
+								<td class="recipe-result-col-2">
+
+									
+									<a class="search-result-title" href="/rezepte/1634091271061344/Supercremiger-Kaesekuchen-ohne-Boden.html">Supercremiger <span class="highlighting">Käsekuchen</span> ohne Boden</a>
+
+																		
+																		<span class="rating-small" title="15 Bewertungen - &Oslash; 4.53"><span class="rating rating-4_5"></span></span>
+
+																		Eier trennen. Eiweiß steif schlagen. ...								</td>
+								<td class="recipe-result-col-3">
+																		20 Min.<br>
+
+									
+																		simpel								</td>
+								<td class="recipe-result-col-4">
+
+																		15.670<br>
+
+																											12.04.10								</td>
+							</tr>
+												<!-- / Ausgabe der Suchtreffer -->
+
+					</tbody>
+
+				</table>
+
+				
+					<!-- ~~~~~~~~~~~~~~~~~ -->
+					<!--  Seitenblaettern  -->
+					<!-- ~~~~~~~~~~~~~~~~~ -->
+
+					<div class="pagination clearfix">
+						<span class="pagination-count">50 Seiten</span>
+						<div class="pagination-right">
+														<span class="pagination-item pagination-item-current">1</span><a class="pagination-item" href="/rs/s30/k%E4sekuchen/Rezepte.html">2</a><a class="pagination-item" href="/rs/s60/k%E4sekuchen/Rezepte.html">3</a><a class="pagination-item" href="/rs/s90/k%E4sekuchen/Rezepte.html">4</a><a class="pagination-item" href="/rs/s120/k%E4sekuchen/Rezepte.html">5</a><a class="pagination-item" href="/rs/s150/k%E4sekuchen/Rezepte.html">6</a><a class="pagination-item" href="/rs/s180/k%E4sekuchen/Rezepte.html">7</a><a class="pagination-item" href="/rs/s210/k%E4sekuchen/Rezepte.html">8</a><a class="pagination-item" href="/rs/s240/k%E4sekuchen/Rezepte.html">9</a><a class="pagination-item" href="/rs/s270/k%E4sekuchen/Rezepte.html">10</a><a class="pagination-item pagination-next-x" href="/rs/s300/k%E4sekuchen/Rezepte.html">...</a>							<a class="pagination-item pagination-next" href="/rs/s30/k%E4sekuchen/Rezepte.html">&raquo;</a>						</div>
+					</div>
+
+				
+			
+		</div><!-- content-1 -->
+
+		<!-- ~~~~~~~~~ -->
+		<!--  Sidebar  -->
+		<!-- ~~~~~~~~~ -->
+
+		<div id="sidebar" class="clearfix">
+
+			<!-- ~~~~~~~~~~~~~~~~~~ -->
+			<!--  Erweiterte Suche  -->
+			<!-- ~~~~~~~~~~~~~~~~~~ -->
+
+			<div class="sidebar-box">
+				<div class="sidebar-box-gradient clearfix">
+
+					<div class="sidebar-box-headline clearfix">
+						<a id="extended-search-help-icon" href="#extended-search-help" class="icon-help" title="Erklärung der erweiterten Suche"></a>
+												Ergebnis verfeinern					</div>
+
+					<div class="sidebar-box-padding clearfix">
+
+						<form id="extended-search" name="extended-search" action="/rezept-suche-redirect.php" method="get">
+
+							<input type="hidden" name="tag_ids" value="">
+							<input type="hidden" name="advanced_search_checkbox" value="1">
+
+							<div id="extended-search-top">
+
+								<input type="text" name="Suchbegriff" id="extended-search-string" value="käsekuchen">
+
+																<input id="extended-search-submit" type="image" src="http://img.chefkoch-cdn.de/img/default/icons/icon-magnifier.png" alt="suchen">
+
+							</div>
+
+							<!-- Rezeptnamen durchsuchen -->
+							<p class="extended-search-check">
+								<input type="checkbox" name="suche" id="extended-search-checkbox-1" value="1" checked>
+								<label for="extended-search-checkbox-1">Rezeptnamen durchsuchen</label>
+							</p>
+
+							<!-- Zutaten durchsuchen -->
+							<p class="extended-search-check">
+								<input type="checkbox" name="suche2" id="extended-search-checkbox-2" value="2" checked>
+								<label for="extended-search-checkbox-2">Zutaten durchsuchen</label>
+							</p>
+
+							<!-- Beschreibungen durchsuchen -->
+							<p class="extended-search-check">
+								<input type="checkbox" name="suche3" id="extended-search-checkbox-3" value="4">
+								<label for="extended-search-checkbox-3">Beschreibungen durchsuchen</label>
+							</p>
+
+							<!-- Nur Rezepte mit Bild anzeigen -->
+							<p class="extended-search-check">
+								<input type="checkbox" name="bild"  id="extended-search-checkbox-4" >
+								<label for="extended-search-checkbox-4">Nur Rezepte mit Bild anzeigen</label>
+							</p>
+
+							<table class="extended-search-table">
+								<tr>
+									<td><input type="text" class="text" maxlength="5" name="dauer" value=""></td>
+									<td>
+										max. Arbeitszeit in Min.									</td>
+								</tr>
+								<tr>
+									<td><input type="text" class="text" maxlength="5" name="kcal" value=""></td>
+									<td>
+										max. Kalorien in kcal									</td>
+								</tr>
+								<tr>
+									<td><input type="text" class="text" maxlength="5" name="datum" value=""></td>
+									<td>
+										max. Alter der Rezepte in Tagen									</td>
+								</tr>
+							</table>
+
+							
+							
+							<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+							<!--  Selectbox mit der Sortierung  -->
+							<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+							<br/>
+							<div class="select-wrapper">
+
+								<select id="select-sort-order" name="o" onChange="document.getElementById('extended-search').submit();">
+									<option  selected value="0">Rezepte sortiert nach Relevanz</option>
+									<option  value="1">Rezepte sortiert nach Name</option>
+									<option  value="6">Rezepte sortiert mit Bild</option>
+									<option  value="8">Rezepte sortiert nach Wertung</option>
+									<option  value="2">Rezepte sortiert nach Hits</option>
+									<option  value="4">Rezepte sortiert nach Zeit</option>
+									<option  value="5">Rezepte sortiert nach Aufwand</option>
+									<option  value="3">Rezepte sortiert nach Datum</option>
+								</select>
+
+							</div>
+							<br/><br/>
+							<input type="submit" class="button-green button-search alignright" value="Suchen" />
+						</form>
+
+					</div><!-- /sidebar-box-padding -->
+
+				</div><!-- /sidebar-box-gradient -->
+			</div><!-- /sidebar-box -->
+
+			<!-- ~~~~~~~~~~~~~~~~~ -->
+			<!--  Banner HPA / MR  -->
+			<!-- ~~~~~~~~~~~~~~~~~ -->
+
+			<span id="banner-hpa-mr">
+				<div id="hpamrbanner"></div>			</span>
+
+			
+				<!-- ~~~~~~~~~~~~~~~~~~ -->
+				<!--  Schlagwortfilter  -->
+				<!-- ~~~~~~~~~~~~~~~~~~ -->
+
+				<div class="sidebar-box">
+					<div class="sidebar-box-gradient">
+
+						<div class="sidebar-box-headline">
+
+														Schlagwortfilter
+						</div>
+
+						
+						
+							<div id="search-tags-available" class="sidebar-box-padding">
+
+								<ul class="tagcloud tagcloud-gray">
+
+									
+																				<li>
+											<a href="/rs/s0t23/k%E4sekuchen/Backen-Rezepte.html"										   title="Backen Rezept"
+										   class="rztag-large">Backen</a>
+										</li>
+									
+																				<li>
+											<a href="/rs/s0t90/k%E4sekuchen/Dessert-Rezepte.html"										   title="Dessert Rezept"
+										   class="rztag-x-small">Dessert</a>
+										</li>
+									
+																				<li>
+											<a href="/rs/s0t65/k%E4sekuchen/Deutschland-Rezepte.html"										   title="Deutschland Rezept"
+										   class="rztag-x-small">Deutschland</a>
+										</li>
+									
+																				<li>
+											<a href="/rs/s0t105/k%E4sekuchen/Diabetiker-Rezepte.html"										   title="Diabetiker Rezept"
+										   class="rztag-x-small">Diabetiker</a>
+										</li>
+									
+																				<li>
+											<a href="/rs/s0t50/k%E4sekuchen/einfach-Rezepte.html"										   title="einfach Rezept"
+										   class="rztag-small">einfach</a>
+										</li>
+									
+																				<li>
+											<a href="/rs/s0t29/k%E4sekuchen/Europa-Rezepte.html"										   title="Europa Rezept"
+										   class="rztag-x-small">Europa</a>
+										</li>
+									
+																				<li>
+											<a href="/rs/s0t106/k%E4sekuchen/Festlich-Rezepte.html"										   title="Festlich Rezept"
+										   class="rztag-x-small">Festlich</a>
+										</li>
+									
+																				<li>
+											<a href="/rs/s0t56/k%E4sekuchen/fettarm-Rezepte.html"										   title="fettarm Rezept"
+										   class="rztag-x-small">fettarm</a>
+										</li>
+									
+																				<li>
+											<a href="/rs/s0t109/k%E4sekuchen/Frucht-Rezepte.html"										   title="Frucht Rezept"
+										   class="rztag-x-small">Frucht</a>
+										</li>
+									
+																				<li>
+											<a href="/rs/s0t78/k%E4sekuchen/Fruehling-Rezepte.html"										   title="Frühling Rezept"
+										   class="rztag-x-small">Frühling</a>
+										</li>
+									
+																				<li>
+											<a href="/rs/s0t146/k%E4sekuchen/Geheimrezept-Rezepte.html"										   title="Geheimrezept Rezept"
+										   class="rztag-x-small">Geheimrezept</a>
+										</li>
+									
+																				<li>
+											<a href="/rs/s0t150/k%E4sekuchen/Haltbarmachen-Rezepte.html"										   title="Haltbarmachen Rezept"
+										   class="rztag-x-small">Haltbarmachen</a>
+										</li>
+									
+																				<li>
+											<a href="/rs/s0t21/k%E4sekuchen/Hauptspeise-Rezepte.html"										   title="Hauptspeise Rezept"
+										   class="rztag-x-small">Hauptspeise</a>
+										</li>
+									
+																				<li>
+											<a href="/rs/s0t99/k%E4sekuchen/Herbst-Rezepte.html"										   title="Herbst Rezept"
+										   class="rztag-x-small">Herbst</a>
+										</li>
+									
+																				<li>
+											<a href="/rs/s0t83/k%E4sekuchen/Kaese-Rezepte.html"										   title="Käse Rezept"
+										   class="rztag-x-small">Käse</a>
+										</li>
+									
+																				<li>
+											<a href="/rs/s0t55/k%E4sekuchen/kalorienarm-Rezepte.html"										   title="kalorienarm Rezept"
+										   class="rztag-x-small">kalorienarm</a>
+										</li>
+									
+																				<li>
+											<a href="/rs/s0t91/k%E4sekuchen/Kinder-Rezepte.html"										   title="Kinder Rezept"
+										   class="rztag-x-small">Kinder</a>
+										</li>
+									
+																				<li>
+											<a href="/rs/s0t92/k%E4sekuchen/Kuchen-Rezepte.html"										   title="Kuchen Rezept"
+										   class="rztag-large">Kuchen</a>
+										</li>
+									
+																				<li>
+											<a href="/rs/s0t135/k%E4sekuchen/Mikrowelle-Rezepte.html"										   title="Mikrowelle Rezept"
+										   class="rztag-x-small">Mikrowelle</a>
+										</li>
+									
+																				<li>
+											<a href="/rs/s0t86/k%E4sekuchen/Osteuropa-Rezepte.html"										   title="Osteuropa Rezept"
+										   class="rztag-x-small">Osteuropa</a>
+										</li>
+									
+																				<li>
+											<a href="/rs/s0t45/k%E4sekuchen/Party-Rezepte.html"										   title="Party Rezept"
+										   class="rztag-x-small">Party</a>
+										</li>
+									
+																				<li>
+											<a href="/rs/s0t48/k%E4sekuchen/raffiniert-oder-preiswert-Rezepte.html"										   title="raffiniert oder preiswert Rezept"
+										   class="rztag-x-small">raffiniert oder preiswert</a>
+										</li>
+									
+																				<li>
+											<a href="/rs/s0t110/k%E4sekuchen/Resteverwertung-Rezepte.html"										   title="Resteverwertung Rezept"
+										   class="rztag-x-small">Resteverwertung</a>
+										</li>
+									
+																				<li>
+											<a href="/rs/s0t49/k%E4sekuchen/Schnell-Rezepte.html"										   title="Schnell Rezept"
+										   class="rztag-small">Schnell</a>
+										</li>
+									
+																				<li>
+											<a href="/rs/s0t71/k%E4sekuchen/Snack-Rezepte.html"										   title="Snack Rezept"
+										   class="rztag-x-small">Snack</a>
+										</li>
+									
+																				<li>
+											<a href="/rs/s0t27/k%E4sekuchen/Sommer-Rezepte.html"										   title="Sommer Rezept"
+										   class="rztag-x-small">Sommer</a>
+										</li>
+									
+																				<li>
+											<a href="/rs/s0t211/k%E4sekuchen/Studentenkueche-Rezepte.html"										   title="Studentenküche Rezept"
+										   class="rztag-x-small">Studentenküche</a>
+										</li>
+									
+																				<li>
+											<a href="/rs/s0t89/k%E4sekuchen/Suessspeise-Rezepte.html"										   title="Süßspeise Rezept"
+										   class="rztag-x-small">Süßspeise</a>
+										</li>
+									
+																				<li>
+											<a href="/rs/s0t122/k%E4sekuchen/Tarte-Rezepte.html"										   title="Tarte Rezept"
+										   class="rztag-x-small">Tarte</a>
+										</li>
+									
+																				<li>
+											<a href="/rs/s0t93/k%E4sekuchen/Torte-Rezepte.html"										   title="Torte Rezept"
+										   class="rztag-x-small">Torte</a>
+										</li>
+									
+																				<li>
+											<a href="/rs/s0t112/k%E4sekuchen/Trennkost-Rezepte.html"										   title="Trennkost Rezept"
+										   class="rztag-x-small">Trennkost</a>
+										</li>
+									
+																				<li>
+											<a href="/rs/s0t38/k%E4sekuchen/USA-oder-Kanada-Rezepte.html"										   title="USA oder Kanada Rezept"
+										   class="rztag-x-small">USA oder Kanada</a>
+										</li>
+									
+																				<li>
+											<a href="/rs/s0t57/k%E4sekuchen/Vegan-Rezepte.html"										   title="Vegan Rezept"
+										   class="rztag-x-small">Vegan</a>
+										</li>
+									
+																				<li>
+											<a href="/rs/s0t32/k%E4sekuchen/Vegetarisch-Rezepte.html"										   title="Vegetarisch Rezept"
+										   class="rztag-x-small">Vegetarisch</a>
+										</li>
+									
+																				<li>
+											<a href="/rs/s0t143/k%E4sekuchen/Vollwert-Rezepte.html"										   title="Vollwert Rezept"
+										   class="rztag-x-small">Vollwert</a>
+										</li>
+									
+																				<li>
+											<a href="/rs/s0t64/k%E4sekuchen/Winter-Rezepte.html"										   title="Winter Rezept"
+										   class="rztag-x-small">Winter</a>
+										</li>
+									
+								</ul>
+
+							</div>
+
+						
+					</div>
+				</div>
+
+			
+			
+				<div class="sidebar-box">
+					<div class="sidebar-box-gradient">
+
+						<div class="sidebar-box-headline">Magazin / Partnernews</div>
+
+						<ul class="teaser-list">
+
+							
+								<li class="clearfix">
+
+									<div class="teaser-picture">
+										<a href="/magazin/artikel/1933,0/Chefkoch/Kaesekuchen-Tipps-und-Tricks.html" name="{'ct':'mag_artikel','ck':{'3':'1933','1':'rezeptsuche-art','2':'6','5':'10254'}}">
+											<img src="http://static.chefkoch-cdn.de/ck.de/cms/teaserkaesekuchen-2.jpg" alt="K&auml;sekuchen: Tipps und Tricks" title="K&auml;sekuchen: Tipps und Tricks" width="56" height="56">
+										</a>
+									</div>
+									<div class="teaser-text">
+										<div class="teaser-list-small-title">
+											<a href="/magazin/artikel/1933,0/Chefkoch/Kaesekuchen-Tipps-und-Tricks.html" name="{'ct':'mag_artikel','ck':{'3':'1933','1':'rezeptsuche-art','2':'6','5':'10254'}}">K&auml;sekuchen: Tipps und Tricks</a>
+										</div>
+
+										Wir verraten wie K&auml;sekuchen perfekt gelingt									</div>
+
+								</li>
+
+							
+								<li class="clearfix">
+
+									<div class="teaser-picture">
+										<a href="/magazin/artikel/1330,0/Chefkoch/Kaesekuchen-ohne-Boden.html" name="{'ct':'mag_artikel','ck':{'3':'1330','1':'rezeptsuche-art','2':'6','5':'5448'}}">
+											<img src="http://static.chefkoch-cdn.de/ck.de/cms/kase.jpg" alt="Video: Saftiger K&auml;sekuchen" title="Video: Saftiger K&auml;sekuchen" width="56" height="56">
+										</a>
+									</div>
+									<div class="teaser-text">
+										<div class="teaser-list-small-title">
+											<a href="/magazin/artikel/1330,0/Chefkoch/Kaesekuchen-ohne-Boden.html" name="{'ct':'mag_artikel','ck':{'3':'1330','1':'rezeptsuche-art','2':'6','5':'5448'}}">Video: Saftiger K&auml;sekuchen</a>
+										</div>
+
+										K&auml;sekuchen - der absoluter Klassiker: Zum Kaffee oder als Dessert - einfach immer ein Genuss									</div>
+
+								</li>
+
+							
+								<li class="clearfix">
+
+									<div class="teaser-picture">
+										<a href="/magazin/artikel/1925,0/Chefkoch/Amerikanische-Snacks-zum-Super-Bowl.html" name="{'ct':'mag_artikel','ck':{'3':'1925','1':'rezeptsuche-art','2':'6','5':'10115'}}">
+											<img src="http://static.chefkoch-cdn.de/ck.de/cms/Teaser-14.jpg" alt="Amerikanische Snacks zum Super Bowl" title="Amerikanische Snacks zum Super Bowl" width="56" height="56">
+										</a>
+									</div>
+									<div class="teaser-text">
+										<div class="teaser-list-small-title">
+											<a href="/magazin/artikel/1925,0/Chefkoch/Amerikanische-Snacks-zum-Super-Bowl.html" name="{'ct':'mag_artikel','ck':{'3':'1925','1':'rezeptsuche-art','2':'6','5':'10115'}}">Amerikanische Snacks zum Super Bowl</a>
+										</div>
+
+										H&auml;ppchen zum US-Sportereignis des Jahres									</div>
+
+								</li>
+
+							
+								<li class="clearfix">
+
+									<div class="teaser-picture">
+										<a href="/magazin/artikel/988,0/Chefkoch/Blechkuchen-Leckere-Rezepte-fuer-Kuchen-vom-Blech.html" name="{'ct':'mag_artikel','ck':{'3':'988','1':'rezeptsuche-art','2':'6','5':'3798'}}">
+											<img src="http://static.chefkoch-cdn.de/ck.de/cms/Blechkuchen56.jpg" alt="Blechkuchen: Diese Kuchen backen Sie auf dem Blech" title="Blechkuchen: Diese Kuchen backen Sie auf dem Blech" width="56" height="56">
+										</a>
+									</div>
+									<div class="teaser-text">
+										<div class="teaser-list-small-title">
+											<a href="/magazin/artikel/988,0/Chefkoch/Blechkuchen-Leckere-Rezepte-fuer-Kuchen-vom-Blech.html" name="{'ct':'mag_artikel','ck':{'3':'988','1':'rezeptsuche-art','2':'6','5':'3798'}}">Blechkuchen: Diese Kuchen backen Sie auf dem Blech</a>
+										</div>
+
+										Schokoladig-s&uuml;&szlig;, mit viel frischem Obst oder crunchigen Streuseln									</div>
+
+								</li>
+
+							
+								<li class="clearfix">
+
+									<div class="teaser-picture">
+										<a href="/magazin/artikel/2055,0/Chefkoch/Himbeeren-vielseitige-Vitaminbomben-frisch-vom-Feld.html" name="{'ct':'mag_artikel','ck':{'3':'2055','1':'rezeptsuche-art','2':'6','5':'11323'}}">
+											<img src="http://static.chefkoch-cdn.de/ck.de/cms/Himbeeren56.jpg" alt="Himbeeren ? Vielseitige Vitaminbomben frisch vom Feld" title="Himbeeren ? Vielseitige Vitaminbomben frisch vom Feld" width="56" height="56">
+										</a>
+									</div>
+									<div class="teaser-text">
+										<div class="teaser-list-small-title">
+											<a href="/magazin/artikel/2055,0/Chefkoch/Himbeeren-vielseitige-Vitaminbomben-frisch-vom-Feld.html" name="{'ct':'mag_artikel','ck':{'3':'2055','1':'rezeptsuche-art','2':'6','5':'11323'}}">Himbeeren ? Vielseitige Vitaminbomben frisch vom Feld</a>
+										</div>
+
+										Naschen f&uuml;r Kleine und Gro&szlig;e									</div>
+
+								</li>
+
+							
+								<li class="clearfix">
+
+									<div class="teaser-picture">
+										<a href="/magazin/artikel/872,0/Chefkoch/50-leckere-Kartoffelgerichte.html" name="{'ct':'mag_artikel','ck':{'3':'872','1':'rezeptsuche-art','2':'6','5':'3355'}}">
+											<img src="http://static.chefkoch-cdn.de/ck.de/cms/56x56_kartoffel-4.jpg" alt="50 leckere Kartoffelgerichte" title="50 leckere Kartoffelgerichte" width="56" height="56">
+										</a>
+									</div>
+									<div class="teaser-text">
+										<div class="teaser-list-small-title">
+											<a href="/magazin/artikel/872,0/Chefkoch/50-leckere-Kartoffelgerichte.html" name="{'ct':'mag_artikel','ck':{'3':'872','1':'rezeptsuche-art','2':'6','5':'3355'}}">50 leckere Kartoffelgerichte</a>
+										</div>
+
+										Viele sch&ouml;ne Rezeptideen f&uuml;r jeden Tag!									</div>
+
+								</li>
+
+							
+								<li class="clearfix">
+
+									<div class="teaser-picture">
+										<a href="/magazin/artikel/686,0/Chefkoch/Kuchen-backen-Rezepte-Teig-Arten-und-Tipps.html" name="{'ct':'mag_artikel','ck':{'3':'686','1':'rezeptsuche-art','2':'6','5':'2674'}}">
+											<img src="http://static.chefkoch-cdn.de/ck.de/cms/Kuchen-7.jpg" alt="Kuchen backen leicht und schnell: Rezepte und Tipps" title="Kuchen backen leicht und schnell: Rezepte und Tipps" width="56" height="56">
+										</a>
+									</div>
+									<div class="teaser-text">
+										<div class="teaser-list-small-title">
+											<a href="/magazin/artikel/686,0/Chefkoch/Kuchen-backen-Rezepte-Teig-Arten-und-Tipps.html" name="{'ct':'mag_artikel','ck':{'3':'686','1':'rezeptsuche-art','2':'6','5':'2674'}}">Kuchen backen leicht und schnell: Rezepte und Tipps</a>
+										</div>
+
+										Schnelle Kuchen: Tipps und Rezepte f&uuml;r das Geb&auml;ck auf die Schnelle									</div>
+
+								</li>
+
+							
+						</ul>
+					</div><!-- /sidebar-box-gradient -->
+				</div><!-- /sidebar-box -->
+			
+			<!-- ~~~~~~~~~~~~ -->
+			<!--  Google Ads  -->
+			<!-- ~~~~~~~~~~~~ -->
+
+			<div id="text-ads-mitte">
+				<div id="text-ads-mitte">	
+<div style="border: 1px solid #ddd;">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- ck_suche_rechts_csi -->
+<ins class="adsbygoogle"
+style="display:inline-block;width: 296px;height: 250px"
+data-ad-client="ca-pub-5214522864208164"
+data-ad-slot="8918539730"
+data-max-num-ads="3"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>	
+</div>			</div>
+
+            <!-- ~~~~~~~~~~~~~~~~~~~~~~~~ -->
+            <!--  Sidebar: Markenrezepte  -->
+            <!-- ~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+                        <div class="sidebar-box">
+    <div class="sidebar-box-gradient clearfix">
+
+        <h3 class="sidebar-box-headline">Markenrezepte bei Chefkoch.de</h3>
+
+        <div class="sidebar-box-padding">
+
+            <table class="brandlogo-table">
+                <tr>
+                    <td class="partnerlogo-50"><a href="/user/rezepte/14ded676e9728b88be76715212988299/Barilla.html" name="{ct:'rezept-suche-userrezepte', ck:{'1':'hp_side_markenrezept','2':'14ded676e9728b88be76715212988299'}}"><img src="http://cdn.chefkoch.de/ck.de/comrezept-img/barilla/barilla-logo-ri.gif" width="82" height="34" alt="Barilla Rezepte"></a></td>
+                    <td class="partnerlogo-50"><a href="/user/rezepte/a48f8b7b4985941a2e6869277e983874/Henglein.html" name="{ct:'rezept-suche-userrezepte', ck:{'1':'hp_side_markenrezept','2':'a48f8b7b4985941a2e6869277e983874'}}"><img src="http://cdn.chefkoch.de/ck.de/comrezept-img/henglein/henglein-ri.gif" width="85" height="37" alt="Henglein Rezepte"></a></td>
+                </tr>
+                <tr>
+                    <td class="partnerlogo-50"><a href="/user/rezepte/5f49e8316e21fbb5e2705cb38240230c/Mazzetti.html" name="{ct:'rezept-suche-userrezepte', ck:{'1':'hp_side_markenrezept','2':'5f49e8316e21fbb5e2705cb38240230c'}}"><img src="http://cdn.chefkoch.de/ck.de/comrezept-img/mazzetti/logo-mazetti-ri.png" width="60" height="40" alt="Mazzetti Rezepte"></a></td>
+                    <td class="partnerlogo-50"><a href="/user/rezepte/b6622c6ef59579aa2bc8e4df4df7ed9e/MILRAM.html" name="{ct:'rezept-suche-userrezepte', ck:{'1':'hp_side_markenrezept','2':'b6622c6ef59579aa2bc8e4df4df7ed9e'}}"><img src="http://cdn.chefkoch.de/ck.de/comrezept-img/milram/milram-logo-ri.gif" width="85" height="41" alt="Milram Rezepte"></a></td>
+                </tr>
+                <tr>
+                    <td class="partnerlogo-50"><a href="/user/rezepte/93e06ef4dc64485ecdd7211a61ac6fab/MinusL.html" name="{ct:'rezept-suche-userrezepte', ck:{'1':'hp_side_markenrezept','2':'93e06ef4dc64485ecdd7211a61ac6fab'}}"><img src="http://cdn.chefkoch.de/ck.de/comrezept-img/minusl/MinusL_Logo_ri.gif" width="40" height="40" alt="MinusL Rezepte"></a></td>
+                    <td class="partnerlogo-50"><a href="/user/rezepte/e11bfbb7c1d9999de0bc09f22adcb987/Rama.html" name="{ct:'rezept-suche-userrezepte', ck:{'1':'hp_side_markenrezept','2':'e11bfbb7c1d9999de0bc09f22adcb987'}}"><img src="http://cdn.chefkoch.de/ck.de/comrezept-img/rama/rama-cremefine-ri.gif" width="47" height="40" alt="Rama Rezepte"></a></td>
+                </tr>
+                <tr>
+                    <td class="partnerlogo-50"><a href="/user/rezepte/24170facedb683ad9f16bdda7c8ec853/Staatl-Fachingen.html" name="{ct:'rezept-suche-userrezepte', ck:{'1':'hp_side_markenrezept','2':'24170facedb683ad9f16bdda7c8ec853'}}"><img src="http://cdn.chefkoch.de/ck.de/comrezept-img/staatl-fachingen/fachingen-logo-ri.gif" width="76" height="40" alt="Staatl. Fachingen Rezepte"></a></td>
+                    <td class="partnerlogo-50"> </td>
+                </tr>                
+            </table>
+
+        </div>
+
+    </div><!-- /sidebar-box-gradient -->
+</div><!-- /sidebar-box -->
+
+		</div><!-- /sidebar -->
+
+	</div><!-- /content-wrapper -->
+
+	<!-- ~~~~~~~~~~~ -->
+	<!--  Suchhilfe  -->
+	<!-- ~~~~~~~~~~~ -->
+
+	<div id="extended-search-help-container">
+		<div id="extended-search-help">
+
+			<div class="extended-search-help-headline">Suchhilfe</div>
+
+			<table>
+				<tr>
+					<td>
+												
+										<p>
+											Zur Durchführung einer Rezept-Suche können <i>Schlagwörter / Tags</i>, <i>Kategorien</i> und die <i>Volltextsuche</i> miteinander kombiniert werden.
+											Bei den <i>Schlagwörtern / Tags</i> handelt es sich um Begriffe die den Rezepten fest zugeordnet sind und die in der rechten Spalte neben den Rezepten zur Auswahl stehen.
+											Eine <i>Rezept-Kategorie</i> muss zunächst über die Seite <a href="/rezepte/kategorien/">Kategorienbaum</a> ausgewählt werden.
+											Die <i>Kategorien</i> bilden eine hierarchische Struktur, in der die Rezepte organisiert sind.
+										</p>
+										<p>
+											<i>Volltextsuche:</i> Wenn es über die 'Erweiterte Suche' nicht anders angegeben wird, werden nur die Felder Rezeptname und Zutaten durchsucht.
+											Mehrere Suchbegriffe werden immer automatisch mit UND verknüpft:
+										</p>
+										<p>
+											<strong>reis honig</strong><br>
+											Findet alle Rezepte, die beide Begriffe entalten.
+										</p>
+										<p>
+											<strong>reis -honig</strong><br>
+											Findet alle Rezepte, die den Begriff 'reis', aber nicht 'honig' entalten.
+										</p>
+										<p>
+											<strong>apfel*</strong><br>
+											Findet Apfel, Apfelsaft, Apfelkuchen usw. (* am Wortanfang wird nicht unterstützt)
+										</p>
+										<p>
+											<strong>"mittlerer hitze kochen"</strong><br>
+											Findet die genaue Wortfolge.
+										</p>
+										<p>
+											<strong>reis -honig apfel* "meine suche"</strong><br>
+											Die Suchkommandos -, * und "" können beliebig kombiniert werden.
+										</p>					</td>
+				</tr>
+			</table>
+
+		</div><!-- /extended-search-help -->
+	</div><!-- /extended-search-help-container -->
+
+</div><!-- /page -->
+
+<!-- ~~~~~~~~~~~~ -->
+<!--  JavaScript  -->
+<!-- ~~~~~~~~~~~~ -->
+
+<script src="http://js.chefkoch-cdn.de/js/default/page-recipe-search.js?v=47"></script>
+
+<!-- ~~~~~~~~~~~~~~ -->
+<!--  Partnerlogos  -->
+<!-- ~~~~~~~~~~~~~~ -->
+
+
+    <div id="banner-floor"></div>
+
+<!-- ~~~~~~~~~~~~~~ -->
+<!--  Partnerlogos  -->
+<!-- ~~~~~~~~~~~~~~ -->
+<div id="partnerlogos-bottom" class="clearfix">
+	<p id="partnerlogos-bottom-headline">Magazine unserer Partner auf Chefkoch.de</p>
+	<div class="partnerlogo-50">
+		<a href="/magazin/14,0,0/AEG/" name="{'ct':'mag_artikel','ck':{'3':'0','1':'partnerlogo','2':'14','4':'0'}}">
+			<img src="http://img.chefkoch-cdn.de/img/ck.de/partnerlogos/aeg.gif" title="AEG - perfekt in Form und Funktion" alt="AEG - perfekt in Form und Funktion" border="0">
+		</a>
+	</div>
+	<div class="partnerlogo-50">
+		<a href="/magazin/60,0,0/WMF/" name="{'ct':'mag_artikel','ck':{'3':'0','1':'partnerlogo','2':'60','4':'0'}}">
+			<img src="http://img.chefkoch-cdn.de/img/ck.de/partnerlogos/wmf.gif" title="WMF" alt="WMF" border="0">
+		</a>
+	</div>
+</div>
+
+<script type="text/javascript">
+    if (typeof window.wtQueueParam === 'undefined') {
+        window.wtQueueParam={};
+        window.wtQueueParam[2] = '';
+    }
+
+    var partnerLogoCodes = 'partnerlogo14;partnerlogo60';
+
+    // Statt zu overriden, die Parameter erweitern.
+    if (window.wtQueueParam[2].length > 0) {
+        window.wtQueueParam[2] = partnerLogoCodes + window.wtQueueParam[2];
+    } else {
+        window.wtQueueParam[2] = partnerLogoCodes;
+    }
+</script>
+
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!--  Footer (Partnerseiten, Live-Suchen, etc.)  -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+
+
+
+
+                                <div id="footer" class="footer clearfix">
+
+    <div class="footer-links">
+        <strong>Chefkoch.de - Europas größte Kochseite, &copy; 1998-2014 pixelhouse GmbH</strong><br />
+        <a href="/uebersicht.php">Übersicht</a> | <a href="/impressum.php" rel="nofollow">Impressum</a> | <a href="/magazin/artikel/1426,0/Chefkoch/Jobs.html">Jobs</a> | <a href="http://ems.guj.de/online/portfolio/chefkochde/" target="_blank" rel="nofollow">Werbung</a> | <a href="http://aboshop.essen-und-trinken.de/chefkoch/?utm_source=chefkoch-site&utm_medium=footer&utm_campaign=abo&onwewe=0652" target="_blank" rel="nofollow">Print-Abo</a><br />
+        <a href="/privacy.php" rel="nofollow">Datenschutz</a> | <a href="http://ems.guj.de/service/oba" rel="nofollow" target="_blank">Nutzungsbasierte Online Werbung</a> | <a href="http://mobile.chefkoch.de/" rel="follow">mobile Version der Seite</a>
+    </div>
+
+    <div class="footer-search">
+        
+                            Live Rezeptsuchen:
+            
+                           <a href="/rs/s0/Rezepte.html"> rezepte</a>,                            <a href="/rs/s0/PuddingKuchen/Rezepte.html">PuddingKuchen rezepte</a>,                            <a href="/rs/s0/fruchtiger+kuchen/Rezepte.html">fruchtiger kuchen rezepte</a>,                            <a href="/rs/s0/gef%FCllte+crepes/Rezepte.html">gefüllte crepes rezepte</a>,                            <a href="/rs/s0/grobe+bratwurst/Rezepte.html">grobe bratwurst rezepte</a>,                            <a href="/rs/s0/hefeteig+grundrezept/Rezepte.html">hefeteig grundrezept rezepte</a>,                            <a href="/rs/s0/hirse+nocken+suppe/Rezepte.html">hirse nocken suppe rezepte</a>,                            <a href="/rs/s0/pl%E4tzchen+f%FCr+diabetiker/Rezepte.html">plätzchen für diabetiker rezepte</a>,                            <a href="/rs/s0/suppe/Rezepte.html">suppe rezepte</a>,                            <a href="/rs/s0/wasabi/Rezepte.html">wasabi rezepte</a>,            
+             </div>
+
+    
+
+</div><!-- /footer -->
+
+                                
+            </div><!-- /page-wrapper -->
+
+                        <script src="http://js.chefkoch-cdn.de/js/default/navigation-functions.js?v=47"></script>
+
+                        <script src="/ajax/heatmap-config.php" type="text/javascript"></script>
+            <script type="text/javascript">
+                if ( (typeof(heatmap_url_active) != 'undefined') && (heatmap_url_active == window.location.href) ) {
+                    setTimeout(function()
+                            {var a=document.createElement("script"); var b=document.getElementsByTagName("script")[0]; a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0021/3212.js?"+Math.floor(new Date().getTime()/3600000); a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}
+                            , 1);
+                }
+            </script>
+
+
+            
+
+    
+<!-- Step I -->
+<script type="text/javascript">
+    (function() {
+        var params = get_query_params(window.location.search);
+        if (params['testZone']) {
+            var adType = params['adType'] || 'all';
+
+            // export to global
+            window.adsite = 'testseiteems';
+            window.adzone = params['testZone'] + ';adType=' + adType;
+        }
+        function get_query_params(search) {
+            var params = {};
+            var searchParts = search.replace('?', '').split('&');
+            for (var i = 0, len = searchParts.length; i < len; i++) {
+                var paramParts = searchParts[i].split('=');
+                if (paramParts[0]) {
+                    params[paramParts[0]] = paramParts[1];
+                }
+            }
+            return params;
+        }
+    })();
+</script>
+
+<!-- Step II -->
+<script src="http://js.chefkoch-cdn.de/js/default/GujAd/siteAdapter.js?v=47"></script>
+
+<!-- Step III -->
+<script type="text/javascript">
+    /* YL-Konfiguration */
+    var ylAdSlotIdMap = {
+        sky      : 23753,
+        mr       : 23754,
+        sb       : 23755,
+        hp       : 57429,
+        bb       : 57437,
+        _default : 23756
+    };
+    var ylAdFormats = 'formats_' + ylAdSlotIdMap._default + '=101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116';
+
+    try {
+        document.write('<scr' + 'ipt type="text/javascript" src="http://ad.yieldlab.net/yp/' + $.map(ylAdSlotIdMap,function (v) {
+            return v;
+        }).join(',') + '?ts=' + new Date().getTime() + '&' + ylAdFormats + '"></scr' + 'ipt>');
+    } catch
+            (err) {
+    }
+</script>
+<script type="text/javascript">
+    var n_pbt = n_pbt || '';
+
+    function convertYlParams(yl, map) {
+        if (!yl || !yl.YpResult || typeof yl.YpResult.getAll != 'function' || typeof yl.YpResult.get != 'function') {
+            if (window.console && typeof window.console.warn == 'function') {
+                window.console.warn('InvalidArgumentException: Malformated "yl" object given.');
+            }
+
+            return '';
+        }
+
+        var parameters = '';
+        for (var pos in map) {
+            var campaign = yl.YpResult.get(map[pos]);
+
+            if (campaign) {
+                parameters += ';yl' + pos + '=' + campaign.id;
+
+                if(campaign.ylid) {
+                    parameters += ';ylid' + pos + '=' + campaign.ylid;
+                }
+
+                if (campaign.format) {
+                    parameters += ';ylf' + '=' + campaign.format;
+                }
+            }
+        }
+        return parameters;
+    }
+
+    n_pbt += convertYlParams(window.yl, ylAdSlotIdMap);
+</script><!-- BEGIN Krux Control Tag for "EMS" --><!-- Source: /snippet/controltag?confid=Ip_ds2w6&site=EMS&edit=1 -->
+<script class="kxct" data-id="Ip_ds2w6" data-timing="async" data-version="1.9" type="text/javascript">
+    window.Krux || ((Krux = function () {
+        Krux.q.push(arguments)
+    }).q =
+            [
+            ]);
+    (function () {
+        var k = document.createElement('script');
+        k.type = 'text/javascript';
+        k.async = true;
+        var m, src = (m = location.href.match(/\bkxsrc=([^&]+)/)) && decodeURIComponent(m[1]);
+        k.src = /^https?:\/\/([^\/]+\.)?krxd\.net(:\d{1,5})?\//i.test(src) ? src : src === "disable" ? "" :
+                (location.protocol === "https:" ? "https:" : "http:") + "//cdn.krxd.net/controltag?confid=Ip_ds2w6";
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(k, s);
+    }());
+</script><!-- END Krux control-tag -->
+<script type="text/javascript">
+    var n_pbt = n_pbt || '';
+
+    function retrieveKruxData(name) {
+        var key = 'kxadaudience_' + name;
+        if (window.localStorage) {
+            return window.localStorage[key] || '';
+        } else if (navigator.cookieEnabled) {
+            var matches = window.document.cookie.match(key + '=([^;]*)');
+            return (matches && unescape(matches[1])) || '';
+        } else {
+            return '';
+        }
+    }
+
+    function convertKruxParams() {
+        var segments = retrieveKruxData('segs');
+        var maxSegments = 5;
+        return segments ? ';ksg=' + segments.split(',').filter(function(value, index) {return index < maxSegments}).join(';ksg=') : '';;
+    }
+
+    n_pbt += convertKruxParams();
+</script>
+<script type="text/javascript">
+    /* RSI-Segments */
+    var a_pbt = '';
+    var n_pbt = n_pbt || '';
+
+    function fetchRsiSegmentsFromCookie() {
+        var rsi_segs =
+                [
+                ];
+        var segs_beg = document.cookie.indexOf('rsi_segs=');
+
+        if (segs_beg >= 0) {
+            segs_beg = document.cookie.indexOf('=', segs_beg) + 1;
+            if (segs_beg > 0) {
+                var segs_end = document.cookie.indexOf(';', segs_beg);
+                if (segs_end == -1) {
+                    segs_end = document.cookie.length;
+                }
+                rsi_segs = document.cookie.substring(segs_beg, segs_end).split('|');
+            }
+        }
+
+        return rsi_segs;
+    }
+
+    function convertBtParameters() {
+        var segments = fetchRsiSegmentsFromCookie();
+        var maxSegments = 60;
+        return segments ? ';bt=' + segments.filter(function(value, index) { return index < maxSegments}).join(';bt=').replace(/L11278_/g, 'A').replace(/L11282_/g, 'E') : '';
+    }
+
+    a_pbt += convertBtParameters();
+    n_pbt += a_pbt;
+    /* RSI-Segments */
+</script>
+<script type="text/javascript">
+    /* Procter&Gamble Gateway Connect */
+    var asiPqTag = false;
+    var network = 'p5BN0O';
+    var testSourcePrefix = 'XXRA-li';
+    var liveSourcePrefix = 'PIPG-li';
+    var destinationPrefix = ';P=';
+    var segments =
+            [
+            ];
+    try {
+        document.write("<sc" + "ript type='text/javascript' language='JavaScript' src='http://pq-direct.revsci.net/pql?placementIdList=p5BN0O&cb=" + new Date().getTime() + "'></sc" + "ript>");
+    } catch (err) {
+        var asiPlacements = {p5BN0O : {data : {}}};
+    }
+</script>
+<script type="text/javascript">
+    var inputIsValid = void 0 !== asiPlacements
+            && asiPlacements instanceof Object
+            && void 0 !== asiPlacements[network]
+            && void 0 !== asiPlacements[network].data
+            && asiPlacements[network].data instanceof Object;
+    if (inputIsValid) {
+        for (var key in asiPlacements[network].data) {
+            if ('function' === typeof key.replace) {
+                segments.push(key.replace(new RegExp('^(' + liveSourcePrefix + '|' + testSourcePrefix + ')', 'g'), ''));
+            }
+        }
+        n_pbt += destinationPrefix + segments.join(destinationPrefix);
+    }
+    /* Procter&Gamble Gateway Connect Ende */
+</script>
+<script type="text/javascript">
+    
+    if (typeof adsite == "undefined") { adsite='chefkochde'; }
+    if (typeof adzone == "undefined") { adzone = 'rezepte'; }
+    if (typeof adkwds == "undefined") { adkwds = ';kw=k%E4sekuchen'; }
+    if (typeof ord == "undefined") { ord = parseInt(Math.random()*10000000000000000);}
+</script>
+
+
+<span id="banner-top-tmp">
+    
+			<!-- Step IV -->
+			<div id="tmp_topbanner" style="display:none;">
+				<script type="text/javascript">
+					if ( document.getElementById("topbanner") ) {
+						adsz='728x90';
+						addcopt='';
+						adtile=1;
+
+						CK.AdManager.writeAdCall(adsite, adzone, adsz, addcopt, adtile, adkwds, n_pbt);
+					}
+				</script>
+				<script type="text/javascript">
+					var LeaderBoard, wallpaper, Emspowerview;
+
+					if ( wallpaper == 1 ) {
+
+						var wallpaperDiv = document.getElementById("banner-wallpaper");
+						ad_banner_show( "tmp_topbanner", "wallpaperbanner" );
+
+					} else if ( LeaderBoard == 1 ) {
+
+						var topBannerDiv = document.getElementById("topbanner");
+						topBannerDiv.style.paddingBottom = "10px";
+						ad_banner_show( "tmp_topbanner", "topbanner" );
+
+					} else if ( Emspowerview == 1 ) {
+
+						// Neuen Wrapper fuer den Header mit Powerview-Ad hinzufuegen
+						$("#header").wrap("<div id=\"top-wrapper\" />");
+						$("#top-wrapper").css({position: "fixed", width: "950px", zIndex: 999, backgroundColor: "#fff"});
+
+						// Neues Powerview-Element hinzufuegen
+						$("#header").before("<div id=\"powerview-wallpaper\" />");
+						$("#powerview-wallpaper").css({width: "950px", height: "100px", zIndex: 10000, backgroundColor: "#fff"});
+
+						// Den Inhalts-Container der Seite nach unten verschieben
+						$("#page").css({paddingTop: "236px"});
+
+						// Werbung laden
+						var powerviewDiv = document.getElementById("powerview-wallpaper");
+						ad_banner_show( "tmp_topbanner", "powerview-wallpaper" );
+					}
+				</script>
+
+			</div>
+</span>
+<span id="banner-sky">
+    
+			<div id="SkyScraper">
+				<div>
+					<script type="text/javascript">
+						adsz='160x600';
+						addcopt='dcopt=ist;';
+						adtile=2;
+						CK.AdManager.writeAdCall(adsite, adzone, adsz, addcopt, adtile, adkwds, n_pbt);
+					</script>
+				</div>
+			</div>
+</span>
+<span id="banner-hpa-mr-temp">
+    
+			<div id="tmp_hpamrbanner" style="display:none;">
+				<script type="text/javascript">
+						if ( document.getElementById("hpamrbanner") ) {
+							adsz='300x600';
+							addcopt='';
+							adtile=3;
+							CK.AdManager.writeAdCall(adsite, adzone, adsz, addcopt, adtile, adkwds, n_pbt);
+						}
+						var halfpage;
+					</script>
+					<script type="text/javascript">
+						if ( document.getElementById("hpamrbanner") && ( (typeof halfpage == "undefined") || (halfpage == 0) ) ) {
+							adsz='300x250';
+							adtile=4;
+							CK.AdManager.writeAdCall(adsite, adzone, adsz, addcopt, adtile, adkwds, n_pbt);
+						}
+						var contentad;
+					</script>
+					<script type="text/javascript">
+						if ( (halfpage == 1) || (contentad == 1) ) {
+							var hpamrbannerDiv = document.getElementById("hpamrbanner");
+							hpamrbannerDiv.style.marginBottom = "20px";
+							ad_banner_show( "tmp_hpamrbanner", "hpamrbanner" );
+						}
+				</script>
+			</div>
+</span>
+<span id="content-banner-tmp">
+    <div id="tmp_contentbanner" style="display:none;"></div>
+</span>
+<span id="banner-supreme-tmp">
+    <div id="tmp_supremebanner" style="display:none;">
+					<script type="text/javascript">
+							if ( document.getElementById("supremebanner") ) {
+								adsz='300x1000';
+								addcopt='';
+								adtile=5;
+								CK.AdManager.writeAdCall(adsite, adzone, adsz, addcopt, adtile, adkwds, n_pbt);
+							}
+							var supremead;
+						</script>
+						<script type="text/javascript">
+							if ( supremead == 1 ) {
+								var supremebannerDiv = document.getElementById("supremebanner");
+								supremebannerDiv.style.marginBottom = "20px";
+								ad_banner_show( "tmp_supremebanner", "supremebanner" );
+							}
+					</script>
+			</div>
+</span>
+<span id="banner-floor-tmp">
+    
+			<div id="tmp-banner-floor" style="display:none;">
+				<script type="text/javascript">
+					if ( document.getElementById("banner-floor") ) {
+						adsz='800x250';
+						addcopt='';
+						adtile=6;
+
+						CK.AdManager.writeAdCall(adsite, adzone, adsz, addcopt, adtile, adkwds, n_pbt);
+					}
+				</script>
+				<script type="text/javascript">
+                    ad_banner_show( "tmp-banner-floor", "banner-floor" );
+				</script>
+			</div>
+</span>
+
+        </div>
+
+                <!-- SZM VERSION="2.0" -->
+<script type="text/javascript" src="https://script.ioam.de/iam.js"></script>
+
+        
+<script type="text/javascript">
+    var iam_data = {
+        "st":"chefkoch", // site/domain
+        "cp":"rezept_suche", // code
+        "sv":"in" // Fragebogen
+    }
+    iom.c(iam_data);
+</script>
+<!--/SZM -->
+
+<!-- Eigenmessung Chefkoch -->
+<script type="text/javascript">
+
+            var statistic_data = {
+                user: "",
+        page: "/rezept-suche-solr-url.php",
+        cached: true
+    };
+
+    submitStatistics( statistic_data );
+</script>
+
+<script type="text/javascript">
+    if(window.wtQueueParam==undefined) {
+        window.wtQueueParam={};
+    }
+        window.wtQueueParam[13] = (typeof(adblocker_is_off) == 'undefined') ? 'adblocker_on' : 'adblocker_off';
+</script>
+
+
+
+<script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+    var pageTracker = _gat._getTracker("UA-262191-1");
+    pageTracker._initData();
+    _gat._anonymizeIp();
+    pageTracker._trackPageview();
+</script>
+
+    		<script type="text/javascript">
+			window.wtparam = {"wtconfig":{"linkTrack":"standard","linkTrackAttribute":"name","heatmap":"0","contentId":"de.web.search.rezepte"},"customParameter":{"2":"10254;5448;10115;3798;11323;3355;2674","7":"2","4":"0","5":"0","10":"1495"},"internalSearch":"k\u00e4sekuchen","contentGroup":{"1":"de","2":"web","3":"search"}};			document.write(unescape("%3Cscript%20src='http://js.chefkoch-cdn.de/js/webtrekk_v3_322.js'%20type='text/javascript'%3E%3C/script%3E"));
+		</script>
+		<noscript><div><img src="http://chefkoch01.webtrekk.net/886765640341113/wt.pl?p=322,de.web.search.rezepte&cp2=10254%3B5448%3B10115%3B3798%3B11323%3B3355%3B2674&cp7=2&cp4=0&cp5=0&cp10=1495&cg1=de&cg2=web&cg3=search&is=k%C3%A4sekuchen" height="1" width="1" alt="" /></div></noscript>
+
+
+    </body>
+</html>
+<!-- Tpl: TW, FC: SF - Env: prod -->
+<!-- Release: Chefkoch-Frontend-389 - Runtime: 0.032015 sec on app01.fra.chefkoch.net -->
