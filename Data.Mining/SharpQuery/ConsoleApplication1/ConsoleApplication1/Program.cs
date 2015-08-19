@@ -97,7 +97,8 @@ namespace ConsoleApplication1
                 commands = commands ?? new List<CrawlCommand>();
                 var command = new CrawlCommand
                 {
-                    Command = commandline.Value
+                    IsLoop = commandline.Value.Contains("!"),
+                    Command = commandline.Value.Replace("!", string.Empty)
                 };
 
                 var subcommands = default(List<CrawlCommand>);
@@ -129,73 +130,88 @@ namespace ConsoleApplication1
 
                 foreach (var command in commandset)
                 {
-                    //  Anwendung eines Kommandos
-                    var commandtokens = default(IEnumerable<string>);
-                    commandtokens = Regex.Split(command.Command, ">>");
-                    var querytext = (commandtokens != null ? (commandtokens.FirstOrDefault() ?? string.Empty) : string.Empty).Trim();
-                    var querytarget = (commandtokens != null && commandtokens.Count() > 1 ? (commandtokens.Skip(1).FirstOrDefault() ?? string.Empty) : string.Empty).Trim();
-
-                    commandtokens = querytext.Split('@');
-                    var queryattribute = commandtokens != null && commandtokens.Count() > 1 ? (commandtokens.Skip(1).FirstOrDefault() ?? string.Empty).Trim() : string.Empty;
-                    querytext = string.IsNullOrEmpty(queryattribute) ? querytext : commandtokens.FirstOrDefault() ?? querytext;
-
-                    //  Ausführen des Querys
-                    if (!string.IsNullOrEmpty(querytext))
+                    var doRepeat = true;
+                    while (doRepeat)
                     {
-                        var querycontent = default(IEnumerable<string>);
-                        var query = default(CQ);
-                        try { query = dom[querytext]; } catch(Exception) { }
+                        //  Anwendung eines Kommandos
+                        var commandtokens = default(IEnumerable<string>);
+                        commandtokens = Regex.Split(command.Command, ">>");
+                        var querytext = (commandtokens != null ? (commandtokens.FirstOrDefault() ?? string.Empty) : string.Empty).Trim();
+                        var querytarget = (commandtokens != null && commandtokens.Count() > 1 ? (commandtokens.Skip(1).FirstOrDefault() ?? string.Empty) : string.Empty).Trim();
 
-                        if (query != null && query.Any())
-                        {
-                            querycontent = query.Select(item => string.IsNullOrEmpty(queryattribute) ? item.OuterHTML : item.Attributes[queryattribute] ?? string.Empty);
-                        }
-                        //  Query in das Contextdictionary leiten
-                        else
-                        {
-                            querycontent = ContextDictionary.ContainsKey(querytext) ? ContextDictionary[querytext] : querycontent;
-                        }
+                        commandtokens = querytext.Split('@');
+                        var queryattribute = commandtokens != null && commandtokens.Count() > 1 ? (commandtokens.Skip(1).FirstOrDefault() ?? string.Empty).Trim() : string.Empty;
+                        querytext = string.IsNullOrEmpty(queryattribute) ? querytext : commandtokens.FirstOrDefault() ?? querytext;
 
-                        //  Die Abfrage ergab mindestens einen Treffer => Inhaltsverarbeitung
-                        if (querycontent != null)
+                        var wasCommandApplied = default(bool);
+                        //  Ausführen des Querys
+                        if (!string.IsNullOrEmpty(querytext))
                         {
-                            if(!string.IsNullOrEmpty(querytarget))
-                            { 
-                                ContextDictionary[querytarget] = querycontent;
-                            }
-                        }
-                        //  Kein Treffer => Sonstiger Befehl
-                        else
-                        {
-                            commandtokens = querytext.Split(':');
-                            var commandobject = commandtokens.FirstOrDefault() ?? string.Empty;
-                            var commandexpression = commandtokens.Count() > 1 ? commandtokens.Skip(1).FirstOrDefault() ?? string.Empty : string.Empty;
+                            var querycontent = default(IEnumerable<string>);
+                            var query = default(CQ);
+                            try { query = dom[querytext]; } catch (Exception) { }
 
-                            //  Befehle
-                            //  Browse()
-                            switch (commandexpression.ToLower())
+                            if (query != null && query.Any())
                             {
-                                case Constants.CommandBrowse:
-                                    {
-                                        var uri = ContextDictionary.ContainsKey(commandobject) ? ContextDictionary[commandobject].FirstOrDefault() ?? string.Empty : string.Empty;
-                                        if(!string.IsNullOrEmpty(uri))
-                                        {
-                                            content = WebUtility.GetWebsiteContent(uri);
-                                        }
+                                querycontent = query.Select(item => string.IsNullOrEmpty(queryattribute) ? item.OuterHTML : item.Attributes[queryattribute] ?? string.Empty);
+                            }
+                            //  Query in das Contextdictionary leiten
+                            else
+                            {
+                                querycontent = ContextDictionary.ContainsKey(querytext) ? ContextDictionary[querytext] : querycontent;
+                            }
 
-                                        break;
-                                    }
+                            //  Die Abfrage ergab mindestens einen Treffer => Inhaltsverarbeitung
+                            if (querycontent != null)
+                            {
+                                if (!string.IsNullOrEmpty(querytarget))
+                                {
+                                    ContextDictionary[querytarget] = querycontent;
+                                }
+                            }
+                            //  Kein Treffer => Sonstiger Befehl
+                            else
+                            {
+                                if (!string.IsNullOrEmpty(querytarget))
+                                {
+                                    ContextDictionary[querytarget] = new[] { string.Empty };
+                                }
+
+                                commandtokens = querytext.Split(':');
+                                var commandobject = commandtokens.FirstOrDefault() ?? string.Empty;
+                                var commandexpression = commandtokens.Count() > 1 ? commandtokens.Skip(1).FirstOrDefault() ?? string.Empty : string.Empty;
+
+                                //  Befehle
+                                //  Browse()
+                                switch (commandexpression.ToLower())
+                                {
+                                    case Constants.CommandBrowse:
+                                        {
+                                            var uri = ContextDictionary.ContainsKey(commandobject) ? ContextDictionary[commandobject].FirstOrDefault() ?? string.Empty : string.Empty;
+                                            if (!string.IsNullOrEmpty(uri))
+                                            {
+                                                content = WebUtility.GetWebsiteContent(uri);
+                                                wasCommandApplied = true;
+                                            }
+
+                                            break;
+                                        }
+                                }
                             }
                         }
-                    }
 
-                    //  Ausführen der Subkommandos
-                    if (command.Subcommands != null)
-                    {
-                        foreach (var subcommand in command.Subcommands)
+                        //  Ausführen der Subkommandos
+                        if (command.Subcommands != null)
                         {
-                            ApplyCommandset(command.Subcommands, content);
+                            foreach (var subcommand in command.Subcommands)
+                            {
+                                ApplyCommandset(command.Subcommands, content);
+                            }
                         }
+
+                        doRepeat =
+                            command.IsLoop && wasCommandApplied
+                        ;
                     }
                 }
             }
@@ -205,6 +221,7 @@ namespace ConsoleApplication1
     public class CrawlCommand
     {
         public string Command { get; set; }
+        public bool IsLoop { get; set; }
         public IEnumerable<CrawlCommand> Subcommands { get; set; }
     }
 
