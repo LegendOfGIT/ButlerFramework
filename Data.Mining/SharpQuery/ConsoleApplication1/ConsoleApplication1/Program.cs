@@ -122,96 +122,112 @@ namespace ConsoleApplication1
 
             return commands;
         }
-        private static void ApplyCommandset(IEnumerable<CrawlCommand> commandset, string content = null)
+        private static void ApplyCommandset(IEnumerable<CrawlCommand> commandset, IEnumerable<string> contents = null)
         {
             if (commandset != null)
             {
-                var dom = new CQ(content);
-
-                foreach (var command in commandset)
+                var querydoms = 
+                    contents == null ? new[] { new CQ() } :
+                    contents.Select(c => new CQ(c))
+                ;
+                foreach (var dom in querydoms)
                 {
-                    var doRepeat = true;
-                    while (doRepeat)
+                    foreach (var command in commandset)
                     {
-                        //  Anwendung eines Kommandos
-                        var commandtokens = default(IEnumerable<string>);
-                        commandtokens = Regex.Split(command.Command, ">>");
-                        var querytext = (commandtokens != null ? (commandtokens.FirstOrDefault() ?? string.Empty) : string.Empty).Trim();
-                        var querytarget = (commandtokens != null && commandtokens.Count() > 1 ? (commandtokens.Skip(1).FirstOrDefault() ?? string.Empty) : string.Empty).Trim();
-
-                        commandtokens = querytext.Split('@');
-                        var queryattribute = commandtokens != null && commandtokens.Count() > 1 ? (commandtokens.Skip(1).FirstOrDefault() ?? string.Empty).Trim() : string.Empty;
-                        querytext = string.IsNullOrEmpty(queryattribute) ? querytext : commandtokens.FirstOrDefault() ?? querytext;
-
-                        var wasCommandApplied = default(bool);
-                        //  Ausführen des Querys
-                        if (!string.IsNullOrEmpty(querytext))
+                        var doRepeat = true;
+                        while (doRepeat)
                         {
-                            var querycontent = default(IEnumerable<string>);
-                            var query = default(CQ);
-                            try { query = dom[querytext]; } catch (Exception) { }
+                            var subcommandContents = default(List<string>);
 
-                            if (query != null && query.Any())
-                            {
-                                querycontent = query.Select(item => string.IsNullOrEmpty(queryattribute) ? item.OuterHTML : item.Attributes[queryattribute] ?? string.Empty);
-                            }
-                            //  Query in das Contextdictionary leiten
-                            else
-                            {
-                                querycontent = ContextDictionary.ContainsKey(querytext) ? ContextDictionary[querytext] : querycontent;
-                            }
+                            //  Anwendung eines Kommandos
+                            var commandtokens = default(IEnumerable<string>);
+                            commandtokens = Regex.Split(command.Command, ">>");
+                            var querytext = (commandtokens != null ? (commandtokens.FirstOrDefault() ?? string.Empty) : string.Empty).Trim();
+                            var querytarget = (commandtokens != null && commandtokens.Count() > 1 ? (commandtokens.Skip(1).FirstOrDefault() ?? string.Empty) : string.Empty).Trim();
 
-                            //  Die Abfrage ergab mindestens einen Treffer => Inhaltsverarbeitung
-                            if (querycontent != null)
+                            commandtokens = querytext.Split('@');
+                            var queryattribute = commandtokens != null && commandtokens.Count() > 1 ? (commandtokens.Skip(1).FirstOrDefault() ?? string.Empty).Trim() : string.Empty;
+                            querytext = string.IsNullOrEmpty(queryattribute) ? querytext : commandtokens.FirstOrDefault() ?? querytext;
+
+                            var wasCommandApplied = default(bool);
+                            //  Ausführen des Querys
+                            if (!string.IsNullOrEmpty(querytext))
                             {
-                                if (!string.IsNullOrEmpty(querytarget))
+                                var querycontent = default(IEnumerable<string>);
+                                var query = default(CQ);
+                                try {
+                                    query = dom[querytext];
+                                } catch (Exception) { }
+
+                                if (query != null && query.Any())
                                 {
-                                    ContextDictionary[querytarget] = querycontent;
+                                    querycontent = query.Select(item => string.IsNullOrEmpty(queryattribute) ? item.InnerHTML : item.Attributes[queryattribute] ?? string.Empty);
                                 }
-                            }
-                            //  Kein Treffer => Sonstiger Befehl
-                            else
-                            {
-                                if (!string.IsNullOrEmpty(querytarget))
+                                //  Query in das Contextdictionary leiten
+                                else
                                 {
-                                    ContextDictionary[querytarget] = new[] { string.Empty };
+                                    querycontent = ContextDictionary.ContainsKey(querytext) ? ContextDictionary[querytext] : querycontent;
                                 }
 
-                                commandtokens = querytext.Split(':');
-                                var commandobject = commandtokens.FirstOrDefault() ?? string.Empty;
-                                var commandexpression = commandtokens.Count() > 1 ? commandtokens.Skip(1).FirstOrDefault() ?? string.Empty : string.Empty;
-
-                                //  Befehle
-                                //  Browse()
-                                switch (commandexpression.ToLower())
+                                //  Die Abfrage ergab mindestens einen Treffer => Inhaltsverarbeitung
+                                if (querycontent != null)
                                 {
-                                    case Constants.CommandBrowse:
-                                        {
-                                            var uri = ContextDictionary.ContainsKey(commandobject) ? ContextDictionary[commandobject].FirstOrDefault() ?? string.Empty : string.Empty;
-                                            if (!string.IsNullOrEmpty(uri))
+                                    foreach (var c in querycontent)
+                                    {
+                                        subcommandContents = subcommandContents ?? new List<string>();
+                                        subcommandContents.Add(c);
+                                    }
+
+                                    if (!string.IsNullOrEmpty(querytarget))
+                                    {
+                                        ContextDictionary[querytarget] = querycontent;
+                                    }
+                                }
+                                //  Kein Treffer => Sonstiger Befehl
+                                else
+                                {
+                                    if (!string.IsNullOrEmpty(querytarget))
+                                    {
+                                        ContextDictionary[querytarget] = new[] { string.Empty };
+                                    }
+
+                                    commandtokens = querytext.Split(':');
+                                    var commandobject = commandtokens.FirstOrDefault() ?? string.Empty;
+                                    var commandexpression = commandtokens.Count() > 1 ? commandtokens.Skip(1).FirstOrDefault() ?? string.Empty : string.Empty;
+
+                                    //  Befehle
+                                    //  Browse()
+                                    switch (commandexpression.ToLower())
+                                    {
+                                        case Constants.CommandBrowse:
                                             {
-                                                content = WebUtility.GetWebsiteContent(uri);
-                                                wasCommandApplied = true;
-                                            }
+                                                var uri = ContextDictionary.ContainsKey(commandobject) ? ContextDictionary[commandobject].FirstOrDefault() ?? string.Empty : string.Empty;
+                                                if (!string.IsNullOrEmpty(uri))
+                                                {
+                                                    subcommandContents = subcommandContents ?? new List<string>();
+                                                    subcommandContents.Add(WebUtility.GetWebsiteContent(uri));
+                                                    wasCommandApplied = true;
+                                                }
 
-                                            break;
-                                        }
+                                                break;
+                                            }
+                                    }
                                 }
                             }
-                        }
 
-                        //  Ausführen der Subkommandos
-                        if (command.Subcommands != null)
-                        {
-                            foreach (var subcommand in command.Subcommands)
+                            //  Ausführen der Subkommandos
+                            if (command.Subcommands != null)
                             {
-                                ApplyCommandset(command.Subcommands, content);
+                                foreach (var subcommand in command.Subcommands)
+                                {
+                                    ApplyCommandset(command.Subcommands, subcommandContents);
+                                }
                             }
-                        }
 
-                        doRepeat =
-                            command.IsLoop && wasCommandApplied
-                        ;
+                            doRepeat =
+                                command.IsLoop && wasCommandApplied
+                            ;
+                        }
                     }
                 }
             }

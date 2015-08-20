@@ -1,6 +1,8 @@
 ﻿Source = http://www.gelbeseiten.de/arzt/hannover/s59
 
 current.uri >> pageuri
-pageuri:browse()
+pageuri:browse()!
+ .teilnehmer
+  span[itemprop="name"]
  .gs_seite_vor_wrapper a @href >> pageuri
   
