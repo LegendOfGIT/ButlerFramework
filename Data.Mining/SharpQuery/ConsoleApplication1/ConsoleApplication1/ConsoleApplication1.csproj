@@ -33,7 +33,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="CsQuery">
-      <HintPath>..\..\..\..\..\work\Git\CsQuery\distribution\CsQuery.dll</HintPath>
+      <HintPath>..\..\..\CsQuery\distribution\CsQuery.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -51,6 +51,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="hm.crawl">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="gelbeseiten.crawl">
       <SubType>Designer</SubType>
     </None>

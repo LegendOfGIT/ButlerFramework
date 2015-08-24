@@ -18,7 +18,7 @@ namespace ConsoleApplication1
             var encoding = Encoding.GetEncoding(1252);
 
             var index = default(int);
-            var crawlingmap = @"C:\Temp\Data.Mining\SharpQuery\ConsoleApplication1\ConsoleApplication1\gelbeseiten.crawl";
+            var crawlingmap = @"G:\Entwicklung\GitHUB\ButlerFramework\Data.Mining\SharpQuery\ConsoleApplication1\ConsoleApplication1\hm.crawl";
             var lines = default(string[]);
             if (File.Exists(crawlingmap))
             {
@@ -201,12 +201,16 @@ namespace ConsoleApplication1
                                     {
                                         case Constants.CommandBrowse:
                                             {
-                                                var uri = ContextDictionary.ContainsKey(commandobject) ? ContextDictionary[commandobject].FirstOrDefault() ?? string.Empty : string.Empty;
-                                                if (!string.IsNullOrEmpty(uri))
-                                                {
-                                                    subcommandContents = subcommandContents ?? new List<string>();
-                                                    subcommandContents.Add(WebUtility.GetWebsiteContent(uri));
-                                                    wasCommandApplied = true;
+                                                var uris = ContextDictionary.ContainsKey(commandobject) ? ContextDictionary[commandobject] ?? default(string[]) : default(string[]);
+                                                if(uris != null) { 
+                                                    foreach(var uri in uris) {
+                                                        if (!string.IsNullOrEmpty(uri))
+                                                        {
+                                                            subcommandContents = subcommandContents ?? new List<string>();
+                                                            subcommandContents.Add(WebUtility.GetWebsiteContent(uri));
+                                                            wasCommandApplied = true;
+                                                        }
+                                                    }
                                                 }
 
                                                 break;
