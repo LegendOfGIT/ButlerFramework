@@ -3,6 +3,9 @@
 current.uri >> pageuri
 pageuri:browse()!
  .teilnehmer
-  span[itemprop="name"]
- .gs_seite_vor_wrapper a @href >> pageuri
+  span[itemprop="name"] >> Unternehmen.Name
+  .A
+   .website a @href >> Unternehmen.WebUri
+
+ .gs_seite_vor_wrapper a:first @href >> pageuri
   

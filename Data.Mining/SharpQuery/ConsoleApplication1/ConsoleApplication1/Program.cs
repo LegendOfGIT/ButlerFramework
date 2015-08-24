@@ -18,7 +18,7 @@ namespace ConsoleApplication1
             var encoding = Encoding.GetEncoding(1252);
 
             var index = default(int);
-            var crawlingmap = @"G:\Entwicklung\GitHUB\ButlerFramework\Data.Mining\SharpQuery\ConsoleApplication1\ConsoleApplication1\hm.crawl";
+            var crawlingmap = @"C:\Temp\ButlerFrameworkGIT\Data.Mining\SharpQuery\ConsoleApplication1\ConsoleApplication1\gelbeseiten.crawl";
             var lines = default(string[]);
             if (File.Exists(crawlingmap))
             {
@@ -143,7 +143,36 @@ namespace ConsoleApplication1
                             var commandtokens = default(IEnumerable<string>);
                             commandtokens = Regex.Split(command.Command, ">>");
                             var querytext = (commandtokens != null ? (commandtokens.FirstOrDefault() ?? string.Empty) : string.Empty).Trim();
-                            var querytarget = (commandtokens != null && commandtokens.Count() > 1 ? (commandtokens.Skip(1).FirstOrDefault() ?? string.Empty) : string.Empty).Trim();
+
+                            var querytarget = 
+                                (commandtokens != null && commandtokens.Count() > 1 ? (commandtokens.Skip(1).FirstOrDefault() ?? string.Empty) : string.Empty).Trim()
+                            ;
+                            if(!string.IsNullOrEmpty(querytarget))
+                            {
+                                var tokens = querytarget.Split('.');
+                                if(tokens.Length > 1)
+                                {
+                                    var index = default(int);
+                                    var key = string.Format(
+                                        "{0}[{1}].{2}",
+                                        tokens.First(),
+                                        index,
+                                        string.Join(".", tokens.Skip(1))
+                                    );
+                                    while (ContextDictionary.ContainsKey(key))
+                                    {
+                                        index++;
+                                        key = string.Format(
+                                            "{0}[{1}].{2}",
+                                            tokens.First(),
+                                            index,
+                                            string.Join(".", tokens.Skip(1))
+                                        );
+                                    }
+
+                                    querytarget = key;
+                                }
+                            }
 
                             commandtokens = querytext.Split('@');
                             var queryattribute = commandtokens != null && commandtokens.Count() > 1 ? (commandtokens.Skip(1).FirstOrDefault() ?? string.Empty).Trim() : string.Empty;
