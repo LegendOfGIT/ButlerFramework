@@ -94,11 +94,30 @@ namespace ConsoleApplication1
 
             foreach (var commandline in commandlines)
             {
+                var commandtext = commandline.Value;
+                var tokens = default(IEnumerable<string>);
+
+                //  Enthält das Kommando ein !, wird dieses Kommando solange wiederholt wie es mindestens ein Ergebnis zurückgibt.
+                var isLoop = commandtext.Contains("!");
+                commandtext = commandtext.Replace("!", string.Empty);
+                //  Ermittlung des Kommandoziels
+                tokens = Regex.Split(commandtext, ">>");
+                var target =
+                    (tokens != null && tokens.Count() > 1 ? (tokens.Skip(1).FirstOrDefault() ?? string.Empty) : string.Empty).Trim()
+                ;
+                commandtext = (tokens != null ? (tokens.FirstOrDefault() ?? string.Empty) : string.Empty).Trim();
+                //  Ermittlung eines Attributes
+                tokens = commandtext.Split('@');
+                var attribute = tokens != null && tokens.Count() > 1 ? (tokens.Skip(1).FirstOrDefault() ?? string.Empty).Trim() : string.Empty;
+                commandtext = string.IsNullOrEmpty(attribute) ? commandtext : tokens.FirstOrDefault() ?? commandtext;
+
                 commands = commands ?? new List<CrawlCommand>();
                 var command = new CrawlCommand
-                {
-                    IsLoop = commandline.Value.Contains("!"),
-                    Command = commandline.Value.Replace("!", string.Empty)
+                {                  
+                    AttributID = attribute,  
+                    IsLoop = isLoop,
+                    Command = commandtext,
+                    Target = target
                 };
 
                 var subcommands = default(List<CrawlCommand>);
@@ -140,43 +159,7 @@ namespace ConsoleApplication1
                             var subcommandContents = default(List<string>);
 
                             //  Anwendung eines Kommandos
-                            var commandtokens = default(IEnumerable<string>);
-                            commandtokens = Regex.Split(command.Command, ">>");
-                            var querytext = (commandtokens != null ? (commandtokens.FirstOrDefault() ?? string.Empty) : string.Empty).Trim();
-
-                            var querytarget = 
-                                (commandtokens != null && commandtokens.Count() > 1 ? (commandtokens.Skip(1).FirstOrDefault() ?? string.Empty) : string.Empty).Trim()
-                            ;
-                            if(!string.IsNullOrEmpty(querytarget))
-                            {
-                                var tokens = querytarget.Split('.');
-                                if(tokens.Length > 1)
-                                {
-                                    var index = default(int);
-                                    var key = string.Format(
-                                        "{0}[{1}].{2}",
-                                        tokens.First(),
-                                        index,
-                                        string.Join(".", tokens.Skip(1))
-                                    );
-                                    while (ContextDictionary.ContainsKey(key))
-                                    {
-                                        index++;
-                                        key = string.Format(
-                                            "{0}[{1}].{2}",
-                                            tokens.First(),
-                                            index,
-                                            string.Join(".", tokens.Skip(1))
-                                        );
-                                    }
-
-                                    querytarget = key;
-                                }
-                            }
-
-                            commandtokens = querytext.Split('@');
-                            var queryattribute = commandtokens != null && commandtokens.Count() > 1 ? (commandtokens.Skip(1).FirstOrDefault() ?? string.Empty).Trim() : string.Empty;
-                            querytext = string.IsNullOrEmpty(queryattribute) ? querytext : commandtokens.FirstOrDefault() ?? querytext;
+                            var querytext = command.Command;
 
                             var wasCommandApplied = default(bool);
                             //  Ausführen des Querys
@@ -190,7 +173,7 @@ namespace ConsoleApplication1
 
                                 if (query != null && query.Any())
                                 {
-                                    querycontent = query.Select(item => string.IsNullOrEmpty(queryattribute) ? item.InnerHTML : item.Attributes[queryattribute] ?? string.Empty);
+                                    querycontent = query.Select(item => string.IsNullOrEmpty(command.AttributID) ? item.InnerHTML : item.Attributes[command.AttributID] ?? string.Empty);
                                 }
                                 //  Query in das Contextdictionary leiten
                                 else
@@ -207,18 +190,20 @@ namespace ConsoleApplication1
                                         subcommandContents.Add(c);
                                     }
 
-                                    if (!string.IsNullOrEmpty(querytarget))
+                                    if (!string.IsNullOrEmpty(command.Target))
                                     {
-                                        ContextDictionary[querytarget] = querycontent;
+                                        ContextDictionary[command.Target] = querycontent;
                                     }
                                 }
                                 //  Kein Treffer => Sonstiger Befehl
                                 else
                                 {
-                                    if (!string.IsNullOrEmpty(querytarget))
+                                    if (!string.IsNullOrEmpty(command.Target))
                                     {
-                                        ContextDictionary[querytarget] = new[] { string.Empty };
+                                        ContextDictionary[command.Target] = new[] { string.Empty };
                                     }
+
+                                    var commandtokens = default(string[]);
 
                                     commandtokens = querytext.Split(':');
                                     var commandobject = commandtokens.FirstOrDefault() ?? string.Empty;
@@ -269,7 +254,9 @@ namespace ConsoleApplication1
 
     public class CrawlCommand
     {
+        public string AttributID { get; set; }
         public string Command { get; set; }
+        public string Target { get; set; }
         public bool IsLoop { get; set; }
         public IEnumerable<CrawlCommand> Subcommands { get; set; }
     }
