@@ -11,6 +11,7 @@ namespace ConsoleApplication1
 {
     class Program
     {
+        static List<CrawlCommand> ContextCommandset = new List<CrawlCommand>();
         static Dictionary<string, IEnumerable<string>> ContextDictionary = new Dictionary<string, IEnumerable<string>>();
 
         static void Main(string[] args)
@@ -127,7 +128,9 @@ namespace ConsoleApplication1
                     if(followingLine.Value.GetLevel() == level + 1)
                     {
                         subcommands = subcommands ?? new List<CrawlCommand>();
-                        subcommands.AddRange(ParseCommandset(lines, followingLine.Key));
+                        var set = ParseCommandset(lines, followingLine.Key);
+                        subcommands.AddRange(set);
+                        ContextCommandset.AddRange(set);
                     }
                     else
                     {
@@ -137,6 +140,7 @@ namespace ConsoleApplication1
 
                 command.Subcommands = subcommands;
                 commands.Add(command);
+                ContextCommandset.Add(command);
             }
 
             return commands;
@@ -181,6 +185,33 @@ namespace ConsoleApplication1
                                     querycontent = ContextDictionary.ContainsKey(querytext) ? ContextDictionary[querytext] : querycontent;
                                 }
 
+                                var commandtokens = default(string[]);
+                                var quertarget = command.Target;
+
+                                //  Bei einem Informationsobjekt als Zieltyp ...
+                                commandtokens = (quertarget ?? string.Empty).Split('.');
+                                if(commandtokens != null && commandtokens.Length > 1)
+                                {
+                                    //  ... wird bei erster Verwendung/einer Wiederholung der Index des Zielobjektes hochgezählt
+                                    var next = commandtokens.First();
+                                    var targetbase = string.Join(".", commandtokens.Skip(1).Select(s => { var sel = next; next = s; return sel; }));
+                                    var firstObjectCommand = ContextCommandset.First(c => c.Target.StartsWith(targetbase + "."));
+                                    if(command == firstObjectCommand)
+                                    {
+                                        var index = default(int);
+                                        var key = default(string);
+
+                                        key = string.Format("{0}[{1}]", targetbase, index);
+                                        while (ContextDictionary.Any(entry => entry.Key.StartsWith(key)))
+                                        {
+                                            index++;
+                                            key = string.Format("{0}[{1}]", targetbase, index);
+                                        }
+
+                                        quertarget = string.Format("{0}.{1}", key, commandtokens.Last());
+                                    }
+                                }
+
                                 //  Die Abfrage ergab mindestens einen Treffer => Inhaltsverarbeitung
                                 if (querycontent != null)
                                 {
@@ -190,20 +221,18 @@ namespace ConsoleApplication1
                                         subcommandContents.Add(c);
                                     }
 
-                                    if (!string.IsNullOrEmpty(command.Target))
+                                    if (!string.IsNullOrEmpty(quertarget))
                                     {
-                                        ContextDictionary[command.Target] = querycontent;
+                                        ContextDictionary[quertarget] = querycontent;
                                     }
                                 }
                                 //  Kein Treffer => Sonstiger Befehl
                                 else
                                 {
-                                    if (!string.IsNullOrEmpty(command.Target))
+                                    if (!string.IsNullOrEmpty(quertarget))
                                     {
-                                        ContextDictionary[command.Target] = new[] { string.Empty };
+                                        ContextDictionary[quertarget] = new[] { string.Empty };
                                     }
-
-                                    var commandtokens = default(string[]);
 
                                     commandtokens = querytext.Split(':');
                                     var commandobject = commandtokens.FirstOrDefault() ?? string.Empty;
