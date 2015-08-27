@@ -4,8 +4,11 @@ current.uri >> pageuri
 pageuri:browse()!
  .teilnehmer
   span[itemprop="name"] >> Unternehmen.Name
-  .A
-   .website a @href >> Unternehmen.WebUri
+  .website a @href >> Unternehmen.WebUri
+  [itemprop="address"]
+   [itemprop="streetAddress"] >> Unternehmen.Adresse.Straße
+   [itemprop="postalCode"] >> Unternehmen.Adresse.Postleitzahl
+   [itemprop="addressLocality"] >> Unternehmen.Adresse.Ort
 
  .gs_seite_vor_wrapper a:first @href >> pageuri
   

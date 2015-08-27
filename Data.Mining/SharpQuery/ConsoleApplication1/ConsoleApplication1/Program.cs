@@ -19,7 +19,9 @@ namespace ConsoleApplication1
             var encoding = Encoding.GetEncoding(1252);
 
             var index = default(int);
-            var crawlingmap = @"G:\Entwicklung\GitHUB\ButlerFramework\Data.Mining\SharpQuery\ConsoleApplication1\ConsoleApplication1\gelbeseiten.crawl";
+            //var crawlingmap = @"G:\Entwicklung\GitHUB\ButlerFramework\Data.Mining\SharpQuery\ConsoleApplication1\ConsoleApplication1\gelbeseiten.crawl";
+            var crawlingmap = @"C:\Temp\ButlerFrameworkGIT\Data.Mining\SharpQuery\ConsoleApplication1\ConsoleApplication1\gelbeseiten.crawl";
+        
             var lines = default(string[]);
             if (File.Exists(crawlingmap))
             {
@@ -122,20 +124,13 @@ namespace ConsoleApplication1
                 };
 
                 var subcommands = default(List<CrawlCommand>);
-                var followingLines = lines.Skip(commandline.Key + 1).Select(l => new KeyValuePair<int, string>(lines.ToList().IndexOf(l), l));
-                foreach (var followingLine in followingLines)
+                var followingLine = new KeyValuePair<int, string>(commandline.Key + 1, lines.Skip(commandline.Key + 1).FirstOrDefault() ?? string.Empty);
+                if(!string.IsNullOrEmpty(followingLine.Value) && followingLine.Value.GetLevel() == level + 1)
                 {
-                    if(followingLine.Value.GetLevel() == level + 1)
-                    {
-                        subcommands = subcommands ?? new List<CrawlCommand>();
-                        var set = ParseCommandset(lines, followingLine.Key);
-                        subcommands.AddRange(set);
-                        ContextCommandset.AddRange(set);
-                    }
-                    else
-                    {
-                        break;
-                    }
+                    subcommands = subcommands ?? new List<CrawlCommand>();
+                    var set = ParseCommandset(lines, followingLine.Key);
+                    subcommands.AddRange(set);
+                    ContextCommandset.AddRange(set);
                 }
 
                 command.Subcommands = subcommands;
@@ -194,7 +189,7 @@ namespace ConsoleApplication1
                                 {
                                     //  ... wird bei erster Verwendung/einer Wiederholung der Index des Zielobjektes hochgezählt
                                     var next = commandtokens.First();
-                                    var targetbase = string.Join(".", commandtokens.Skip(1).Select(s => { var sel = next; next = s; return sel; }));
+                                    var targetbase = commandtokens.First();
                                     var firstObjectCommand = ContextCommandset.First(c => c.Target.StartsWith(targetbase + "."));
 
                                     var index = default(int);
@@ -224,8 +219,7 @@ namespace ConsoleApplication1
                                         }
                                     }
 
-                                    quertarget = string.Format("{0}.{1}", key, commandtokens.Last());
-                                    
+                                    quertarget = string.Format("{0}.{1}", key, string.Join(".", commandtokens.Skip(1)));                                    
                                 }
 
                                 //  Die Abfrage ergab mindestens einen Treffer => Inhaltsverarbeitung
