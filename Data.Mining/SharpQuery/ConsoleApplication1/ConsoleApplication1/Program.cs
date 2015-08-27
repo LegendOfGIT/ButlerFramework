@@ -19,7 +19,7 @@ namespace ConsoleApplication1
             var encoding = Encoding.GetEncoding(1252);
 
             var index = default(int);
-            var crawlingmap = @"C:\Temp\ButlerFrameworkGIT\Data.Mining\SharpQuery\ConsoleApplication1\ConsoleApplication1\gelbeseiten.crawl";
+            var crawlingmap = @"G:\Entwicklung\GitHUB\ButlerFramework\Data.Mining\SharpQuery\ConsoleApplication1\ConsoleApplication1\gelbeseiten.crawl";
             var lines = default(string[]);
             if (File.Exists(crawlingmap))
             {
@@ -196,20 +196,36 @@ namespace ConsoleApplication1
                                     var next = commandtokens.First();
                                     var targetbase = string.Join(".", commandtokens.Skip(1).Select(s => { var sel = next; next = s; return sel; }));
                                     var firstObjectCommand = ContextCommandset.First(c => c.Target.StartsWith(targetbase + "."));
-                                    if(command == firstObjectCommand)
+
+                                    var index = default(int);
+                                    var previouskey = default(string);
+                                    var key = default(string);
+
+                                    var doIterate = true;
+                                    key = string.Format("{0}[{1}]", targetbase, index);
+                                    while (doIterate)
                                     {
-                                        var index = default(int);
-                                        var key = default(string);
+                                        previouskey = key;
 
+                                        index++;
                                         key = string.Format("{0}[{1}]", targetbase, index);
-                                        while (ContextDictionary.Any(entry => entry.Key.StartsWith(key)))
-                                        {
-                                            index++;
-                                            key = string.Format("{0}[{1}]", targetbase, index);
-                                        }
 
-                                        quertarget = string.Format("{0}.{1}", key, commandtokens.Last());
+                                        if(command == firstObjectCommand)
+                                        {
+                                            doIterate = ContextDictionary.Any(entry => entry.Key.StartsWith(key));
+                                        }
+                                        else
+                                        {
+                                            doIterate = ContextDictionary.Any(entry => entry.Key.StartsWith(key));
+                                            if(!doIterate)
+                                            {
+                                                key = previouskey;
+                                            }
+                                        }
                                     }
+
+                                    quertarget = string.Format("{0}.{1}", key, commandtokens.Last());
+                                    
                                 }
 
                                 //  Die Abfrage ergab mindestens einen Treffer => Inhaltsverarbeitung
