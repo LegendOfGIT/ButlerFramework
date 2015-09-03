@@ -6,6 +6,7 @@ using System.Text;
 using CsQuery;
 
 using Data.Web;
+using Newtonsoft.Json;
 
 namespace Data.Mining.Web
 {
@@ -21,11 +22,8 @@ namespace Data.Mining.Web
         public void Mining(IEnumerable<MiningCommand> commandset, IEnumerable<string> contents = null) {
             if (commandset != null)
             {
-                var querydoms =
-                    contents == null ? new[] { new CQ() } :
-                    contents.Select(c => new CQ(c))
-                ;
-                foreach (var dom in querydoms)
+                contents = contents ?? new[] { string.Empty };
+                foreach (var content in contents)
                 {
                     foreach (var command in commandset)
                     {
@@ -46,24 +44,12 @@ namespace Data.Mining.Web
                                 var commandtokens = default(string[]);
                                 commandtokens = (quertarget ?? string.Empty).Split('.');
                                 var isTargetInformationItem = commandtokens != null && commandtokens.Length > 1;
-                                                                
-                                var querycontent = default(IEnumerable<string>);
-                                var query = default(CQ);
-                                try
-                                {
-                                    query = string.IsNullOrEmpty(querytext) ? dom : dom[querytext];
-                                }
-                                catch (Exception) { }
 
-                                if (query != null && query.Any())
-                                {
-                                    querycontent = query.Select(item => string.IsNullOrEmpty(queryattribute) ? isTargetInformationItem ? item.InnerHTML : item.OuterHTML : item.Attributes[queryattribute] ?? string.Empty);
-                                }
-                                //  Query in das Contextdictionary leiten
-                                else
-                                {
-                                    querycontent = ContextDictionary.ContainsKey(querytext) ? ContextDictionary[querytext] : querycontent;
-                                }
+                                //  Ermittlung des Queryergebnis
+                                var querycontent = FindContent(
+                                    content,
+                                    command
+                                );
 
                                 //  Bei einem Informationsobjekt als Zieltyp ...
                                 commandtokens = (quertarget ?? string.Empty).Split('.');
@@ -172,6 +158,67 @@ namespace Data.Mining.Web
                     }
                 }
             }
+        }
+        private IEnumerable<string> FindContent(string context, MiningCommand command)
+        {
+            var content = default(List<string>);
+
+            var querytext = command == null ? string.Empty : command.Command;
+
+            if (content == null || !content.Any())
+            {
+                //  Inhalt über JSON suchen
+                if ((context ?? string.Empty).StartsWith("{"))
+                {
+                    dynamic json = JsonConvert.DeserializeObject(context);
+                    var jsonvalue = json == null ? null : json.Property(querytext);
+                    if(jsonvalue != null && !string.IsNullOrEmpty(jsonvalue.Value.ToString()))
+                    {
+                        content = new List<string> { jsonvalue.Value.ToString() };
+                    }
+                }
+            }
+
+            if (content == null || !content.Any())
+            {
+                var queryattribute = command == null ? string.Empty : command.AttributID;
+                var quertarget = command == null ? string.Empty : command.Target;
+
+                //  Inhalt über CSS-Query suchen
+                if (!string.IsNullOrEmpty(context) || !string.IsNullOrEmpty(queryattribute))
+                {
+                    var commandtokens = default(string[]);
+                    commandtokens = (quertarget ?? string.Empty).Split('.');
+                    var isTargetInformationItem = commandtokens != null && commandtokens.Length > 1;
+                    var dom = new CQ(context);
+                    var query = default(CQ);
+                    try
+                    {
+                        query = string.IsNullOrEmpty(querytext) ? dom : dom[querytext];
+                    }
+                    catch (Exception) { }
+
+                    if (query != null && query.Any())
+                    {
+                        content = query.Select(
+                            item =>
+                                string.IsNullOrEmpty(queryattribute) ?
+                                    isTargetInformationItem ?
+                                    item.InnerHTML :
+                                    item.OuterHTML :
+                                item.Attributes[queryattribute] ?? string.Empty
+                        ).ToList();
+                    }
+                }
+            }
+
+            //  Query in das Contextdictionary leiten
+            if(content == null || !content.Any())
+            {
+                content = ContextDictionary.ContainsKey(querytext) ? ContextDictionary[querytext].ToList() : content;
+            }
+
+            return content;
         }
     }
 }

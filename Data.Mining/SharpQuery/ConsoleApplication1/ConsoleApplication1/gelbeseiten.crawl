@@ -4,6 +4,7 @@ current.uri >> pageuri
 pageuri:browse()!
  .teilnehmer
   @data-wipe
+   id >> Unternehmen.ID
   span[itemprop="name"] >> Unternehmen.Name
   .website a @href >> Unternehmen.WebUri
   [itemprop="address"]
