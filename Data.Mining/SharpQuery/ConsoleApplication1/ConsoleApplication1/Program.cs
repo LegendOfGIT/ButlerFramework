@@ -22,7 +22,7 @@ namespace ConsoleApplication1
 
             var index = default(int);
             //var crawlingmap = @"G:\Entwicklung\GitHUB\ButlerFramework\Data.Mining\SharpQuery\ConsoleApplication1\ConsoleApplication1\gelbeseiten.crawl";
-            var crawlingmap = @"C:\Temp\ButlerFrameworkGIT\Data.Mining\SharpQuery\ConsoleApplication1\ConsoleApplication1\gelbeseiten.crawl";
+            var crawlingmap = @"../../gelbeseiten.crawl";
         
             var lines = default(string[]);
             if (File.Exists(crawlingmap))
