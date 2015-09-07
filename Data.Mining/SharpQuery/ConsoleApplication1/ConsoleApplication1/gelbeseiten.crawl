@@ -1,4 +1,4 @@
-﻿Source = http://www.gelbeseiten.de/arzt/hannover/s59
+﻿Source = http://www.gelbeseiten.de/arzt/hannover/s55
 
 current.uri >> pageuri
 pageuri:browse()!

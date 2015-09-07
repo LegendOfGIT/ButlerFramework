@@ -56,6 +56,7 @@
     <Compile Include="Data.Mining.cs" />
     <Compile Include="Data.Web.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="FilesystemStorageProvider.cs" />
     <Compile Include="StorageProvider.cs" />
   </ItemGroup>
   <ItemGroup>

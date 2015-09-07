@@ -1,0 +1,30 @@
+﻿using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Text;
+
+namespace Data.Mining
+{
+    public class FilesystemStorageProvider : StorageProvider
+    {
+        public void StoreInformation(Dictionary<string, IEnumerable<string>> information)
+        {
+            var ids = information != null ? information.FirstOrDefault(entry => entry.Key.ToLower().EndsWith(".id")) : default(KeyValuePair<string, IEnumerable<string>>);
+            var id = ids.Value != null ? ids.Value.FirstOrDefault() ?? string.Empty : string.Empty;
+            if(!string.IsNullOrEmpty(id))
+            {
+                var content = new StringBuilder();
+
+                foreach(var entry in information)
+                {
+                    content.AppendLine(string.Format("{0} = {1}", entry.Key, string.Join(", ", entry.Value)));
+                }
+
+                File.WriteAllText(
+                    Path.Combine("../../", "CrawlingStorage", string.Format("{0}.crawl", id)),
+                    content.ToString()
+                );
+            }
+        }
+    }
+}

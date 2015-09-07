@@ -15,6 +15,7 @@ namespace Data.Mining.Web
             this.ContextDictionary = new Dictionary<string, IEnumerable<string>> { };
         }
 
+        private StorageProvider Storageprovider = new FilesystemStorageProvider();
         public Dictionary<string, IEnumerable<string>> ContextDictionary { get; set; }
         public List<MiningCommand> ContextCommandset { get; set; }
         public Encoding MiningPageEncoding { get; set; }
@@ -52,42 +53,18 @@ namespace Data.Mining.Web
                                 );
 
                                 //  Bei einem Informationsobjekt als Zieltyp ...
+                                var storetarget = string.Empty;
                                 commandtokens = (quertarget ?? string.Empty).Split('.');
                                 if (isTargetInformationItem)
                                 {
                                     //  ... wird bei erster Verwendung/einer Wiederholung der Index des Zielobjektes hochgezählt
-                                    var next = commandtokens.First();
                                     var targetbase = commandtokens.First();
-                                    var firstObjectCommand = ContextCommandset.First(c => c.Target.StartsWith(targetbase + "."));
+                                    var lastObjectCommand = ContextCommandset.Last(c => c.Target.StartsWith(targetbase + "."));
 
-                                    var index = default(int);
-                                    var previouskey = default(string);
-                                    var key = default(string);
-
-                                    var doIterate = true;
-                                    key = string.Format("{0}[{1}]", targetbase, index);
-                                    while (doIterate)
+                                    if(command == lastObjectCommand)
                                     {
-                                        previouskey = key;
-
-                                        index++;
-                                        key = string.Format("{0}[{1}]", targetbase, index);
-
-                                        if (command == firstObjectCommand)
-                                        {
-                                            doIterate = ContextDictionary.Any(entry => entry.Key.StartsWith(key));
-                                        }
-                                        else
-                                        {
-                                            doIterate = ContextDictionary.Any(entry => entry.Key.StartsWith(key));
-                                            if (!doIterate)
-                                            {
-                                                key = previouskey;
-                                            }
-                                        }
+                                        storetarget = string.Format("{0}.", targetbase);
                                     }
-
-                                    quertarget = string.Format("{0}.{1}", key, string.Join(".", commandtokens.Skip(1)));
                                 }
 
                                 //  Die Abfrage ergab mindestens einen Treffer => Inhaltsverarbeitung
@@ -139,6 +116,17 @@ namespace Data.Mining.Web
                                                 break;
                                             }
                                     }
+                                }
+
+                                //  Wenn das storetarget gesetzt wurde (letzter Zielverweis auf Informationsobjekt), wird das Informationsobjekt über einen Provider gesichert.
+                                if(!string.IsNullOrEmpty(storetarget) && this.Storageprovider != null)
+                                {
+                                    var storedictionary = new Dictionary<string, IEnumerable<string>>();
+                                    foreach(var entry in this.ContextDictionary.Where(e => e.Key.StartsWith(storetarget)))
+                                    {
+                                        storedictionary[entry.Key] = entry.Value;
+                                    }
+                                    this.Storageprovider.StoreInformation(storedictionary);
                                 }
                             }
 

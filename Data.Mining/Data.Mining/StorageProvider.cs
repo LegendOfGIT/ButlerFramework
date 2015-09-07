@@ -4,6 +4,6 @@ namespace Data.Mining
 {
     interface StorageProvider
     {
-        void StoreInformation(Dictionary<string, string> information);
+        void StoreInformation(Dictionary<string, IEnumerable<string>> information);
     }
 }

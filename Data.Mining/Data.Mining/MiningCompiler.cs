@@ -69,7 +69,7 @@ namespace Data.Mining
                     subcommands = subcommands ?? new List<MiningCommand>();
                     var set = ParseCommandset(lines, followingLine.Key);
                     subcommands.AddRange(set);
-                    this.ContextCommandset.AddRange(set);
+                    //this.ContextCommandset.AddRange(set);
                 }
 
                 command.Subcommands = subcommands;
