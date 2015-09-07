@@ -15,14 +15,14 @@ namespace Data.Mining
             var line = lines.ToArray()[index];
             var level = line.GetLevel();
             var commandlines = new List<KeyValuePair<int, string>>();
-            foreach(var followingline in lines.Skip(index))
+            foreach(var followingline in lines.Skip(index).Where(l => !string.IsNullOrEmpty(l)))
             {
-                if(followingline.GetLevel() < level)
+                if (followingline.GetLevel() < level)
                 {
                     break;
                 }
 
-                if(followingline.GetLevel() == level)
+                if (followingline.GetLevel() == level)
                 {
                     commandlines.Add(new KeyValuePair<int, string>(lines.ToList().IndexOf(followingline), followingline));
                 }

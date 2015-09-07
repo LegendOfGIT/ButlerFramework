@@ -145,10 +145,7 @@ namespace Data.Mining.Web
                             //  Ausführen der Subkommandos
                             if (command.Subcommands != null)
                             {
-                                foreach (var subcommand in command.Subcommands)
-                                {
-                                    Mining(command.Subcommands, subcommandContents);
-                                }
+                                Mining(command.Subcommands, subcommandContents);
                             }
 
                             doRepeat =
