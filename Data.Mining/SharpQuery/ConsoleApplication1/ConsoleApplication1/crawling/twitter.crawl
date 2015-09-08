@@ -1,0 +1,10 @@
+﻿Source = https://twitter.com/frankebornberg
+
+current.uri >> pageuri
+pageuri:Browse()
+ .stream-item
+  @data-item-id >> Tweet.id
+  .content
+   .tweet-text >> Tweet.Text
+   .username b >> Tweet.Autor
+   .js-short-timestamp @data-time >> Tweet.Zeitstempel

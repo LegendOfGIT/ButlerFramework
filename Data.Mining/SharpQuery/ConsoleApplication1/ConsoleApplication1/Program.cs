@@ -1,11 +1,7 @@
-﻿using CsQuery;
-using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Text;
-using System.Text.RegularExpressions;
-using Data.Web;
+
 using Data.Mining;
 using Data.Mining.Web;
 
@@ -21,7 +17,7 @@ namespace ConsoleApplication1
             var encoding = Encoding.GetEncoding(1252);
 
             var index = default(int);
-            var crawlingmap = @"../../gelbeseiten.crawl";
+            var crawlingmap = @"../../crawling/twitter.crawl";
         
             var lines = default(string[]);
             if (File.Exists(crawlingmap))

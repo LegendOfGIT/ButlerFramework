@@ -53,13 +53,16 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="crawling\twitter.crawl">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="hm.crawl">
+    <None Include="crawling\hm.crawl">
       <SubType>Designer</SubType>
     </None>
-    <None Include="gelbeseiten.crawl">
+    <None Include="crawling\gelbeseiten.crawl">
       <SubType>Designer</SubType>
     </None>
   </ItemGroup>
