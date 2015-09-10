@@ -14,11 +14,7 @@ namespace Data.Web
         {
             return URL == null ? string.Empty : GetWebsiteContent(URL.ToString(), Encoding);
         }
-        public static string GetWebsiteContent(string URL)
-        {
-            return GetWebsiteContent(URL, null);
-        }
-        public static string GetWebsiteContent(string URL, Encoding Encoding)
+        public static string GetWebsiteContent(string URL, Encoding Encoding = null)
         {
             string result = string.Empty;
 

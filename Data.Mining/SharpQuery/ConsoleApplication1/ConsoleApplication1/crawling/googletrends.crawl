@@ -1,0 +1,7 @@
+﻿Source = https://www.google.de/trends/?hl=de
+
+current.uri >> pageuri
+pageuri:Browse()
+ .trending-story-wrapper
+  @href >> Trend.id
+  .title >> Trend.Titel
