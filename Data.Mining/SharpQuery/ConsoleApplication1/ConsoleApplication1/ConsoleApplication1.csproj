@@ -53,7 +53,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="crawling\googletrends.crawl">
+    <None Include="crawling\habrahabr.crawl">
       <SubType>Designer</SubType>
     </None>
     <None Include="crawling\twitter.crawl">

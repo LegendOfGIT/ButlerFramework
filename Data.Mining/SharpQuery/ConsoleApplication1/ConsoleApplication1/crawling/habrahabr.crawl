@@ -1,0 +1,7 @@
+﻿Source = http://habrahabr.ru
+
+current.uri >> pageuri
+pageuri:Browse()
+ .shortcuts-item
+  @id >> news.id
+  .title >> news.titel

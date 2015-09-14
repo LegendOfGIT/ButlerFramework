@@ -20,14 +20,14 @@ namespace Data.Web
 
             try
             {
-                WebRequest Request = HttpWebRequest.Create(URL);
-                WebResponse Response = Request.GetResponse();
+                var request = WebRequest.Create(URL);
+                var response = request.GetResponse();
 
-                Stream s = Response == null ? null : Response.GetResponseStream();
-                using (StreamReader Sr = Encoding == null ? new StreamReader(s, true) : new StreamReader(s, Encoding, false))
+                var stream = response == null ? null : response.GetResponseStream();
+                using (var reader = Encoding == null ? new StreamReader(stream, true) : new StreamReader(stream, Encoding, false))
                 {
-                    s.Flush();
-                    result = Sr.ReadToEnd();
+                    stream.Flush();
+                    result = reader.ReadToEnd();
                 }
             }
             finally { }
