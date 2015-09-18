@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-
+using System.Text.RegularExpressions;
 using CsQuery;
 
 using Data.Web;
@@ -150,9 +150,9 @@ namespace Data.Mining.Web
 
             var querytext = command == null ? string.Empty : command.Command;
 
+            //  Inhalt über JSON suchen
             if (content == null || !content.Any())
             {
-                //  Inhalt über JSON suchen
                 if ((context ?? string.Empty).StartsWith("{"))
                 {
                     dynamic json = JsonConvert.DeserializeObject(context);
@@ -164,12 +164,12 @@ namespace Data.Mining.Web
                 }
             }
 
+            //  Inhalt über CSS-Query suchen
             if (content == null || !content.Any())
             {
                 var queryattribute = command == null ? string.Empty : command.AttributID;
                 var quertarget = command == null ? string.Empty : command.Target;
 
-                //  Inhalt über CSS-Query suchen
                 if (!string.IsNullOrEmpty(context) || !string.IsNullOrEmpty(queryattribute))
                 {
                     var commandtokens = default(string[]);
@@ -185,20 +185,43 @@ namespace Data.Mining.Web
 
                     if (query != null && query.Any())
                     {
-                        content = query.Select(
-                            item =>
-                                string.IsNullOrEmpty(queryattribute) ?
-                                    isTargetInformationItem ?
-                                    item.InnerHTML :
-                                    item.OuterHTML :
-                                item.Attributes[queryattribute] ?? string.Empty
-                        ).ToList();
+                        try { 
+                            content = query.Select(
+                                item =>
+                                    string.IsNullOrEmpty(queryattribute) ?
+                                        isTargetInformationItem ?
+                                        item.InnerHTML :
+                                        item.OuterHTML :
+                                    item.Attributes[queryattribute] ?? string.Empty
+                            ).ToList();
+                        }
+                        catch (Exception) { }
                     }
                 }
             }
 
+            //  Inhalt über Regularexpression suchen
+            if (content == null || !content.Any())
+            {
+                try
+                { 
+                    var expression = (@"" + querytext ?? string.Empty);
+                    var matches = 
+                        Regex.Matches(context, expression).
+                        OfType<Match>().
+                        Where(match => match.Success && !string.IsNullOrEmpty(match.Value)).
+                        Select(match => match.Value)
+                    ;                
+                    if(matches != null && matches.Any())
+                    {
+                        content = matches.ToList();
+                    }
+                }
+                catch (Exception) { }
+            }
+
             //  Query in das Contextdictionary leiten
-            if(content == null || !content.Any())
+            if (content == null || !content.Any())
             {
                 content = ContextDictionary.ContainsKey(querytext) ? ContextDictionary[querytext].ToList() : content;
             }

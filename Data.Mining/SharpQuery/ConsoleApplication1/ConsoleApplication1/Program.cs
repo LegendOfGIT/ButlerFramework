@@ -17,7 +17,7 @@ namespace ConsoleApplication1
             var encoding = Encoding.GetEncoding(1252);
 
             var index = default(int);
-            var crawlingmap = @"../../crawling/googletrends.crawl";
+            var crawlingmap = @"../../crawling/chefkoch.crawl";
         
             var lines = default(string[]);
             if (File.Exists(crawlingmap))
