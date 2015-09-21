@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Text;
 
 using Data.Mining;
@@ -25,12 +26,20 @@ namespace ConsoleApplication1
                 lines = File.ReadAllLines(crawlingmap);
             }
 
+            var baseUri = string.Empty;
             var sourceUri = string.Empty;
             foreach (var line in lines)
             {
-                if(line.StartsWith("Source"))
+                var tokens = line.Split('=');
+                var key = tokens != null ? tokens.FirstOrDefault() ?? string.Empty : string.Empty;
+                var value = tokens != null ? tokens.Skip(1).FirstOrDefault() ?? string.Empty : string.Empty;
+                if (key.StartsWith("BaseUri"))
                 {
-                    sourceUri = line.Split('=')[1];
+                    baseUri = value;
+                }
+                else if (key.StartsWith("Source"))
+                {
+                    sourceUri = value;
                     break;
                 }
                 index++;
@@ -46,6 +55,7 @@ namespace ConsoleApplication1
 
             var compiler = new MiningCompiler();
             var commandset = compiler.ParseCommandset(lines, index);
+            ContextDictionary[MiningUtilityConstants.BaseUri] = new[] { baseUri };
             ContextDictionary[MiningUtilityConstants.CurrentUri] = new[] { sourceUri };
 
             var miningutility = new MiningUtility {

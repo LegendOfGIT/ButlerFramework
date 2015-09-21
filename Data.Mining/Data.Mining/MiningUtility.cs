@@ -23,6 +23,7 @@ namespace Data.Mining.Web
         public void Mining(IEnumerable<MiningCommand> commandset, IEnumerable<string> contents = null) {
             if (commandset != null)
             {
+                var storetarget = string.Empty;
                 contents = contents ?? new[] { string.Empty };
                 foreach (var content in contents)
                 {
@@ -53,7 +54,6 @@ namespace Data.Mining.Web
                                 );
 
                                 //  Bei einem Informationsobjekt als Zieltyp ...
-                                var storetarget = string.Empty;
                                 commandtokens = (quertarget ?? string.Empty).Split('.');
                                 if (isTargetInformationItem)
                                 {
@@ -67,8 +67,9 @@ namespace Data.Mining.Web
                                     }
                                 }
 
+                                var isMiningCommand = MiningUtilityConstants.MiningCommands.Any(commandid => querytext.Contains(commandid));
                                 //  Die Abfrage ergab mindestens einen Treffer => Inhaltsverarbeitung
-                                if (querycontent != null)
+                                if (!isMiningCommand)
                                 {
                                     foreach (var c in querycontent)
                                     {
@@ -76,9 +77,31 @@ namespace Data.Mining.Web
                                         subcommandContents.Add(c);
                                     }
 
-                                    if (!string.IsNullOrEmpty(quertarget))
+                                    //  Inhalt im Ziel sichern
+                                    if (!string.IsNullOrEmpty(quertarget) && querycontent.Any())
                                     {
-                                        ContextDictionary[quertarget] = querycontent;
+                                        var isFirstStoreCommand = ContextCommandset.First(storecommand => storecommand.Target == quertarget) == command;
+
+                                        //  Erstes Speicherkommando >> Neuanlage einer Informationswiederholung
+                                        if(isFirstStoreCommand)
+                                        { 
+                                            var storecontent = ContextDictionary.ContainsKey(quertarget) ? new List<string>(ContextDictionary[quertarget]) : new List<string>();
+                                            storecontent.AddRange(querycontent);
+                                            ContextDictionary[quertarget] = storecontent;
+                                        }
+                                        //  Ergänzen der letzten Speicherinformation
+                                        else
+                                        {
+                                            var storeitems = ContextDictionary.ContainsKey(quertarget) ? ContextDictionary[quertarget] : default(IEnumerable<string>);
+                                            var lastStoreitem = storeitems != null && storeitems.Any() ? storeitems.Last() : default(string);
+                                            if(lastStoreitem != null)
+                                            {
+                                                lastStoreitem += string.Join(" ", querycontent);
+                                                var storecontent = ContextDictionary[quertarget].ToList();
+                                                storecontent[storecontent.Count - 1] = lastStoreitem;
+                                                ContextDictionary[quertarget] = storecontent;
+                                            }
+                                        }
                                     }
                                 }
                                 //  Kein Treffer => Sonstiger Befehl
@@ -98,35 +121,31 @@ namespace Data.Mining.Web
                                     switch (commandexpression.ToLower())
                                     {
                                         case MiningUtilityConstants.CommandBrowse:
+                                        {
+                                            var uris = ContextDictionary.ContainsKey(commandobject) ? ContextDictionary[commandobject] ?? default(string[]) : default(string[]);
+                                            if (uris != null)
                                             {
-                                                var uris = ContextDictionary.ContainsKey(commandobject) ? ContextDictionary[commandobject] ?? default(string[]) : default(string[]);
-                                                if (uris != null)
+                                                foreach (var uri in uris)
                                                 {
-                                                    foreach (var uri in uris)
+                                                    var browseuri = uri.Trim();
+                                                    if (!string.IsNullOrEmpty(browseuri))
                                                     {
-                                                        if (!string.IsNullOrEmpty(uri))
+                                                        if (!new[] { "http:", "https:" }.Any(prefix => browseuri.StartsWith(prefix)))
                                                         {
-                                                            subcommandContents = subcommandContents ?? new List<string>();
-                                                            subcommandContents.Add(WebUtility.GetWebsiteContent(uri));
-                                                            wasCommandApplied = true;
+                                                            var baseuri = ContextDictionary.ContainsKey(MiningUtilityConstants.BaseUri) ? ContextDictionary[MiningUtilityConstants.BaseUri].FirstOrDefault() ?? string.Empty : string.Empty;
+                                                            browseuri = baseuri + browseuri;
                                                         }
+
+                                                        subcommandContents = subcommandContents ?? new List<string>();
+                                                        subcommandContents.Add(WebUtility.GetWebsiteContent(browseuri));
+                                                        wasCommandApplied = true;
                                                     }
                                                 }
-
-                                                break;
                                             }
-                                    }
-                                }
 
-                                //  Wenn das storetarget gesetzt wurde (letzter Zielverweis auf Informationsobjekt), wird das Informationsobjekt über einen Provider gesichert.
-                                if(!string.IsNullOrEmpty(storetarget) && this.Storageprovider != null)
-                                {
-                                    var storedictionary = new Dictionary<string, IEnumerable<string>>();
-                                    foreach(var entry in this.ContextDictionary.Where(e => e.Key.StartsWith(storetarget)))
-                                    {
-                                        storedictionary[entry.Key] = entry.Value;
+                                            break;
+                                        }
                                     }
-                                    this.Storageprovider.StoreInformation(storedictionary);
                                 }
                             }
 
@@ -142,16 +161,28 @@ namespace Data.Mining.Web
                         }
                     }
                 }
+
+                //  Wenn das storetarget gesetzt wurde (letzter Zielverweis auf Informationsobjekt), wird das Informationsobjekt über einen Provider gesichert.
+                if (!string.IsNullOrEmpty(storetarget) && this.Storageprovider != null)
+                {
+                    var storedictionary = new Dictionary<string, IEnumerable<string>>();
+                    foreach (var entry in this.ContextDictionary.Where(e => e.Key.StartsWith(storetarget)))
+                    {
+                        storedictionary[entry.Key] = entry.Value;
+                    }
+                    this.Storageprovider.StoreInformation(storedictionary);
+                    storedictionary.ToList().ForEach(storeitem => { ContextDictionary.Remove(storeitem.Key); });
+                }
             }
         }
         private IEnumerable<string> FindContent(string context, MiningCommand command)
         {
-            var content = default(List<string>);
+            var content = new List<string>();
 
             var querytext = command == null ? string.Empty : command.Command;
 
             //  Inhalt über JSON suchen
-            if (content == null || !content.Any())
+            if (!content.Any())
             {
                 if ((context ?? string.Empty).StartsWith("{"))
                 {
@@ -165,7 +196,7 @@ namespace Data.Mining.Web
             }
 
             //  Inhalt über CSS-Query suchen
-            if (content == null || !content.Any())
+            if (!content.Any())
             {
                 var queryattribute = command == null ? string.Empty : command.AttributID;
                 var quertarget = command == null ? string.Empty : command.Target;
@@ -201,7 +232,7 @@ namespace Data.Mining.Web
             }
 
             //  Inhalt über Regularexpression suchen
-            if (content == null || !content.Any())
+            if (!content.Any())
             {
                 try
                 { 
@@ -221,8 +252,10 @@ namespace Data.Mining.Web
             }
 
             //  Query in das Contextdictionary leiten
-            if (content == null || !content.Any())
+            if (!content.Any())
             {
+                var tokens = querytext.Split(':');
+                querytext = tokens != null ? tokens.FirstOrDefault() ?? string.Empty : string.Empty;
                 content = ContextDictionary.ContainsKey(querytext) ? ContextDictionary[querytext].ToList() : content;
             }
 
