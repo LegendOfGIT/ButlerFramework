@@ -9,8 +9,7 @@ namespace Data.Web
 {
     public static class WebUtility
     {
-        public static string GetWebsiteContent(Uri URL) { return GetWebsiteContent(URL, null); }
-        public static string GetWebsiteContent(Uri URL, Encoding Encoding)
+        public static string GetWebsiteContent(Uri URL, Encoding Encoding = null)
         {
             return URL == null ? string.Empty : GetWebsiteContent(URL.ToString(), Encoding);
         }

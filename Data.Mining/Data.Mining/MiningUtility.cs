@@ -45,7 +45,7 @@ namespace Data.Mining.Web
                                 var quertarget = command.Target;
                                 var commandtokens = default(string[]);
                                 commandtokens = (quertarget ?? string.Empty).Split('.');
-                                var isTargetInformationItem = commandtokens != null && commandtokens.Length > 1;
+                                var isTargetInformationItem = commandtokens?.Length > 1;
 
                                 //  Ermittlung des Queryergebnis
                                 var querycontent = FindContent(
@@ -63,7 +63,7 @@ namespace Data.Mining.Web
 
                                     if(command == lastObjectCommand)
                                     {
-                                        storetarget = string.Format("{0}.", targetbase);
+                                        storetarget = $"{targetbase}.";
                                     }
                                 }
 
@@ -179,7 +179,7 @@ namespace Data.Mining.Web
         {
             var content = new List<string>();
 
-            var querytext = command == null ? string.Empty : command.Command;
+            var querytext = command?.Command;
 
             //  Inhalt über JSON suchen
             if (!content.Any())
@@ -187,8 +187,8 @@ namespace Data.Mining.Web
                 if ((context ?? string.Empty).StartsWith("{"))
                 {
                     dynamic json = JsonConvert.DeserializeObject(context);
-                    var jsonvalue = json == null ? null : json.Property(querytext);
-                    if(jsonvalue != null && !string.IsNullOrEmpty(jsonvalue.Value.ToString()))
+                    var jsonvalue = json?.Property(querytext);
+                    if(!string.IsNullOrEmpty(jsonvalue?.Value.ToString()))
                     {
                         content = new List<string> { jsonvalue.Value.ToString() };
                     }
@@ -198,14 +198,14 @@ namespace Data.Mining.Web
             //  Inhalt über CSS-Query suchen
             if (!content.Any())
             {
-                var queryattribute = command == null ? string.Empty : command.AttributID;
-                var quertarget = command == null ? string.Empty : command.Target;
+                var queryattribute = command?.AttributID;
+                var quertarget = command?.Target;
 
                 if (!string.IsNullOrEmpty(context) || !string.IsNullOrEmpty(queryattribute))
                 {
                     var commandtokens = default(string[]);
                     commandtokens = (quertarget ?? string.Empty).Split('.');
-                    var isTargetInformationItem = commandtokens != null && commandtokens.Length > 1;
+                    var isTargetInformationItem = commandtokens?.Length > 1;
                     var dom = new CQ(context);
                     var query = default(CQ);
                     try
@@ -255,7 +255,7 @@ namespace Data.Mining.Web
             if (!content.Any())
             {
                 var tokens = querytext.Split(':');
-                querytext = tokens != null ? tokens.FirstOrDefault() ?? string.Empty : string.Empty;
+                querytext = tokens?.FirstOrDefault() ?? string.Empty;
                 content = ContextDictionary.ContainsKey(querytext) ? ContextDictionary[querytext].ToList() : content;
             }
 

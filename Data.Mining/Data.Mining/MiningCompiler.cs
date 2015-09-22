@@ -27,11 +27,6 @@ namespace Data.Mining
                     commandlines.Add(new KeyValuePair<int, string>(lines.ToList().IndexOf(followingline), followingline));
                 }
             }
-            //    lines
-            //        .Skip(index)
-            //            .Where(l => l.GetLevel() == level && !string.IsNullOrEmpty(l))
-            //                .Select(l => new KeyValuePair<int, string>(lines.ToList().IndexOf(l), l))
-            //;
 
             foreach (var commandline in commandlines)
             {
@@ -44,12 +39,12 @@ namespace Data.Mining
                 //  Ermittlung des Kommandoziels
                 tokens = Regex.Split(commandtext, ">>");
                 var target =
-                    (tokens != null && tokens.Count() > 1 ? (tokens.Skip(1).FirstOrDefault() ?? string.Empty) : string.Empty).Trim()
+                    (tokens?.Count() > 1 ? (tokens.Skip(1).FirstOrDefault() ?? string.Empty) : string.Empty).Trim()
                 ;
-                commandtext = (tokens != null ? (tokens.FirstOrDefault() ?? string.Empty) : string.Empty).Trim();
+                commandtext = (tokens?.FirstOrDefault() ?? string.Empty).Trim();
                 //  Ermittlung eines Attributes
                 tokens = commandtext.Split('@');
-                var attribute = tokens != null && tokens.Count() > 1 ? (tokens.Skip(1).FirstOrDefault() ?? string.Empty).Trim() : string.Empty;
+                var attribute = tokens?.Count() > 1 ? (tokens.Skip(1).FirstOrDefault() ?? string.Empty).Trim() : string.Empty;
                 commandtext = string.IsNullOrEmpty(attribute) ? commandtext : tokens.FirstOrDefault() ?? commandtext;
 
                 commands = commands ?? new List<MiningCommand>();
@@ -69,7 +64,6 @@ namespace Data.Mining
                     subcommands = subcommands ?? new List<MiningCommand>();
                     var set = ParseCommandset(lines, followingLine.Key);
                     subcommands.AddRange(set);
-                    //this.ContextCommandset.AddRange(set);
                 }
 
                 command.Subcommands = subcommands;

@@ -17,11 +17,11 @@ namespace Data.Mining
 
                 foreach(var entry in information)
                 {
-                    content.AppendLine(string.Format("{0} = {1}", entry.Key, string.Join(", ", entry.Value)));
+                    content.AppendLine($"{entry.Key} = {string.Join(", ", entry.Value)}");
                 }
 
                 File.WriteAllText(
-                    Path.Combine("../../", "CrawlingStorage", string.Format("{0}.crawl", id)),
+                    Path.Combine("../../", "CrawlingStorage", $"{id}.crawl"),
                     content.ToString()
                 );
             }
