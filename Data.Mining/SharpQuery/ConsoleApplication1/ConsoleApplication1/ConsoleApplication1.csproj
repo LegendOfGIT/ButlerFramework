@@ -54,6 +54,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="crawling\chefkoch_rezept.crawl">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="crawling\chefkoch.crawl">
       <SubType>Designer</SubType>
     </None>

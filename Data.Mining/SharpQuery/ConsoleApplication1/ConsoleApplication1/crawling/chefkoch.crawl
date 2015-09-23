@@ -9,8 +9,4 @@ pageuri:browse()
     [0-9]* >> rezept.id
    img @src >> rezept.bilder
   .search-result-title >> rezept.titel
-  rezept.uri:browse()
-   .incredients
-    .ingredient:not(:first-child)
-     .name >> rezept.zutat
-     .amount >> rezept.zutat
+  crawling\chefkoch_rezept.crawl

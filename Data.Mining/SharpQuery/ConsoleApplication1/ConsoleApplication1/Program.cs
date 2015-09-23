@@ -18,13 +18,7 @@ namespace ConsoleApplication1
             var encoding = Encoding.GetEncoding(1252);
 
             var index = default(int);
-            var crawlingmap = @"../../crawling/chefkoch.crawl";
-        
-            var lines = default(string[]);
-            if (File.Exists(crawlingmap))
-            {
-                lines = File.ReadAllLines(crawlingmap);
-            }
+            var lines = LoadMappingTemplate(@"../../crawling/chefkoch.crawl");
 
             var baseUri = string.Empty;
             var sourceUri = string.Empty;
@@ -93,6 +87,59 @@ namespace ConsoleApplication1
             //}
 
             //Console.ReadLine();
+        }
+        private static string[] LoadMappingTemplate(string templatepath)
+        {
+            var lines = default(List<string>);
+            //  Existiert die Vorlage?
+            if (File.Exists(templatepath ?? string.Empty))
+            {
+                //  Wenn noch keine Crawlingkommandos eingelesen wurden, oder noch ein Untermodul zu finden ist.
+                while(lines == null || lines.Any(line => line.EndsWith(".crawl")))
+                { 
+                    lines = new List<string>();
+                    //  Einladen des ursprünglich angeforderten Templates
+                    var templatelines = File.ReadAllLines(templatepath);
+                    if(templatelines != null && templatelines.Any())
+                    {
+                        //  Durchlaufe alle Zeilen des Templates
+                        templatelines.ToList().ForEach(templateline => {
+                            //  Endet die aktuelle Zeile mit einem .crawl-Modul?
+                            if(templateline.EndsWith(".crawl"))
+                            {
+                                //  Zusammenstellung des Modulpfades
+                                var modulepath = $@"..\..\{templateline.Trim()}";
+                                //  Existiert das Modul?
+                                if (File.Exists(modulepath))
+                                {
+                                    var modulelevel = templateline.GetLevel();
+                                    //  Lade das Untermodul und durchlaufe alle Modulzeilen
+                                    var modulelines = File.ReadAllLines(modulepath);
+                                    foreach (var moduleline in modulelines)
+                                    {
+                                        //  Füge jede Modulzeile auf der Ebene des Modules in dem Ergebnis ein.
+                                        lines.Add("".PadLeft(modulelevel) + moduleline);
+                                    }
+                                }
+                            }
+                            //  Handelt es sich um eine reguläre Vorlagenzeile ...
+                            else
+                            {
+                                //  ... wird diese dem Ergebnis hinzugefügt.
+                                lines.Add(templateline);
+                            }
+                        });
+                    }
+                    else
+                    {
+                        lines.AddRange(templatelines);
+                    }
+
+                    templatelines = lines.ToArray();
+                }
+            }
+
+            return lines == null ? null : lines.ToArray();
         }
     }
 }
