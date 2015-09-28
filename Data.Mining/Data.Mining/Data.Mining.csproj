@@ -50,6 +50,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BigDataCompiler.cs" />
     <Compile Include="MiningUtilityConstants.cs" />
     <Compile Include="MiningUtility.cs" />
     <Compile Include="MiningCommand.cs" />

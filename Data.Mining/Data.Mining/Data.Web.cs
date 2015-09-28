@@ -34,7 +34,7 @@ namespace Data.Web
             return result;
         }
 
-        public static string RemoveHTMLComments(string content)
+        public static string RemoveHTMLComments(this string content)
         {
             var commentmatch = Regex.Match(content, @"<!--[\s\S]*?-->");
             while(commentmatch != null && commentmatch.Success){
@@ -44,7 +44,7 @@ namespace Data.Web
 
             return content;
         }
-        public static string RemoveHTMLDecorations(string content)
+        public static string RemoveHTMLDecorations(this string content)
         {
             var decorations = new List<string> { "b", "i" };
             foreach (var decoration in decorations)
@@ -54,9 +54,17 @@ namespace Data.Web
 
             return content;
         }
-        public static string RemoveHTML(string content)
+        public static string RemoveHTML(this string content)
         {
-            foreach (var HTM in HTMLContext.HTML) { content = Regex.Replace(content, HTM.Key, HTM.Value); }
+            foreach (var HTM in HTMLContext.HTML)
+            {
+                content = Regex.Replace(content, HTM.Key, HTM.Value);
+            }
+            foreach (var HTM in HTMLContext.HTMLUnicode)
+            {
+                content = Regex.Replace(content, HTM.Key, HTM.Value);
+            }
+
             return content;
         }
         public static string Take(string content, Match hit, string begin, string end)
@@ -104,7 +112,8 @@ namespace Data.Web
             { "&szlig;", "ß" }, {"&quot;", "\""}, { "&euro;", "€" }, { "&amp;", "&" }, { "&nbsp;", " " }, {"&gt;", ">"} , {"&lt;", "<"}
         };
         public static Dictionary<string, string> HTMLUnicode = new Dictionary<string, string>{
-            { "&#174;", "®" }, { "&#228;", "ä" }, { "&#252;", "ü" }
+            { "&#174;", "®" },
+            { "&#214;", "Ö" }, { "&#228;", "ä" }, { "&#246;", "ö" }, { "&#252;", "ü" }
         };
     }
 }
