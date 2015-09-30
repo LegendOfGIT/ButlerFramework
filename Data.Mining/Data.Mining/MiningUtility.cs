@@ -67,7 +67,7 @@ namespace Data.Mining.Web
                                     }
                                 }
 
-                                var isMiningCommand = MiningUtilityConstants.MiningCommands.Any(commandid => querytext.Contains(commandid));
+                                var isMiningCommand = MiningUtilityConstants.MiningCommands.Any(commandid => querytext.ToLower().Contains(commandid.ToLower()));
                                 //  Die Abfrage ergab mindestens einen Treffer => Inhaltsverarbeitung
                                 if (!isMiningCommand)
                                 {
@@ -83,7 +83,7 @@ namespace Data.Mining.Web
                                         var isFirstStoreCommand = ContextCommandset.First(storecommand => storecommand.Target == quertarget) == command;
 
                                         //  Erstes Speicherkommando >> Neuanlage einer Informationswiederholung
-                                        if(isFirstStoreCommand)
+                                        if(isFirstStoreCommand || !isTargetInformationItem)
                                         { 
                                             var storecontent = ContextDictionary.ContainsKey(quertarget) ? new List<string>(ContextDictionary[quertarget]) : new List<string>();
                                             storecontent.AddRange(querycontent);
@@ -170,6 +170,22 @@ namespace Data.Mining.Web
                     {
                         storedictionary[entry.Key] = entry.Value;
                     }
+
+                    //  Überarbeiten der ID-Inhalte
+                    var keys = storedictionary.Where(item => item.Key.ToLower().EndsWith(".id")).Select(item => item.Key).ToList();
+                    if(keys != null)
+                    {
+                        var baseuri = this.ContextDictionary.ContainsKey(MiningUtilityConstants.BaseUri) ? this.ContextDictionary[MiningUtilityConstants.BaseUri].First() : string.Empty;
+                        baseuri = Regex.Split(baseuri, @"://")?.Skip(1).FirstOrDefault() ?? string.Empty;
+                        if(!string.IsNullOrEmpty(baseuri))
+                        { 
+                            foreach(var key in keys)
+                            {
+                                storedictionary[key] = storedictionary[key].Select(content => $"{baseuri}.{content}");                            
+                            }
+                        }
+                    }
+
                     this.Storageprovider.StoreInformation(storedictionary);
                     storedictionary.ToList().ForEach(storeitem => { ContextDictionary.Remove(storeitem.Key); });
                 }

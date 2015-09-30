@@ -1,4 +1,5 @@
-﻿Source = https://twitter.com/frankebornberg
+﻿BaseUri = https://www.twitter.com
+Source = https://twitter.com/frankebornberg
 
 current.uri >> pageuri
 pageuri:Browse()

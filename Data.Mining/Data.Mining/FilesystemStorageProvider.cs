@@ -9,9 +9,7 @@ namespace Data.Mining
     {
         public void StoreInformation(Dictionary<string, IEnumerable<string>> information)
         {
-            var bigdataInformation = new BigDataCompiler().Compile(information);
-
-            var ids = bigdataInformation != null ? bigdataInformation.FirstOrDefault(entry => entry.Key.ToLower().EndsWith(".id")) : default(KeyValuePair<string, IEnumerable<string>>);
+            var ids = information != null ? information.FirstOrDefault(entry => entry.Key.ToLower().EndsWith(".id")) : default(KeyValuePair<string, IEnumerable<string>>);
             var id = ids.Value?.FirstOrDefault() ?? string.Empty;
             if(!string.IsNullOrEmpty(id))
             {

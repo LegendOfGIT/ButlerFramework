@@ -18,7 +18,7 @@ namespace ConsoleApplication1
             var encoding = Encoding.GetEncoding(1252);
 
             var index = default(int);
-            var lines = LoadMappingTemplate(@"../../crawling/chefkoch.crawl");
+            var lines = LoadMappingTemplate(@"../../crawling/twitter.crawl");
 
             var baseUri = string.Empty;
             var sourceUri = string.Empty;
