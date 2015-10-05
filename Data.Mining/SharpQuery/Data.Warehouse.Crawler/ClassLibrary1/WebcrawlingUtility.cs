@@ -6,21 +6,22 @@ using System.Text.RegularExpressions;
 using CsQuery;
 
 using Data.Web;
+using Data.Warehouse;
 using Newtonsoft.Json;
 
-namespace Data.Mining.Web
+namespace Data.Warehouse.Crawler
 {
-    public class MiningUtility {
-        public MiningUtility() {
+    public class WebcrawlingUtility {
+        public WebcrawlingUtility() {
             this.ContextDictionary = new Dictionary<string, IEnumerable<string>> { };
         }
 
         private StorageProvider Storageprovider = new FilesystemStorageProvider();
         public Dictionary<string, IEnumerable<string>> ContextDictionary { get; set; }
-        public List<MiningCommand> ContextCommandset { get; set; }
+        public List<WebcrawlerCommand> ContextCommandset { get; set; }
         public Encoding MiningPageEncoding { get; set; }
 
-        public void Mining(IEnumerable<MiningCommand> commandset, IEnumerable<string> contents = null) {
+        public void Mining(IEnumerable<WebcrawlerCommand> commandset, IEnumerable<string> contents = null) {
             if (commandset != null)
             {
                 var storetarget = string.Empty;
@@ -67,7 +68,7 @@ namespace Data.Mining.Web
                                     }
                                 }
 
-                                var isMiningCommand = MiningUtilityConstants.MiningCommands.Any(commandid => querytext.ToLower().Contains(commandid.ToLower()));
+                                var isMiningCommand = WebcrawlingUtilityConstants.MiningCommands.Any(commandid => querytext.ToLower().Contains(commandid.ToLower()));
                                 //  Die Abfrage ergab mindestens einen Treffer => Inhaltsverarbeitung
                                 if (!isMiningCommand)
                                 {
@@ -120,7 +121,7 @@ namespace Data.Mining.Web
                                     //  Browse()
                                     switch (commandexpression.ToLower())
                                     {
-                                        case MiningUtilityConstants.CommandBrowse:
+                                        case WebcrawlingUtilityConstants.CommandBrowse:
                                         {
                                             var uris = ContextDictionary.ContainsKey(commandobject) ? ContextDictionary[commandobject] ?? default(string[]) : default(string[]);
                                             if (uris != null)
@@ -132,7 +133,7 @@ namespace Data.Mining.Web
                                                     {
                                                         if (!new[] { "http:", "https:" }.Any(prefix => browseuri.StartsWith(prefix)))
                                                         {
-                                                            var baseuri = ContextDictionary.ContainsKey(MiningUtilityConstants.BaseUri) ? ContextDictionary[MiningUtilityConstants.BaseUri].FirstOrDefault() ?? string.Empty : string.Empty;
+                                                            var baseuri = ContextDictionary.ContainsKey(WebcrawlingUtilityConstants.BaseUri) ? ContextDictionary[WebcrawlingUtilityConstants.BaseUri].FirstOrDefault() ?? string.Empty : string.Empty;
                                                             browseuri = baseuri + browseuri;
                                                         }
 
@@ -175,7 +176,7 @@ namespace Data.Mining.Web
                     var keys = storedictionary.Where(item => item.Key.ToLower().EndsWith(".id")).Select(item => item.Key).ToList();
                     if(keys != null)
                     {
-                        var baseuri = this.ContextDictionary.ContainsKey(MiningUtilityConstants.BaseUri) ? this.ContextDictionary[MiningUtilityConstants.BaseUri].First() : string.Empty;
+                        var baseuri = this.ContextDictionary.ContainsKey(WebcrawlingUtilityConstants.BaseUri) ? this.ContextDictionary[WebcrawlingUtilityConstants.BaseUri].First() : string.Empty;
                         baseuri = Regex.Split(baseuri, @"://")?.Skip(1).FirstOrDefault() ?? string.Empty;
                         if(!string.IsNullOrEmpty(baseuri))
                         { 
@@ -191,7 +192,7 @@ namespace Data.Mining.Web
                 }
             }
         }
-        private IEnumerable<string> FindContent(string context, MiningCommand command)
+        private IEnumerable<string> FindContent(string context, WebcrawlerCommand command)
         {
             var content = new List<string>();
 

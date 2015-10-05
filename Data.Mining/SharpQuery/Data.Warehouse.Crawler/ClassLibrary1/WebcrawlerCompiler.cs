@@ -2,15 +2,15 @@
 using System.Linq;
 using System.Text.RegularExpressions;
 
-namespace Data.Mining
+namespace Data.Warehouse.Crawler
 {
-    public class MiningCompiler
+    public class WebcrawlerCompiler
     {
-        public List<MiningCommand> ContextCommandset { get; set; }
+        public List<WebcrawlerCommand> ContextCommandset { get; set; }
 
-        public IEnumerable<MiningCommand> ParseCommandset(IEnumerable<string> lines, int index)
+        public IEnumerable<WebcrawlerCommand> ParseCommandset(IEnumerable<string> lines, int index)
         {
-            var commands = default(List<MiningCommand>);
+            var commands = default(List<WebcrawlerCommand>);
 
             var line = lines.ToArray()[index];
             var level = line.GetLevel();
@@ -47,8 +47,8 @@ namespace Data.Mining
                 var attribute = tokens?.Count() > 1 ? (tokens.Skip(1).FirstOrDefault() ?? string.Empty).Trim() : string.Empty;
                 commandtext = string.IsNullOrEmpty(attribute) ? commandtext : tokens.FirstOrDefault() ?? commandtext;
 
-                commands = commands ?? new List<MiningCommand>();
-                var command = new MiningCommand
+                commands = commands ?? new List<WebcrawlerCommand>();
+                var command = new WebcrawlerCommand
                 {
                     AttributID = attribute,
                     IsLoop = isLoop,
@@ -56,12 +56,12 @@ namespace Data.Mining
                     Target = target
                 };
 
-                this.ContextCommandset = this.ContextCommandset ?? new List<MiningCommand>();
-                var subcommands = default(List<MiningCommand>);
+                this.ContextCommandset = this.ContextCommandset ?? new List<WebcrawlerCommand>();
+                var subcommands = default(List<WebcrawlerCommand>);
                 var followingLine = new KeyValuePair<int, string>(commandline.Key + 1, lines.Skip(commandline.Key + 1).FirstOrDefault() ?? string.Empty);
                 if (!string.IsNullOrEmpty(followingLine.Value) && followingLine.Value.GetLevel() == level + 1)
                 {
-                    subcommands = subcommands ?? new List<MiningCommand>();
+                    subcommands = subcommands ?? new List<WebcrawlerCommand>();
                     var set = ParseCommandset(lines, followingLine.Key);
                     subcommands.AddRange(set);
                 }

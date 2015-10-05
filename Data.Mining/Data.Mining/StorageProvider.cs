@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 
-namespace Data.Mining
+namespace Data.Warehouse
 {
-    interface StorageProvider
+    public interface StorageProvider
     {
         void StoreInformation(Dictionary<string, IEnumerable<string>> information);
     }

@@ -8,8 +8,8 @@
     <ProjectGuid>{9268A1AA-57D9-4B43-BD0A-6160C205317E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Data.Mining</RootNamespace>
-    <AssemblyName>Data.Mining</AssemblyName>
+    <RootNamespace>Data.Warehouse</RootNamespace>
+    <AssemblyName>Data.Warehouse</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -50,19 +50,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MiningUtilityConstants.cs" />
-    <Compile Include="MiningUtility.cs" />
-    <Compile Include="MiningCommand.cs" />
-    <Compile Include="MiningCompilerExtensions.cs" />
-    <Compile Include="MiningCompiler.cs" />
-    <Compile Include="Data.Mining.Web.cs" />
-    <Compile Include="Data.Web.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="FilesystemStorageProvider.cs" />
     <Compile Include="StorageProvider.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SharpQuery\Data.Web\ClassLibrary1\Data.Web.csproj">
+      <Project>{8c603083-7b66-47de-abb8-4b72e155756b}</Project>
+      <Name>Data.Web</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

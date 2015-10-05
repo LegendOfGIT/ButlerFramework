@@ -3,7 +3,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 
-namespace Data.Mining
+namespace Data.Warehouse
 {
     public class FilesystemStorageProvider : StorageProvider
     {

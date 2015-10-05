@@ -3,14 +3,13 @@ using System.IO;
 using System.Linq;
 using System.Text;
 
-using Data.Mining;
-using Data.Mining.Web;
+using Data.Warehouse.Crawler;
 
 namespace ConsoleApplication1
 {
     class Program
     {
-        static List<MiningCommand> ContextCommandset = new List<MiningCommand>();
+        static List<WebcrawlerCommand> ContextCommandset = new List<WebcrawlerCommand>();
         static Dictionary<string, IEnumerable<string>> ContextDictionary = new Dictionary<string, IEnumerable<string>>();
 
         static void Main(string[] args)
@@ -47,12 +46,12 @@ namespace ConsoleApplication1
                 }
             }
 
-            var compiler = new MiningCompiler();
+            var compiler = new WebcrawlerCompiler();
             var commandset = compiler.ParseCommandset(lines, index);
-            ContextDictionary[MiningUtilityConstants.BaseUri] = new[] { baseUri };
-            ContextDictionary[MiningUtilityConstants.CurrentUri] = new[] { sourceUri };
+            ContextDictionary[WebcrawlingUtilityConstants.BaseUri] = new[] { baseUri };
+            ContextDictionary[WebcrawlingUtilityConstants.CurrentUri] = new[] { sourceUri };
 
-            var miningutility = new MiningUtility {
+            var miningutility = new WebcrawlingUtility {
                 ContextCommandset = compiler.ContextCommandset,
                 ContextDictionary = ContextDictionary
             };            

@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 
-namespace Data.Mining.Web
+namespace Data.Warehouse.Crawler
 {
-    public class MiningUtilityConstants
+    public class WebcrawlingUtilityConstants
     {
         public const string BaseUri = "base.uri";
         public const string CommandBrowse = "browse()";

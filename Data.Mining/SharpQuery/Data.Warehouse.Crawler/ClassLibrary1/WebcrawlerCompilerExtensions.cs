@@ -1,6 +1,6 @@
-﻿namespace Data.Mining
+﻿namespace Data.Warehouse.Crawler
 {
-    public static class MiningCompilerExtensions
+    public static class WebcrawlerCompilerExtensions
     {
         public static int GetLevel(this string line)
         {
