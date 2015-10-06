@@ -14,10 +14,15 @@ namespace ConsoleApplication1
 
         static void Main(string[] args)
         {
+            CrawlInformation(@"../../crawling/chefkoch.crawl");
+        }
+
+        private static void CrawlInformation(string templatefile)
+        {
             var encoding = Encoding.GetEncoding(1252);
 
             var index = default(int);
-            var lines = LoadMappingTemplate(@"../../crawling/twitter.crawl");
+            var lines = LoadMappingTemplate(templatefile);
 
             var baseUri = string.Empty;
             var sourceUri = string.Empty;
@@ -51,42 +56,16 @@ namespace ConsoleApplication1
             ContextDictionary[WebcrawlingUtilityConstants.BaseUri] = new[] { baseUri };
             ContextDictionary[WebcrawlingUtilityConstants.CurrentUri] = new[] { sourceUri };
 
-            var miningutility = new WebcrawlingUtility {
+            var miningutility = new WebcrawlingUtility
+            {
                 ContextCommandset = compiler.ContextCommandset,
                 ContextDictionary = ContextDictionary
-            };            
+            };
             miningutility.Mining(commandset);
 
             sourceUri = sourceUri;
-
-
-
-            //while (!string.IsNullOrEmpty(sourceUri)) {
-            //    var content = WebUtility.GetWebsiteContent(sourceUri, encoding);
-            
-            //    var result = new Dictionary<string, string>(); 
-            //    var query = new CQ(content);
-
-            //    var doctors = query[".teilnehmer"];
-            //    foreach (var doctor in doctors)
-            //    {
-            //        var doctordom = new CQ(doctor.InnerHTML);
-                    
-            //        //  Name
-            //        var name = doctordom["span[itemprop='name']"].Text();
-            //        var communication = doctordom[".hidden-xs"];
-            //        //  Telefonnummer
-            //        var telefonnumber = communication[".nummer"].First().Text();
-            //        //  E-Mail
-            //        var email = communication[".email span.text"].First().Text();
-            //    }
-
-            //    var uri = query[".gs_seite_vor_wrapper a"].Select(wrapper => wrapper["href"]).FirstOrDefault();
-            //    sourceUri = uri == null ? null : uri.ToString();
-            //}
-
-            //Console.ReadLine();
         }
+
         private static string[] LoadMappingTemplate(string templatepath)
         {
             var lines = default(List<string>);

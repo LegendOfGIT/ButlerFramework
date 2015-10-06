@@ -54,27 +54,25 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="crawling\chefkoch_rezept.crawl">
-      <SubType>Designer</SubType>
-    </None>
     <None Include="crawling\chefkoch.crawl">
       <SubType>Designer</SubType>
     </None>
+    <None Include="crawling\chefkoch_rezept.crawl">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="crawling\gelbeseiten.crawl">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="crawling\habrahabr.crawl">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="crawling\hm.crawl">
       <SubType>Designer</SubType>
     </None>
     <None Include="crawling\twitter.crawl">
       <SubType>Designer</SubType>
     </None>
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="crawling\hm.crawl">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="crawling\gelbeseiten.crawl">
-      <SubType>Designer</SubType>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\..\Data.Mining\Data.Warehouse.csproj">

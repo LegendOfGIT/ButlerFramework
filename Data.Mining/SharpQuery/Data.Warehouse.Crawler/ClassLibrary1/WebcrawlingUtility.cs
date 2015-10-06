@@ -24,10 +24,11 @@ namespace Data.Warehouse.Crawler
         public void Mining(IEnumerable<WebcrawlerCommand> commandset, IEnumerable<string> contents = null) {
             if (commandset != null)
             {
-                var storetarget = string.Empty;
                 contents = contents ?? new[] { string.Empty };
                 foreach (var content in contents)
                 {
+                    var storetarget = string.Empty;
+
                     foreach (var command in commandset)
                     {
                         var doRepeat = true;
@@ -97,7 +98,7 @@ namespace Data.Warehouse.Crawler
                                             var lastStoreitem = storeitems != null && storeitems.Any() ? storeitems.Last() : default(string);
                                             if(lastStoreitem != null)
                                             {
-                                                lastStoreitem += string.Join(" ", querycontent);
+                                                lastStoreitem += string.Format(" {0}", string.Join(" ", querycontent));
                                                 var storecontent = ContextDictionary[quertarget].ToList();
                                                 storecontent[storecontent.Count - 1] = lastStoreitem;
                                                 ContextDictionary[quertarget] = storecontent;
@@ -161,34 +162,34 @@ namespace Data.Warehouse.Crawler
                             ;
                         }
                     }
-                }
 
-                //  Wenn das storetarget gesetzt wurde (letzter Zielverweis auf Informationsobjekt), wird das Informationsobjekt über einen Provider gesichert.
-                if (!string.IsNullOrEmpty(storetarget) && this.Storageprovider != null)
-                {
-                    var storedictionary = new Dictionary<string, IEnumerable<string>>();
-                    foreach (var entry in this.ContextDictionary.Where(e => e.Key.StartsWith(storetarget)))
+                    //  Wenn das storetarget gesetzt wurde (letzter Zielverweis auf Informationsobjekt), wird das Informationsobjekt über einen Provider gesichert.
+                    if (!string.IsNullOrEmpty(storetarget) && this.Storageprovider != null)
                     {
-                        storedictionary[entry.Key] = entry.Value;
-                    }
+                        var storedictionary = new Dictionary<string, IEnumerable<string>>();
+                        foreach (var entry in this.ContextDictionary.Where(e => e.Key.StartsWith(storetarget)))
+                        {
+                            storedictionary[entry.Key] = entry.Value;
+                        }
 
-                    //  Überarbeiten der ID-Inhalte
-                    var keys = storedictionary.Where(item => item.Key.ToLower().EndsWith(".id")).Select(item => item.Key).ToList();
-                    if(keys != null)
-                    {
-                        var baseuri = this.ContextDictionary.ContainsKey(WebcrawlingUtilityConstants.BaseUri) ? this.ContextDictionary[WebcrawlingUtilityConstants.BaseUri].First() : string.Empty;
-                        baseuri = Regex.Split(baseuri, @"://")?.Skip(1).FirstOrDefault() ?? string.Empty;
-                        if(!string.IsNullOrEmpty(baseuri))
-                        { 
-                            foreach(var key in keys)
+                        //  Überarbeiten der ID-Inhalte
+                        var keys = storedictionary.Where(item => item.Key.ToLower().EndsWith(".id")).Select(item => item.Key).ToList();
+                        if (keys != null)
+                        {
+                            var baseuri = this.ContextDictionary.ContainsKey(WebcrawlingUtilityConstants.BaseUri) ? this.ContextDictionary[WebcrawlingUtilityConstants.BaseUri].First() : string.Empty;
+                            baseuri = Regex.Split(baseuri, @"://")?.Skip(1).FirstOrDefault() ?? string.Empty;
+                            if (!string.IsNullOrEmpty(baseuri))
                             {
-                                storedictionary[key] = storedictionary[key].Select(content => $"{baseuri}.{content}");                            
+                                foreach (var key in keys)
+                                {
+                                    storedictionary[key] = storedictionary[key].Select(dictionarycontent => $"{baseuri}.{dictionarycontent}");
+                                }
                             }
                         }
-                    }
 
-                    this.Storageprovider.StoreInformation(storedictionary);
-                    storedictionary.ToList().ForEach(storeitem => { ContextDictionary.Remove(storeitem.Key); });
+                        this.Storageprovider.StoreInformation(storedictionary);
+                        storedictionary.ToList().ForEach(storeitem => { ContextDictionary.Remove(storeitem.Key); });
+                    }
                 }
             }
         }
@@ -274,6 +275,16 @@ namespace Data.Warehouse.Crawler
                 var tokens = querytext.Split(':');
                 querytext = tokens?.FirstOrDefault() ?? string.Empty;
                 content = ContextDictionary.ContainsKey(querytext) ? ContextDictionary[querytext].ToList() : content;
+            }
+
+            //  Inhalt mit "" umschlossen >> Statischer Inhalt
+            if (!content.Any())
+            {
+                var quotation = "\"";
+                if (querytext.StartsWith(quotation) && querytext.EndsWith(quotation))
+                {
+                    content = querytext.Replace(quotation, string.Empty).Split(',').Select(token => token.Trim()).ToList();
+                }
             }
 
             return content;

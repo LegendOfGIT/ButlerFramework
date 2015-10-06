@@ -10,3 +10,4 @@ pageuri:browse()
    img @src >> rezept.bilder
   .search-result-title >> rezept.titel
   crawling\chefkoch_rezept.crawl
+  "essen, rezept" >> rezept.stichwort
