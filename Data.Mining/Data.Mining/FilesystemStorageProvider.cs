@@ -1,18 +1,36 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
 
+using Data.Mining;
 using Data.Web;
 
 namespace Data.Warehouse
 {
     public class FilesystemStorageProvider : StorageProvider
     {
-        public IEnumerable<Dictionary<string, IEnumerable<string>>> DigInformation(Dictionary<string, IEnumerable<string>> information)
+        private string storagefolder = Path.Combine("../../", "CrawlingStorage");
+
+        public IEnumerable<Dictionary<string, IEnumerable<string>>> DigInformation(string question)
         {
             var diggingresult = default(IEnumerable<Dictionary<string, IEnumerable<string>>>);
+
+            var querykey = string.Empty;
+            var querys = MiningCompiler.CompileQuerys(question);
+            if(querys.Any())
+            {
+                foreach (var query in querys)
+                {
+                    querykey = string.Join(".", new[] { querykey, query.Key + " " + string.Join(" or", query.Value) });
+                    querykey = querykey.GetHashCode().ToString();
+
+                    var cachefile = Path.Combine(storagefolder, querykey, ".cache");
+                    var matches = new List<string>();
+                    //  
+                    
+                }
+            }
 
             return diggingresult;
         }
@@ -30,7 +48,7 @@ namespace Data.Warehouse
                 }
 
                 File.WriteAllText(
-                    Path.Combine("../../", "CrawlingStorage", $"{id}.crawl"),
+                    Path.Combine(storagefolder, $"{id}.crawl"),
                     content.ToString()
                 );
             }

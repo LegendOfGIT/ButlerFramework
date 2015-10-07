@@ -3,6 +3,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 
+using Data.Warehouse;
 using Data.Warehouse.Crawler;
 
 namespace ConsoleApplication1
@@ -14,7 +15,10 @@ namespace ConsoleApplication1
 
         static void Main(string[] args)
         {
-            CrawlInformation(@"../../crawling/chefkoch.crawl");
+            //CrawlInformation(@"../../crawling/chefkoch.crawl");
+
+            var provider = new FilesystemStorageProvider();
+            var diggingResult = provider.DigInformation("Rezepte mit Eiern");
         }
 
         private static void CrawlInformation(string templatefile)

@@ -4,7 +4,7 @@ namespace Data.Warehouse
 {
     public interface StorageProvider
     {
-        IEnumerable<Dictionary<string, IEnumerable<string>>> DigInformation(Dictionary<string, IEnumerable<string>> information);
+        IEnumerable<Dictionary<string, IEnumerable<string>>> DigInformation(string question);
         void StoreInformation(Dictionary<string, IEnumerable<string>> information);
     }
 }
