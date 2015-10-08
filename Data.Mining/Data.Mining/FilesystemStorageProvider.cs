@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -26,13 +27,55 @@ namespace Data.Warehouse
                     querykey = querykey.GetHashCode().ToString();
 
                     var cachefile = Path.Combine(storagefolder, querykey, ".cache");
-                    var matches = new List<string>();
-                    //  
-                    
+                    var matches = File.Exists(cachefile) ? new List<string>(File.ReadAllLines(cachefile)) : new List<string>();
+                    //  Kein (gecachtes Ergebnis) >> Suche nach passenden Ergebnissen
+                    if (matches == null || !matches.Any())
+                    {
+
+                    }
+
+                    matches = new List<string>
+                    {
+                        @"C:\Temp\ButlerFrameworkGIT\Data.Mining\SharpQuery\ConsoleApplication1\ConsoleApplication1\CrawlingStorage\www.chefkoch.de.639161164875917.crawl",
+                        @"C:\Temp\ButlerFrameworkGIT\Data.Mining\SharpQuery\ConsoleApplication1\ConsoleApplication1\CrawlingStorage\www.chefkoch.de.2007591325498506.crawl"
+                    };
+                    if(matches != null)
+                    {
+                        diggingresult = Enumerable.Empty<Dictionary<string, IEnumerable<string>>>();
+
+                        //  Rückübersetzung der Treffer in Trefferdictionary
+                        matches.ForEach(match =>
+                        {
+                            diggingresult = diggingresult.Concat(new[] { RetrieveInformation(match) });
+                        });
+                    }
                 }
             }
 
             return diggingresult;
+        }
+        private Dictionary<string, IEnumerable<string>> RetrieveInformation(string informationfile)
+        {
+            var information = default(Dictionary<string, IEnumerable<string>>);
+
+            if(File.Exists(informationfile))
+            {
+                information = new Dictionary<string, IEnumerable<string>>();
+                var lines = File.ReadAllLines(informationfile);
+                lines.ToList().ForEach(line => {
+                    var tokens = default(IEnumerable<string>);
+
+                    tokens = line.Split('=');
+                    var key = (tokens.FirstOrDefault() ?? string.Empty).Trim();
+                    var values = (tokens.Skip(1).FirstOrDefault() ?? string.Empty).Trim().Split('|');
+                    if(key != null)
+                    {
+                        information[key] = values;
+                    }
+                });
+            }
+
+            return information;
         }
         public void StoreInformation(Dictionary<string, IEnumerable<string>> information)
         {
