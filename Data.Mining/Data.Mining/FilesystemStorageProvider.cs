@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
-
+using System.Text.RegularExpressions;
 using Data.Mining;
 using Data.Web;
 
@@ -19,7 +19,8 @@ namespace Data.Warehouse
 
             var querykey = string.Empty;
             var querys = MiningCompiler.CompileQuerys(question);
-            if(querys.Any())
+            var matches = new List<string>(Directory.GetFiles(storagefolder));
+            if (querys.Any())
             {
                 foreach (var query in querys)
                 {
@@ -27,33 +28,43 @@ namespace Data.Warehouse
                     querykey = querykey.GetHashCode().ToString();
 
                     var cachefile = Path.Combine(storagefolder, querykey, ".cache");
-                    var matches = File.Exists(cachefile) ? new List<string>(File.ReadAllLines(cachefile)) : new List<string>();
-                    //  Kein (gecachtes Ergebnis) >> Suche nach passenden Ergebnissen
-                    if (matches == null || !matches.Any())
-                    {
+                    matches = File.Exists(cachefile) ? new List<string>(File.ReadAllLines(cachefile)) : matches;
 
-                    }
-
-                    matches = new List<string>
-                    {
-                        @"C:\Temp\ButlerFrameworkGIT\Data.Mining\SharpQuery\ConsoleApplication1\ConsoleApplication1\CrawlingStorage\www.chefkoch.de.639161164875917.crawl",
-                        @"C:\Temp\ButlerFrameworkGIT\Data.Mining\SharpQuery\ConsoleApplication1\ConsoleApplication1\CrawlingStorage\www.chefkoch.de.2007591325498506.crawl"
-                    };
-                    if(matches != null)
+                    if (matches != null && matches.Any())
                     {
                         diggingresult = Enumerable.Empty<Dictionary<string, IEnumerable<string>>>();
 
                         //  Rückübersetzung der Treffer in Trefferdictionary
-                        matches.ForEach(match =>
+                        foreach(var match in matches) 
                         {
-                            diggingresult = diggingresult.Concat(new[] { RetrieveInformation(match) });
-                        });
+                            var information = RetrieveInformation(match);
+                            if(IsMatchingInformation(query, information))
+                            { 
+                                diggingresult = diggingresult.Concat(new[] { information });
+                            }
+                        }
                     }
                 }
             }
 
             return diggingresult;
         }
+        private bool IsMatchingInformation(KeyValuePair<string, IEnumerable<string>> query, Dictionary<string, IEnumerable<string>> information)
+        {
+            var isMatch = default(bool);
+
+            var queryValueset = query.Value;
+            var targetValueset = (
+                information != null ?
+                information.FirstOrDefault(entry => entry.Key.EndsWith($".{query.Key}")) : 
+                new KeyValuePair<string, IEnumerable<string>>()
+            ).Value;
+
+            isMatch = queryValueset.Any(queryValue => targetValueset.Any(targetValue => Regex.IsMatch(Regex.Replace(targetValue.ToLower(), @"(\(|\))", string.Empty), queryValue.ToLower())));
+
+            return isMatch;
+        }
+
         private Dictionary<string, IEnumerable<string>> RetrieveInformation(string informationfile)
         {
             var information = default(Dictionary<string, IEnumerable<string>>);

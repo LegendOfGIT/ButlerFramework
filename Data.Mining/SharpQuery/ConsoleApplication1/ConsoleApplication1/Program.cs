@@ -18,7 +18,7 @@ namespace ConsoleApplication1
             //CrawlInformation(@"../../crawling/chefkoch.crawl");
 
             var provider = new FilesystemStorageProvider();
-            var diggingResult = provider.DigInformation("Rezepte mit Eiern");
+            var diggingResult = provider.DigInformation("Rezepte mit Eier");
         }
 
         private static void CrawlInformation(string templatefile)
