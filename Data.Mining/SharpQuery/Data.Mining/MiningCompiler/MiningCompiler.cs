@@ -30,15 +30,28 @@ namespace Data.Mining
                 //  Kontext = Rezept
                 if(contextscopes.Any(scope => scope == "rezept"))
                 {
-                    var zutat = default(string);
+                    var parameter = default(string);
 
                     //  Suchfaktor "Zutat"
                     expression = "mit.*";
                     match = Regex.Match(question, expression);
-                    zutat = match != null && match.Success ? Regex.Replace(match.Value, "mit ", string.Empty) : zutat;
-                    if(!string.IsNullOrEmpty(zutat))
+                    parameter = match != null && match.Success ? Regex.Replace(match.Value, "mit ", string.Empty) : parameter;
+
+                    var zutaten = Regex.Split(parameter, "(und|,)").Where(token => !Regex.IsMatch(token, "(und|,)")).Select(token => token.Trim());
+                    if(zutaten != null)
                     {
-                        querys["zutat"] = new[] { $".*?{zutat}.*?" };
+                        foreach(var zutat in zutaten)
+                        {
+                            var synonyms = new string[] {
+                                zutat,
+                                zutat.Substring(0, zutat.Length - 1),
+                                zutat.Replace("Ä", "A").Replace("Ö", "O").Replace("Ü", "U").Replace("ä", "a").Replace("ö", "o").Replace("ü", "u")
+                            };
+
+                            var query = querys.ContainsKey("zutat") ? querys["zutat"] : new List<string>();
+                            query = query.Concat(synonyms.Select(synonym => $".*?{synonym}.*?").Distinct());
+                            querys["zutat"] = query;
+                        }
                     }
                 }
             }

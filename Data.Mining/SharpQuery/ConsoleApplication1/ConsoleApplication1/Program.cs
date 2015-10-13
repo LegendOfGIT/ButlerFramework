@@ -18,7 +18,7 @@ namespace ConsoleApplication1
             //CrawlInformation(@"../../crawling/chefkoch.crawl");
 
             var provider = new FilesystemStorageProvider();
-            var diggingResult = provider.DigInformation("Rezepte mit Eier");
+            var diggingResult = provider.DigInformation("Rezepte mit Eiern und Butter");
         }
 
         private static void CrawlInformation(string templatefile)
@@ -66,8 +66,6 @@ namespace ConsoleApplication1
                 ContextDictionary = ContextDictionary
             };
             miningutility.Mining(commandset);
-
-            sourceUri = sourceUri;
         }
 
         private static string[] LoadMappingTemplate(string templatepath)
