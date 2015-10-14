@@ -20,29 +20,26 @@ namespace Data.Warehouse
             var querykey = string.Empty;
             var querys = MiningCompiler.CompileQuerys(question);
             var matches = new List<string>(Directory.GetFiles(storagefolder));
-            if (querys.Any())
+            if (querys != null)
             {
-                foreach (var query in querys)
+                querykey = string.Join(".", new[] { querykey, $"{querys.Target} {string.Join(" or", querys?.Expressions)}" });
+                querykey = querykey.GetHashCode().ToString();
+
+                var cachefile = Path.Combine(storagefolder, querykey, ".cache");
+                matches = File.Exists(cachefile) ? new List<string>(File.ReadAllLines(cachefile)) : matches;
+
+                if (matches != null && matches.Any())
                 {
-                    querykey = string.Join(".", new[] { querykey, query.Key + " " + string.Join(" or", query.Value) });
-                    querykey = querykey.GetHashCode().ToString();
+                    diggingresult = Enumerable.Empty<Dictionary<string, IEnumerable<string>>>();
 
-                    var cachefile = Path.Combine(storagefolder, querykey, ".cache");
-                    matches = File.Exists(cachefile) ? new List<string>(File.ReadAllLines(cachefile)) : matches;
-
-                    if (matches != null && matches.Any())
+                    //  Rückübersetzung der Treffer in Trefferdictionary
+                    foreach(var match in matches) 
                     {
-                        diggingresult = Enumerable.Empty<Dictionary<string, IEnumerable<string>>>();
-
-                        //  Rückübersetzung der Treffer in Trefferdictionary
-                        foreach(var match in matches) 
-                        {
-                            var information = RetrieveInformation(match);
-                            if(IsMatchingInformation(query, information))
-                            { 
-                                diggingresult = diggingresult.Concat(new[] { information });
-                            }
-                        }
+                        var information = RetrieveInformation(match);
+                        //if(IsMatchingInformation(querys, information))
+                        //{ 
+                        //    diggingresult = diggingresult.Concat(new[] { information });
+                        //}
                     }
                 }
             }

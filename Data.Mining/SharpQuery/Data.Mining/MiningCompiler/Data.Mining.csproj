@@ -40,6 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MiningExtensions.cs" />
+    <Compile Include="MiningQuery.cs" />
     <Compile Include="MiningConstants.cs" />
     <Compile Include="MiningCompiler.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
