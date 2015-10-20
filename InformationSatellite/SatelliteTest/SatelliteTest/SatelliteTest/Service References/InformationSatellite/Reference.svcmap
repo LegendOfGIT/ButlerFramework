@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="bc095035-077e-4a5d-b347-0cd5c75c3e7b" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:53978/InformationSatellite.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="InformationSatellite.xsd" MetadataType="Schema" ID="a3579ca8-56c9-42f4-a794-8dcdd04852be" SourceId="1" SourceUrl="http://localhost:53978/InformationSatellite.svc?xsd=xsd1" />
+    <MetadataFile FileName="InformationSatellite1.xsd" MetadataType="Schema" ID="6e29b2cd-f258-4a65-8063-9269c702cdae" SourceId="1" SourceUrl="http://localhost:53978/InformationSatellite.svc?xsd=xsd0" />
+    <MetadataFile FileName="InformationSatellite2.xsd" MetadataType="Schema" ID="b1e60578-1a81-4f25-ac26-a190262037f3" SourceId="1" SourceUrl="http://localhost:53978/InformationSatellite.svc?xsd=xsd2" />
+    <MetadataFile FileName="InformationSatellite.disco" MetadataType="Disco" ID="b48d49ee-2665-4056-8fed-a7d9aa7114ff" SourceId="1" SourceUrl="http://localhost:53978/InformationSatellite.svc?disco" />
+    <MetadataFile FileName="Infosattelite.wsdl" MetadataType="Wsdl" ID="b668a4a4-a3b4-4bf3-88f9-8848b436d50c" SourceId="1" SourceUrl="http://localhost:53978/InformationSatellite.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

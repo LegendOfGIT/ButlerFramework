@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0-*",
+  "frameworks": {
+    "net46": {
+      "wrappedProject": "../../InformationSatellite.csproj",
+      "bin": {
+        "assembly": "../../obj/{configuration}/InformationSatellite.dll",
+        "pdb": "../../obj/{configuration}/InformationSatellite.pdb"
+      },
+      "dependencies": {
+        "Data.Mining": "1.0.0",
+        "Data.Warehouse": "1.0.0",
+        "Data.Warehouse.Crawler": "1.0.1",
+        "Data.Web": "1.0.0",
+        "Shared": "1.0.0-*"
+      }
+    }
+  }
+}

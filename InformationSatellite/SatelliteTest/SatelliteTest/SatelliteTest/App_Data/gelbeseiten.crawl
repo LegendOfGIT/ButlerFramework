@@ -1,0 +1,17 @@
+﻿"http://www.gelbeseiten.de" >> base.uri
+"http://www.gelbeseiten.de/arzt/hannover/s55" >> current.uri
+
+current.uri >> pageuri
+pageuri:browse()!
+ .teilnehmer
+  @data-wipe
+   id >> Unternehmen.ID
+  span[itemprop="name"] >> Unternehmen.Name
+  .website a @href >> Unternehmen.WebUri
+  [itemprop="address"]
+   [itemprop="streetAddress"] >> Unternehmen.Adresse.Straße
+   [itemprop="postalCode"] >> Unternehmen.Adresse.Postleitzahl
+   [itemprop="addressLocality"] >> Unternehmen.Adresse.Ort
+
+ .gs_seite_vor_wrapper a:first @href >> pageuri
+  

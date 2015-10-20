@@ -1,0 +1,9 @@
+﻿Source = http://www.hm.com/de/
+
+current.uri >> pageuri
+pageuri:browse()
+ a:contains("Alles") @href >> categories
+ categories:Browse()
+  ul.products-list li a @href >> products
+  products:Browse()
+   #text-price span >> product.preis
