@@ -22,6 +22,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -31,14 +32,26 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="CsQuery">
-      <HintPath>..\..\..\CsQuery\distribution\CsQuery.dll</HintPath>
+      <HintPath>packages\Data.Warehouse.Crawler.1.0.1\lib\net45\CsQuery.dll</HintPath>
     </Reference>
-    <Reference Include="Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>..\packages\Newtonsoft.Json.7.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="Data.Mining">
+      <HintPath>packages\Data.Warehouse.Crawler.1.0.1\lib\net45\Data.Mining.dll</HintPath>
+    </Reference>
+    <Reference Include="Data.Warehouse">
+      <HintPath>packages\Data.Warehouse.Crawler.1.0.1\lib\net45\Data.Warehouse.dll</HintPath>
+    </Reference>
+    <Reference Include="Data.Warehouse.Crawler">
+      <HintPath>packages\Data.Warehouse.Crawler.1.0.1\lib\net45\Data.Warehouse.Crawler.dll</HintPath>
+    </Reference>
+    <Reference Include="Data.Web">
+      <HintPath>packages\Data.Warehouse.Crawler.1.0.1\lib\net45\Data.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>packages\Data.Warehouse.Crawler.1.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -73,20 +86,6 @@
       <SubType>Designer</SubType>
     </None>
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\..\Data.Mining\Data.Warehouse.csproj">
-      <Project>{9268a1aa-57d9-4b43-bd0a-6160c205317e}</Project>
-      <Name>Data.Warehouse</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\Data.Warehouse.Crawler\ClassLibrary1\Data.Warehouse.Crawler.csproj">
-      <Project>{387eb2b8-7158-4632-921e-3e35402e6cef}</Project>
-      <Name>Data.Warehouse.Crawler</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\Data.Web\ClassLibrary1\Data.Web.csproj">
-      <Project>{8c603083-7b66-47de-abb8-4b72e155756b}</Project>
-      <Name>Data.Web</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

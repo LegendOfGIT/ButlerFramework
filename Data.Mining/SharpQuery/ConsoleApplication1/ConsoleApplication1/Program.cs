@@ -15,10 +15,10 @@ namespace ConsoleApplication1
 
         static void Main(string[] args)
         {
-            //CrawlInformation(@"../../crawling/chefkoch.crawl");
+            CrawlInformation(@"../../crawling/chefkoch.crawl");
 
-            var provider = new FilesystemStorageProvider();
-            var diggingResult = provider.DigInformation("Rezepte mit Eiern und Butter");
+            //var provider = new FilesystemStorageProvider();
+            //var diggingResult = provider.DigInformation("Rezepte mit Eiern und Butter");
         }
 
         private static void CrawlInformation(string templatefile)
@@ -65,7 +65,7 @@ namespace ConsoleApplication1
                 ContextCommandset = compiler.ContextCommandset,
                 ContextDictionary = ContextDictionary
             };
-            miningutility.Mining(commandset);
+            miningutility.Crawling(commandset);
         }
 
         private static string[] LoadMappingTemplate(string templatepath)
