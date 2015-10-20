@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CachingFilter>
+  <Medien>
+    <FSK>
+      <!-- Ab 0 -->
+      <Command type="cache" id="FSK" target="FSKAlter">
+        <Parameters>
+          <Mode>MinMax</Mode>
+          <Min>0</Min>
+          <Max>5</Max>
+          <Question>FSK zwischen 0 und 5 Jahren</Question>
+        </Parameters>
+      </Command>
+      <!-- Ab 6 -->
+      <Command type="cache" id="FSK" target="FSKAlter">
+        <Parameters>
+          <Mode>MinMax</Mode>
+          <Min>6</Min>
+          <Max>11</Max>
+          <Question>FSK zwischen 6 und 11 Jahren</Question>
+        </Parameters>
+      </Command>
+      <!-- Ab 12 -->
+      <Command type="cache" id="FSK" target="FSKAlter">
+        <Parameters>
+          <Mode>MinMax</Mode>
+          <Min>12</Min>
+          <Max>15</Max>
+          <Question>FSK zwischen 12 und 15 Jahren</Question>
+        </Parameters>
+      </Command>
+      <!-- Ab 16 -->
+      <Command type="cache" id="FSK" target="FSKAlter">
+        <Parameters>
+          <Mode>MinMax</Mode>
+          <Min>16</Min>
+          <Max>17</Max>
+          <Question>FSK zwischen 16 und 17 Jahren</Question>
+        </Parameters>
+      </Command>
+      <!-- Ab 18 -->
+      <Command type="cache" id="FSK" target="FSKAlter">
+        <Parameters>
+          <Mode>MinMax</Mode>
+          <Min>18</Min>
+          <Question>FSK zwischen 6 und 12 Jahren</Question>
+        </Parameters>
+      </Command>
+    </FSK>
+  </Medien>
+</CachingFilter>

@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Mappings>
+  <Mapping source="Ausf&amp;uuml;hrung" target="Ausführung"/>
+  <Mapping source="Beschreibung Zubeh&amp;ouml;r" target="Zubehör"/>
+  <Mapping source="Bestehend aus" target="Ausstattung"/>
+  <Mapping source="Besondere Merkmale" target="Merkmal"/>
+  <Mapping source="Bildschirmdiagonale (cm)" target="Bildschirmdiagonale in cm"/>  
+  <Mapping source="Bildschirmdiagonale (Zoll)" target="Bildschirmdiagonale in Zoll"/>    
+  <Mapping source="Darsteller" target="Schauspieler"/>
+  <Mapping source="Energieverbrauch (Betrieb)" target="Energieverbrauch im Betrieb"/>
+  <Mapping source="Energieverbrauch (Stand-by)" target="Energieverbrauch im Standby"/>
+  <Mapping source="Entwickler" target="Hersteller"/>
+  <Mapping source="Erscheinungstermin" target="Erscheinungsdatum"/>
+  <Mapping source="Erscheinungsdatum" target="Erscheinungsdatum"/>
+  <Mapping source="FSK" target="FSKAlter"/>
+  <Mapping source="Genre" target="Genre"/>
+  <Mapping source="Grundfarbe" target="Farbe"/>
+  <Mapping source="Spieler" target="AnzahlSpieler"/>
+  <Mapping source="Herausgeber" target="Publisher"/>
+  <Mapping source="H&amp;ouml;he" target="Höhe"/>
+  <Mapping source="Kinostart" target="Erscheinungsdatum"/>
+  <Mapping source="Netzwerk-Spieler" target="AnzahlSpieler"/>
+  <Mapping source="Nicht f&amp;#252;r Jugendliche freigegeben" target="18"/>
+  <Mapping source="Ohne Einschr&amp;#228;nkung freigegeben" target="0"/>
+  <Mapping source="Originaltitel" target="Name"/>
+  <Mapping source="Produktgewicht inkl. Verpackung" target="GewichtMitPackung"/>
+  <Mapping source="R&amp;auml;ume" target="Einsatzorte"/>
+  <Mapping source="Regie" target="Regie"/>
+  <Mapping source="Releasedatum" target="Erscheinungsdatum"/>
+  <Mapping source="Spiel-Altersfreigabe" target="FSKAlter"/>
+  <Mapping source="Stimmen" target="Stimmen"/>
+  <Mapping source="Studio" target="Studio"/>
+  <Mapping source="Urspr&#252;ngliches Ver&#246;ffentlichungsdatum" target="Erscheinungsdatum"/>
+  <Mapping source="Ver&amp;#246;ffentlichungsdatum" target="Erscheinungsdatum"/>
+  
+  <Mapping source="/psp/" target="Playstation Portable"/>
+  <Mapping source="/psn/" target="Playstation Network"/>
+  <Mapping source="/ps2/" target="Playstation 2"/>
+  <Mapping source="/ps3/" target="Playstation 3"/>
+  <Mapping source="/psvita/" target="Playstation Vita"/>
+
+  <Mapping source="1 - 2" target="2"/>
+  <Mapping source="1 - 3" target="3"/>
+  <Mapping source="1 - 4" target="4"/>
+  <Mapping source="1 - 5" target="5"/>
+  <Mapping source="1 - 6" target="6"/>
+  <Mapping source="1 - 7" target="7"/>
+  <Mapping source="1 - 8" target="8"/>
+  <Mapping source="1 - 9" target="9"/>
+  <Mapping source="1 - 10" target="10"/>
+  <Mapping source="1 - 11" target="11"/>
+  <Mapping source="1 - 12" target="12"/>
+  <Mapping source="1 - 13" target="13"/>
+  <Mapping source="1 - 14" target="14"/>
+  <Mapping source="1 - 15" target="15"/>
+  <Mapping source="1 - 16" target="16"/>
+  <Mapping source="1 - 24" target="24"/>
+  <Mapping source="1 - 32" target="32"/>
+  <Mapping source="1 - 64" target="64"/>
+
+  <Mapping source=". Januar " target=".01." mode="Contains"/>
+  <Mapping source=" Januar " target=".01." mode="Contains"/>
+  <Mapping source=". Februar " target=".02." mode="Contains"/>
+  <Mapping source=" Februar " target=".02." mode="Contains"/>
+  <Mapping source=". März " target=".03." mode="Contains"/>
+  <Mapping source=" März " target=".03." mode="Contains"/>
+  <Mapping source=". April " target=".04." mode="Contains"/>
+  <Mapping source=" April " target=".04." mode="Contains"/>
+  <Mapping source=". Mai " target=".05." mode="Contains"/>
+  <Mapping source=" Mai " target=".05." mode="Contains"/>
+  <Mapping source=". Juni " target=".06." mode="Contains"/>
+  <Mapping source=" Juni " target=".06." mode="Contains"/>
+  <Mapping source=". Juli " target=".07." mode="Contains"/>
+  <Mapping source=" Juli " target=".07." mode="Contains"/>
+  <Mapping source=". August " target=".08." mode="Contains"/>
+  <Mapping source=" August " target=".08." mode="Contains"/>
+  <Mapping source=". September " target=".09." mode="Contains"/>
+  <Mapping source=" September " target=".09." mode="Contains"/>
+  <Mapping source=". Oktober " target=".10." mode="Contains"/>
+  <Mapping source=" Oktober " target=".10." mode="Contains"/>
+  <Mapping source=". November " target=".11." mode="Contains"/>
+  <Mapping source=" November " target=".11." mode="Contains"/>
+  <Mapping source=". Dezember " target=".12." mode="Contains"/>
+  <Mapping source=" Dezember " target=".12." mode="Contains"/>
+</Mappings>
