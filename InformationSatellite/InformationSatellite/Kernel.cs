@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text.RegularExpressions;
 
 using Data.Warehouse.Crawler;
@@ -13,9 +14,11 @@ namespace Infosatellite
             if (!string.IsNullOrEmpty(template))
             {
                 var compiler = new WebcrawlerCompiler();
-                var commandset = compiler.ParseCommandset(Regex.Split(template, Environment.NewLine));
-                
-                new WebcrawlingUtility().Crawling(commandset);
+                var commandset = compiler.ParseCommandset(Regex.Split(template, Environment.NewLine));                
+
+                var crawler = new WebcrawlingUtility();
+                crawler.ContextCommandset = compiler.ContextCommandset;
+                crawler.Crawling(commandset);
             }
         }
     }

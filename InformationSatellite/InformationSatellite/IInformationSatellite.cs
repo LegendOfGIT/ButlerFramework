@@ -2,8 +2,6 @@
 using System.ServiceModel;
 using System.Xml.Linq;
 
-using Butler.Shared;
-
 namespace Infosatellite
 {
     [ServiceContract]

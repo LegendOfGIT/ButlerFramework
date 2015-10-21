@@ -72,10 +72,6 @@
       <HintPath>packages\Data.Warehouse.Crawler.1.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Shared, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Infostore\Infostore\bin\Shared.dll</HintPath>
-    </Reference>
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
@@ -117,13 +113,11 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FileStorage.cs" />
     <Compile Include="InformationSatellite.svc.cs">
       <DependentUpon>InformationSatellite.svc</DependentUpon>
     </Compile>
     <Compile Include="IInformationSatellite.cs" />
     <Compile Include="Kernel.cs" />
-    <Compile Include="InfostoreStorage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
