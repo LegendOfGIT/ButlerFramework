@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text.RegularExpressions;
 
 using Data.Warehouse.Crawler;
@@ -16,7 +15,7 @@ namespace Infosatellite
                 var compiler = new WebcrawlerCompiler();
                 var commandset = compiler.ParseCommandset(Regex.Split(template, Environment.NewLine));                
 
-                var crawler = new WebcrawlingUtility();
+                var crawler = new WebcrawlingUtility(new InfostoreProvider());
                 crawler.ContextCommandset = compiler.ContextCommandset;
                 crawler.Crawling(commandset);
             }
