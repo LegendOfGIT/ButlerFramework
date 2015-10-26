@@ -60,10 +60,10 @@
     <None Include="App_Data\habrahabr.crawl" />
     <None Include="App_Data\hm.crawl" />
     <None Include="App_Data\twitter.crawl" />
+    <None Include="Service References\InformationSatellite\InformationSatellite.wsdl" />
     <None Include="Service References\InformationSatellite\InformationSatellite.xsd" />
     <None Include="Service References\InformationSatellite\InformationSatellite1.xsd" />
     <None Include="Service References\InformationSatellite\InformationSatellite2.xsd" />
-    <None Include="Service References\InformationSatellite\Infosattelite.wsdl" />
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
@@ -86,7 +86,6 @@
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

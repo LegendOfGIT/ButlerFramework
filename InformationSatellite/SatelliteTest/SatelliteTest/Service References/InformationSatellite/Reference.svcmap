@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="bc095035-077e-4a5d-b347-0cd5c75c3e7b" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="328e15bc-62dc-4250-b768-c37484f160b7" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
   <ClientOptions>
     <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
     <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
@@ -22,11 +22,11 @@
     <MetadataSource Address="http://localhost:53978/InformationSatellite.svc" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="InformationSatellite.xsd" MetadataType="Schema" ID="a3579ca8-56c9-42f4-a794-8dcdd04852be" SourceId="1" SourceUrl="http://localhost:53978/InformationSatellite.svc?xsd=xsd1" />
-    <MetadataFile FileName="InformationSatellite1.xsd" MetadataType="Schema" ID="6e29b2cd-f258-4a65-8063-9269c702cdae" SourceId="1" SourceUrl="http://localhost:53978/InformationSatellite.svc?xsd=xsd0" />
-    <MetadataFile FileName="InformationSatellite2.xsd" MetadataType="Schema" ID="b1e60578-1a81-4f25-ac26-a190262037f3" SourceId="1" SourceUrl="http://localhost:53978/InformationSatellite.svc?xsd=xsd2" />
-    <MetadataFile FileName="InformationSatellite.disco" MetadataType="Disco" ID="b48d49ee-2665-4056-8fed-a7d9aa7114ff" SourceId="1" SourceUrl="http://localhost:53978/InformationSatellite.svc?disco" />
-    <MetadataFile FileName="Infosattelite.wsdl" MetadataType="Wsdl" ID="b668a4a4-a3b4-4bf3-88f9-8848b436d50c" SourceId="1" SourceUrl="http://localhost:53978/InformationSatellite.svc?wsdl" />
+    <MetadataFile FileName="InformationSatellite.xsd" MetadataType="Schema" ID="d93e867e-4126-48f4-b445-afb033961eba" SourceId="1" SourceUrl="http://localhost:53978/InformationSatellite.svc?xsd=xsd1" />
+    <MetadataFile FileName="InformationSatellite1.xsd" MetadataType="Schema" ID="a6a714be-49ec-4472-91b9-d310500b758d" SourceId="1" SourceUrl="http://localhost:53978/InformationSatellite.svc?xsd=xsd0" />
+    <MetadataFile FileName="InformationSatellite2.xsd" MetadataType="Schema" ID="9d7a1813-6cbd-4ab8-bff1-ac14c1da1708" SourceId="1" SourceUrl="http://localhost:53978/InformationSatellite.svc?xsd=xsd2" />
+    <MetadataFile FileName="InformationSatellite.disco" MetadataType="Disco" ID="0dcfa91f-e11d-4faa-b6d8-6554c1554bc8" SourceId="1" SourceUrl="http://localhost:53978/InformationSatellite.svc?disco" />
+    <MetadataFile FileName="InformationSatellite.wsdl" MetadataType="Wsdl" ID="895dfc59-e82d-4b7d-8d69-7d7099179b06" SourceId="1" SourceUrl="http://localhost:53978/InformationSatellite.svc?wsdl" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />

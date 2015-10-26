@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 using Data.Warehouse;
 
-namespace Infosatellite
+namespace InformationSatellite
 {
     public class InfostoreProvider : StorageProvider
     {
@@ -17,7 +18,14 @@ namespace Infosatellite
         /// <param name="information"></param>
         public void StoreInformation(Dictionary<string, IEnumerable<string>> information)
         {
-            
+            try
+            {
+                InformationSatellite.WarehouseClient.StoreInformation(information.ToDictionary(
+                    entry => entry.Key, 
+                    entry => entry.Value.ToArray()
+                ));
+            }
+            catch (Exception) { }
         }
     }
 }

@@ -12,40 +12,40 @@ namespace SatelliteTest.InformationSatellite {
     
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="InformationSatellite.IInfosatellite")]
-    public interface IInfosatellite {
+    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="InformationSatellite.IInformationSatellite")]
+    public interface IInformationSatellite {
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IInfosatellite/Process", ReplyAction="http://tempuri.org/IInfosatellite/ProcessResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IInformationSatellite/Process", ReplyAction="http://tempuri.org/IInformationSatellite/ProcessResponse")]
         void Process(string template, System.Collections.Generic.Dictionary<string, string> parameters);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IInfosatellite/Process", ReplyAction="http://tempuri.org/IInfosatellite/ProcessResponse")]
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IInformationSatellite/Process", ReplyAction="http://tempuri.org/IInformationSatellite/ProcessResponse")]
         System.Threading.Tasks.Task ProcessAsync(string template, System.Collections.Generic.Dictionary<string, string> parameters);
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface IInfosatelliteChannel : SatelliteTest.InformationSatellite.IInfosatellite, System.ServiceModel.IClientChannel {
+    public interface IInformationSatelliteChannel : SatelliteTest.InformationSatellite.IInformationSatellite, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class InfosatelliteClient : System.ServiceModel.ClientBase<SatelliteTest.InformationSatellite.IInfosatellite>, SatelliteTest.InformationSatellite.IInfosatellite {
+    public partial class InformationSatelliteClient : System.ServiceModel.ClientBase<SatelliteTest.InformationSatellite.IInformationSatellite>, SatelliteTest.InformationSatellite.IInformationSatellite {
         
-        public InfosatelliteClient() {
+        public InformationSatelliteClient() {
         }
         
-        public InfosatelliteClient(string endpointConfigurationName) : 
+        public InformationSatelliteClient(string endpointConfigurationName) : 
                 base(endpointConfigurationName) {
         }
         
-        public InfosatelliteClient(string endpointConfigurationName, string remoteAddress) : 
+        public InformationSatelliteClient(string endpointConfigurationName, string remoteAddress) : 
                 base(endpointConfigurationName, remoteAddress) {
         }
         
-        public InfosatelliteClient(string endpointConfigurationName, System.ServiceModel.EndpointAddress remoteAddress) : 
+        public InformationSatelliteClient(string endpointConfigurationName, System.ServiceModel.EndpointAddress remoteAddress) : 
                 base(endpointConfigurationName, remoteAddress) {
         }
         
-        public InfosatelliteClient(System.ServiceModel.Channels.Binding binding, System.ServiceModel.EndpointAddress remoteAddress) : 
+        public InformationSatelliteClient(System.ServiceModel.Channels.Binding binding, System.ServiceModel.EndpointAddress remoteAddress) : 
                 base(binding, remoteAddress) {
         }
         

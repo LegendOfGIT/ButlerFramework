@@ -4,7 +4,7 @@ using System.Text.RegularExpressions;
 
 using Data.Warehouse.Crawler;
 
-namespace Infosatellite
+namespace InformationSatellite
 {
     public class Kernel
     {

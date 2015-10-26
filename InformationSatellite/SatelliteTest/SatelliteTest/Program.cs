@@ -8,7 +8,7 @@ namespace SatelliteTest
         {
             var template = File.ReadAllText(@"..\..\App_Data\gelbeseiten.crawl");
 
-            var client = new InformationSatellite.InfosatelliteClient();
+            var client = new InformationSatellite.InformationSatelliteClient();
             client.Process(template, null);
         }
     }

@@ -2,12 +2,11 @@
 using System.ServiceModel;
 using System.Xml.Linq;
 
-namespace Infosatellite
+namespace InformationSatellite
 {
     [ServiceContract]
-    public interface IInfosatellite
-    {
-
+    public interface IInformationSatellite
+    {        
         [OperationContract]
         void Process(string template, Dictionary<string, string> parameters);
     }

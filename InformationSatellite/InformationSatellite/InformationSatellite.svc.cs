@@ -1,12 +1,16 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace Infosatellite
+using InformationSatellite.DataWarehouse;
+
+namespace InformationSatellite
 {
-    public class Infosattelite : IInfosatellite
+    public class InformationSatellite : IInformationSatellite
     {
+        public static InformationWarehouseClient WarehouseClient = new InformationWarehouseClient();
+
         public void Process(string template, Dictionary<string, string> parameters)
-        {
+        {               
             new Task(
                 () => {
                     Kernel.Process(
