@@ -13,7 +13,7 @@ namespace InformationSatellite
             throw new NotImplementedException();
         }
         /// <summary>
-        /// Leitet die aus dem Web gelesenenen Informationen an den Infostore weiter.
+        /// Leitet die aus dem Web gelesenen Informationen an den Infostore weiter.
         /// </summary>
         /// <param name="information"></param>
         public void StoreInformation(Dictionary<string, IEnumerable<string>> information)
