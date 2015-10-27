@@ -52,11 +52,11 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="Data.Mining, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\Data.Warehouse.Crawler.1.0.3\lib\net45\Data.Mining.dll</HintPath>
+      <HintPath>packages\Data.Warehouse.1.0.2\lib\net45\Data.Mining.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Data.Warehouse, Version=1.0.1.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\Data.Warehouse.Crawler.1.0.3\lib\net45\Data.Warehouse.dll</HintPath>
+    <Reference Include="Data.Warehouse, Version=1.0.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Data.Warehouse.1.0.2\lib\net45\Data.Warehouse.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Data.Warehouse.Crawler, Version=1.0.3.0, Culture=neutral, processorArchitecture=MSIL">
@@ -64,7 +64,7 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="Data.Web, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\Data.Warehouse.Crawler.1.0.3\lib\net45\Data.Web.dll</HintPath>
+      <HintPath>packages\Data.Warehouse.1.0.2\lib\net45\Data.Web.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
