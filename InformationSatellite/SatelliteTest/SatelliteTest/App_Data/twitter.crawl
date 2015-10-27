@@ -1,5 +1,5 @@
-﻿BaseUri = https://www.twitter.com
-Source = https://twitter.com/frankebornberg
+﻿"https://www.twitter.com" >> base.uri
+"https://twitter.com/frankebornberg" >> current.uri
 
 current.uri >> pageuri
 pageuri:Browse()
