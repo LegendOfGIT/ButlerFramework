@@ -6,7 +6,7 @@ namespace SatelliteTest
     {
         static void Main(string[] args)
         {
-            var template = File.ReadAllText(@"..\..\App_Data\gelbeseiten.crawl");
+            var template = File.ReadAllText(@"..\..\App_Data\twitter.crawl");
 
             var client = new InformationSatellite.InformationSatelliteClient();
             client.Process(template, null);
