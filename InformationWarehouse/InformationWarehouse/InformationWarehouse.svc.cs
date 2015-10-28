@@ -33,7 +33,8 @@ namespace InformationWarehouse
                 entry => entry.Value
             );
 
-            this.WarehouseProvider = new FilesystemStorageProvider(@"C:\Temp\Github\ButlerFramework\InformationWarehouse\InformationWarehouse\App_Data\Warehouse");
+            //this.WarehouseProvider = new FilesystemStorageProvider(@"C:\Temp\Github\ButlerFramework\InformationWarehouse\InformationWarehouse\App_Data\Warehouse");
+            this.WarehouseProvider = new MongoWarehouseProvider();
             this.WarehouseProvider.StoreInformation(information);
         }
     }
