@@ -1,0 +1,21 @@
+﻿"http://www.mytoys.de" >> base.uri
+"http://www.mytoys.de/Nintendo-Wii-U/KID/de-mt.vc.ca02.10/" >> current.uri
+
+current.uri >> pageuri
+pageuri:browse()
+ .catBox
+  [id^=z0_m_product_3x_]
+   .prodInfo .prodTitle a @href >> produkt.uri
+    produkt.uri:browse()
+     meta[property=og:image] @content >> produkt.bild
+     meta[property=zx:amount] @content >> produkt.preis
+     meta[property=zx:currency] @content >> produkt.währung
+     meta[property=zx:brand] @content >> produkt.marke
+     meta[property=zx:description] @content >> produkt.beschreibung
+     meta[property=zx:identifier] @content >> produkt.id
+     meta[name=WT.pn_sku] @content >> produkt.plu
+     meta[name=WT.pn] @content >> produkt.titel
+     [id^=z0_m_pdp_details]
+      li
+       .*Altersempfehlung.* >> produkt.altersempfehlung
+      "artikel" >> produkt.stichwort
