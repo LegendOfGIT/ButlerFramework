@@ -43,15 +43,15 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Data.Mining, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\Data.Warehouse.1.0.2\lib\net45\Data.Mining.dll</HintPath>
+      <HintPath>packages\Data.Warehouse.1.0.4\lib\net45\Data.Mining.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Data.Warehouse, Version=1.0.2.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\Data.Warehouse.1.0.2\lib\net45\Data.Warehouse.dll</HintPath>
+    <Reference Include="Data.Warehouse, Version=1.0.4.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Data.Warehouse.1.0.4\lib\net45\Data.Warehouse.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Data.Web, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\Data.Warehouse.1.0.2\lib\net45\Data.Web.dll</HintPath>
+      <HintPath>packages\Data.Warehouse.1.0.4\lib\net45\Data.Web.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
@@ -97,7 +97,6 @@
     <Compile Include="InformationWarehouse.svc.cs">
       <DependentUpon>InformationWarehouse.svc</DependentUpon>
     </Compile>
-    <Compile Include="MongoEntityInformation.cs" />
     <Compile Include="MongoWarehouseProvider.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

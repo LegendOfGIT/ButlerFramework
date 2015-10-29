@@ -1,5 +1,5 @@
-﻿BaseUri = http://www.chefkoch.de
-Source = http://www.chefkoch.de/rs/s0/lachs/Rezepte.html
+﻿"http://www.chefkoch.de" >> base.uri
+"http://www.chefkoch.de/rs/s0/lachs/Rezepte.html" >> current.uri
 
 current.uri >> pageuri
 pageuri:browse()
@@ -9,5 +9,9 @@ pageuri:browse()
     [0-9]* >> rezept.id
    img @src >> rezept.bilder
   .search-result-title >> rezept.titel
-  crawling\chefkoch_rezept.crawl
+  rezept.uri:browse()
+   .incredients
+   .ingredient:not(:first-child)
+    .amount >> rezept.zutat
+    .name >> rezept.zutat
   "essen, rezept" >> rezept.stichwort

@@ -29,12 +29,12 @@ namespace InformationSatellite.DataWarehouse {
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface InformationWarehouseChannel : InformationWarehouse, System.ServiceModel.IClientChannel {
+    public interface InformationWarehouseChannel : DataWarehouse.InformationWarehouse, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class InformationWarehouseClient : System.ServiceModel.ClientBase<InformationWarehouse>, InformationWarehouse {
+    public partial class InformationWarehouseClient : System.ServiceModel.ClientBase<DataWarehouse.InformationWarehouse>, DataWarehouse.InformationWarehouse {
         
         public InformationWarehouseClient() {
         }

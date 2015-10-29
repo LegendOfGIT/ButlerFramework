@@ -8,9 +8,9 @@ using Data.Warehouse;
 namespace InformationWarehouse
 {
     [ServiceContract]
-    public class InformationWarehouse : StorageProvider
+    public class InformationWarehouse : DataWarehouseProvider
     {
-        private StorageProvider WarehouseProvider = default(StorageProvider);
+        private DataWarehouseProvider WarehouseProvider = default(DataWarehouseProvider);
 
         [OperationContract]
         public IEnumerable<Dictionary<string, IEnumerable<string>>> DigInformation(string question)

@@ -7,7 +7,7 @@ using MongoDB.Driver;
 
 namespace InformationWarehouse
 {
-    public class MongoWarehouseProvider : StorageProvider
+    public class MongoWarehouseProvider : DataWarehouseProvider
     {
         private const string DatabaseId = "test";
         private const string CollectionInformationId = "information";
@@ -30,8 +30,10 @@ namespace InformationWarehouse
 
         public void StoreInformation(Dictionary<string, IEnumerable<string>> information)
         {
+            information = information.PrepareInformation();
+
             CollectionInformation.InsertOneAsync(new BsonDocument(new Dictionary<string, object>{
-                { "Id", "123" },
+                { "Id", information.GetInformationId() },
                 { "Information", information }
             }));
         }

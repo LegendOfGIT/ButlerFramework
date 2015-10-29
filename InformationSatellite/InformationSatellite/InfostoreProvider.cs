@@ -6,7 +6,7 @@ using Data.Warehouse;
 
 namespace InformationSatellite
 {
-    public class InfostoreProvider : StorageProvider
+    public class InfostoreProvider : DataWarehouseProvider
     {
         public IEnumerable<Dictionary<string, IEnumerable<string>>> DigInformation(string question)
         {
