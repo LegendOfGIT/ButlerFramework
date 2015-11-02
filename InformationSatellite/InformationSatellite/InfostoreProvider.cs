@@ -8,7 +8,7 @@ namespace InformationSatellite
 {
     public class InfostoreProvider : DataWarehouseProvider
     {
-        public IEnumerable<Dictionary<string, IEnumerable<string>>> DigInformation(string question)
+        public IEnumerable<Dictionary<string, IEnumerable<object>>> DigInformation(string question)
         {
             throw new NotImplementedException();
         }
@@ -16,7 +16,7 @@ namespace InformationSatellite
         /// Leitet die aus dem Web gelesenen Informationen an den Infostore weiter.
         /// </summary>
         /// <param name="information"></param>
-        public void StoreInformation(Dictionary<string, IEnumerable<string>> information)
+        public void StoreInformation(Dictionary<string, IEnumerable<object>> information)
         {
             try
             {

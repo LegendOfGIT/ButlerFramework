@@ -2,7 +2,7 @@
 "http://www.mytoys.de/Nintendo-Wii-U/KID/de-mt.vc.ca02.10/" >> current.uri
 
 current.uri >> pageuri
-pageuri:browse()
+pageuri:browse()!
  .catBox
   [id^=z0_m_product_3x_]
    .prodInfo .prodTitle a @href >> produkt.uri
@@ -19,3 +19,4 @@ pageuri:browse()
       li
        .*Altersempfehlung.* >> produkt.altersempfehlung
       "artikel" >> produkt.stichwort
+ .paging .next:first() @href >> pageuri

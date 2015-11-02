@@ -16,25 +16,25 @@ namespace InformationSatellite.DataWarehouse {
     public interface InformationWarehouse {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/InformationWarehouse/DigInformation", ReplyAction="http://tempuri.org/InformationWarehouse/DigInformationResponse")]
-        System.Collections.Generic.Dictionary<string, string[]>[] DigInformation(string question);
+        System.Collections.Generic.Dictionary<string, object[]>[] DigInformation(string question);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/InformationWarehouse/DigInformation", ReplyAction="http://tempuri.org/InformationWarehouse/DigInformationResponse")]
-        System.Threading.Tasks.Task<System.Collections.Generic.Dictionary<string, string[]>[]> DigInformationAsync(string question);
+        System.Threading.Tasks.Task<System.Collections.Generic.Dictionary<string, object[]>[]> DigInformationAsync(string question);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/InformationWarehouse/StoreInformation", ReplyAction="http://tempuri.org/InformationWarehouse/StoreInformationResponse")]
-        void StoreInformation(System.Collections.Generic.Dictionary<string, string[]> information);
+        void StoreInformation(System.Collections.Generic.Dictionary<string, object[]> information);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/InformationWarehouse/StoreInformation", ReplyAction="http://tempuri.org/InformationWarehouse/StoreInformationResponse")]
-        System.Threading.Tasks.Task StoreInformationAsync(System.Collections.Generic.Dictionary<string, string[]> information);
+        System.Threading.Tasks.Task StoreInformationAsync(System.Collections.Generic.Dictionary<string, object[]> information);
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface InformationWarehouseChannel : DataWarehouse.InformationWarehouse, System.ServiceModel.IClientChannel {
+    public interface InformationWarehouseChannel : InformationWarehouse, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class InformationWarehouseClient : System.ServiceModel.ClientBase<DataWarehouse.InformationWarehouse>, DataWarehouse.InformationWarehouse {
+    public partial class InformationWarehouseClient : System.ServiceModel.ClientBase<InformationWarehouse>, InformationWarehouse {
         
         public InformationWarehouseClient() {
         }
@@ -55,19 +55,19 @@ namespace InformationSatellite.DataWarehouse {
                 base(binding, remoteAddress) {
         }
         
-        public System.Collections.Generic.Dictionary<string, string[]>[] DigInformation(string question) {
+        public System.Collections.Generic.Dictionary<string, object[]>[] DigInformation(string question) {
             return base.Channel.DigInformation(question);
         }
         
-        public System.Threading.Tasks.Task<System.Collections.Generic.Dictionary<string, string[]>[]> DigInformationAsync(string question) {
+        public System.Threading.Tasks.Task<System.Collections.Generic.Dictionary<string, object[]>[]> DigInformationAsync(string question) {
             return base.Channel.DigInformationAsync(question);
         }
         
-        public void StoreInformation(System.Collections.Generic.Dictionary<string, string[]> information) {
+        public void StoreInformation(System.Collections.Generic.Dictionary<string, object[]> information) {
             base.Channel.StoreInformation(information);
         }
         
-        public System.Threading.Tasks.Task StoreInformationAsync(System.Collections.Generic.Dictionary<string, string[]> information) {
+        public System.Threading.Tasks.Task StoreInformationAsync(System.Collections.Generic.Dictionary<string, object[]> information) {
             return base.Channel.StoreInformationAsync(information);
         }
     }
