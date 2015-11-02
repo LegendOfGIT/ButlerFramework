@@ -1,8 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Text.RegularExpressions;
+
 using Data.Warehouse.Crawler;
 
 namespace SatelliteTest
@@ -11,11 +10,12 @@ namespace SatelliteTest
     {
         static void Main(string[] args)
         {
-            var template = File.ReadAllText(@"..\..\App_Data\shopping\mytoys.crawl");
+            //var template = File.ReadAllText(@"..\..\App_Data\shopping\mytoys.crawl");
+            var template = File.ReadAllText(@"..\..\App_Data\chefkoch.crawl");
 
-            ExecuteSatelliteTest(template);
+            //ExecuteSatelliteTest(template);
 
-            //ExecuteMockTest(template);
+            ExecuteMockTest(template);
         }
 
         private static void ExecuteSatelliteTest(string template)
@@ -31,42 +31,6 @@ namespace SatelliteTest
             var crawler = new WebcrawlingUtility(new ProviderMock());
             crawler.ContextCommandset = compiler.ContextCommandset;
             crawler.Crawling(commandset);
-        }
-
-        public static void DecimalTest()
-        {
-            var numbers = new[]{
-                "12,45",
-                "150,55",
-                "2.400,12",
-                "3.400",
-
-                "12.45",
-                "150.55",
-                "2,400.12",
-                "3,400"
-            };
-
-            numbers.ToList().ForEach(number => {
-                var @decimal = default(decimal);
-
-                var matches = default(MatchCollection);
-                var n = number;
-                var separators = @"(,|\.)";
-                matches = Regex.Matches(number, separators);
-                if (matches != null && matches.Count <= 1)
-                {
-                }
-
-                decimal.TryParse(
-                    n,
-                    System.Globalization.NumberStyles.Number,
-                    System.Globalization.CultureInfo.GetCultureInfo("de-DE"),
-                    out @decimal
-                );
-
-                Console.WriteLine(number + " >> " + @decimal);
-            });
         }
     }
 }
