@@ -84,6 +84,7 @@
     <None Include="App_Data\chefkoch_rezept.crawl" />
     <None Include="App_Data\gelbeseiten.crawl" />
     <None Include="App_Data\habrahabr.crawl" />
+    <None Include="App_Data\stackoverflow.crawl" />
     <None Include="App_Data\hm.crawl" />
     <None Include="App_Data\twitter.crawl" />
     <None Include="App_Data\shopping\mytoys.crawl" />
