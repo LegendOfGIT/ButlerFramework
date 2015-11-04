@@ -1,4 +1,5 @@
-﻿"http://stackoverflow.com" >> base.uri
+﻿"stackoverflow.com" >> sitename
+"http://stackoverflow.com" >> base.uri
 "http://stackoverflow.com/?tab=hot" >> current.uri
 
 current.uri >> pageuri
@@ -10,9 +11,15 @@ pageuri:browse()
    a.question-hyperlink >> post.titel
    a.question-hyperlink @href >> post.uri
    post.uri:browse()
-    "post" >> post.frameworkstichwort
+    "post" >> post.warehousestichwort
     .lastactivity-link @title >> post.zeitstempelletzteaktivitaet
     .question
+     .comment
+      @id >> comment.id
+       comment.id >> post.correlation
+       post.uri >> comment.uri
+       post.id >> comment.correlation
+      .comment-copy >> comment.text
      .post-text >> post.text
      .owner
       .user-action-time
