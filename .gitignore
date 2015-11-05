@@ -6,3 +6,16 @@ InformationSatellite/InformationSatellite/artifacts/obj/
 InformationSatellite/SatelliteTest/SatelliteTest/SatelliteTest/bin/Debug/
 InformationSatellite/SatelliteTest/SatelliteTest/SatelliteTest/obj/
 InformationSatellite/InformationSatellite/packages/Data.Warehouse.1.0.7/src/Data.Warehouse/obj/
+*.txt
+InformationWarehouse/InformationWarehouse/packages/Data.Warehouse.1.0.6/src/Data.Warehouse/obj/
+InformationWarehouse/InformationWarehouse/packages/Data.Warehouse.1.0.7/src/Data.Warehouse/obj/
+InformationSatellite/SatelliteTest/packages/Data.Web.1.0.0/src/Data.Web/obj/
+InformationSatellite/SatelliteTest/packages/Data.Web.1.0.0/src/Data.Web/bin/
+InformationWarehouse/InformationWarehouse/packages/Data.Warehouse.Crawler.1.0.5/src/Data.Warehouse.Crawler/obj/
+InformationSatellite/SatelliteTest/packages/Data.Warehouse.Crawler.1.0.4/src/Data.Warehouse.Crawler/obj/
+InformationSatellite/SatelliteTest/packages/Data.Warehouse.Crawler.1.0.4/src/Data.Warehouse.Crawler/bin/
+InformationSatellite/SatelliteTest/packages/Data.Warehouse.1.0.5/src/Data.Warehouse/obj/
+InformationSatellite/SatelliteTest/packages/Data.Mining.1.0.0/src/Data.Mining/obj/
+InformationSatellite/SatelliteTest/SatelliteTest/obj/
+InformationSatellite/SatelliteTest/SatelliteTest/bin/
+InformationSatellite/InformationSatellite/packages/Data.Warehouse.Crawler.1.0.5/src/Data.Warehouse.Crawler/obj/
