@@ -1,5 +1,4 @@
-﻿"stackoverflow.com" >> sitename
-"http://stackoverflow.com" >> base.uri
+﻿"http://stackoverflow.com" >> base.uri
 "http://stackoverflow.com/?tab=hot" >> current.uri
 
 current.uri >> pageuri
@@ -10,6 +9,7 @@ pageuri:browse()
    .tags a >> post.stichwort
    a.question-hyperlink >> post.titel
    a.question-hyperlink @href >> post.uri
+   post.uri >> questionuri
    post.uri:browse()
     "post" >> post.warehousestichwort
     .lastactivity-link @title >> post.zeitstempelletzteaktivitaet
@@ -24,4 +24,20 @@ pageuri:browse()
      .owner
       .user-action-time
        span @title >> post.zeitstempelerstellt
-      .user-details a >> post.autorusername
+      .user-details a >> post.autorusername    
+    div.answer
+     questionuri >> answerpost.uri
+     "post" >> answerpost.warehousestichwort
+     .user-action-time .relativetime @title >> answerpost.zeitstempelletzteaktivitaet
+     @id >> answerpost.id
+     tr[class^=comment]
+      @id >> answercomment.id
+       answercomment.id >> answerpost.corellation
+       answerpost.uri >> answercomment.uri
+       answerpost.id >> answercomment.corellation
+      .comment-copy >> answercomment.text
+     .post-text >> answerpost.text
+     .post-signature
+      .user-action-time
+       span @title >> answerpost.zeitstempelerstellt
+      .user-details a >> answerpost.autorusername
