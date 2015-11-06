@@ -1,5 +1,0 @@
-﻿rezept.uri:browse()
- .incredients
-  .ingredient:not(:first-child)
-   .amount >> rezept.zutat
-   .name >> rezept.zutat

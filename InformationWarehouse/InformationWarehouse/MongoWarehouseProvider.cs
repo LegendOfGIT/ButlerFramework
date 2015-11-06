@@ -69,14 +69,19 @@ namespace InformationWarehouse
             var isCurrentInformation = currentInformation != null && hashcode == currentInformationHashcode;
             //  Zu übertragende Information hat einen anderen Stand als der aktuelle Stand >> Übertragung in das Data-Warehouse
             if(!isCurrentInformation)
-            { 
+            {
+                information = information.Where(entry => !entry.Key.Contains(".")).ToDictionary(
+                    entry => entry.Key,
+                    entry => entry.Value?.Select(value => value)
+                );
+
                 //  Aktuelle Information mit "nicht aktuell" markieren
-                if(currentInformation != null)
+                if (currentInformation != null)
                 {
                     currentInformation.Set(IsCurrent, false);
                     CollectionInformation.UpdateOneAsync(currentInformationFilter, currentInformation);
                 }
-
+                
                 CollectionInformation.InsertOneAsync(new BsonDocument(new Dictionary<string, object>{
                     //  Information ist letzte aktuelle Information
                     { "IsCurrent", true },

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using System.Linq;
 using System.Text.RegularExpressions;
 
 using Data.Warehouse.Crawler;
@@ -10,14 +11,20 @@ namespace SatelliteTest
     {
         static void Main(string[] args)
         {
-            //var template = File.ReadAllText(@"..\..\App_Data\shopping\mytoys.crawl");
-            //var template = File.ReadAllText(@"..\..\App_Data\chefkoch.crawl");
-            //var template = File.ReadAllText(@"..\..\App_Data\stackoverflow.crawl");
-            var template = File.ReadAllText(@"..\..\App_Data\fun\9gag.crawl");
+            var templatesfiles = new[]
+            {
+                @"..\..\App_Data\shopping\mytoys.crawl",
+                //@"..\..\App_Data\chefkoch.crawl",
+                @"..\..\App_Data\stackoverflow.crawl",
+                //@"..\..\App_Data\fun\9gag.crawl"
+            };
+            templatesfiles.ToList().ForEach(templatefile =>
+            {
+                var template = File.ReadAllText(templatefile);
+                ExecuteSatelliteTest(template);
 
-            //ExecuteSatelliteTest(template);
-
-            ExecuteMockTest(template);
+                //ExecuteMockTest(template);
+            });
         }
 
         private static void ExecuteSatelliteTest(string template)
