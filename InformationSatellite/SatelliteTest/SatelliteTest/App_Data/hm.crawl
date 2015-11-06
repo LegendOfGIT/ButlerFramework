@@ -6,4 +6,5 @@ pageuri:browse()
  categories:Browse()
   ul.products-list li a @href >> products
   products:Browse()
-   #text-price span >> product.preis
+   #text-price span >> product.price
+   "product, shopping" >> product.warehousetag

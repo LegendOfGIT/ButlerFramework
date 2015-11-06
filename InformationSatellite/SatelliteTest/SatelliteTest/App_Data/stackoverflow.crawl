@@ -6,13 +6,13 @@ pageuri:browse()
  .question-summary
   @id >> post.id
   .summary
-   .tags a >> post.stichwort
-   a.question-hyperlink >> post.titel
+   .tags a >> post.tag
+   a.question-hyperlink >> post.title
    a.question-hyperlink @href >> post.uri
    post.uri >> questionuri
    post.uri:browse()
-    "post" >> post.warehousestichwort
-    .lastactivity-link @title >> post.zeitstempelletzteaktivitaet
+    "post, programming" >> post.warehousetag
+    .lastactivity-link @title >> post.timestamplastactivity
     .question
      .comment
       @id >> comment.id
@@ -23,12 +23,12 @@ pageuri:browse()
      .post-text >> post.text
      .owner
       .user-action-time
-       span @title >> post.zeitstempelerstellt
-      .user-details a >> post.autorusername    
+       span @title >> post.timestampcreation
+      .user-details a >> post.authorusername    
     div.answer
      questionuri >> answerpost.uri
-     "post" >> answerpost.warehousestichwort
-     .user-action-time .relativetime @title >> answerpost.zeitstempelletzteaktivitaet
+     "post, answer" >> answerpost.warehousetag
+     .user-action-time .relativetime @title >> answerpost.timestamplastactivity
      @id >> answerpost.id
      tr[class^=comment]
       @id >> answercomment.id
@@ -39,5 +39,5 @@ pageuri:browse()
      .post-text >> answerpost.text
      .post-signature
       .user-action-time
-       span @title >> answerpost.zeitstempelerstellt
-      .user-details a >> answerpost.autorusername
+       span @title >> answerpost.timestampcreation
+      .user-details a >> answerpost.authorusername

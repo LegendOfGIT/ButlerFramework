@@ -3,12 +3,14 @@
 
 current.uri >> pageuri
 pageuri:browse()!
- .badge-entry-container
+ .badge-entry-container:first()
   @data-entry-id >> post.id
   @data-entry-url >> post.uri
    post.uri >> posturi
     posturi:browse()
      .badge-item-title >> post.title
-     .badge-item-comment-count >> post.anzahlkommentare
-     .badge-item-img @src >> post.bild
-     "post" >> post.warehousestichwort
+     .badge-item-comment-count >> post.commentammount
+     .badge-item-img @src >> post.image
+     .next:first() @href >> pageuri
+     "fun, post" >> post.warehousetag
+     

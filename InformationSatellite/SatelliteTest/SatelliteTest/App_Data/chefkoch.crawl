@@ -5,13 +5,13 @@ current.uri >> pageuri
 pageuri:browse()
  .rowclick
   .recipe-result-col-1 
-   a @href >> rezept.uri   
-    [0-9]* >> rezept.id
-   img @src >> rezept.bilder
-  .search-result-title >> rezept.titel
-  rezept.uri:browse()
+   a @href >> recipe.uri   
+    [0-9]* >> recipe.id
+   img @src >> recipe.image
+  .search-result-title >> recipe.title
+  recipe.uri:browse()
    .incredients
    .ingredient:not(:first-child)
-    .amount >> rezept.zutat
-    .name >> rezept.zutat
-  "essen, rezept" >> rezept.stichwort
+    .amount >> recipe.ingredient
+    .name >> recipe.ingredient
+  "food, recipe" >> recipe.warehousetag

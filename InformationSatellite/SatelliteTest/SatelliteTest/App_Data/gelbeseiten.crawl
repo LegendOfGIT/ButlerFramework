@@ -5,13 +5,14 @@ current.uri >> pageuri
 pageuri:browse()!
  .teilnehmer
   @data-wipe
-   id >> Unternehmen.ID
-  span[itemprop="name"] >> Unternehmen.Name
-  .website a @href >> Unternehmen.WebUri
+   id >> company.id
+  "company" >> company.warehousetag
+  span[itemprop="name"] >> company.name
+  .website a @href >> company.uri
   [itemprop="address"]
-   [itemprop="streetAddress"] >> Unternehmen.Adresse.Straße
-   [itemprop="postalCode"] >> Unternehmen.Adresse.Postleitzahl
-   [itemprop="addressLocality"] >> Unternehmen.Adresse.Ort
+   [itemprop="streetAddress"] >> company.address.street
+   [itemprop="postalCode"] >> company.address.zipcode
+   [itemprop="addressLocality"] >> company.address.city
 
  .gs_seite_vor_wrapper a:first @href >> pageuri
   

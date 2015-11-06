@@ -4,8 +4,8 @@
 current.uri >> pageuri
 pageuri:Browse()
  .stream-item
-  @data-item-id >> Tweet.id
+  @data-item-id >> post.id
   .content
-   .tweet-text >> Tweet.Text
-   .username b >> Tweet.Autor
-   .js-short-timestamp @data-time >> Tweet.Zeitstempel
+   .tweet-text >> post.text
+   .username b >> post.author.username
+   .js-short-timestamp @data-time >> post.timestamp.created

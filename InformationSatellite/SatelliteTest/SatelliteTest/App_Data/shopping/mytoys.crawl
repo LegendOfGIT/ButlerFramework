@@ -5,18 +5,18 @@ current.uri >> pageuri
 pageuri:browse()!
  .catBox
   [id^=z0_m_product_3x_]
-   .prodInfo .prodTitle a @href >> produkt.uri
-    produkt.uri:browse()
-     meta[property=og:image] @content >> produkt.bild
-     meta[property=zx:amount] @content >> produkt.preis
-     meta[property=zx:currency] @content >> produkt.währung
-     meta[property=zx:brand] @content >> produkt.marke
-     meta[property=zx:description] @content >> produkt.beschreibung
-     meta[property=zx:identifier] @content >> produkt.id
-     meta[name=WT.pn_sku] @content >> produkt.plu
-     meta[name=WT.pn] @content >> produkt.titel
+   .prodInfo .prodTitle a @href >> product.uri
+    product.uri:browse()
+     meta[property=og:image] @content >> product.image
+     meta[property=zx:amount] @content >> product.price
+     meta[property=zx:currency] @content >> product.currency
+     meta[property=zx:brand] @content >> product.brand
+     meta[property=zx:description] @content >> product.description
+     meta[property=zx:identifier] @content >> product.id
+     meta[name=WT.pn_sku] @content >> product.plu
+     meta[name=WT.pn] @content >> product.title
      [id^=z0_m_pdp_details]
       li
-       .*Altersempfehlung.* >> produkt.altersempfehlung
-      "artikel" >> produkt.stichwort
+       .*Altersempfehlung.* >> product.uskage
+      "product, shopping" >> product.warehousetag
  .paging .next:first() @href >> pageuri
