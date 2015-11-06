@@ -12,7 +12,8 @@ namespace SatelliteTest
         {
             //var template = File.ReadAllText(@"..\..\App_Data\shopping\mytoys.crawl");
             //var template = File.ReadAllText(@"..\..\App_Data\chefkoch.crawl");
-            var template = File.ReadAllText(@"..\..\App_Data\stackoverflow.crawl");
+            //var template = File.ReadAllText(@"..\..\App_Data\stackoverflow.crawl");
+            var template = File.ReadAllText(@"..\..\App_Data\fun\9gag.crawl");
 
             //ExecuteSatelliteTest(template);
 

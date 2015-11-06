@@ -49,7 +49,7 @@
       <HintPath>..\packages\Data.Warehouse.Crawler.1.0.8\lib\net45\Data.Warehouse.Crawler.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Data.Web, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="Data.Web, Version=1.0.1.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Data.Warehouse.Crawler.1.0.8\lib\net45\Data.Web.dll</HintPath>
       <Private>True</Private>
     </Reference>
@@ -82,6 +82,7 @@
     <None Include="App.config" />
     <None Include="App_Data\chefkoch.crawl" />
     <None Include="App_Data\chefkoch_rezept.crawl" />
+    <None Include="App_Data\fun\9gag.crawl" />
     <None Include="App_Data\gelbeseiten.crawl" />
     <None Include="App_Data\habrahabr.crawl" />
     <None Include="App_Data\stackoverflow.crawl" />
