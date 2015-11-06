@@ -23,3 +23,6 @@ InformationSatellite/SatelliteTest/packages/Data.Warehouse.Crawler.1.0.8/src/Dat
 InformationSatellite/SatelliteTest/packages/Data.Warehouse.1.0.8/src/Data.Warehouse/obj/
 InformationSatellite/SatelliteTest/packages/Data.Web.1.0.1/src/Data.Web/obj/
 InformationSatellite/SatelliteTest/packages/Data.Warehouse.1.0.7/src/Data.Warehouse/obj/
+ButlerSite/ButlerSite/obj/
+ButlerSite/ButlerSite.Tests/obj/
+ButlerSite/ButlerSite.Tests/bin/Debug/
