@@ -1,0 +1,14 @@
+﻿"http://9gag.com" >> base.uri
+"http://9gag.com/fresh" >> current.uri
+
+current.uri >> pageuri
+pageuri:browse()!
+ .badge-entry-container
+  @data-entry-id >> post.id
+  @data-entry-url >> post.uri
+   post.uri >> posturi
+    posturi:browse()
+     .badge-item-title >> post.title
+     .badge-item-comment-count >> post.anzahlkommentare
+     .badge-item-img @src >> post.bild
+     "post" >> post.warehousestichwort
