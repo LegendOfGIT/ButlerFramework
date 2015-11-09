@@ -1,0 +1,1439 @@
+﻿HTTP/1.1 200 OK
+Date: Sat, 07 Nov 2015 10:24:27 GMT
+Server: Web Server
+Set-Cookie: JSESSIONID=395827C116C9A3DDFF1A83AB0C5CC523.2-165-8; Path=/
+Set-Cookie: dtm="2e99ec81-5f04-4110-af83-9434775d697e:1446891867589:395827C116C9A3DDFF1A83AB0C5CC523.2-165-8"; Version=1; Path=/
+expires: 0
+CACHE-CONTROL: no-cache, must-revalidate, no-store, max-age=0
+pragma: no-cache
+Content-Language: de-DE
+Vary: Accept-Encoding
+Access-Control-Allow-Origin: https://checkout.mytoys.de
+Access-Control-Allow-Credentials: true
+Transfer-Encoding: chunked
+Content-Type: text/html;charset=utf-8
+Set-Cookie: visid_incap_592258=WSDTpc2RTue8lQZ3Onrw71vRPVYAAAAAQUIPAAAAAACO7MWSfINY7MRUlONvZs2A; expires=Sun, 05 Nov 2017 16:31:12 GMT; path=/; Domain=.mytoys.de
+Set-Cookie: incap_ses_408_592258=+3G0VHWc+3Yvq+I/6YGpBVvRPVYAAAAAoEOuWn4FTYdctFNHwlHR0A==; path=/; Domain=.mytoys.de
+X-Iinfo: 8-19997666-19997693 PNNY RT(1446891865455 1909) q(0 0 0 -1) r(3 3) U1
+X-CDN: Incapsula
+
+35a
+<!DOCTYPE html>
+<!--[if lte IE 8]>
+	<html class="no-js lt-ie9" lang="de" xml:lang="de" data-shop="mytoys" data-shop-domain="myToys.de" xmlns:zx="http://data-vocabulary.org/Product/" xmlns="http://www.w3.org/1999/xhtml" data-action="popunder" data-target="aHR0cDovL2ltYWdlcy5teXRveXMuY29tL215dG95cy9odG1sL3BvcHMvcG9wX2xpbWFuZ29fcG9wdW5kZXIuaHRtbA==" data-size="width=771,height=643" data-name="li_pu" data-puid="4">
+<![endif]-->
+
+<!--[if IE 9]>
+	<html class="no-js ie9" lang="de" xml:lang="de" data-shop="mytoys" data-shop-domain="myToys.de" xmlns:zx="http://data-vocabulary.org/Product/" xmlns="http://www.w3.org/1999/xhtml" data-action="popunder" data-target="aHR0cDovL2ltYWdlcy5teXRveXMuY29tL215dG95cy9odG1sL3BvcHMvcG9wX2xpbWFuZ29fcG9wdW5kZXIuaHRtbA==" data-size="width=771,height=643" data-name="li_pu" data-puid="4">
+<![endif]-->
+
+<!--[if gt IE 9]><!-->
+
+5a8
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:zx="http://data-vocabulary.org/Product/" data-puid="4" data-name="li_pu" data-size="width=771,height=643" data-target="aHR0cDovL2ltYWdlcy5teXRveXMuY29tL215dG95cy9odG1sL3BvcHMvcG9wX2xpbWFuZ29fcG9wdW5kZXIuaHRtbA==" data-action="popunder" data-shop-domain="myToys.de" data-shop="mytoys" xml:lang="de" lang="de" class="no-js">
+<!--<![endif]-->
+<head><script type="text/javascript">
+		start = new Date().getTime();
+	</script><base href="http://www.mytoys.de/"/><link href="/static/css/base.css?1446860338475" type="text/css" rel="stylesheet"/><link href="/static/css/navi.css?1446860338430" type="text/css" rel="stylesheet"/><link href="/static/css/boxy.css?1446860338430" type="text/css" rel="stylesheet"/><link href="/static/css/category.css?1446860338478" type="text/css" rel="stylesheet"/><link href="/static/css/modules/mt_header_multishop.css?1446860338478" type="text/css" rel="stylesheet"/><link href="/static/css/mt_header_shop.css?1446860338432" type="text/css" rel="stylesheet"/><link href="/static/css/mt_flyout.css?1446860338430" type="text/css" rel="stylesheet"/><link href="/static/css/welcome.css?1446860338433" type="text/css" rel="stylesheet"/><link href="/static/css/de-mt.gp.css" type="text/css" rel="stylesheet"/><link href="http://images.mytoys.com/mytoys/css/mt_flyout_position.css" type="text/css" rel="stylesheet"/><link href="/static/css/home.css?1446860338434" type="text/css" 
+5a8
+rel="stylesheet"/><link href="/static/css/feature_fader.css?1446860338481" type="text/css" rel="stylesheet"/><link href="/static/css/ajax_popup.css?1446860338475" type="text/css" rel="stylesheet"/><link href="/static/css/social_pluginbox.css?1446860338474" type="text/css" rel="stylesheet"/><link href="/static/css/elements/mt_sem.css?1446860338431" type="text/css" rel="stylesheet"/><link href="/static/css/modules/mt_footer.css?1446860338477" type="text/css" rel="stylesheet"/><link rel="canonical" href="http://www.mytoys.de/Spiele-Puzzle/KID/de-mt.gp/" /><link rel="alternate" media="only screen and (max-width:640px)" href="http://m.mytoys.de/Spiele-Puzzle/KID/de-mt.gp/" /><meta name="LocalServer" content="onimi"/>
+<title>Puzzle, Familienspiele, Gesellschaftsspiele günstig kaufen- myToys</title><meta content="text/html;charset=utf-8" http-equiv="Content-Type"/><meta content="myToys.de, Spiele / Puzzle" name="keywords"/><meta content="Große Auswahl an Spielen: Puzzles, Brettspiele, Kartenspiele, Kinderspiele, Gesellschaftsspiele - günstig kaufen bei myToys.de" name="description"/><meta content="lQcRgCUJwN2JxZjLkCWEseMw_s8-3e5C6ozdVPByoL4" name="google-site-verification"/><meta content="CF5819C26090C231481E2BBD5B5B1F2D" name="msvalidate.01"/><meta content="ok" name="nagios-message"/><meta content="100001863008447" property="fb:admins"/><meta name="nagios-message" content="ok"/><meta content="DE" name="ctx_country"/><meta conte
+114e
+nt="de" name="ctx_lang"/><meta content="false" name="ctx_isLive"/><meta content="mytoys" name="ctx_shop"/><meta content="myToys.de" name="ctx_domain"/><meta content="true" name="ctx_isCheckout"/><meta content="false" name="ctx_isMobileLayout"/><meta content="false" name="ctx_isMobileClient"/><meta content="false" name="ctx_isLoggedIn"/><meta content="false " name="ctx_isGuest"/><meta content="false" name="ctx_isStore"/><meta content="index,follow,noodp,noydir" name="robots"/>
+	<meta value="Spiele / Puzzle" property="zx:category"/>
+
+	<meta content="Puzzle, Familienspiele, Gesellschaftsspiele günstig kaufen - myToys" property="og:title"/><meta content="Große Auswahl an Spielen: Puzzles, Brettspiele, Kartenspiele, Kinderspiele, Gesellschaftsspiele - günstig kaufen bei myToys.de" property="og:description"/><meta content="http://images.mytoys.com/mytoys/images/misc/logo_mytoys_de.gif" property="og:image"/><meta http-equiv="x-dns-prefetch-control" content="on" /><link rel="dns-prefetch" href="https://sso.mytoys-group.de" /><script src="static/js/webtrekk_crossDomainIframe.min.js?1446860338886" type="text/javascript" class="tag_track">/* empty */</script><meta content="mytoys.de" name="WT.site"/><meta content="EC1201" name="WT.z_ecid"/><meta content="5.0" name="WT.z_version"/><meta content="myToys.de &gt; Spiele / Puzzle" name="WT.z_breadcrumb"/><meta content="1" name="WT.z_tagQuality"/><meta content="0" name="WT.dl"/><meta content="CategoryOverview" name="WT.cg_n"/><script type="text/javascript" language="JavaScript">
+		function window_replace(uri) {
+			var link = uri;
+			if(!uri.indexOf('http') == 0) {
+				var mBaseHref = document.getElementsByTagName("base")[0].getAttribute("href");
+				link = mBaseHref + uri;
+			}
+			window.location.href = link;
+		}
+
+		function opener_replace(uri) {
+			var link = uri;
+			if(!uri.indexOf('http') == 0) {
+				var mBaseHref = document.getElementsByTagName("base")[0].getAttribute("href");
+				link = mBaseHref + uri;
+			}
+			window.opener.location.href = link;
+		}
+
+		function popup(uri) {
+			var link = uri;
+			if(!uri.indexOf('http') == 0) {
+				var mBaseHref = document.getElementsByTagName("base")[0].getAttribute("href");
+				link = mBaseHref + uri;
+			}
+			msg=open(link,"prodPop","toolbar=no,location=no,directories=no,status=no,scrollbars=yes,resizable=no,copyhistory=no,menubar=no,screenX=1,screenY=1,left=1,top=1,width=616,height=570");
+			msg.focus();
+		}
+
+		function sizedPopup(uri, width, height, name) {
+			var link = uri;
+			if(!uri.indexOf('http') == 0) {
+				var mBaseHref = document.getElementsByTagName("base")[0].getAttribute("href");
+				link = mBaseHref + uri;
+			}
+			// *** IE BUG FIX (IE7,IE8,IE9) !!! ***
+			// *** the sizedPopup do not open when a var name is set for the title parameter ***
+			// *** error because of the white space (illegal Argument), example title = "Kontakt - abc" ***
+			msg=open(link, "title", "toolbar=no,location=no,directories=no,status=no,scrollbars=yes,resizable=no,copyhistory=no,menubar=no,screenX=1,screenY=1,left=1,top=1,width=" + width + ",height=" + height);
+			msg.focus();
+		}
+
+		
+		function rating()
+		{
+			fenster = window.open('http://images.mytoys.com/mytoys/html/pops/pop_rating.html',"Hilfreich","toolbar=no,location=no,directories=no,status=no,scrollbars=no,resizable=no,copyhistory=no,menubar=no,screenX=200,screenY=200,left=200,top=200,width=250,height=190");
+			fenster.focus();
+		}
+	</script><script type="text/javascript">
+			if(window.location.pathname == "/catalog/search" || window.location.search.indexOf('suggBox') > -1){
+				(function(G,o,O,g,L,e){G[g]=G[g]||function(){(G[g]['q']=G[g]['q']||[]).push(
+				arguments)},G[g]['t']=1*new Date;L=o.createElement(O),e=o.getElementsByTagName(
+				O)[0];L.async=1;L.src='//www.google.com/adsense/search/async-ads.js';
+				e.parentNode.insertBefore(L,e)})(window,document,'script','_googCsa');
+			}
+		</script><script src="//service.maxymiser.net/cdn/mytoysDE/js/mmcore.js" type="text/javascript"></script><script type="text/javascript">
+				(function(p,r,e,d,i,c,t){p['Akanoo']=i;p[i]=p[i]||function(){
+				(p[i].c=p[i].c||[]).push(arguments)},p[i].l=1*new Date();c=r.createElement(e),
+				t=r.getElementsByTagName(e)[0];c.async=1;c.src='//cdn.akanoo.com/t/'+d+'.js';t.parentNode.insertBefore(c,t)
+				})(window,document,'script','a76e45e1fe05','at'); 
+			</script></head><body itemtype="http://schema.org/WebPage" itemscope="itemscope"><script
+5a2
+ class="tag_track" type="text/javascript">tc_vars = {
+  "env_media_code": "",
+  "env_media_code_domain": "",
+  "env_media_code_shop": "",
+  "env_media_code_channel": "",
+  "env_media_code_wt": "",
+  "env_template": "product category",
+  "env_work": "live",
+  "env_language": "de",
+  "env_sessionID": "",
+  "env_timestamp": "1446891867593",
+  "env_current_shop": "mytoys",
+  "env_entered_shop": "undefined",
+  "env_shop": "mytoys.de",
+  "env_device_type": "desktop",
+  "env_oref": "",
+  "env_entered_referrer": "",
+  "user_newcustomer": "yes",
+  "user_country": "DE",
+  "user_logged": "no",
+  "cat_categoryID": "de-mt.gp",
+  "cat_maincategory": "Spiele / Puzzle",
+  "cat_subcategory": "",
+  "cat_subsubcategory": "",
+  "product_license": "",
+  "product_cat1": "",
+  "product_cat2": "",
+  "product_shoe_size": "",
+  "product_clothes_size": "",
+  "list_pagination_number": "1"
+};</script><script src="static/js/tc_webtrekk.js?1446860338882" type="text/javascript" class="tag_track">/* empty */</script><script src="http://www.mytoys.de/static/js/webtrends.load.js?1446860338884" type="text/javascript">/* a comment */</script><script src="http://www.mytoys.de/static/js/webtrends.min.js?1446860338809" type="text/javascript">/* a comment */</script><script src="http://www.mytoys.de/static/js/global/lib.min.js?1446860338887" type="text/javascript">/* a comment */</script><script src="http://www.mytoys.de/static/js/legacy_lib.js?1446860338883"
+5a8
+ type="text/javascript">/* a comment */</script><script src="http://www.mytoys.de/static/js/general.min.js?1446860338715" type="text/javascript">/* a comment */</script><!-- RENDERER BEGIN (category:category:m_meta) --><div id="z0_m_meta"><div class="zx_08A2BD84E9B9AC5FF17F zx_mediaslot"><script type="text/javascript">
+					var _zx = _zx || [];
+					_zx.push({"id":"08A2BD84E9B9AC5FF17F"});
+					(function(d) {
+						var s = d.createElement('script');
+						s.async = true;
+						s.src = d.location.protocol + '//api.zanox.com/scripts/zanox.js';
+						var a = d.getElementsByTagName('script')[0];
+						if (!window.zanox) a.parentNode.insertBefore(s, a);
+					}(document));
+				</script></div></div><!-- RENDERER END --><!-- RENDERER BEGIN (category:category:m_styles) --><div id="z0_m_styles"></div><!-- RENDERER END --><!-- RENDERER BEGIN (category:category:m_multishop) --><div id="z0_m_multishop"><script id="permabasket_total_template" type="text/template">
+		{{amountFormat goodsTotal.value}}
+	</script><script id="permabasket_count_template" type="text/template">
+		{{articleCount}}
+	</script><script id="basket_nostockMsg_template" type="text/template">
+
+		Leider haben wir momentan nicht genügend Artikel auf Lager...
+
+	</script><script id="general_errorMsg_template" type="text/template">
+
+		Hoppala, irgendwas ist da schief gelaufen!
+
+	</script><script id="flashinfo_template" type="text/template"><div id="flashinfo">{{message}}</div
+5a8
+></script><script id="permabasket_template" type="text/template">
+		{{#if products}}
+			<section id="perma-basket"><div id="z0_m_msh_article_list">
+				{{#each products}}
+					{{#compare 'goods,_promotion' 'contains' group}}
+						<section class="product"><div class="quantity">{{quantity}}x</div><div class="title">
+								{{#compare catalogDomain '==' 'mirapodo.de' }}
+									<a href="mirapodo.de/{{kid}}">{{name}}</a>
+								{{else}}
+									<a href="{{link}}">{{name}}</a>
+								{{/compare}}
+							</div><div class="price">{{amountFormat adjustedPriceTotal.value}}</div>
+							{{#compare group '!=' '_promotion'}}
+								<br clear="all"/><div class="action" id="z0_m_msh_delete_article"><a data-position="{{../itemShoppingPosition}}" data-action="removeFromBasket" class="mh-link mh-delete" href="#"><span>löschen</span></a></div>
+							{{/compare}}
+						</section>
+					{{/compare}}
+				{{/each}}
+				</div>
+
+				{{#compare articleCount '==' 0}}
+					<section class="sum"><div class="conditions">Ihr Warenkorb enthält noch keine Artikel.</div><a class="mh-link mh-more right" href="https://checkout.mytoys.de/checkout/basketOverview"><span>zur Kasse</span></a></section>
+				{{else}}
+					<section class="sum"><div class="total">Gesamt:</div><div data-target="basketTotal" class="value">{{amountFormat goodsTotal.value}}</div><br clear="all"/><div class="conditions">inkl. gesetzl. Mwst. zuzüglich Versand</div><div id="z0_m_msh
+5a8
+_to_checkout"><a class="mh-link mh-more right" href="https://checkout.mytoys.de/checkout/basketOverview"><span>zur Kasse</span></a></div></section>
+				{{/compare}}
+			</section>
+		{{else}}
+			<section id="perma-basket"><section class="sum"><div class="conditions">Ihr Warenkorb enthält noch keine Artikel.</div><a class="mh-link mh-more right" href="https://checkout.mytoys.de/checkout/basketOverview"><span>zur Kasse</span></a></section></section>
+		{{/if}}
+	</script><section class="mytoys" id="multishop-bar"><section id="multishop-header"><div id="z0_m_msh_claim"><div id="kombishopping"><span data-href="http://images.mytoys.com/mytoys/html/pops/pop_kombishopping_gratisversand.html" target="_blank" data-height="705" data-width="755" data-action="popup" class="show_popup"><div class="logo"><img alt="Kombishopping" src="/static/img/multishop/head_kombishopping_logo.png"/></div><div class="claim"><span>3 Shops – 1 Bestellung – 1 Paket</span></div></span></div></div><nav data-target="welcomeLinks" id="account-navi"><ul><li id="z0_m_msh_login"><a data-wt-name="top.login" rel="nofollow" href="https://checkout.mytoys.de/checkout/login">Anmelden</a></li><li id="z0_m_msh_register"><a data-wt-name="top.registration" rel="nofollow" href="https://checkout.mytoys.de/checkout/registration">Neu Registrieren</a></li><li id="z0_m_msh_account"><a data-wt-name="top.account" rel="nofollow" href="https://checkout.mytoys.de/checkout/serviceOve
+5a8
+rview">Mein Konto</a></li></ul><ul><li id="z0_m_msh_notepad"><a data-wt-name="top.notepad" href="https://checkout.mytoys.de/checkout/notepad">Merkzettel </a></li><li id="z0_m_msh_store"><a data-wt-name="top.store" href="http://www.mytoys.de/Filialen/KID/de-mt.sv06/">Filialen</a></li><li id="z0_m_msh_help"><a data-wt-name="top.help" rel="nofollow" href="http://www.mytoys.de/Hilfe/KID/de-mt.sv01/">Hilfe</a></li><li id="z0_m_msh_newsletter"><a data-wt-name="top.newsletter" rel="nofollow" href="http://www.mytoys.de/opt/nl/subscribe">Newsletter</a></li></ul></nav><span id="z0_m_multishop_header"><nav id="shop-navi"><div data-selector="shop-picker" data-action="toggler" id="menu-toggler"></div><ul data-toggle-element="shop-picker" id="shop-picker"><li data-flyout="#z0_multishop_flyout_mt" class="active mytoys" id="z0_m_msh_tab_mt"><a data-wt-name="top.nav:mytoys" rel="nofollow" href="http://www.mytoys.de/"><span class="description">Alles fürs Kind</span></a><span class="flyoutarrow"></span></li><li data-flyout="#z0_multishop_flyout_mp" class=" mirapodo" id="z0_m_msh_tab_mp"><a data-wt-name="top.nav:mirapodo" href="opt/switch/mirapodo"><span class="description">Schuhe</span></a><span class="flyoutarrow"></span></li><li data-flyout="#z0_multishop_flyout_fa" class=" ambellis" id="z0_m_msh_tab_amb"><a data-wt-name="top.nav:ambellis" rel="nofollow" href="opt/switch/ambellis"><span class="description">Damenmode</span></a><span class="f
+3b6
+lyoutarrow"></span></li></ul></nav></span><section id="basket_capsule" data-action="hidePermaBasket"><section id="headerbasket"><div id="z0_m_msh_permabasket_widget"><section class="cart"><a data-wt-name="top.cart" href="https://checkout.mytoys.de/checkout/basketOverview"><section id="number"><span data-target="basketCount">0</span></section></a><section id="button"><a data-wt-name="top.cart" href="https://checkout.mytoys.de/checkout/basketOverview" class="btn-small"><span>Warenkorb</span></a></section></section><section data-action="showPermaBasket" id="sum"><a data-wt-name="top.cart" href="https://checkout.mytoys.de/checkout/basketOverview"><p><span data-target="basketTotal">0,00 €</span></p></a></section></div></section><span data-target="permabasket"></span></section><div class="vkftag"><span data-href="http://images.mytoys.com/mytoys/html/pops/pop_kombishopping_gratisversand.html" target="_blank" data-height="705" data-width="755
+5a2
+" data-action="popup" class="show_popup"><div class="logo"><img alt="Kombishopping" src="/static/img/multishop/head_kombishopping_vkftag.png"/></div></span></div><!-- RENDERER BEGIN (category:category:m_multishop_flyout) --><div id="z0_m_multishop_flyout"><section id="z0_multishop_flyout_mt" class="multishop-flyout clearfix" data-el="flyout">
+		<span class="h2">
+			
+			<span class="base64" data-action="base64decode" data-base64="L29wdC9zd2l0Y2gvbXl0b3lzLw==">Alles für Ihr Kind bei myToys</span>
+		</span>
+		<ul class="linklist clearfix">
+			<li class="list">
+				<ul>
+					
+					<li><span class="base64" data-action="base64decode" data-base64="L29wdC9zd2l0Y2gvbXl0b3lzL0tpbmRlcm1vZGUvS0lEL2RlLW10LmN3Lw==">Kindermode</span><span class="base64" style="text-decoration:none"> &amp; </span><span class="base64" data-action="base64decode" data-base64="b3B0L3N3aXRjaC9teXRveXMvS2luZGVyc2NodWhlL0tJRC9kZS1tdC5zaC8=">-schuhe</span></li>
+					<li><span class="base64" data-action="base64decode" data-base64="L29wdC9zd2l0Y2gvbXl0b3lzL1NwaWVsemV1Zy9LSUQvZGUtbXQudG8v">Spielzeug</span></li>
+					<li><span class="base64" data-action="base64decode" data-base64="L29wdC9zd2l0Y2gvbXl0b3lzL0JhYnkvS0lEL2RlLW10LmJhLw==">Baby</span></li>
+					<li><span class="base64" data-action="base64decode" data-base64="L29wdC9zd2l0Y2gvbXl0b3lzL0tpbmRlcnppbW1lci9LSUQvZGUtbXQuZnUv">Kinderzimmer</span></li>
+					<li><span class="base64" data-action="ba
+5a8
+se64decode" data-base64="L29wdC9zd2l0Y2gvbXl0b3lzL1Nwb3J0LU91dGRvb3IvS0lEL2RlLW10LnNwLw==">Sport / Outdoor</span></li>
+				</ul>	
+			</li>
+			<li class="list">
+				<ul>
+					
+					<li><span class="base64" data-action="base64decode" data-base64="L29wdC9zd2l0Y2gvbXl0b3lzL0hhdXNoYWx0LUdhcnRlbi9LSUQvZGUtbXQuaGEv">Haushalt / Garten</span></li>
+					<li><span class="base64" data-action="base64decode" data-base64="L29wdC9zd2l0Y2gvbXl0b3lzL0LDvGNoZXIvS0lEL2RlLW10LmJvLw==">Bücher</span></li>
+					<li><span class="base64" data-action="base64decode" data-base64="L29wdC9zd2l0Y2gvbXl0b3lzL1NjaHVsZS1MZXJuZW4vS0lEL2RlLW10LnNjLw==">Schule</span></li>
+					<li><span class="base64" data-action="base64decode" data-base64="L29wdC9zd2l0Y2gvbXl0b3lzL1BDLUdhbWVzL0tJRC9kZS1tdC52Yy8=">PC / Games</span></li>
+					<li><span class="base64" data-action="base64decode" data-base64="L29wdC9zd2l0Y2gvbXl0b3lzLw==">mehr...</span></li>
+				</ul>
+			</li>
+		</ul>
+		<section class="teaser" data-action="loadTeaser" data-id="82369" data-cs="1540">
+			
+		</section>
+		<section class="teaser" data-action="loadTeaser" data-id="82368" data-cs="1462">
+			
+		</section>
+	</section><section id="z0_multishop_flyout_mp" class="multishop-flyout clearfix" data-el="flyout">
+		<span class="h2">
+			
+			<span class="base64" data-action="base64decode" data-base64="L29wdC9zd2l0Y2gvbWlyYXBvZG8v">Schöner Schuhe shoppen bei mirapodo</span>
+		</span>
+		<ul cla
+5a8
+ss="linklist clearfix">
+			<li class="list">
+				<ul>
+					
+					<li><span class="base64" data-action="base64decode" data-base64="L29wdC9zd2l0Y2gvbWlyYXBvZG8vZGFtZW4vc2NodWhlLzEv">Damenschuhe</span></li>
+					<li><span class="base64" data-action="base64decode" data-base64="L29wdC9zd2l0Y2gvbWlyYXBvZG8vaGVycmVuL3NjaHVoZS8xLw==">Herrenschuhe</span></li>
+					<li><span class="base64" data-action="base64decode" data-base64="L29wdC9zd2l0Y2gvbWlyYXBvZG8va2luZGVyL3NjaHVoZS8xLw==">Kinderschuhe</span></li>
+					<li><span class="base64" data-action="base64decode" data-base64="L29wdC9zd2l0Y2gvbWlyYXBvZG8vdGFzY2hlbi8xLw==">Taschen</span></li>
+					<li><span class="base64" data-action="base64decode" data-base64="L29wdC9zd2l0Y2gvbWlyYXBvZG8vc2FsZS8xLw==">SALE</span></li>
+				</ul>	
+			</li>
+			<li class="list">
+				<ul>
+					
+					<li><span class="base64" data-action="base64decode" data-base64="L29wdC9zd2l0Y2gvbWlyYXBvZG8vZGFtZW4vc2NodWhlL3N0aWVmZWxfc3RpZWZlbGV0dGVuLzEv">Stiefel &amp; Stiefeletten</span></li>
+					<li><span class="base64" data-action="base64decode" data-base64="L29wdC9zd2l0Y2gvbWlyYXBvZG8vZGFtZW4vc2NodWhlL3B1bXBzLzEv">Pumps</span></li>
+					<li><span class="base64" data-action="base64decode" data-base64="L29wdC9zd2l0Y2gvbWlyYXBvZG8vZGFtZW4vc2NodWhlL3NuZWFrZXJzLzEv">Sneakers</span></li>
+					<li><span class="base64" data-action="base64decode" data-base64="L29wdC9zd2l0Y2gvbWlyYXBvZG8vZGFtZW4vc2NodWhlL2JhbGxl
+5a8
+cmluYXMvMS8=">Ballerinas</span></li>
+					
+					<li><span class="base64" data-action="base64decode" data-base64="L29wdC9zd2l0Y2gvbWlyYXBvZG8v">mehr...</span></li>
+				</ul>
+			</li>
+		</ul>
+		<section class="teaser" data-action="loadTeaser" data-id="82374" data-cs="8508">
+			
+		</section>
+		<section class="teaser" data-action="loadTeaser" data-id="82373" data-cs="8877">
+			
+		</section>
+	</section><section id="z0_multishop_flyout_fa" class="multishop-flyout clearfix" data-el="flyout">
+		<span class="h2">
+			
+			<span class="base64" data-action="base64decode" data-base64="L29wdC9zd2l0Y2gvYW1iZWxsaXMv">Schöne Mode, Accessoires und Trends bei ambellis</span>
+		</span>
+		<ul class="linklist clearfix">
+			<li class="list">
+				<ul>
+					
+					<li><span class="base64" data-action="base64decode" data-base64="L29wdC9zd2l0Y2gvYW1iZWxsaXMvTGFuZ2FybXNoaXJ0cy9LSUQvZGUtYWIubHcuY2EwMi4xMi8=">Langarmshirts</span></li>
+					<li><span class="base64" data-action="base64decode" data-base64="L29wdC9zd2l0Y2gvYW1iZWxsaXMvS2xlaWRlci9LSUQvZGUtYWIubHcuY2EwMi4xMC8=">Kleider</span></li>
+					<li><span class="base64" data-action="base64decode" data-base64="L29wdC9zd2l0Y2gvYW1iZWxsaXMvSmVhbnMvS0lEL2RlLWFiLmx3LmNhMDIuMDgv">Jeans</span></li>
+					<li><span class="base64" data-action="base64decode" data-base64="L29wdC9zd2l0Y2gvYW1iZWxsaXMvU3dlYXQtU3RyaWNramFja2VuL0tJRC9kZS1hYi5sdy5jYTAyLjE5Lw==">Sweat- &amp; Strickjacken</span></li
+5a8
+>
+					<li><span class="base64" data-action="base64decode" data-base64="L29wdC9zd2l0Y2gvYW1iZWxsaXMvVC1TaGlydHMtVG9wcy9LSUQvZGUtYWIubHcuY2EwMi4yNy8NCg==">T-Shirts &amp; Tops</span></li>
+				</ul>	
+			</li>
+			<li class="list">
+				<ul>
+					
+					<li><span class="base64" data-action="base64decode" data-base64="L29wdC9zd2l0Y2gvYW1iZWxsaXMvSmFja2VuLUJsYXplci9LSUQvZGUtYWIubHcuY2EwMi4wNy8=">Jacken &amp; Blazer</span></li>
+					<li><span class="base64" data-action="base64decode" data-base64="L29wdC9zd2l0Y2gvYW1iZWxsaXMvQmx1c2VuL0tJRC9kZS1hYi5sdy5jYTAyLjAzLw==">Blusen</span></li>
+					<li><span class="base64" data-action="base64decode" data-base64="L29wdC9zd2l0Y2gvYW1iZWxsaXMvQWNjZXNzb2lyZXMvS0lEL2RlLWFiLmxhLw==">Accessoires</span></li>
+					<li><span class="base64" data-action="base64decode" data-base64="L29wdC9zd2l0Y2gvYW1iZWxsaXMvVW1zdGFuZHNtb2RlL0tJRC9kZS1hYi5scC8=">Umstandsmode</span></li>
+					<li><span class="base64" data-action="base64decode" data-base64="L29wdC9zd2l0Y2gvYW1iZWxsaXMv">mehr...</span></li>
+				</ul>
+			</li>
+		</ul>
+		<section class="teaser" data-action="loadTeaser" data-id="82372" data-cs="8595">
+			
+		</section>
+		<section class="teaser" data-action="loadTeaser" data-id="82370" data-cs="1785">
+			
+		</section>
+	</section></div><!-- RENDERER END --></section></section></div><!-- RENDERER END --><div class="mytoys" id="shop-capsule"><div id="box"><div id="headercontent"><!-- RENDERER BEG
+3b6
+IN (category:category:m_header) --><div id="z0_m_header"><script id="search_suggest_template_mytoys" type="text/template"><span><h6>Suchvorschläge</h6>
+			{{renderSuggestions this}}
+		</span></script><section id="header-shop"><section class="logobar clearfix"><section class="shop-logo"><a data-wt-name="header.logo" href="http://www.mytoys.de/"><img alt="myToys - Einfach alles für Ihr Kind" src="static/img/head/head_shop_logo_mytoys.png"/></a></section><section class="shop-search clearfix"><div id="z0_search"><form data-hover="suggHover" name="shopsearch" accept-charset="UTF-8" method="get" action="catalog/search"><input value="mytoys" type="hidden" id="shopLayout"/><input name="query" autocomplete="off" placeholder="Bitte Suchbegriff oder Artikelnummer eingeben" data-action="suggest" type="text" id="searchinput"/><div class="search-submit"><div data-action="searchHint" class="search-hint"><div class="bubble"><span>Bitte geben Sie eine
+5a2
+n Suchbegriff oder eine Artikelnummer ein.</span><div class="dark"></div><div class="bright"></div></div></div><button data-suggestions="#suggestions" data-input="#js_searchfield" data-action="submit" name="button" type="submit" class="btn-search" title="Suchen!" id="search-button"><span></span></button></div><input value="40" name="productsPerPage" type="hidden"/><input value="false" name="sugg" id="checkSuggestClick" type="hidden"/><input value="false" name="suggBox" id="searchBoxClick" type="hidden"/><div class="suggestLayer" id="suggestions"><h6>Suchvorschläge</h6></div></form></div></section><div class="serviceTeaser"><script src="https://www3.mirapodo.de/a?rt=2&et=1&i=85419&se=p&cs=8629&ts=1" language="JavaScript" type="text/javascript"></script><noscript><a target="_blank" href="https://www3.mirapodo.de/a?rt=7&et=2&i=85419&se=p&cs=8629&ts=1"><img border="0" alt="" height="37" width="240" src="https://www3.mirapodo.de/a?rt=4&et=1&i=85419&se=p&cs=8629&ts=1"/></a></noscript></div></section><!-- RENDERER BEGIN (category:category:m_menu_flyout) --><div id="z0_m_menu_flyout"><ul id="mainnav" class="german">
+		<li id="z0_m_menu_fly_cat" class="level1 category" data-action="naviToggler">
+			<a onclick="return false" href="#" title="Kategorien"><span>Kategorien</span></a>
+			<div class="flyout">
+				<ul>
+					<li class="ic_cw" title="Mode"><a href="http://www.mytoys.de/Kindermode/KID/de-mt.cw/" data-wt-name="header
+5a8
+.nav:kategorien.sub:mode"><span>Mode</span></a></li>
+					<li class="ic_ba" title="Baby"><a href="http://www.mytoys.de/Baby/KID/de-mt.ba/" data-wt-name="header.nav:kategorien.sub:baby"><span>Baby</span></a></li>
+					<li class="ic_to" title="Spielzeug"><a href="http://www.mytoys.de/Spielzeug/KID/de-mt.to/" data-wt-name="header.nav:kategorien.sub:spielzeug"><span>Spielzeug</span></a></li>
+					<li class="ic_ha" title="Haushalt / Garten"><a href="http://www.mytoys.de/Haushalt-Garten/KID/de-mt.ha/" data-wt-name="header.nav:kategorien.sub:haushalt"><span>Haushalt / Garten</span></a></li>
+					<li class="ic_sc" title="Schule / Lernen"><a href="http://www.mytoys.de/Schule-Lernen/KID/de-mt.sc/" data-wt-name="header.nav:kategorien.sub:schule"><span>Schule / Lernen</span></a></li>
+					<li class="ic_sp" title="Sport"><a href="http://www.mytoys.de/Sport-Outdoor/KID/de-mt.sp/" data-wt-name="header.nav:kategorien.sub:sport"><span>Sport</span></a></li>
+					<li class="ic_sh" title="Schuhe"><a href="http://www.mytoys.de/Kinderschuhe/KID/de-mt.sh/" data-wt-name="header.nav:kategorien.sub:schuhe"><span>Schuhe</span></a></li>
+					<li class="ic_pf" title="Schwangerschaft"><a href="http://www.mytoys.de/Schwangerschaft/KID/de-mt.pf/" data-wt-name="header.nav:kategorien.sub:schwangerschaft"><span>Schwangerschaft</span></a></li>
+					<li class="ic_gp" title="Spiele / Puzzle"><a href="http://www.mytoys.de/Spiele-Puzzle/KID/de-mt.gp/" data
+5a8
+-wt-name="header.nav:kategorien.sub:spiele"><span>Spiele / Puzzle</span></a></li>
+					<li class="ic_tr" title="Unterwegs"><a href="http://www.mytoys.de/Unterwegs/KID/de-mt.tr/" data-wt-name="header.nav:kategorien.sub:unterwegs"><span>Unterwegs</span></a></li>
+					<li class="ic_bo" title="Bücher"><a href="http://www.mytoys.de/B%C3%BCcher/KID/de-mt.bo/" data-wt-name="header.nav:kategorien.sub:buecher"><span>Bücher</span></a></li>
+					<li class="ic_vc" title="PC / Games"><a href="http://www.mytoys.de/PC-Games/KID/de-mt.vc/" data-wt-name="header.nav:kategorien.sub:pc"><span>PC / Games</span></a></li>
+					<li class="ic_cp_cat" title="Kinderparty"><a href="http://www.mytoys.de/Kinderparty/KID/de-mt.cp/" data-wt-name="header.nav:kategorien.sub:kinderparty"><span>Kinderparty</span></a></li>
+					<li class="ic_fu" title="Kinderzimmer"><a href="http://www.mytoys.de/Kinderzimmer/KID/de-mt.fu/" data-wt-name="header.nav:kategorien.sub:kinderzimmer"><span>Kinderzimmer</span></a></li>
+					<li class="ic_bs" title="Basteln / Malen"><a href="http://www.mytoys.de/Basteln-Malen/KID/de-mt.bs/" data-wt-name="header.nav:kategorien.sub:basteln"><span>Basteln / Malen</span></a></li>
+					<li class="ic_mr" title="Modellbahn / -bau"><a href="http://www.mytoys.de/Modellbahn-bau/KID/de-mt.mr/" data-wt-name="header.nav:kategorien.sub:modellbahn"><span>Modellbahn / -bau</span></a></li>
+					<li class="ic_av" title="Audio / Video"><a href="h
+b50
+ttp://www.mytoys.de/Audio-Video/KID/de-mt.av/" data-wt-name="header.nav:kategorien.sub:audio"><span>Audio / Video</span></a></li>
+				</ul>
+			</div>
+		</li>
+		<li id="z0_m_menu_fly_stars" class="level1 themes" data-action="naviToggler">
+			<a onclick="return false" href="#" title="Lieblingsstars"><span>Lieblingsstars</span></a>
+			<div class="flyout">
+				<ul>
+					<li class="aktionenderwoche" title="Aktionen der Woche"><a href="http://www.mytoys.de/Lieblingsstars/KID/de-mt.lc/" data-wt-name="header.nav:stars.sub:aktionderwoche"><span> </span></a></li>
+					<li class="barbie" title="Barbie"><a href="http://www.mytoys.de/Barbie/KID/de-mt.lc.lc01.12/" data-wt-name="header.nav:stars.sub:barbie"><span> </span></a></li>
+					<li class="disney_cars" title="Disney Cars"><a href="http://www.mytoys.de/Disney-Cars/KID/de-mt.lc.lc01.43/" data-wt-name="header.nav:stars.sub:disneycars"><span> </span></a></li>
+					<li class="dragons" title="Dragons"><a href="http://www.mytoys.de/Dragons/KID/de-mt.lc.lc01.207/" data-wt-name="header.nav:stars.sub:dragons"><span> </span></a></li>
+					<li class="eis" title="Die Eiskönigin"><a href="http://www.mytoys.de/Disney-Die-Eisk%C3%B6nigin/KID/de-mt.lc.lc01.221/" data-wt-name="header.nav:stars.sub:eiskoenigin"><span> </span></a></li>
+					<li class="fmsam" title="Feuerwehrmann Sam"><a href="http://www.mytoys.de/Feuerwehrmann-Sam/KID/de-mt.lc.lc01.56/" data-wt-name="header.nav:stars.sub:feuerwehrmannsam"><span> </span></a></li>
+					<li class="hellokitty" title="Hello Kitty"><a href="http://www.mytoys.de/Hello-Kitty/KID/de-mt.lc.lc01.63/" data-wt-name="header.nav:stars.sub:hellokitty"><span> </span></a></li>
+					<li class="lego_wear" title="Lego Fanartikel"><a href="http://www.mytoys.de/LEGO-Fanartikel/KID/de-mt.lc.lc01.34/" data-wt-name="header.nav:stars.sub:legowear"><span> </span></a></li>
+					<li class="miame" title="Mia and Me"><a href="http://www.mytoys.de/Mia-and-Me/KID/de-mt.lc.lc01.168/" data-wt-name="header.nav:stars.sub:miame"><span> </span></a></li>
+					<li class="minniemouse" title="Minnie Mouse"><a href="http://www.mytoys.de/Minnie-Mouse/KID/de-mt.lc.lc01.162/" data-wt-name="header.nav:stars.sub:minniemouse"><span> </span></a></li>
+					<li class="minions" title="Minions"><a href="http://www.mytoys.de/Minions/KID/de-mt.lc.lc01.216/" data-wt-name="header.nav:stars.sub:minions"><span> </span></a></li>
+					<li class="monsterhigh" title="Monster High"><a href="http://www.mytoys.de/Monster-High/KID/de-mt.lc.lc01.129/" data-wt-name="header.nav:stars.sub:monsterhigh"><span> </span></a></li>
+					<li class="disney_planes" title="Disney Planes"><a href="http://www.mytoys.de/Disney-Planes/KID/de-mt.lc.lc01.188/" data-wt-name="header.nav:stars.sub:disneyplanes"><span> </span></a></li>
+					<li class="disney_princess" title="Disney Princess"><a href="http://www.mytoys.de/Disney-Pr
+14a8
+incess/KID/de-mt.lc.lc01.24/" data-wt-name="header.nav:stars.sub:disneyprincess"><span> </span></a></li>
+					<li class="starwars" title="Star Wars"><a href="http://www.mytoys.de/Star-Wars/KID/de-mt.lc.lc01.25/" data-wt-name="header.nav:stars.sub:starwars"><span> </span></a></li>
+					<li class="violetta" title="Disney Violetta"><a href="http://www.mytoys.de/Disney-Violetta/KID/de-mt.lc.lc01.209/" data-wt-name="header.nav:stars.sub:violetta"><span> </span></a></li>
+					<li class="winniepooh" title="Winnie Puuh"><a href="http://www.mytoys.de/Disney-Winnie-the-Pooh/KID/de-mt.lc.lc01.16/" data-wt-name="header.nav:stars.sub:winniepooh"><span> </span></a></li>
+					<li class="yakari" title="Yakari"><a href="http://www.mytoys.de/Yakari/KID/de-mt.lc.lc01.121/" data-wt-name="header.nav:stars.sub:yakari"><span> </span></a></li>
+				</ul>
+				<div>
+					<a class="btn-small-link next" href="http://www.mytoys.de/Lieblingsstars/KID/de-mt.lc.lc01/" data-wt-name="header.nav:stars.sub:mehr">Weitere Lieblingsstars ansehen</a>
+				</div>
+			</div>
+		</li>
+		<li id="z0_m_menu_fly_brand" class="level1 brands" data-action="naviToggler">
+			<a onclick="return false" href="#" title="Marken"><span>Marken</span></a>
+			<div class="flyout">
+				<ul>
+					<li class="fouryou" title="4YOU"><a href="http://www.mytoys.de/4YOU/KID/de-mt.sc.br01.01/" data-wt-name="header.nav:marken.sub:4you"><span> </span></a></li>
+					<li class="adidas" title="adidas"><a href="http://www.mytoys.de/adidas-Performance/KID/de-mt.sp.br01.02/" data-wt-name="header.nav:marken.sub:adidas"><span> </span></a></li>
+					<li class="barbie" title="Barbie"><a href="http://www.mytoys.de/Barbie/KID/de-mt.to.br01.01/" data-wt-name="header.nav:marken.sub:barbie"><span> </span></a></li>
+					<li class="maxicosi" title="Maxi Cosi"><a href="http://www.mytoys.de/Maxi-Cosi/KID/de-mt.ba.br01.42/" data-wt-name="header.nav:marken.sub:maxicosi"><span> </span></a></li>
+					<li class="esprit" title="Esprit"><a href="http://www.mytoys.de/ESPRIT/KID/de-mt.cw.br02.11/" data-wt-name="header.nav:marken.sub:esprit"><span> </span></a></li>
+					<li class="fisherprice" title="Fisher Price"><a href="http://www.mytoys.de/Fisher-Price/KID/de-mt.to.br01.13/" data-wt-name="header.nav:marken.sub:fisherprice"><span> </span></a></li>
+					<li class="haba" title="haba"><a href="http://www.mytoys.de/HABA/KID/de-mt.to.br01.15/" data-wt-name="header.nav:marken.sub:haba"><span> </span></a></li>
+					<li class="hudora" title="Hudora"><a href="http://www.mytoys.de/Hudora/KID/de-mt.sp.br01.10/" data-wt-name="header.nav:marken.sub:hudora"><span> </span></a></li>
+					<li class="jackwolfskin" title="Jack Wolfskin"><a href="http://www.mytoys.de/Jack-Wolfskin/KID/de-mt.sp.br01.12/" data-wt-name="header.nav:marken.sub:jackwolfskin"><span> </span></a></li>
+					<li class="lego" title="Lego"><a href="http://www.mytoys.de/LEGO/KID/de-mt.to.br01.21/" data-wt-name="header.nav:marken.sub:lego"><span> </span></a></li>
+					<li class="nintendo" title="Nintendo"><a href="http://www.mytoys.de/PC-Games/KID/de-mt.vc/" data-wt-name="header.nav:marken.sub:nintendo"><span> </span></a></li>
+					<li class="playmobil" title="PlayMobil"><a href="http://www.mytoys.de/PLAYMOBIL/KID/de-mt.to.br01.26/" data-wt-name="header.nav:marken.sub:playmobil"><span> </span></a></li>
+					<li class="ravensburger" title="Ravensburger"><a href="http://www.mytoys.de/Ravensburger/KID/de-mt.to.br01.29/" data-wt-name="header.nav:marken.sub:ravensburger"><span> </span></a></li>
+					<li class="soliver" title="s.Oliver"><a href="http://www.mytoys.de/s-Oliver/KID/de-mt.cw.br02.27/" data-wt-name="header.nav:marken.sub:soliver"><span> </span></a></li>
+					<li class="spiegelburg" title="Spiegelburg"><a href="http://www.mytoys.de/Spiegelburg/KID/de-mt.to.br01.37/" data-wt-name="header.nav:marken.sub:spiegelburg"><span> </span></a></li>
+					<li class="stabilo" title="Stabilo"><a href="http://www.mytoys.de/Stabilo/KID/de-mt.sc.br01.19/" data-wt-name="header.nav:marken.sub:stabilo"><span> </span></a></li>
+					<li class="stokke" title="Stokke"><a href="http://www.mytoys.de/Stokke/KID/de-mt.ba.br01.190/" data-wt-name="header.nav:marken.sub:stokke"><span> </span></a></li>
+					<li class="vtech" title="vtech"><a href="http://www.mytoys.de/Vtech/KID/de-mt.to.br01.44/" data-wt-name="header.nav:marken.sub:vtech"><span> </span></a></li>
+				</ul>
+				<div>
+					<a class="btn-small-link next" href="http://www.mytoys.de/Alle-Marken/KID/de-mt.mk.marken/" data-wt-name="header.nav:marken.sub:mehr">Weitere Marken ansehen</a>
+				</div>
+			</div>
+		</li>
+		<li id="z0_m_menu_fly_finder" class="level1 giftfinder" data-action="naviToggler">
+			<a onclick="return false" href="#" title="Geschenkefinder"><span>Geschenkefinder</span></a>
+			<div class="flyout">
+				<ul class="tiles3">
+					<li class="pos1"><a href="http://www.mytoys.de/0-1-Jahr/KID/de-mt.pr.ca20.01/" title="Geschenkideen für 0-1 Jahre" data-wt-name="header.nav:geschenkefinder.sub:0-1"><span>Geschenkideen</span></a></li>
+					<li class="pos2"><a href="http://www.mytoys.de/2-3-Jahre/KID/de-mt.pr.ca20.02/" title="Geschenkideen für 2-3 Jahre" data-wt-name="header.nav:geschenkefinder.sub:2-3"><span>Geschenkideen</span></a></li>1fc8
+
+					<li class="pos3"><a href="http://www.mytoys.de/4-5-Jahre/KID/de-mt.pr.ca20.03/" title="Geschenkideen für 4-5 Jahre" data-wt-name="header.nav:geschenkefinder.sub:4-5"><span>Geschenkideen</span></a></li>
+					<li class="pos4"><a href="http://www.mytoys.de/6-7-Jahre/KID/de-mt.pr.ca20.04/" title="Geschenkideen für 6-7 Jahre" data-wt-name="header.nav:geschenkefinder.sub:6-7"><span>Geschenkideen</span></a></li>
+					<li class="pos5"><a href="http://www.mytoys.de/8-9-Jahre/KID/de-mt.pr.ca20.05/" title="Geschenkideen für 8-9 Jahre" data-wt-name="header.nav:geschenkefinder.sub:8-9"><span>Geschenkideen</span></a></li>
+					<li class="pos6"><a href="http://www.mytoys.de/10-12-Jahre/KID/de-mt.pr.ca20.06/" title="Geschenkideen für 10-12 Jahre" data-wt-name="header.nav:geschenkefinder.sub:10-12"><span>Geschenkideen</span></a></li>
+				</ul>
+			</div>
+		</li>
+		<li id="z0_m_menu_fly_tipps" class="level1 tipps" data-action="naviToggler">
+			<a onclick="return false" href="#" title="Tipps &amp; Kaufberatung"><span>Tipps &amp; Kaufberatung</span></a>
+			<div class="flyout">
+				<ul>
+					<li class="ic_pr" title="Geschenkideen"><a href="http://www.mytoys.de/Geschenktipps/KID/de-mt.pr/" data-wt-name="header.nav:kaufberatung.sub:geschenketipps"><span>Geschenkideen</span></a></li>
+					<li class="ic_cp" title="Kinderparty"><a href="http://www.mytoys.de/Kinderparty/KID/de-mt.cp/" data-wt-name="header.nav:kaufberatung.sub:kinderparty"><span>Kinderparty</span></a></li>
+					<li class="ic_apps" title="Apps für Kinder"><a href="http://apps.mytoys.de/" data-wt-name="header.nav:kaufberatung.sub:apps" target="_blank"><span>Apps für Kinder</span></a></li>
+					<li class="ic_blog" title="myToys Blog"><a href="http://www.mytoys.de/my-blog/" data-wt-name="header.nav:kaufberatung.sub:mytoysblog" target="_blank"><span>myToys Blog</span></a></li>
+					<li class="ic_spielzeug" title="Spielzeug Blog"><a href="http://spielzeug.de/" data-wt-name="header.nav:kaufberatung.sub:spielzeugblog" target="_blank"><span>Spielzeug Blog</span></a></li>
+					<li class="ic_facebook" title="Facebook"><a href="http://www.facebook.com/myToys" data-wt-name="header.nav:kaufberatung.sub:facebook" target="_blank"><span>Facebook</span></a></li>
+					<li class="ic_adcw" title="Ratgeber Mode"><a href="http://www.mytoys.de/Tipps-und-Gr%C3%B6%C3%9Fenberatung/KID/de-mt.cw.ca19/" data-wt-name="header.nav:kaufberatung.sub:ratgebermode"><span>Ratgeber Mode</span></a></li>
+					<li class="ic_adsc" title="Ratgeber Schule"><a href="http://www.mytoys.de/Tipps-Kaufberatung/KID/de-mt.sc.ca19/" data-wt-name="header.nav:kaufberatung.sub:ratgeberschule"><span>Ratgeber Schule</span></a></li>
+					<li class="ic_adsp" title="Ratgeber Sport"><a href="http://www.mytoys.de/Tipps-Kaufberatung/KID/de-mt.sp.ca04/" data-wt-name="header.nav:kaufberatung.sub:ratgebersport"><span>Ratgeber Sport</span></a></li>
+					<li class="ic_adba" title="Ratgeber Baby"><a href="http://www.mytoys.de/Tipps-Kaufberatung/KID/de-mt.ba.ca30/" data-wt-name="header.nav:kaufberatung.sub:ratgeberbaby"><span>Ratgeber Baby</span></a></li>
+					<li class="ic_adtr" title="Ratgeber Unterwegs"><a href="http://www.mytoys.de/Tipps-Checklisten/KID/de-mt.tr.ca07/" data-wt-name="header.nav:kaufberatung.sub:ratgeberunterwegs"><span>Ratgeber Unterwegs</span></a></li>
+					<li class="ic_advc" title="Ratgeber PC/Games"><a href="http://www.mytoys.de/Tipps-Kaufberatung/KID/de-mt.vc.ca03/" data-wt-name="header.nav:kaufberatung.sub:ratgeberpc"><span>Ratgeber PC/Games</span></a></li>
+					<li class="ic_adsh" title="Ratgeber Schuhe"><a href="http://www.mytoys.de/Gr%C3%B6%C3%9Fenberatung/KID/de-mt.sh.ca03/" data-wt-name="header.nav:kaufberatung.sub:ratgeberschuhe"><span>Ratgeber Schuhe</span></a></li>
+					<li class="ic_adgp" title="Experten bei myToys"><a href="http://www.mytoys.de/myToys-Experten/KID/de-mt.mk.experten/" data-wt-name="header.nav:kaufberatung.sub:experten"><span>Experten bei myToys</span></a></li>
+				</ul>
+			</div>
+		</li>
+		<li id="z0_m_menu_fly_campaign" class="level1 campaign" data-action="naviToggler">
+			<a onclick="return false" href="#" title="Angebote der Woche"><span>Angebote der Woche</span></a>
+			<div class="flyout">
+				<ul class="tiles3">
+					<li class="pos1"><a href="http://www.mytoys.de/LEGO-DUPLO/LEGO/KID/de-mt.to.br01.21.28/" data-wt-name="header.nav:angebote.sub:a1" title="Aktion auf LEGO duplo"><span>Aktion auf LEGO duplo</span></a></li>
+					<li class="pos2"><a href="http://www.mytoys.de/Geschenkideen-zu-Weihnachten/KID/de-mt.mk.weihnachtswerbung/" data-wt-name="header.nav:angebote.sub:a2" title="Geschenkideen zu Weihnachten"><span>Geschenkideen zu Weihnachten</span></a></li>
+					<li class="pos3"><a href="http://www.mytoys.de/SALE-Kindermode-Kinderschuhe/KID/de-mt.cs/" data-wt-name="header.nav:angebote.sub:a3" title="Mode &amp; Schuhe SALE"><span>Mode &amp; Schuhe SALE</span></a></li>
+					<li class="pos4"><a href="http://www.mytoys.de/Wintersportaktion/KID/de-mt.sp.98/" data-wt-name="header.nav:angebote.sub:a4" title="Wintersportaktion"><span>Wintersportaktion</span></a></li>
+					<li class="pos5"><a href="http://www.mytoys.de/Adventskalender/KID/de-mt.mk.adventskalender/" data-wt-name="header.nav:angebote.sub:a5" title="Adventskalender"><span>Adventskalender</span></a></li>
+					<li class="pos6"><a href="http://www.mytoys.de/Schn%C3%A4ppchen/KID/de-mt.sl/" data-wt-name="header.nav:angebote.sub:alleschnaeppchen" title="Alle Schnäppchen"><span>Alle Schnäppchen</span></a></li>
+				</ul>
+				<div>
+					<a class="btn-small-link next" href="http://www.mytoys.de/Schn%C3%A4ppchen/KID/de-mt.sl/" data-wt-name="header.nav:angebote.sub:mehr">Weitere Angebote</a>
+				</div>
+			</div>
+		</li>
+	</ul></div><!-- RENDERER END --></section><section id="xmasBanner"><!-- RENDERER BEGIN (category:category:m_infobox_closable) --><div id="z0_m_infobox_closable"><style type="text/css">
+		.bannerClose {
+			position: absolute;
+			top: -10px;
+			right: -10px;
+			cursor: pointer;
+		}
+	</style><div class="ipcheck" id="modeBannerTarget" style="display:none">
+		<a href="http://www.mytoys.de/Kombishopping-Aktion/KID/de-mt.mk.kombishopping-aktion/">
+			<img src="//www.mytoys.de/shopdata/images/teaser/info/info_multishop_jubi_2015.jpg" alt="" title="" border="0" />
+		</a>
+		<div class="bannerClose" id="closeButton">
+			<img src="static/img/ajpop/bt_close.png" align="absmiddle" />
+		</div>
+	</div><script><!--/*--><![CDATA[/*><!--*/ 
+		jQuery(document).ready(function(){
+			if(KONSUM.util.Cookie.getItem("mode_banner_3")!=="closed") {
+				jQuery('#modeBannerTarget').show();
+				jQuery('#closeButton').click(function() {
+					var CookieDaysHelper = function(exdays) {
+						var d = new Date();
+						d.setTime(d.getTime() + (exdays*24*60*60*1000));
+						return "expires="+d.toGMTString();
+					}
+					jQuery('#modeBannerTarget').hide();
+					KONSUM.util.Cookie.setItem("mode_banner_3", "closed", CookieDaysHelper(3), "/")
+				});
+			}
+		});
+	 /*-->]]>*/</script></div><!-- RENDERER END --></section><section id="ipcheck"></section></div><!-- RENDERER END --><div id="skyscraper"><!-- RENDERER BEGIN (category:category:m_skyscraper) --><div id="z0_m_skyscraper"><div>
+			<script type="text/javascript" src="https://imagesrv.adition.com/js/adition.js"><!--/*--><![CDATA[/*><!--*/  /*-->]]>*/</script>
+			<script type="text/javascript" src="https://ad1.adfarm1.adition.com/js?wp_id=3360282"><!--/*--><![CDATA[/*><!--*/  /*-->]]>*/</script>
+		</div></div><!-- RENDERER END --></div><div id="skyscraper2"><!-- RENDERER BEGIN (category:category:m_skyscraper2) --><div id="z0_m_skyscraper2"><div>
+			<script type="text/javascript" src="https://imagesrv.adition.com/js/adition.js"><!--/*--><![CDATA[/*><!--*/  /*-->]]>*/</script>
+			<script type="text/javascript" src="https://ad1.adfarm1.adition.com/js?wp_id=3360202"><!--/*--><![CDATA[/*><!--*/  /*-->]]>*/</script>
+		</div></div><!-- RENDERER END --></div></div><div id="sitecontent"><div id="spaceleft">&nbsp;</div><div style="float:left;width:930px;"><!-- RENDERER BEGIN (category:category:m_display_l) --><div id="z0
+19bd
+_m_display_l"><div id="addInfo"><!-- RENDERER BEGIN (category:category:m_addInfo) --><div id="z0_m_addInfo"><div class="addInfoBox"><div itemprop="breadcrumb" style="width: 910px;" id="path"><!-- RENDERER BEGIN (category:category:m_path) --><div id="z0_m_path"><a data-wt-name="header.breadcrumb:welcome" href="http://www.mytoys.de/">myToys Startseite</a>
+						&raquo; <strong>Spiele / Puzzle</strong></div><!-- RENDERER END --></div></div><div style="display: none;" id="s-box"><!-- RENDERER BEGIN (category:category:m_blank) --><div id="z0_m_blank"></div><!-- RENDERER END --></div></div><!-- RENDERER END --></div><div id="navi"><!-- RENDERER BEGIN (category:lasche:m_navi_home [C]) --><div id="z0_m_navi_home"><!-- RENDERER BEGIN (category:category:m_bnr) --><div id="z0_m_bnr"></div><!-- RENDERER END --><!-- RENDERER BEGIN (category:zugang:m_navi_nocats) --><div id="z0_m_navi_nocats"><div class="nav_zugang"><img alt="" border="0" height="7" width="7" src="static/img/navi/nav_arrow_white_right.gif"/><p><a href="http://www.mytoys.de/Aus-unserer-Werbung/KID/de-mt.gp.ca04/">Aus unserer Werbung</a></p></div><br class="clearfloat"/></div><!-- RENDERER END --><!-- RENDERER BEGIN (category:zugang:m_navi_topcats) --><div id="z0_m_navi_topcats"><div class="nav_zugangactive"><img alt="" border="0" height="7" width="7" src="static/img/navi/nav_arrow_white_right.gif"/><p><a href="http://www.mytoys.de/Unsere-ANGEBOTE-des-Monats/KID/de-mt.gp.ca13/">Unsere ANGEBOTE des Monats</a></p></div><br class="clearfloat"/></div><!-- RENDERER END --><!-- RENDERER BEGIN (category:zugang:m_navi_topcats) --><div id="z0_m_navi_topcats"><div class="nav_zugangactive"><img alt="" border="0" height="7" width="7" src="static/img/navi/nav_arrow_white_down.gif"/><p><a href="http://www.mytoys.de/Spiele-Puzzlemarken/KID/de-mt.gp.br01/">Spiele-/Puzzlemarken</a></p></div><br class="clearfloat"/><div class="nav_shoplist"><div class="shop"><div class="arrow"><img alt="" border="0" height="6" width="6" src="static/img/navi/nav_pfeil_shoprechts.gif"/></div><div class="txt"><a href="http://www.mytoys.de/Haba/KID/de-mt.gp.br01.04/">Haba</a></div></div><div class="shop"><div class="arrow"><img alt="" border="0" height="6" width="6" src="static/img/navi/nav_pfeil_shoprechts.gif"/></div><div class="txt"><a href="http://www.mytoys.de/Hasbro-Gaming/KID/de-mt.gp.br01.24/">Hasbro Gaming</a></div></div><div class="shop"><div class="arrow"><img alt="" border="0" height="6" width="6" src="static/img/navi/nav_pfeil_shoprechts.gif"/></div><div class="txt"><a href="http://www.mytoys.de/Mattel-Games/KID/de-mt.gp.br01.09/">Mattel Games</a></div></div><div class="shop"><div class="arrow"><img alt="" border="0" height="6" width="6" src="static/img/navi/nav_pfeil_shoprechts.gif"/></div><div class="txt"><a href="http://www.mytoys.de/Ravensburger-Spiele/KID/de-mt.gp.br01.14/">Ravensburger Spiele</a></div></div><div class="more"><form name="allshops" accept-charset="UTF-8" method="get" action=""><select style="font-size: 11px;" onchange="window_replace(this.value)"><option selected="selected" value="">Marke auswählen</option><option value="catalog/show/KID/de-mt.gp.br01/">alle Marken</option><option value="">--------------------</option><option value="http://www.mytoys.de/ABACUSSPIELE/KID/de-mt.gp.br01.59/">ABACUSSPIELE</option><option value="http://www.mytoys.de/Amigo/KID/de-mt.gp.br01.01/">Amigo</option><option value="http://www.mytoys.de/ASS-Altenburger/KID/de-mt.gp.br01.02/">ASS Altenburger</option><option value="http://www.mytoys.de/beleduc-Hape/KID/de-mt.gp.br01.34/">beleduc/Hape</option><option value="http://www.mytoys.de/Clementoni/KID/de-mt.gp.br01.03/">Clementoni</option><option value="http://www.mytoys.de/Giochi-Preziosi/KID/de-mt.gp.br01.81/">Giochi Preziosi</option><option value="http://www.mytoys.de/Goliath/KID/de-mt.gp.br01.18/">Goliath</option><option value="http://www.mytoys.de/Haba/KID/de-mt.gp.br01.04/">Haba</option><option value="http://www.mytoys.de/Hasbro-Gaming/KID/de-mt.gp.br01.24/">Hasbro Gaming</option><option value="http://www.mytoys.de/Huch-friends/KID/de-mt.gp.br01.05/">Huch &amp; friends</option><option value="http://www.mytoys.de/Janod/KID/de-mt.gp.br01.44/">Janod</option><option value="http://www.mytoys.de/Joodix/KID/de-mt.gp.br01.62/">Joodix</option><option value="http://www.mytoys.de/Jumbo/KID/de-mt.gp.br01.06/">Jumbo</option><option value="http://www.mytoys.de/Kosmos/KID/de-mt.gp.br01.07/">Kosmos</option><option value="http://www.mytoys.de/Larsen/KID/de-mt.gp.br01.08/">Larsen</option><option value="http://www.mytoys.de/Mattel-Games/KID/de-mt.gp.br01.09/">Mattel Games</option><option value="http://www.mytoys.de/Mega-Bleu/KID/de-mt.gp.br01.58/">Mega Bleu</option><option value="http://www.mytoys.de/Miniland/KID/de-mt.gp.br01.63/">Miniland</option><option value="http://www.mytoys.de/Moses-Verlag/KID/de-mt.gp.br01.67/">Moses Verlag</option><option value="http://www.mytoys.de/Noris-Spiele/KID/de-mt.gp.br01.11/">Noris Spiele</option><option value="http://www.mytoys.de/N%C3%BCrnberger-Spielkarten/KID/de-mt.gp.br01.57/">Nürnberger Spielkarten</option><option value="http://www.mytoys.de/Pegasus-Spiele/KID/de-mt.gp.br01.68/">Pegasus Spiele</option><option value="http://www.mytoys.de/Piatnik/KID/de-mt.gp.br01.30/">Piatnik</option><option value="http://www.mytoys.de/Ravensburger-Spiele/KID/de-mt.gp.br01.14/">Ravensburger Spiele</option><option value="http://www.mytoys.de/Schmidt-Spiele/KID/de-mt.gp.br01.15/">Schmidt Spiele</option><option value="http://www.mytoys.de/Selecta/KID/de-mt.gp.br01.19/">Selecta</option><option value="http://www.mytoys.de/Spiegelburg/KID/de-mt.gp.br01.22/">Spiegelburg</option><option value="http://www.mytoys.de/Thinkfun/KID/de-mt.gp.br01.25/">Thinkfun</option><option value="http://www.mytoys.de/Trefl/KID/de-mt.gp.br01.23/">Trefl</option><option value="http://www.mytoys.de/University-Games/KID/de-mt.gp.br01.20/">University Games</option><option value="http://www.mytoys.de/Winning-Moves/KID/de-mt.gp.br01.16/">Winning Moves</option><option value="http://www.mytoys.de/Zoch/KID/de-mt.gp.br01.17/">Zoch</option></select></form></div></div></div><!-- RENDERER END --><!-- RENDERER BEGIN (category:zugang:m_navi_topcats) --><div id="z0_m_navi_topcats"><div class="nav_zugangactive"><img alt="" border="0" height="7" width="7" src="static/img/navi/nav_arrow_white_down.gif"/><p><a href="http://www.mytoys.de/Spiele/KID/de-mt.gp.ca02/">Spiele</a></p></div><br class="clearfloat"/><div class="nav_shoplist"><div class="shop"><div class="arrow"><img alt="" border="0" height="6" width="6" src="static/img/navi/
+1b13
+nav_pfeil_shoprechts.gif"/></div><div class="txt"><a href="http://www.mytoys.de/Brettspiele/KID/de-mt.gp.ca02.07/">Brettspiele</a></div></div><div class="shop"><div class="arrow"><img alt="" border="0" height="6" width="6" src="static/img/navi/nav_pfeil_shoprechts.gif"/></div><div class="txt"><a href="http://www.mytoys.de/Geschicklichkeitsspiele-Aktion/KID/de-mt.gp.ca02.11/">Geschicklichkeitsspiele &amp; Aktion</a></div></div><div class="shop"><div class="arrow"><img alt="" border="0" height="6" width="6" src="static/img/navi/nav_pfeil_shoprechts.gif"/></div><div class="txt"><a href="http://www.mytoys.de/von-Kunden-empfohlen/KID/de-mt.gp.ca02.18/">von Kunden empfohlen</a></div></div><div class="shop"><div class="arrow"><img alt="" border="0" height="6" width="6" src="static/img/navi/nav_pfeil_shoprechts.gif"/></div><div class="txt"><a href="http://www.mytoys.de/Mitbringspiele-Reisespiele/KID/de-mt.gp.ca02.09/">Mitbringspiele &amp; Reisespiele</a></div></div><div class="shop"><div class="arrow"><img alt="" border="0" height="6" width="6" src="static/img/navi/nav_pfeil_shoprechts.gif"/></div><div class="txt"><a href="http://www.mytoys.de/Kartenspiele/KID/de-mt.gp.ca02.08/">Kartenspiele</a></div></div><div class="shop"><div class="arrow"><img alt="" border="0" height="6" width="6" src="static/img/navi/nav_pfeil_shoprechts.gif"/></div><div class="txt"><a href="http://www.mytoys.de/Lernspiele/KID/de-mt.gp.ca02.02/">Lernspiele</a></div></div><div class="shop"><div class="arrow"><img alt="" border="0" height="6" width="6" src="static/img/navi/nav_pfeil_shoprechts.gif"/></div><div class="txt"><a href="http://www.mytoys.de/Partyspiele/KID/de-mt.gp.ca02.10/">Partyspiele</a></div></div><div class="shop"><div class="arrow"><img alt="" border="0" height="6" width="6" src="static/img/navi/nav_pfeil_shoprechts.gif"/></div><div class="txt"><a href="http://www.mytoys.de/Quizspiele/KID/de-mt.gp.ca02.27/">Quizspiele</a></div></div><div class="shop"><div class="arrow"><img alt="" border="0" height="6" width="6" src="static/img/navi/nav_pfeil_shoprechts.gif"/></div><div class="txt"><a href="http://www.mytoys.de/Pr%C3%A4mierte-Spiele/KID/de-mt.gp.ca02.04/">Prämierte Spiele</a></div></div><div class="more"><div class="txt"><b><a href="http://www.mytoys.de/Spiele/KID/de-mt.gp.ca02/">alle Kategorien</a></b></div><div class="arrow"><img alt="" border="0" height="6" width="6" src="static/img/navi/nav_pfeil_shoprechts.gif"/></div></div></div></div><!-- RENDERER END --><!-- RENDERER BEGIN (category:zugang:m_navi_allcats) -->
+  <div id="z0_m_navi_allcats"><div class="nav_zugangactive"><img alt="" border="0" height="7" width="7" src="static/img/navi/nav_arrow_white_down.gif"/><p><a href="http://www.mytoys.de/Puzzle/KID/de-mt.gp.ca03/">Puzzle</a></p></div><br class="clearfloat"/><div class="nav_shoplist"><div class="shop"><div class="arrow"><img alt="" border="0" height="6" width="6" src="static/img/navi/nav_pfeil_shoprechts.gif"/></div><div class="txt"><a href="http://www.mytoys.de/Anzahl-der-Puzzleteile/KID/de-mt.gp.ca03.02/">Anzahl der Puzzleteile</a></div></div><div class="shop"><div class="arrow"><img alt="" border="0" height="6" width="6" src="static/img/navi/nav_pfeil_shoprechts.gif"/></div><div class="txt"><a href="http://www.mytoys.de/Motive-Themen/KID/de-mt.gp.ca03.04/">Motive &amp; Themen</a></div></div><div class="shop"><div class="arrow"><img alt="" border="0" height="6" width="6" src="static/img/navi/nav_pfeil_shoprechts.gif"/></div><div class="txt"><a href="http://www.mytoys.de/Arten-Formate/KID/de-mt.gp.ca03.03/">Arten &amp; Formate</a></div></div><div class="shop"><div class="arrow"><img alt="" border="0" height="6" width="6" src="static/img/navi/nav_pfeil_shoprechts.gif"/></div><div class="txt"><a href="http://www.mytoys.de/Puzzlezubeh%C3%B6r/KID/de-mt.gp.ca03.05/">Puzzlezubehör</a></div></div></div></div><!-- RENDERER END --><!-- RENDERER BEGIN (category:zugang:m_navi_nocats) --><div id="z0_m_navi_nocats"><div class="nav_zugang"><img alt="" border="0" height="7" width="7" src="static/img/navi/nav_arrow_white_right.gif"/><p><a href="http://www.mytoys.de/Spiele-nach-Alter/KID/de-mt.gp.ca01/">Spiele nach Alter</a></p></div><br class="clearfloat"/></div><!-- RENDERER END --><!-- RENDERER BEGIN (category:zugang:m_navi_topcats) --><div id="z0_m_navi_topcats"><div class="nav_zugangactive"><img alt="" border="0" height="7" width="7" src="static/img/navi/nav_arrow_white_right.gif"/><p><a href="http://www.mytoys.de/4-Lieblingsspiele/KID/de-mt.gp.ca11/">4 Lieblingsspiele</a></p></div><br class="clearfloat"/></div><!-- RENDERER END --><!-- RENDERER BEGIN (category:zugang:m_navi_nocats) --><div id="z0_m_navi_nocats"><div class="nav_zugang"><img alt="" border="0" height="7" width="7" src="static/img/navi/nav_arrow_white_right.gif"/><p><a href="http://www.mytoys.de/Neuheiten/KID/de-mt.gp.ne01/">Neuheiten</a></p></div><br class="clearfloat"/></div><!-- RENDERER END --><!-- RENDERER BEGIN (category:zugang:m_navi_salenocats) --><div id="z0_m_navi_salenocats"><div id="navi_sale"><div class="nav_zugang"><img alt="" border="0" height="7" width="7" src="static/img/navi/nav_arrow_white_right.gif"/><p><a href="http://www.mytoys.de/Schn%C3%A4ppchen/KID/de-mt.gp.sl01/">Schnäppchen</a></p></div><br class="clearfloat"/></div></div><!-- RENDERER END --><!-- RENDERER BEGIN (category:zugang:m_navi_nocats) --><div id="z0_m_navi_nocats"><div class="nav_zugang"><img alt="" border="0" height="7" width="7" src="static/img/navi/nav_arrow_white_right.gif"/><p><a href="http://www.mytoys.de/Geschenktipps/KID/de-mt.gp.pr01/">Geschenktipps</a></p></div><br class="clearfloat"/></div><!-- RENDERER END --><!-- RENDERER BEGIN (category:zugang:m_navi_topcats) --><div id="z0_m_navi_topcats"><div class="nav_zugangactive"><img alt="" border="0" height="7" width="7" src="static/img/navi/nav_arrow_white_right.gif"/><p><a href="http://www.mytoys.de/Top-10-Spiele/KID/de-mt.gp.ca12/">Top 10 Spiele</a></p></div><br class="clearfloat"/></div><!-- RENDERER END --><!-- RENDERER BEGIN (category:category:m_bnrbottom) --><div id="z0_m_bnrbottom"></div><!-- RENDERER END --></div><!-- RENDERER END --></div><div id="spacemiddle">&nbsp;</div><div id="content"><!-- RENDERER BEGIN (category:category:m_raster_1l6m [C]) --><div id="z0_m_raster_1l6m"><div class="home"><div class="homeTitle"><h1>Spiele / Puzzle</h1></div><!-- RENDERER BEGIN (category:category:m_blank) --><div id="z0_m_blank"></div><!-- RENDERER END --><!-- RENDERER BEGIN (category:category:m_featureL_fade) --><div id="z0_m_featureL_fade"><div style="position:relative; width:;height:; overflow:hidden;" id="jbacca_12b02e4"><div><div id="z0_featurefade_1"><div class="featureBigLight">
+	<a href="http://www.mytoys.de/Geschenkideen-zu-Weihnachten/KID/de-mt.mk.weihnachtswerbung/">
+		<img src="http://images.mytoys.com/mytoys/images/teaser/xl/xl_mk_xmas_geschenkideen.jpg" border="0" alt="Geschenkideen zu Weihnachten" title=
+10f8
+"Geschenkideen zu Weihnachten" />
+	</a>
+</div></div><div id="z0_featurefade_2"><div class="featureBigLight">
+	<img src="http://images.mytoys.com/mytoys/images/teaser/xl/xl_gp_spiel_kinderspiel_djahres.jpg" width="528" height="218" border="0" alt="Spiel/Kinderspiel_des Jahres" title="Spiel/Kinderspiel_des Jahres" usemap="#lernen_top" />
+	<map name="lernen_top">
+		<area shape="rect" coords="59,45,254,210" href="http://www.mytoys.de/Zoch-KINDERSPIEL-DES-JAHRES-2015-Spinderella/Motorik-Bewegung/Lernspiele/KID/de-mt.gp.ca02.02.14/4009861" alt="Kinderspiel des Jahres" title="Kinderspiel des Jahres" />
+		<area shape="rect" coords="296,45,483,210" href="http://www.mytoys.de/Asmodee-SPIEL-DES-JAHRES-2015-Colt-Express/Pr%C3%A4mierte-Spiele/KID/de-mt.gp.ca02.04/4042205" alt="Spiel des Jahres" title="Spiel des Jahres" />
+	</map>
+</div></div><div id="z0_featurefade_3"><div class="featureBigLight">
+<a href="http://www.mytoys.de/Anzahl-der-Puzzleteile/KID/de-mt.gp.ca03.02/">
+		<img src="http://images.mytoys.com/mytoys/images/teaser/xl/xl_gp_puzzlejedesalter.jpg" width="528" height="218" border="0" alt="Puzzles nach Alter" title="Puzzles nach Alter" usemap="#puzzlesjedesalter" /></a>
+		<map name="puzzlesjedesalter" id="puzzlesjedesalter">
+			<area shape="rect" coords="9,63,129,208" href="http://www.mytoys.de/bis-50-Teile/Anzahl-der-Puzzleteile/KID/de-mt.gp.ca03.02.01/" alt="bis 50 Teile" />
+			<area shape="rect" coords="137,62,261,209" href="http://www.mytoys.de/bis-100-Teile/Anzahl-der-Puzzleteile/KID/de-mt.gp.ca03.02.02/" alt="bis 100 Teile" />
+			<area shape="rect" coords="266,47,382,208" href="http://www.mytoys.de/bis-200-Teile/Anzahl-der-Puzzleteile/KID/de-mt.gp.ca03.02.03/" alt="bis 200 Teile" />
+			<area shape="rect" coords="391,47,512,208" href="http://www.mytoys.de/bis-500-Teile/Anzahl-der-Puzzleteile/KID/de-mt.gp.ca03.02.04/" alt="bis 500 Teile" />
+		</map>
+
+
+
+
+
+
+
+
+
+</div></div></div></div><img style="cursor: pointer;" alt="Nach rechts blättern" src="static/img/buttons/arrow_left_feature_inactive.png" id="jbacca_12b02e2" class="left-button"/><img style="cursor: pointer;" alt="Nach links blättern" src="static/img/buttons/arrow_right_feature_inactive.png" id="jbacca_12b02e3" class="right-button"/></div><!-- RENDERER END --><div class="feat1"><!-- RENDERER BEGIN (category:category:m_featureM1) --><div id="z0_m_featureM1"><div class="featureLight">
+	<a href="http://www.mytoys.de/Unsere-ANGEBOTE-des-Monats/KID/de-mt.gp.ca13/"><img src="http://images.mytoys.com/mytoys/images/teaser/m/m_gp_angebote_monat.jpg" border="0" alt="Unsere Angebote des Monats" title="Unsere Angebote des Monats" /></a>
+</div></div><!-- RENDERER END --></div><div class="feat2"><!-- RENDERER BEGIN (category:category:m_featureM2) --><div id="z0_m_featureM2"><div class="featureLight">
+	<a href="http://www.mytoys.de/3D-Puzzle/Arten-Formate/KID/de-mt.gp.ca03.03.24/"><img src="http://images.mytoys.com/mytoys/images/teaser/m/m_gp_3dpuzzle.jpg" border="0" alt="3-D Puzzle" title="3-D Puzzle" /></a>
+</div></div><!-- RENDERER END --></div><div class="feat3"><!-- RENDERER BEGIN (category:category:m_featureM3) --><div id="z0_m_featureM3"><div class="featureLight">
+	<a href="http://www.mytoys.de/Geschicklichkeitsspiele-Aktion/KID/de-mt.gp.ca02.11/">
+		<img src="http://images.mytoys.com/mytoys/images/teaser/m/m_gp_aktionsspiele.jpg" border="0" alt="Aktionsspiele" title="Aktionsspiele" />
+	</a>
+</div></div><!-- RENDERER END --></div><div class="feat4"><!-- RENDERER BEGIN (category:category:m_featureM4) --><div id="z0_m_featureM4"><div class="featureLight">
+	<a href="http://www.mytoys.de/Brettspiele/KID/de-mt.gp.ca02.07/"><img src="http://images.mytoys.com/mytoys/images/teaser/m/m_gp_brettspiele.jpg" border="0" alt="Brettspiele" title="Brettspiele" /></a>
+</div></div><!-- RENDERER END --></div><div class="feat5"><!-- RENDERER BEGIN (category:category:m_featureM5) --><div id="z0_m_featureM5"><div class="featureLight">
+	<a href="http://www.mytoys.de/Neuheiten/KID/de-mt.gp.ne01/"><img src="http://images.mytoys.com/mytoys/images/teaser/m/m_gp_neuheiten.jpg" border="0" alt="Neuheiten" title="Neuheiten" /></a>
+</div></div><!-- RENDERER END --></div><div class="feat6"><!-- RENDERER BEGIN (category:category:m_featureM6) --><div id="z0_m_featureM6"><div class="featureLight">
+	<a href="htt
+95e
+p://www.mytoys.de/Schn%C3%A4ppchen/KID/de-mt.gp.sl01/"><img src="http://images.mytoys.com/mytoys/images/teaser/m/m_gp_schnaeppchen.jpg" border="0" alt="Schnäppchen" title="Schnäppchen" /></a>
+</div></div><!-- RENDERER END --></div><br class="clearfloat"/><!-- RENDERER BEGIN (category:category:m_blank) --><div id="z0_m_blank"></div><!-- RENDERER END --></div><!-- RENDERER BEGIN (category:category:m_blank) --><div id="z0_m_blank"></div><!-- RENDERER END --><div class="highlights"><!-- RENDERER BEGIN (category:lasche:m_highlights) --><div id="z0_m_highlights"><div class="highlightsTitle"><span class="txt">Top-Tipps</span></div><br/><!-- RENDERER BEGIN (product:product:m_product_highlights [C]) --><div id="z0_m_product_highlights_2599318"><div data-action="triggerLink" class="productHome pointer"><div align="center"><img vspace="10" alt="Ringo Flamingo" border="0" height="120" width="120" src="http://mytoys.scene7.com/is/image/myToys/ext/2599318-01.jpg?$b$"/></div><span class="prodProzente">Sie sparen 62%!</span><br/><span class="prodTitle"><a href="http://www.mytoys.de/Ravensburger-Ringo-Flamingo/Geschicklichkeitsspiele-Aktion/KID/de-mt.gp.ca02.11/2599318">Ringo Flamingo</a></span><br/><span class="prodBy">
+				von Ravensburger<br/></span><div class="starsnprice"><img vspace="3" alt="" border="0" height="12" width="64" src="static/img/rating/stars4.gif"/><br/><span class="price">&#8364; 9,99<span style="cursor:pointer" class="aHR0cHM6Ly93d3cubXl0b3lzLmRlL2NoZWNrb3V0L2FkZFRvQmFza2V0P2lkPWRlX0RFJTJGREVVJTJGS0lEJTJGZGUtbXQuZ3AuY2EwMi4xMSUyRjI1OTkzMTgmbGF5b3V0PWFqYXg= " id="jbacca_12b02e6"><img hspace="10" align="absbottom" alt="Artikel in den Warenkorb legen" border="0" height="12" width="15" src="static/img/category/cat_basket_small.gif"/></span><div class="konsum_ajax_popup ajax_popup" style="display:none;     overflow:visible;     position: fixed !important;     position: absolute;     width:465px;     height:auto;" id="jbacca_12b02e5"><div style="margin-left:435px; position:relative; margin-top:0;" class="ajpop_wk_headright ajax_popup_close"><a style="cursor:pointer;"><img border="0" src="static/img/ajpop/bt_close.png"/></a><br/></div><div style="width:450px; height:auto;"><div id="#ajpop_wk_cont"><div class="ajpop_wk_header"></div><div class="ajpop_context"><img border="0" src="/static/img/ajpop/popup_info.png/../popup_basket.png"/></div><div class="kons
+5a2
+um_jbacca_ajax_target">Bitte warten...</div><div class="ajpop_footer"></div></div></div></div><br/><span class="old">
+			statt
+			
+					&euro;
+				25,99<span data-action="tooltip-jb" data-text="Unverb. Preisempf." id="jbacca_12b02e7"><img style="cursor:pointer;" alt="Hier klicken!" border="0" height="8" width="7" src="static/img/ico_info.gif"/></span></span></span></div><img vspace="5" alt="" border="0" height="1" width="140" src="static/img/category/prod_bottom_dottedlinehome.gif"/></div></div><!-- RENDERER END --><!-- RENDERER BEGIN (product:product:m_product_highlights [C]) --><div id="z0_m_product_highlights_1651743"><div data-action="triggerLink" class="productHome pointer"><div align="center"><img vspace="10" alt="HABA Ratz-Fatz ist Weihnachten" border="0" height="120" width="120" src="http://mytoys.scene7.com/is/image/myToys/ext/1651743-01.jpg?$b$"/></div><span class="prodProzente">Sie sparen 33%!</span><br/><span class="prodTitle"><a href="http://www.mytoys.de/Haba-HABA-Ratz-Fatz-ist-Weihnachten/Spiele-Puzzle/Haba/KID/de-mt.gp.br01.04.01.01/1651743">HABA Ratz-Fatz ist Weihnachten</a></span><br/><span class="prodBy">
+				von Haba<br/></span><div class="starsnprice"><img vspace="3" alt="" border="0" height="12" width="64" src="static/img/rating/stars5.gif"/><br/><span class="price">&#8364; 9,99<span style="cursor:pointer" class="aHR0cHM6Ly93d3cubXl0b3lzLmRlL2NoZWNrb3V0L2FkZFRvQmFza2V0P2lkPWRlX0RFJTJGREVVJTJGS0lEJ
+5a8
+TJGZGUtbXQuZ3AuYnIwMS4wNC4wMS4wMSUyRjE2NTE3NDMmbGF5b3V0PWFqYXg= " id="jbacca_12b02e9"><img hspace="10" align="absbottom" alt="Artikel in den Warenkorb legen" border="0" height="12" width="15" src="static/img/category/cat_basket_small.gif"/></span><div class="konsum_ajax_popup ajax_popup" style="display:none;     overflow:visible;     position: fixed !important;     position: absolute;     width:465px;     height:auto;" id="jbacca_12b02e8"><div style="margin-left:435px; position:relative; margin-top:0;" class="ajpop_wk_headright ajax_popup_close"><a style="cursor:pointer;"><img border="0" src="static/img/ajpop/bt_close.png"/></a><br/></div><div style="width:450px; height:auto;"><div id="#ajpop_wk_cont"><div class="ajpop_wk_header"></div><div class="ajpop_context"><img border="0" src="/static/img/ajpop/popup_info.png/../popup_basket.png"/></div><div class="konsum_jbacca_ajax_target">Bitte warten...</div><div class="ajpop_footer"></div></div></div></div><br/><span class="old">
+			statt
+			
+					&euro;
+				14,99<span data-action="tooltip-jb" data-text="alter Preis" id="jbacca_12b02ea"><img style="cursor:pointer;" alt="Hier klicken!" border="0" height="8" width="7" src="static/img/ico_info.gif"/></span></span></span></div><img vspace="5" alt="" border="0" height="1" width="140" src="static/img/category/prod_bottom_dottedlinehome.gif"/></div></div><!-- RENDERER END --><!-- RENDERER BEGIN (product:product:m_product_highlights [C]) 
+3cd
+--><div id="z0_m_product_highlights_2543820"><div data-action="triggerLink" class="productHome pointer"><div align="center"><img vspace="10" alt="Disney Cinderella Das magische Schuhspiel" border="0" height="120" width="120" src="http://mytoys.scene7.com/is/image/myToys/ext/2543820-01.jpg?$b$"/></div><span class="prodProzente">Sie sparen 50%!</span><br/><span class="prodTitle"><a href="http://www.mytoys.de/Jumbo-Disney-Cinderella-Das-magische-Schuhspiel/weitere-Brettspiele/Brettspiele/KID/de-mt.gp.ca02.07.17/2543820">Disney Cinderella Das magische Schuhspiel</a></span><br/><span class="prodBy">
+				von Jumbo<br/></span><div class="starsnprice"><img vspace="3" alt="" border="0" height="12" width="64" src="static/img/rating/stars5.gif"/><br/><span class="price">&#8364; 9,99<span style="cursor:pointer" class="aHR0cHM6Ly93d3cubXl0b3lzLmRlL2NoZWNrb3V0L2FkZFRvQmFza2V0P2lkPWRlX0RFJTJGREVVJTJGS0lEJTJGZGUtbXQuZ3AuY2EwMi4wNy4xNyUyRjI1NDM4MjAmbGF5b3V0PWFqYXg= " id="jbac
+1db
+ca_12b02ec"><img hspace="10" align="absbottom" alt="Artikel in den Warenkorb legen" border="0" height="12" width="15" src="static/img/category/cat_basket_small.gif"/></span><div class="konsum_ajax_popup ajax_popup" style="display:none;     overflow:visible;     position: fixed !important;     position: absolute;     width:465px;     height:auto;" id="jbacca_12b02eb"><div style="margin-left:435px; position:relative; margin-top:0;" class="ajpop_wk_headright ajax_popup_clos
+5a8
+e"><a style="cursor:pointer;"><img border="0" src="static/img/ajpop/bt_close.png"/></a><br/></div><div style="width:450px; height:auto;"><div id="#ajpop_wk_cont"><div class="ajpop_wk_header"></div><div class="ajpop_context"><img border="0" src="/static/img/ajpop/popup_info.png/../popup_basket.png"/></div><div class="konsum_jbacca_ajax_target">Bitte warten...</div><div class="ajpop_footer"></div></div></div></div><br/><span class="old">
+			statt
+			
+					&euro;
+				19,99<span data-action="tooltip-jb" data-text="Unverb. Preisempf." id="jbacca_12b02ed"><img style="cursor:pointer;" alt="Hier klicken!" border="0" height="8" width="7" src="static/img/ico_info.gif"/></span></span></span></div><img vspace="5" alt="" border="0" height="1" width="140" src="static/img/category/prod_bottom_dottedlinehome.gif"/></div></div><!-- RENDERER END --><!-- RENDERER BEGIN (product:product:m_product_highlights [C]) --><div id="z0_m_product_highlights_3594373"><div data-action="triggerLink" class="productHome pointer"><div align="center"><img vspace="10" alt="Mad Hedz Scartooth" border="0" height="120" width="120" src="http://mytoys.scene7.com/is/image/myToys/ext/3594373-01.jpg?$b$"/></div><span class="prodProzente">Sie sparen 57%!</span><br/><span class="prodTitle"><a href="http://www.mytoys.de/Huch-and-friends-Mad-Hedz-Scartooth/Denk-Logikspiele/KID/de-mt.gp.ca02.14/3594373">Mad Hedz Scartooth</a></span><br/><span class="prodBy">
+				von Huch and
+5a8
+ friends<br/></span><div class="starsnprice"><img vspace="3" alt="" border="0" height="12" width="64" src="static/img/rating/stars5.gif"/><br/><span class="price">&#8364; 5,99<span style="cursor:pointer" class="aHR0cHM6Ly93d3cubXl0b3lzLmRlL2NoZWNrb3V0L2FkZFRvQmFza2V0P2lkPWRlX0RFJTJGREVVJTJGS0lEJTJGZGUtbXQuZ3AuY2EwMi4xNCUyRjM1OTQzNzMmbGF5b3V0PWFqYXg= " id="jbacca_12b02ef"><img hspace="10" align="absbottom" alt="Artikel in den Warenkorb legen" border="0" height="12" width="15" src="static/img/category/cat_basket_small.gif"/></span><div class="konsum_ajax_popup ajax_popup" style="display:none;     overflow:visible;     position: fixed !important;     position: absolute;     width:465px;     height:auto;" id="jbacca_12b02ee"><div style="margin-left:435px; position:relative; margin-top:0;" class="ajpop_wk_headright ajax_popup_close"><a style="cursor:pointer;"><img border="0" src="static/img/ajpop/bt_close.png"/></a><br/></div><div style="width:450px; height:auto;"><div id="#ajpop_wk_cont"><div class="ajpop_wk_header"></div><div class="ajpop_context"><img border="0" src="/static/img/ajpop/popup_info.png/../popup_basket.png"/></div><div class="konsum_jbacca_ajax_target">Bitte warten...</div><div class="ajpop_footer"></div></div></div></div><br/><span class="old">
+			statt
+			
+					&euro;
+				13,95<span data-action="tooltip-jb" data-text="Unverb. Preisempf." id="jbacca_12b02f0"><img style="cursor:pointer;" alt="Hier klicken!" border
+3b6
+="0" height="8" width="7" src="static/img/ico_info.gif"/></span></span></span></div><img vspace="5" alt="" border="0" height="1" width="140" src="static/img/category/prod_bottom_dottedlinehome.gif"/></div></div><!-- RENDERER END --><script async="true" type="text/javascript">
+		var productsForTCVars = [{"name": "Ringo Flamingo","master_sku": "2599318","sku": "2599318"},{"name": "HABA Ratz-Fatz ist Weihnachten","master_sku": "1651743","sku": "1651743"},{"name": "Disney Cinderella Das magische Schuhspiel","master_sku": "2543820","sku": "2543820"},{"name": "Mad Hedz Scartooth","master_sku": "3594373","sku": "3594373"},{"name": "Pop Up Olaf","master_sku": "3965965","sku": "3965965"},{"name": "Kroko Doc","master_sku": "3824997","sku": "3824997"},];
+		
+		var productsForTCVarsSize = 20;
+	</script></div><!-- RENDERER END --></div></div><!-- RENDERER END --><br class="clearfloat"/><!-- RENDERER BEGIN (category:category:m_blank) --><div id="z0_m_
+5a2
+blank"></div><!-- RENDERER END --></div></div><!-- RENDERER END --><br class="clearfloat"/><!-- RENDERER BEGIN (category:category:m_blank) --><div id="z0_m_blank"></div><!-- RENDERER END --><!-- RENDERER BEGIN (category:category:m_blank) --><div id="z0_m_blank"></div><!-- RENDERER END --><!-- RENDERER BEGIN (category:category:m_socialmedia [C]) --><div id="z0_m_socialmedia"><div class="divider-line"> </div><div class="clearfix" id="socialmedia"><div class="columnblock"><h2>myToys bloggt zu spannenden Themen <br/> rund um die Familie</h2><p><a data-alt="Schmökern Sie durch unseren Blog!" data-src="static/img/social/icon_mtblog_big.gif" data-action="asyncImageInsert" title="Schmökern Sie durch unseren Blog!" target="_blank" data-wt-name="footer.blog:mytoys" href="http://www.mytoys.de/my-blog/"></a></p><p><a title="Schmökern Sie durch unseren Blog!" target="_blank" data-wt-name="footer.blog:mytoys" href="http://www.mytoys.de/my-blog/">zum Blog</a></p></div><div class="feedbackblock"><h2>Wir freuen uns über Ihre Meinung zu myToys!</h2><p><a data-alt="Sagen Sie uns Ihre Meinung zu myToys!" data-src="static/img/social/icon_feedback_big.png" data-action="asyncImageInsert" title="Sagen Sie uns Ihre Meinung zu myToys!" rel="nofollow" href="javascript:openPop();"></a></p><p><a title="Sagen Sie uns Ihre Meinung zu myToys!" rel="nofollow" href="javascript:openPop();" class="btn-small-link next">Lob & Kritik abgeben</a></p></d
+5a8
+iv><div data-action="social_fan_agb" class="columnblock"><h2>Werden Sie Fan auf Facebook!</h2><div class="fb_logo"><a data-alt="Klicken Sie hier um Facebook Fan zu werden!" data-src="static/img/social/icon_facebook_big.gif" data-action="asyncImageInsert" title="Klicken Sie hier um Facebook Fan zu werden!" target="_blank" rel="nofollow" data-wt-name="footer.facebook:mytoys" href="http://www.facebook.com/myToys"></a></div><div id="fb-root"/><script>(function(d, s, id) {
+			  var js, fjs = d.getElementsByTagName(s)[0];
+			  if (d.getElementById(id)) return;
+			  js = d.createElement(s); js.id = id;
+			  js.src = "//connect.facebook.net/de_DE/sdk.js#xfbml=1&version=v2.3";
+			  fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));</script><div data-show-posts="false" data-show-facepile="false" data-hide-cover="false" data-width="250" data-href="https://www.facebook.com/myToys" class="fb-page"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/myToys"><a data-wt-name="footer.facebook:mytoys" href="https://www.facebook.com/myToys">myToys bei Facebook</a></blockquote></div></div></div></div><div class="divider-line"> </div></div><!-- RENDERER END --><!-- RENDERER BEGIN (category:category:m_seolist [C]) --><div id="z0_m_seolist"><script type="text/javascript">
+ function divSize(){
+  document.getElementById('txtContent').style.height = '50px';
+ }
+</script><div class="addCatInfo"
+5a8
+><div style="overflow: hidden;" id="txtContent"><h2>
+		Familienspiele, Gesellschaftsspiele und Puzzle
+	</h2><p>
+		Spielen verbindet, Spielen macht glücklich! Spannende Familienspiele, originelle Partyspiele und kniffelige Puzzles 
+		können Sie auf myToys günstig online kaufen.
+	</p><p /><h2>Für unvergessliche Spielerlebnisse die lustigsten Gesellschaftsspiele günstig auf myToys bestellen</h2><p>
+		Mit den Gesellschaftsspielen aus unserem Online-Shop können Sie Ihrem Kind fröhliche Stunden bescheren: Ob alleine, 
+		mit Freunden oder im Kreis der Familie – Spiele trainieren verschiedene Fähigkeiten wie Abstraktions- oder Erinnerungsvermögen, 
+		sie schulen den Teamgeist und sind ein tolles Gemeinschaftserlebnis, bei dem Gewinnen oder Verlieren auf einmal gar nicht 
+		mehr so im Vordergrund steht...
+	</p><p>
+		Bei der großen Auswahl an Gesellschaftsspielen führender Hersteller wie Ravensburger, Parker, Schmidt oder MB fällt die 
+		Entscheidung manchmal nicht leicht. Ganz gleich, ob Sie sich für einen Spieleklassiker wie 
+		<a href="http://www.mytoys.de/Monopoly/Brettspiele/KID/de-mt.gp.ca02.07.09/"><strong>Monopoly</strong></a> oder die aktuellen 
+		Spieleneuheiten interessieren: Im Online-Shop von myToys gehen Sie als Erste durchs Ziel. Mit wenigen Klicks liefern 
+		wir Ihnen die optimale Auswahl – ganz unkompliziert und übersichtig strukturiert.
+	</p><p>
+	Falls Sie gerne Preisträger versche
+5a8
+nken, finden Sie in unserem umfangreichen Angebot an prämierten Gesellschaftsspielen das 
+	jeweilige <a href="catalog/show/KID/de-mt.gp.ca02.04.01/"><strong>Spiel des Jahres</strong></a> und viele mehr.
+	</p><p /><h2>Tüftler aller Altersklassen mit einem Puzzle aus unserem Online-Shop herausfordern</h2><p>
+		Viele Teile ergeben ein Ganzes… Für begeisterte Tüftler jeden Alters finden Sie in unserer Spielevielfalt immer ein tolles 
+		neues Puzzle mit dem passenden Schwierigkeitsgrad: Ein hochwertiges Holzpuzzle etwa schult die motorischen Fähigkeiten der 
+		ganz Kleinen, das Kombinationsgeschick erfahrener und geduldiger Puzzlefreunde stellen wir mit 
+		<a href="http://www.mytoys.de/bis-1-000-Teile/Anzahl-der-Puzzleteile/KID/de-mt.gp.ca03.02.05/"><strong>Puzzles mit 1000 Teilen</strong></a> und 
+		auch Puzzles mit mehr als 2000 Teilen auf die Probe.
+	</p><p>
+		Die entzückenden Babymotive der <a href="catalog/show/KID/de-mt.gp.br01.15.02.08/"><strong>Anne Geddes Puzzles</strong></a>, traumhafte 
+		Landschaften oder beliebte Stars aus Film und TV – einzig 
+		durch die Geschicklichkeit Ihres Kindes entfaltet sich vor seinen Augen eine kleine Welt. Besonders stolze Puzzlekünstler 
+		können sich ihr Lieblingsmotiv mit Hilfe eines speziellen Puzzle-Klebers zum täglichen Bestaunen an die Wand hängen.
+	</p><p>
+	Spezielle Puzzleangebote wie das Alphabet zum Zusammenstecken als Bodenpuzzle verstärken den Ler
+5a8
+neffekt beim Spielspaß. Neben 
+	dem klassischen Standardpuzzle können Sie bei uns viele originelle Puzzleideen entdecken: Das Aquapuzzle beispielsweise darf 
+	mit in die Wanne genommen werden und der fertige <a href="http://www.mytoys.de/Puzzleball/Arten-Formate/KID/de-mt.gp.ca03.03.07/"><strong>Puzzleball</strong></a> mit 
+	dem Lieblingsmotiv ist genau wie die faszinierende <a href="catalog/show/KID/de-mt.gp.ca03.03.20/"><strong>puzzlepyramid®</strong></a> 
+	mit ihren knickbaren Puzzleteilen eine hübsche Dekoration für das Kinderzimmer. Aufregend, wenn das fertige Leuchtpuzzle auch 
+	noch im Dunkeln bestaunt werden kann. Im Puzzlekoffer lässt sich die eigene kleine Puzzlewelt auch zum Spielen bei Freunden 
+	mitnehmen und mit der innovativen Puzzlematte können die Teile ganz bequem nach Farbe und Form sortiert werden.
+	</p><p>
+	Um Ihre Fragen rund um den Einkauf kümmert sich unser geschulter Kundenservice gerne. Beim Stöbern und Einkaufen auf myToys 
+	wünscht Ihnen das Team von myToys viel Spaß!
+	</p></div><script type="text/javascript">
+		divSize();
+	</script><div class="txtswitch"><p><span id="moreTxt">Mehr <img border="0" alt="" height="7" width="8" src="static/img/seo/seo_arrow_down.png"/></span><span style="display: none;" id="lessTxt">Weniger <img border="0" alt="" height="7" width="8" src="static/img/seo/seo_arrow_up.png"/></span></p></div></div><div class="divider-line"> </div></div><!-- RENDERE
+3b6
+R END --><br class="clearfloat"/><!-- RENDERER BEGIN (category:category:m_footer) --><div id="z0_m_footer"><div id="footer"><!-- RENDERER BEGIN (category:category:m_footer_service) --><div id="z0_m_footer_service"><script type="text/javascript"><!--/*--><![CDATA[/*><!--*/ 
+		function checkIfStore() {
+			var mediacode = new KONSUM.util.CookieUtil().readCookieValue('mytoys_filiale');
+			if(mediacode != null) {
+				window.location = "/";
+			} else {
+				// BITTE BEI ÄNDERUNGEN DIE AKTUALISIERUNG NICHT VERGESSEN
+				window.location = "Geschenkgutscheine-kaufen/KID/de-mt.pr.ca04.01/";
+			}
+		}
+
+		function titleIfStore() {
+			var mediacode = new KONSUM.util.CookieUtil().readCookieValue('mytoys_filiale');
+			if(mediacode != null) {
+				document.getElementById('soldCouponLink').title = "Geschenkgutscheine sind direkt an der Kasse Ihrer Filiale erhältlich.";
+			}
+		}
+		
+		function openPop() {
+			fenster1 = open('/opt/raffle/1582_lota?noredirec
+5a2
+t=true','Kritik','width=700,height=710,screenX=1,screenY=1,left=1,top=1,scrollbars=yes,resize=no'); 
+			fenster1.focus();
+		}
+	 /*-->]]>*/</script><div class="box_half" style="float: left;">
+	<div class="columnblock" style="height: 250px;">
+		<div class="column" style="margin-left: 25px; width: 85px;">
+			<p class="headline">Service</p>
+			<p>
+				<a href="http://www.mytoys.de/Ihre-Vorteile/KID/de-mt.sv01.benefit/">Ihre Vorteile bei myToys</a>
+			</p>
+			<p>
+				<a href="http://www.mytoys.de/Hilfe/KID/de-mt.sv01/">Hilfe</a>
+			</p>
+			<p>
+				<a href="http://www.mytoys.de/Kontakt/KID/de-mt.sv07/" rel="nofollow">Kontakt</a>
+			</p>
+			<p>
+				<a href="opt/nl/subscribe" rel="nofollow">Newsletter</a>
+			</p>
+			<p>
+				<a href="http://www.mytoys.de/Katalog/KID/de-mt.mk.katalog/" rel="nofollow">Katalog</a>
+			</p>
+			<p>
+				<a href="http://www.mytoys.de/Wunschzettel/KID/de-mt.pr.ca04.02/" rel="nofollow">Wunschzettel</a>
+			</p>
+			<p>
+				
+				<a id="soldCouponLink" href="javascript:checkIfStore();" onmouseover="javascript:titleIfStore();">Geschenk- gutscheine</a>
+			</p>
+			<p>
+				<a href="javascript:openPop();" rel="nofollow">Lob &amp; Kritik </a>
+			</p>
+		</div>
+		<div class="column" style="width: 110px;">
+			<p class="headline">Ihre Bestellung</p>
+			<p>
+				<a href="https://checkout.mytoys.de/checkout/serviceOverview" rel="nofollow">Mein Konto</a>
+			</p>
+			<p>
+				<a href="http
+b50
+://www.mytoys.de/Versandkosten-Lieferzeiten/KID/de-mt.sv01.shipping/" rel="nofollow">Versandkosten</a>
+			</p>
+			<p>
+				<a href="http://www.mytoys.de/Widerruf-und-R%C3%BCckgabe/KID/de-mt.sv01.return/" rel="nofollow">Widerruf und Rückgabe</a>
+			</p>
+			<p>
+				<a href="http://www.mytoys.de/Zahlung/KID/de-mt.sv01.payment/" rel="nofollow">Zahlungsarten</a>
+			</p>
+			<p>
+				<a href="http://www.mytoys.de/PaketShop-Suche/KID/de-mt.sv01.paketshop/" rel="nofollow">Paketshop suchen</a>
+			</p>
+		</div>
+		<div class="column" style="width: 90px;">
+			<p class="headline">myToys</p>
+			<p>
+				<a href="http://www.mytoys.de/Jobportal/KID/de-mt-jobs.01/">Jobs</a>
+			</p>
+			<p>
+				<a href="http://www.mytoys.de/%C3%9Cber-uns/KID/de-mt.sv02/">Über uns</a>
+			</p>
+			<p>
+				<a href="http://www.mytoys.de/Filialen/KID/de-mt.sv06/">Filialen</a>
+			</p>
+			<p>
+				<a href="http://www.mytoys.de/my-blog/" target="_blank">Blog</a>
+			</p>
+			<p>
+				<a href="http://www.mytoys.de/Impressum/KID/de-mt.sv08/" rel="nofollow">Impressum</a>
+			</p>
+			<p>
+				<a href="http://www.mytoys.de/AGB/KID/de-mt.sv01.agb/" rel="nofollow">AGB</a>
+			</p>
+			<p>
+				<a href="http://www.mytoys.de/Datenschutz-und-Sicherheit/KID/de-mt.sv01.security/" rel="nofollow">Datenschutz</a>
+			</p>
+			<p>
+				<a href="http://www.mytoys.de/Presse/KID/de-mt.sv03/" rel="nofollow">Pressebereich</a>
+			</p>
+			<p>
+				<a href="http://www.mytoys.de/myToys-de-bewerten/KID/de-mt.mk.mytoysbewerten/" rel="nofollow">myToys bewerten</a>
+			</p>
+		</div>
+		<div class="column" style="margin-right: 25px;">
+			<p class="headline">Extras</p>
+
+
+
+
+
+
+			<p>
+				<a href="http://www.mytoys.de/Gewinnspiele/KID/de-mt.mk.gewinn/">Gewinnspiele</a>
+			</p>
+			<p>
+				<a href="http://www.mytoys.de/Alle-Marken/KID/de-mt.mk.marken/">Unsere Markenvielfalt</a>
+			</p>
+
+
+
+			<p>
+				<a href="http://www.mytoys.de/Gro%C3%9Fbestellungen/KID/de-mt.sv04/" rel="nofollow">Firmenkunden</a>
+			</p>
+			<p>
+				<a href="http://www.mytoys.de/Partner/KID/de-mt.mk.partner/" rel="nofollow">Partner Shops</a>
+			</p>
+			<p>
+				<a href="http://www.mytoys.de/Partnerprogramm/KID/de-mt.sv02.partner/" rel="nofollow">Partner-<br />programm</a>
+			</p>
+		</div>
+	</div>
+</div></div><!-- RENDERER END --><!-- RENDERER BEGIN (category:category:m_footer_news) --><div id="z0_m_footer_news"><form id="newsletterAboCommand" action="opt/nl/subscribe" method="post" accept-charset="UTF-8" name="news">
+<div class="box_half right">
+	<div class="newsblock">
+		<div class="interior">
+			<a href="opt/nl/subscribe" data-action="asyncImageInsert" data-src="http://images.mytoys.com/mytoys/images/footer/footer_news_nlam_ordstart_5euro.png" data-alt="Jetzt anmelden und 5 Euro Gutschein sichern!" data-class="couponImage">
+				
+			</a>
+			<p class="headline">Zum Newsletter anmelden &amp; Vorteil
+1478
+e sichern</p>
+				<ul class="nl_ls_advan">
+					<li>
+						<span class="nl_ls_advan_allg nl_ls_advan_01"> </span>Exklusive Aktionen, Neuheiten &amp; Top-Schnäppchen
+					</li>
+					<li>
+						<span class="nl_ls_advan_allg nl_ls_advan_02"> </span>Aktuelle Angebote &amp; Ratgeber
+					</li>
+					<li>
+						<span class="nl_ls_advan_allg nl_ls_advan_03"> </span>Gutscheine, Rabatte, Gratisartikel &amp; vieles mehr
+					</li>
+				</ul>
+			<p>
+				<input type="text" class="nltxt" size="25" value="Ihre E-Mail Adresse" onfocus="this.value='';" name="emailAddress" id="emailAddress" />
+				<input type="image" class="nlimg" name="emailOk" value="Los" alt="Los" src="//mytoys.de/shopdata/images/footer/footer_news_nlam_button.png" />
+				<br /><br />
+				<span class="nldaten">
+					Mit der Anmeldung gelten unsere <a href="javascript:popup('//www.mytoys.de/Zahlungs-und-Datensicherheit/KID/de-mt.sv01.security/?layout=popup')">Datenschutzbestimmungen</a>.
+				</span>
+			</p>
+			<br class="clearfloat" />
+			<span class="nl_tip_text">
+				* Vergessen Sie nicht, Ihre Anmeldung in Ihrem Postfach zu bestätigen! 
+				Der Aktionscode wird Ihnen in der Bestätigungsmail zugestellt. Nur mit 
+				Kundenkonto einlösbar. Geben Sie ihn bei Ihrer nächsten Bestellung ein 
+				und sparen Sie 5€ (Mindestbestellwert 39€).
+			</span>
+		</div>
+	</div>
+</div>
+</form></div><!-- RENDERER END --><div class="divider-line"> </div><!-- RENDERER BEGIN (category:category:m_footer_payment) --><div id="z0_m_footer_payment"><div class="box_full left">
+	<div class="paymentblock">
+		<div class="column">
+			<p class="headline">Zahlungsarten</p>
+			<ul>
+				<li>
+					<div class="method">
+						<p class="methodbox">
+							<a href="catalog/show/KID/de-mt.sv01.payment/#rechnung" rel="nofollow">Rechnung*</a>
+						</p>
+					</div>
+				</li>
+				<li>
+					<div class="method">
+						<p class="methodbox">
+							<a href="catalog/show/KID/de-mt.sv01.payment/#lastschrift" rel="nofollow">Lastschrift*</a>
+						</p>
+					</div>
+				</li>
+				<li>
+					<div class="method">
+						<p class="methodbox">
+							<a href="catalog/show/KID/de-mt.sv01.payment/#nachnahme" rel="nofollow">Nachnahme</a>
+						</p>
+					</div>
+				</li>
+
+
+
+
+
+
+
+				
+				<li>
+					<a href="catalog/show/KID/de-mt.sv01.payment/#kreditkarte" rel="nofollow" data-action="asyncImageInsert" data-src="http://images.mytoys.com/mytoys/images/footer/footer_logo_visa_n.png" data-alt="VISA" data-title="VISA">
+						
+					</a>
+				</li>
+				<li>
+					<a href="catalog/show/KID/de-mt.sv01.payment/#paypal" rel="nofollow" data-action="asyncImageInsert" data-src="http://images.mytoys.com/mytoys/images/footer/footer_logo_paypal_n.png" data-alt="PayPal" data-title="PayPal">
+						
+					</a>
+				</li>
+				<li>
+					<a href="catalog/show/KID/de-mt.sv01.payment/#sofortueberweisung" rel="nofollow" data-action="asyncImageInsert" data-src="http://images.mytoys.com/mytoys/images/footer/footer_logo_sofort_n.png" data-alt="Sofortüberweisung" data-title="Sofortüberweisung">
+						
+					</a>
+				</li>
+				<li>
+					<a href="catalog/show/KID/de-mt.sv01.payment/#kreditkarte" rel="nofollow" data-action="asyncImageInsert" data-src="http://images.mytoys.com/mytoys/images/footer/footer_logo_mastercard_n.png" data-alt="Mastercard" data-title="Mastercard">
+						
+					</a>
+				</li>
+				<li>
+					<a href="catalog/show/KID/de-mt.sv01.payment/#kreditkarte" rel="nofollow" data-action="asyncImageInsert" data-src="http://images.mytoys.com/mytoys/images/footer/footer_logo_amex_n.png" data-alt="American Express" data-title="American Express">
+						
+					</a>
+				</li>
+				<li>
+					<a href="catalog/show/KID/de-mt.sv01.payment/#ratepay" rel="nofollow" data-action="asyncImageInsert" data-src="http://images.mytoys.com/mytoys/images/misc/help_logo_ratepay.jpg" data-alt="RatePAY" data-title="RatePAY">
+						
+					</a>
+				</li>
+			</ul>
+			<br class="clearfloat" />
+			<p>*Bonität vorausgesetzt</p>
+		</div>
+	</div>
+</div></div><!-- RENDERER END --><div class="divider-line"> </div><!-- RENDERER BEGIN (category:category:m_footer_branches) --><div id="z0_m_footer_branches"><div class="box_quarter left">
+	<div class="columnblock">
+		<div class="column brancheshl">
+			<p class="headline">Unsere Filialen</p>
+		</div>
+		<div class="column branchestxt">
+			<p>
+				Hier erhalten Sie kompetente Beratung sowie eine große Auswahl zu niedrigen Preisen.
+			</p>
+		</div>
+		<div class="column branchesmap" data-action="asyncImageInsert" data-src="http://images.mytoys.com/mytoys/images/footer/footer_filialen_grafik.png" data-alt="Unsere Filialen" data-title="Unsere Filialen">
+			
+		</div>
+		<br class="clearfloat" />
+		<div class="column brancheslist">
+			<form name="fil_form" action="{{{}}}">
+				<select name="fil_select" onChange="window.location.href = document.fil_form.fil_select.options[document.fil_form.fil_select.selectedIndex].value;">
+					<option value="#" selected="selected">Filiale wählen</option>
+					<option value="catalog/show/KID/de-mt.sv06.90/">Berlin-Neukölln</option>
+					<option value="catalog/show/KID/de-mt.sv06.14/">Berlin-Spandau</option>
+					<option 
+30
+value="catalog/show/KID/de-mt.sv06.01/">Kassel</
+5a8
+option>
+					<option value="catalog/show/KID/de-mt.sv06.08/">Köln-Chorweiler</option>
+					<option value="catalog/show/KID/de-mt.sv06.02/">Köln-Weiden</option>
+					<option value="catalog/show/KID/de-mt.sv06.04/">Lübeck</option>
+					<option value="catalog/show/KID/de-mt.sv06.11/">Lüdenscheid</option>
+					<option value="catalog/show/KID/de-mt.sv06.09/">Neuss</option>
+					<option value="catalog/show/KID/de-mt.sv06.03/">Nürnberg</option>
+					<option value="catalog/show/KID/de-mt.sv06.05/">Siegen</option>
+					<option value="catalog/show/KID/de-mt.sv06.13/">Stuttgart</option>
+					<option value="catalog/show/KID/de-mt.sv06.10/">Wildau</option>
+					<option value="catalog/show/KID/de-mt.sv06.07/">Worms</option>
+				</select>
+			</form>
+		</div>
+	</div>
+</div></div><!-- RENDERER END --><!-- RENDERER BEGIN (category:category:m_footer_awards) --><div id="z0_m_footer_awards"><div class="box_quarter left">
+	<div class="columnblock">
+		<div class="column awards">
+			<p class="headline">Unsere Auszeichnungen</p>
+			<a href="http://www.mytoys.de/Unsere-Auszeichnungen/KID/de-mt.sv02.awards/" data-action="asyncImageInsert" data-src="http://images.mytoys.com/mytoys/images/footer/footer_award_famfreundl_b.jpg" data-alt="Familienfreundlichstes Unternehmen">
+				
+			</a>
+			<a href="http://www.mytoys.de/Unsere-Auszeichnungen/KID/de-mt.sv02.awards/" data-action="asyncImageInsert" data-src="http://images.mytoys.com
+5a8
+/mytoys/images/footer/footer_award_servicequali.gif" data-alt="Testsieger Online-Spielzeugshops">
+				
+			</a>
+		</div>
+	</div>
+</div></div><!-- RENDERER END --><!-- RENDERER BEGIN (category:category:m_footer_engagement) --><div id="z0_m_footer_engagement"><div class="box_quarter left">
+	<div class="columnblock">
+		<div class="column engage">
+			<p class="headline">Engagements</p>
+			<a href="http://www.mytoys.de/mygreenline/KID/de-mt.mk.mygreenline/" data-action="asyncImageInsert" data-src="http://images.mytoys.com/mytoys/images/footer/footer_logo_mygreenline.png" data-alt="mygreenline" data-title="mygreenline" data-class="engagement mygreenline">
+				
+			</a>
+
+					
+
+			<a href="http://www.mytoys.de/P%C3%A4dagogisch-wertvoll/KID/de-mt.mk.paedagogisch-wertvoll/" data-action="asyncImageInsert" data-src="http://images.mytoys.com/mytoys/images/footer/footer_logo_paedagogik.png" data-alt="Pädagogisch wertvoll" data-title="Pädagogisch wertvoll" data-class="engagement paedagog">
+				
+			</a>
+		</div>
+
+		<div class="column helper">
+			<a href="http://www.mytoys.de/myToys-hilft/KID/de-mt.sv02.mytoyshelps/" data-action="asyncImageInsert" data-src="http://images.mytoys.com/mytoys/images/footer/footer_mytoys_hilft_logo.png" data-alt="myToys hilft" data-title="myToys hilft" data-class="engagement mthelps">
+				
+			</a>
+		</div>
+				
+	</div>
+</div></div><!-- RENDERER END --><!-- RENDERER BEGIN (category:cate
+5a8
+gory:m_footer_security) --><div id="z0_m_footer_security"><div class="box_quarter left">
+	<div class="columnblockbig">
+		<div class="column security">
+			<p class="headline">Sicher einkaufen</p>
+				<p data-action="asyncTrustedShop" data-trustedshop-id="XAAC0EA57A8522ADF2FB80A83A11D5D98" data-height="60" id="mt_tsbadge" />
+				<p class="tsbadge">	
+					<a href="javascript:popup('http://www.mytoys.de/Datenschutz-und-Sicherheit/KID/de-mt.sv01.security/?layout=popup')" data-action="asyncImageInsert" data-src="http://images.mytoys.com/mytoys/images/footer/footer_sicherheitssiegel.png" data-alt="Sicheres einkaufen bei myToys.de" data-title="Sicheres einkaufen bei myToys.de">
+						
+					</a>
+				</p>
+				<p>
+					<a href="http://www.mytoys.de/Unsere-Auszeichnungen/KID/de-mt.sv02.awards/" data-action="asyncImageInsert" data-src="http://images.mytoys.com/mytoys/images/footer/footer_shopnr1.png" data-alt="myToys.de ist der Nr. 1 Online-Shop für Spielzeug und Produkte rund ums Kind in Deutschland" data-title="myToys.de ist der Nr. 1 Online-Shop für Spielzeug und Produkte rund ums Kind in Deutschland">
+						
+					</a>
+				</p>
+		</div>
+	</div>
+</div></div><!-- RENDERER END --><div class="divider-line"> </div><!-- RENDERER BEGIN (category:category:m_footer_toplinks) --><div id="z0_m_footer_toplinks"><div class="box_full">
+	<div class="columnblock">
+		<div class="column" style="margin-left: 25px;">
+			<p class="h
+f00
+eadline">Top Spielzeug<br />Marken</p>
+			<p>
+				<a href="http://www.mytoys.de/Barbie/KID/de-mt.to.br01.01/">Barbie</a>
+			</p>
+			<p>
+				<a href="http://www.mytoys.de/BIG-Bobby-Car-Co/BIG/KID/de-mt.to.br01.03.01/">Bobby Car</a>
+			</p>
+			<p>
+				<a href="http://www.mytoys.de/Carrera/KID/de-mt.to.br01.08/">Carrera</a>
+			</p>
+			<p>
+				<a href="http://www.mytoys.de/Fisher-Price/KID/de-mt.to.br01.13/">Fisher Price</a>
+			</p>
+			<p>
+				<a href="http://www.mytoys.de/HABA/KID/de-mt.to.br01.15/">HABA</a>
+			</p>
+			<p>
+				<a href="http://www.mytoys.de/LEGO/KID/de-mt.to.br01.21/">LEGO</a>
+			</p>
+			<p>
+				<a href="http://www.mytoys.de/PLAYMOBIL/KID/de-mt.to.br01.26/">PLAYMOBIL ®</a>
+			</p>
+			<p>
+				<a href="http://www.mytoys.de/Schleich/KID/de-mt.to.br01.30/">Schleich</a>
+			</p>
+			<p>
+				<a href="http://www.mytoys.de/Siku/KID/de-mt.to.br01.34/">Siku</a>
+			</p>			
+			<p>
+				<a href="http://www.mytoys.de/Vtech/KID/de-mt.to.br01.44/">Vtech</a>
+			</p>
+			<p style="margin-top: 20px;">
+				<a href="http://www.mytoys.de/Spielzeugmarken/KID/de-mt.to.br01/">Alle Spielzeugmarken</a>
+			</p>
+		</div>
+		<div class="column">
+			<p class="headline">Top Kindermode Marken</p>
+			<p>
+				<a href="http://www.mytoys.de/adidas-Performance/KID/de-mt.sh.br01.01/">adidas Kinderschuhe</a>
+			</p>
+			<p>
+				<a href="http://www.mytoys.de/CONVERSE/KID/de-mt.sh.br01.08/">CONVERSE Kinderschuhe</a>
+			</p>
+			<p>
+				<a href="http://www.mytoys.de/Jack-Wolfskin/KID/de-mt.cw.br02.14/">Jack Wolfskin</a>
+			</p>
+			<p>
+				<a href="http://www.mytoys.de/MEXX/KID/de-mt.cw.br02.20/">MEXX</a>
+			</p>
+			<p>
+				<a href="http://www.mytoys.de/name-it/KID/de-mt.cw.br02.48/">name it</a>
+			</p>
+			<p>
+				<a href="http://www.mytoys.de/Naturino/KID/de-mt.sh.br01.23/">Naturino Kinderschuhe</a>
+			</p>
+			<p>
+				<a href="http://www.mytoys.de/Pampolina/KID/de-mt.cw.br02.49/">Pampolina</a>
+			</p>
+			<p>
+				<a href="http://www.mytoys.de/RICOSTA/KID/de-mt.sh.br01.29/">RICOSTA Kinderschuhe</a>
+			</p>
+			<p>
+				<a href="http://www.mytoys.de/Sanetta/KID/de-mt.cw.br02.28/">Sanetta</a>
+			</p>
+			<p>
+				<a href="http://www.mytoys.de/superfit/KID/de-mt.sh.br01.33/">superfit Kinderschuhe</a>
+			</p>
+			<p style="margin-top: 20px;">
+				<a href="http://www.mytoys.de/Kindermode-Markenshops/KID/de-mt.cw.br02/">Alle Kindermode<br />Marken</a>
+			</p>
+		</div>
+		<div class="column">
+			<p class="headline">Top Baby Marken<br /> </p>
+			<p>
+				<a href="http://www.mytoys.de/ABC-Design/KID/de-mt.ba.br01.01/">ABC Design Kinderwagen</a>
+			</p>
+						<p>
+				<a href="http://www.mytoys.de/Alvi/KID/de-mt.ba.br01.02/">Alvi</a>
+			</p>
+			<p>
+				<a href="http://www.mytoys.de/PHILIPS-AVENT/KID/de-mt.ba.br01.05/">Avent</a>
+			</p>
+			<p>
+				<a href="http://www.mytoys.de/Concord/KID/de-mt.ba.br01.14/">Concord</a>
+			</p>
+			<p>
+				<a href="http://www.mytoys.de/Cybex/KID/de-mt.ba.br01.15/">Cybex</a>
+			</p>
+			<p>
+				<a href="http://www.mytoys.de/hauck/KID/de-mt.ba.br01.27/">hauck</a>
+			</p>
+			<p>
+				<a href="http://www.mytoys.de/Maxi-Cosi/KID/de-mt.ba.br01.42/">Maxi Cosi</a>
+			</p>
+			<p>
+				<a href="http://www.mytoys.de/Quinny/KID/de-mt.ba.br01.56/">Quinny</a>
+			</p>
+			<p>
+				<a href="http://www.mytoys.de/Britax-R%C3%B6mer/KID/de-mt.ba.br01.60/">Römer Kindersitz</a>
+			</p>
+
+
+
+			<p>
+				<a href="http://www.mytoys.de/Stokke/KID/de-mt.ba.br01.190/">Stokke</a>
+			</p>
+			<p style="margin-top: 20px;">
+				<a href="http://www.mytoys.de/Markenhersteller/KID/de-mt.ba.br01/">Alle Baby Marken</a>
+			</p>
+		</div>
+		<div class="column">
+			<p class="headline">Top Lieblingsstars<br /> </p>
+			
+			<p>
+				<a href="http://www.mytoys.de/Disney-Die-Eisk%C3%B6nigin/KID/de-mt.lc.lc01.221/">Disney Die Eiskönig
+10c8
+in</a>
+			</p>
+			<p>
+				<a href="http://www.mytoys.de/Biene-Maja/KID/de-mt.lc.lc01.31/">Biene Maja</a>
+			</p>
+			<p>
+				<a href="http://www.mytoys.de/Disney-Cars/KID/de-mt.lc.lc01.43/">Disney Cars</a>
+			</p>
+			<p>
+				<a href="http://www.mytoys.de/Disney-Princess/KID/de-mt.lc.lc01.24/">Disney Princess</a>
+			</p>
+			<p>
+				<a href="http://www.mytoys.de/Minions/KID/de-mt.lc.lc01.216/">Minions</a>
+			</p>
+			<p>
+				<a href="http://www.mytoys.de/Feuerwehrmann-Sam/KID/de-mt.lc.lc01.56/">Feuerwehrmann Sam</a>
+			</p>
+			<p>
+				<a href="http://www.mytoys.de/Mia-and-Me/KID/de-mt.lc.lc01.168/">Mia and Me</a>
+			</p>
+			<p>
+				<a href="http://www.mytoys.de/Monster-High/KID/de-mt.lc.lc01.129/">Monster High</a>
+			</p>
+			<p>
+				<a href="http://www.mytoys.de/Star-Wars/KID/de-mt.lc.lc01.25/">Star Wars</a>
+			</p>
+			<p>
+				<a href="http://www.mytoys.de/Yakari/KID/de-mt.lc.lc01.121/">Yakari</a>
+			</p>
+			<p style="margin-top: 20px;">
+				<a href="http://www.mytoys.de/Lieblingsstars/KID/de-mt.lc.lc01/">Alle Lieblingsstars</a>
+			</p>
+		</div>
+		<div class="column">
+			<p class="headline">Top Kategorien<br /> </p>
+			<p>
+				<a href="http://www.mytoys.de/Adventskalender/KID/de-mt.mk.adventskalender/">Adventskalender</a>
+			</p>
+			<p>
+				<a href="http://www.mytoys.de/my-blog/ratgeber/baby/babynamen-finden/">Babynamen Generator</a>
+			</p>
+			<p>
+				<a href="http://www.mytoys.de/Babym%C3%B6bel/KID/de-mt.fu.ca08/">Babymöbel</a>
+			</p>
+			<p>
+				<a href="http://www.mytoys.de/Baby/KID/de-mt.ba/">Babysachen</a>
+			</p>
+			<p>
+				<a href="http://www.mytoys.de/Holzeisenbahnen/Holzspielzeug/KID/de-mt.to.ca02.06.01/">Holzeisenbahn</a>
+			</p>
+			<p>
+				<a href="http://www.mytoys.de/Kaufl%C3%A4den/K%C3%BCche-Kaufladen/KID/de-mt.to.ca02.08.02/">Kaufmannsladen</a>
+			</p>
+			<p>
+				<a href="http://www.mytoys.de/Kindermode/KID/de-mt.cw/">Kindermode</a>
+			</p>
+			<p>
+				<a href="http://www.mytoys.de/Kinderschuhe/KID/de-mt.sh/">Kinderschuhe</a>
+			</p>
+			<p>
+				<a href="http://www.mytoys.de/Kinderwagen/KID/de-mt.ba.ca02.07/">Kinderwagen</a>
+			</p>
+			<p>
+				<a href="http://www.mytoys.de/Schlittschuhe/Wintersport/KID/de-mt.sp.ca01.17.05/">Schlittschuhe</a>
+			</p>
+		</div>
+		<div class="column" style="margin-right: 25px;">
+			<p class="headline">Top Suchbegriffe<br /> </p>
+			<p>
+				<a href="http://www.mytoys.de/BABY-born-Annabell/KID/de-mt.to.br01.46/">BABY born</a>
+			</p>
+			<p>
+				<a href="http://www.mytoys.de/Buggys/Kinderwagen/KID/de-mt.ba.ca02.07.01/">Buggy</a>
+			</p>
+			<p>
+				<a href="http://www.mytoys.de/Holzspielzeug/KID/de-mt.to.ca02.06/">Holzspielzeug</a>
+			</p>
+			<p>
+				<a href="http://www.mytoys.de/Babybetten/KID/de-mt.fu.ca08.03/">Kinderbett</a>
+			</p>	
+			<p>
+				<a href="http://www.mytoys.de/Multishop-Black-Friday/KID/de-mt.mk.blackfriday/">Black Friday</a>
+			</p>	
+			<p>
+				<a href="http://www.mytoys.de/Krabbelschuhe/KID/de-mt.sh.ca02.08/">Krabbelschuhe</a>
+			</p>
+			<p>
+				<a href="http://www.mytoys.de/Lernspiele/KID/de-mt.gp.ca02.02/">Lernspiele</a>
+			</p>
+			<p>
+				<a href="http://www.mytoys.de/Puzzle/KID/de-mt.gp.ca03/">Puzzle</a>
+			</p>
+			<p>
+				<a href="http://www.mytoys.de/Schlafs%C3%A4cke/KID/de-mt.fu.ca06.08/">Schlafsack Baby</a>
+			</p>
+			<p>
+				<a href="http://www.mytoys.de/TRIPP-TRAPP/Stokke/KID/de-mt.ba.br01.190.01/">Stokke TRIPP TRAPP</a>
+			</p>
+		</div>
+	</div>
+</div></div><!-- RENDERER END --><div class="divider-line"> </div><div class="bottom"><!-- RENDERER BEGIN (category:category:m_footer_legalnote) --><div id="z0_m_footer_legalnote"><br class="clearfloat" /><p>
+	*Preisangaben inkl. gesetzl. MwSt. und zzgl.
+	<a href="javascript:popup('http://www.mytoys.de/catalog/show/KID/de-mt.sv01.shipping/?layout=popup')"><b>Service- &amp; Versandkosten</b></a><br />
+	Copyright © 2015 myToys.de GmbH - Alle Rechte vorbehalten.
+</p></div><!-- RENDERER END --></div></div></div><!-- RENDERER END --></div><div id="spaceright">&nbsp;</div></div><div style="position:fixed;margin:0; bottom:-655px;z-index:50;text-align:center; display:none;" data-sid="" data-action="welcomeLayerMT" id="divLayer"><script src="https://www3.mirapodo.de/a?rt=2&et=1&i=87379&se=p&cs=5598&ts=1" type="tex
+30
+t/javascript"/><noscript><a target="_blank" href
+95e
+="https://www3.mirapodo.de/a?rt=7&et=2&i=87379&se=p&cs=5598&ts=1"><img border="0" alt="" height="217" width="952" src="https://www3.mirapodo.de/a?rt=4&et=1&i=87379&se=p&cs=5598&ts=1"/></a></noscript></div></div></div><script id="blockui_template" type="text/template"><div id="ajax_overlay" class="ajax_overlay"></div></script><script id="ajax_loader_template" type="text/template"><div class="ajaxLoader"><img src="static/img/ico_ajax_loading.gif"/>
+            Inhalte werden geladen...
+        </div></script><script id="ajax_popup_template" type="text/template"><div style="position:absolute" class="ajax_popup" data-view-type="ajax_popup"><div class="ajax_popup_header"><div data-action="close" class="ajax_popup_close"><img src="static/img/ajpop/bt_close.png"/></div><div class="ajax_popup_context">
+						{{#if title}}
+						<div style="font-family: Futura PT, Trebuchet MS ,Arial,sans-serif; color: #d3d3d3; font-size: 18pt;">
+							{{title}}
+						</div>
+						{{else}}
+							{{#if context}}
+								<img border="0" src="/static/img/ajpop/popup_info.png/../popup_{{context}}.png"/>
+							{{/if}}
+						{{/if}}
+                    </div></div><div class="ajax_popup_content"><div style="width:400" data-target="popup_content_target" id="target" class="konsum_jbacca_ajax_target"></div></div><div class="ajax_popup_footer"></div></div></script><script id="errors_template" template-type="partial" type="text/template">
+		{{#if errors}}
+			{{#each errors}}
+				{{> error_template this}}
+			{{/each}}
+		{{/if}}
+	</script><script id="error_template" template-type="partial" type="text/template">
+		{{#if message}}
+			<div class="errorMessage">
+				{{{message}}}
+			</div>
+		{{/if}}
+	</script><script id="messages_template" template-type="partial" type="text/template">
+		{{#if messages}}
+			{{#each messages}}
+				{{> message_template this}}
+			{{/each}}
+		{{/if}}
+	</script><script id="message_template" template-type="partial" type="text/template">
+		{{#if message}}
+			<div class="infobox">
+				{{{message}}}
+			</div>
+		{{/if}}
+	</script><script id="notifications_template" template-type="partial" type="text/template">
+		{{#if notifications}}
+			{{#each notifications}}
+				{{> notification_template this}}
+			{{/each}}
+		{{/if}}
+	</script><script id="notification_template" template-type="partial" type="text/template">
+		{{#if message}}
+			<div class="panel success">
+				{{{message}}
+5a2
+}
+			</div>
+		{{/if}}
+	</script><script id="success_messages_template" template-type="partial" type="text/template">
+		{{#if successMessages}}
+			{{#each successMessages}}
+				{{> success_message_template this}}
+			{{/each}}
+		{{/if}}
+	</script><script id="success_message_template" template-type="partial" type="text/template">
+		{{#if message}}
+			<div class="successbox">
+				{{{message}}}
+			</div>
+		{{/if}}
+	</script><script src="http://www.mytoys.de/static/js/permabasketApp.min.js?1446860338880" type="text/javascript">/* a comment */</script><script src="http://www.mytoys.de/static/js/legacy_searchSuggestApp.min.js?1446860338793" type="text/javascript">/* a comment */</script><script src="http://www.mytoys.de/static/js/async_lib.min.js?1446860338790" type="text/javascript">/* a comment */</script><script src="http://www.mytoys.de/static/js/legacy_jbacca.js?1446860338881" type="text/javascript">/* a comment */</script><script src="http://www.mytoys.de/static/js/webtrendsTracking.min.js?1446860338888" type="text/javascript">/* a comment */</script><script src="http://www.mytoys.de/static/js/sharedUtils.min.js?1446860338880" type="text/javascript">/* a comment */</script><img data-el="px" style="display: none;" alt="" border="0" height="1" width="1" src=""/><span data-action="sync" data-host="https://sso.mytoys-group.de" data-token="2e99ec81-5f04-4110-af83-9434775d697e" data-px="ka_z.jpg?mobileOrigin=false&amp;p=%2FWEB
+5a8
+-INF%2Fmaster.jsp&amp;loggedIn=false&amp;canUrl=http%3A%2F%2Fwww.mytoys.de%2FSpiele-Puzzle%2FKID%2Fde-mt.gp%2F&amp;rtf=false&amp;user=98506bca-3276-48ac-b180-547f0119aedd&amp;key=de-mt.gp" /><!-- Shop-Synchronisation--></span><script type="text/javascript" src="//0815.mytoys.de/scripts/acfp.js">/* a comment */</script><script type="text/javascript">
+		var adclearTag = {
+			//	general parameters
+			advertiserId : 'A2786227'	// REQUIRED: Please do not change. Global parameter, ID of the advertiser, provided by AdClear.
+			,trackDomain : '0815.mytoys.de'		// REQUIRED: Please do not change. Global parameter, tracking domain, provided by AdClear.
+			,doACF : true	// REQUIRED: Please do not change, unless you want to disable fingerprinting.
+			//	content/site parameters
+			,contentId : 'CategoryOverview'			// REQUIRED: unique identifier of the shop page
+			//	overwrite click-in URL parameters
+			,mediaCode : ''
+		};
+		//*********** Don't change anything beyond this line! **************************
+		var ACTRP_CT=function(){this.prt=location.protocol.toLowerCase()=="https:"?"https:":"http:";this.tst=function(){var e=new Date;var t=e.getTime();return t};this.enc=function(e){if(e){if(typeof encodeURIComponent=="function"){return encodeURIComponent(e)}return escape(e)}};this.img=function(e){if(document.images){if(typeof t!="object"){var t=new Array}var n=t.length;t[n]=new Image;t[n].src=e;t[n].width=1;t[n].height=1;t[n].border=0;t[n].
+5a8
+onload=function(){}}else{var r=document.getElementsByTagName("body")[0];var t=document.createElement("img");t.src=e;t.width=1;t.height=1;t.border=0;t.alt="";r.appendChild(t)}};this.frm=function(e){var t=document;var n=t.createElement("iframe");n.src=e;n.width=0;n.height=0;n.vspace=0;n.hspace=0;n.marginWidth=0;n.marginHeight=0;n.allowTransparency=true;n.scrolling="no";n.frameBorder=0;try{t.body.insertBefore(n,t.body.firstChild)}catch(r){t.write("<ifr"+"ame"+' src="'+e+'" width="0" height="0" frameborder="0" vspace="0" hspace="0" marginwidth="0" marginheight="0" scrolling="no" allowtransparency="true"></ifr'+"ame>")}};this.cpr=function(e){var t="ts="+this.tst();if(e.mediaCode){t+="&mc="+this.enc(e.mediaCode)};if(e.contentId){t+="&ci="+this.enc(e.contentId)}var n=window.document.referrer;if(n){t+="&oref="+this.enc(n)}return this.afp(e,t)};this.afp=function(e,t){try{var n=new ACFP;t+=e.doACF?n.afp():""}catch(r){}return t};this.acc=function(e){var t=this.prt+"//"+e.trackDomain+"/acv/"+e.advertiserId+"/acc?"+this.cpr(e);this.img(t)}};
+		var act_c = new ACTRP_CT();
+		act_c.acc(adclearTag);
+		</script><noscript><img border="0" height="1" width="1" src="https://0815.mytoys.de/acv/A2786227/acc?mc=&ci=CategoryOverview&oref=&ts=1446891867841"/></noscript><script type='text/javascript'>at('type', 'overview');at('shop', 'Spiele / Puzzle');at('send');</script><!-- myToys.de Tracking - masterTag - START  --><script id="nas" async="true" typ
+5a8
+e="text/javascript">(function(){var s = document.createElement("script");var x = document.getElementsByTagName("script")[0];var f='',st='';if(typeof nas_vars!='undefined'){if(typeof nas_vars['f']!='undefined'){f = nas_vars['f']!='' ? "&f="+nas_vars['f'] : "";}if(typeof nas_vars['st']!='undefined'){st = "&st="+nas_vars['st'];}s.src = "http://www3.mirapodo.de/trk?ti=5174&cs=2187&rt=1&cat=Spiele+%2F+Puzzle&d=d"+st+""+f+"";x.parentNode.insertBefore(s, x);}return false;})();</script><script class="tag_track" type="text/javascript">
+			if (typeof productsForTCVars != 'undefined') {
+				tc_vars.list_products = productsForTCVars;
+			}
+			if (typeof productsForTCVarsSize != 'undefined') {
+				tc_vars.list_result_number = productsForTCVarsSize;
+			}
+		</script><script src="static/js/tc_pixel_catalog.js?1446860338887" type="text/javascript" class="tag_track">/* empty */</script><script src="static/js/shared/storeUtils.min.js" type="text/javascript">/* a comment */</script><script src="static/js/shared/marketingActions.js?1446860338877" type="text/javascript">/* a comment */</script><script type="text/javascript">jQuery(document).ready(function () {try{(function(){
+        
+        var images=$$("img[name='de-mt.gp']");
+        if(images.size()!==0 ){
+            var img=images.first();
+            if (img!=null){
+                var next=img.next();
+                if(next!==null){
+                    var src=next.readAttribute
+5a8
+("src");
+                    if (src!==undefined){
+                        img.setAttribute("src", src);
+                    }
+                }
+
+                
+            }
+        }
+		
+	})();}catch (e){KONSUM.util.log('['+e.name+'] '+e.message);}try{(function(){
+		new KONSUM.jbacca.Closer("jbacca_12b02e0","jbacca_12b02e1");
+	})();}catch (e){KONSUM.util.log('['+e.name+'] '+e.message);}try{(function(){
+	var text=$("seobox");
+	var seoOpen=$("seoOpen");
+	var seoClose=$("seoClose");
+
+	seoOpen.observe("click", function (){
+		text.show();
+		seoClose.show();
+		seoOpen.hide();
+	});
+
+	seoClose.observe("click", function (){
+		text.hide();
+		seoClose.hide();
+		seoOpen.show();
+	});
+
+	text.observe("click", function (){
+		text.hide();
+		seoClose.hide();
+		seoOpen.show();
+	});
+	
+})();}catch (e){KONSUM.util.log('['+e.name+'] '+e.message);}try{(function(){
+			new KONSUM.jbacca.MoveSlideshow("jbacca_12b02e4",{
+				leftButton:"jbacca_12b02e2",
+				rightButton:"jbacca_12b02e3",
+				breakButton:"",
+				startButton:"",
+				viewButton:"",
+				delay:"6000",
+				numbers:"",
+				afterClickDelay:"",
+				stopAnimationEvent:"",
+				startAnimationEvent:""
+			});
+		})();}catch (e){KONSUM.util.log('['+e.name+'] '+e.message);}try{(function(){
+		KONSUM.messages.ajaxLoading='Inhalte werden geladen...';
+		KONSUM.messages.ajaxLoadingImage='static/img/ico_ajax_loading.gif';
+		var f = function(link, validator
+3b6
+Script, cookiesRequired, redirect, id, followScroll, zOff, noSeoLink){
+			new KONSUM.jbacca.AjaxPopupLink(link, validatorScript, cookiesRequired, redirect, {
+																				popupId:id,
+																				followScroll:followScroll,
+																				zOffset:zOff,
+																				noSeoLink:noSeoLink
+																			});
+		};
+		f("jbacca_12b02e6", "null", "true", "myToys-de/KID/de-mt.sv01.cookies/", "jbacca_12b02e5", "true", "0", "true");
+	})();}catch (e){KONSUM.util.log('['+e.name+'] '+e.message);}try{(function(){
+		KONSUM.messages.ajaxLoading='Inhalte werden geladen...';
+		KONSUM.messages.ajaxLoadingImage='static/img/ico_ajax_loading.gif';
+		var f = function(link, validatorScript, cookiesRequired, redirect, id, followScroll, zOff, noSeoLink){
+			new KONSUM.jbacca.AjaxPopupLink(link, validatorScript, cookiesRequired, redirect, {
+																				popupId:id,
+																				followScroll:followScroll,
+		
+5a3
+																		zOffset:zOff,
+																				noSeoLink:noSeoLink
+																			});
+		};
+		f("jbacca_12b02e9", "null", "true", "myToys-de/KID/de-mt.sv01.cookies/", "jbacca_12b02e8", "true", "0", "true");
+	})();}catch (e){KONSUM.util.log('['+e.name+'] '+e.message);}try{(function(){
+		KONSUM.messages.ajaxLoading='Inhalte werden geladen...';
+		KONSUM.messages.ajaxLoadingImage='static/img/ico_ajax_loading.gif';
+		var f = function(link, validatorScript, cookiesRequired, redirect, id, followScroll, zOff, noSeoLink){
+			new KONSUM.jbacca.AjaxPopupLink(link, validatorScript, cookiesRequired, redirect, {
+																				popupId:id,
+																				followScroll:followScroll,
+																				zOffset:zOff,
+																				noSeoLink:noSeoLink
+																			});
+		};
+		f("jbacca_12b02ec", "null", "true", "myToys-de/KID/de-mt.sv01.cookies/", "jbacca_12b02eb", "true", "0", "true");
+	})();}catch (e){KONSUM.util.log('['+e.name+'] '+e.message);}try{(function(){
+		KONSUM.messages.ajaxLoading='Inhalte werden geladen...';
+		KONSUM.messages.ajaxLoadingImage='static/img/ico_ajax_loading.gif';
+		var f = function(link, validatorScript, cookiesRequired, redirect, id, followScroll, zOff, noSeoLink){
+			new KONSUM.jbacca.AjaxPopupLink(link, validatorScript, cookiesRequired, redirect, {
+																				popupId:id,
+																				followScroll:followScroll,
+																				zOffset:zOf
+5dc
+f,
+																				noSeoLink:noSeoLink
+																			});
+		};
+		f("jbacca_12b02ef", "null", "true", "myToys-de/KID/de-mt.sv01.cookies/", "jbacca_12b02ee", "true", "0", "true");
+	})();}catch (e){KONSUM.util.log('['+e.name+'] '+e.message);}try{(function(){
+	var text=$("txtContent");
+	var seoOpen=$("moreTxt");
+	var seoClose=$("lessTxt");
+
+	seoOpen.observe("click", function (){
+		text.setStyle({height: ""});
+		seoClose.show();
+		seoOpen.hide();
+	});
+
+	seoClose.observe("click", function (){
+		text.setStyle({height: "50px"});
+		seoClose.hide();
+		seoOpen.show();
+	});
+})();}catch (e){KONSUM.util.log('['+e.name+'] '+e.message);}try{(function(){
+		new KONSUM.jbacca.PrejumpPixelHandler();
+    })();}catch (e){KONSUM.util.log('['+e.name+'] '+e.message);}try{(function(){
+		new KONSUM.jbacca.SeoLink("linktype1");
+	})();}catch (e){KONSUM.util.log('['+e.name+'] '+e.message);}});</script><script src="static/js/webtrekk_actiontracking.min.js?1446860338792" type="text/javascript" class="tag_track">/* empty */</script><script type="text/javascript">
+//<![CDATA[
+(function() {
+var _analytics_scr = document.createElement('script');
+_analytics_scr.type = 'text/javascript'; _analytics_scr.async = true; _analytics_scr.src = '/_Incapsula_Resource?SWJIYLWA=2977d8d74f63d7f8fedbea018b7a1d05&ns=20';
+var _analytics_elem = document.getElementsByTagName('script')[0]; _analytics_elem.parentNode.insertBefore(_analytics_scr, _analytics_elem);
+})();
+// ]]>
+</script></body></html>
+0
+

@@ -1,22 +1,39 @@
 ﻿"http://www.mytoys.de" >> base.uri
-"http://www.mytoys.de/Nintendo-Wii-U/KID/de-mt.vc.ca02.10/" >> current.uri
+"http://www.mytoys.de" >> current.uri
 
 current.uri >> pageuri
-pageuri:browse()!
- .catBox
-  [id^=z0_m_product_3x_]
-   .prodInfo .prodTitle a @href >> product.uri
-    product.uri:browse()
-     meta[property=og:image] @content >> product.image
-     meta[property=zx:amount] @content >> product.price
-     meta[property=zx:currency] @content >> product.currency
-     meta[property=zx:brand] @content >> product.brand
-     meta[property=zx:description] @content >> product.description
-     meta[property=zx:identifier] @content >> product.id
-     meta[name=WT.pn_sku] @content >> product.plu
-     meta[name=WT.pn] @content >> product.title
-     [id^=z0_m_pdp_details]
-      li
-       .*Altersempfehlung.* >> product.uskage
-      "product, shopping" >> product.warehousetag
- .paging .next:first() @href >> pageuri
+pageuri:browse()
+ .category .flyout li a @href >> categoryuri
+  categoryuri:browse()
+   [id$='topcats']
+    a:first() @href >> topcatsuri
+    topcatsuri:browse()
+     .paging a.next:first() @href >> pageuri
+     pageuri:browse()!
+      .catBox
+       [id^=z0_m_product_3x_]
+        .prodInfo .prodTitle a @href >> product.uri
+         product.uri:browse()
+          meta[property=og:image] @content >> product.image
+          meta[property=zx:amount] @content >> product.price
+          meta[property=zx:currency] @content >> product.currency
+          meta[property=zx:brand] @content >> product.brand
+          meta[property=zx:description] @content >> product.description
+          meta[property=zx:identifier] @content >> product.id
+          meta[name=WT.pn_sku] @content >> product.plu
+          meta[name=WT.pn] @content >> product.title
+          .tag_track
+           product_color(.*?,|.*")
+            :(.*?,|.*")
+             "(.*?,|.*")
+              [^",]+ >> product.color
+           product_clothes_size(.*?,|.*")
+            :(.*?,|.*")
+             "(.*?,|.*")
+              [^",]+ >> product.clothessize
+           product_onsale(.*?,|.*")
+            :(.*?,|.*")
+             "(.*?,|.*")
+              [^",]+ >> product.onsale 		   			            
+          "product, shopping" >> product.warehousetag
+      .paging a.next:first() @href >> pageuri
