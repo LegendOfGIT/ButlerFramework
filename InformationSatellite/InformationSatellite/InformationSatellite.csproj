@@ -63,7 +63,7 @@
       <HintPath>packages\Data.Warehouse.Crawler.1.0.9\lib\net45\Data.Warehouse.Crawler.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Data.Web, Version=1.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="Data.Web, Version=1.0.2.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\Data.Warehouse.Crawler.1.0.9\lib\net45\Data.Web.dll</HintPath>
       <Private>True</Private>
     </Reference>

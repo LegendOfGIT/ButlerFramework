@@ -330,7 +330,8 @@ namespace Data.Warehouse.Crawler
                         if (!new[] { "http:", "https:" }.Any(prefix => token.StartsWith(prefix)))
                         {
                             var baseuri = ContextDictionary.ContainsKey(WebcrawlingUtilityConstants.BaseUri) ? ContextDictionary[WebcrawlingUtilityConstants.BaseUri].FirstOrDefault() ?? string.Empty : string.Empty;
-                            token = baseuri + token;
+                            var separator = !baseuri.EndsWith("/") && !token.StartsWith("/") ? "/" : string.Empty;
+                            token = $"{baseuri}{separator}{token}";
                         }
                     }
 
