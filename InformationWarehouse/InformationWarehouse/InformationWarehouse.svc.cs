@@ -15,7 +15,8 @@ namespace InformationWarehouse
         [OperationContract]
         public IEnumerable<Dictionary<string, IEnumerable<object>>> DigInformation(string question)
         {
-            throw new NotImplementedException();
+            this.WarehouseProvider = new MongoWarehouseProvider();
+            return this.WarehouseProvider.DigInformation(question);
         }
         [OperationContract]
         public void StoreInformation(Dictionary<string, IEnumerable<object>> information)

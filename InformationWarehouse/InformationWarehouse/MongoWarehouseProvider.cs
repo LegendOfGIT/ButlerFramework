@@ -47,7 +47,22 @@ namespace InformationWarehouse
 
         public IEnumerable<Dictionary<string, IEnumerable<object>>> DigInformation(string question)
         {
-            throw new NotImplementedException();
+            var response = Enumerable.Empty<Dictionary<string, IEnumerable<object>>>();
+
+            var queryresult = Find(Builders<BsonDocument>.Filter.Gt("Information.price", 90)).Result;
+            foreach(var queryresultitem in queryresult)
+            {
+                var responsedictionary = new Dictionary<string, IEnumerable<object>>();
+                foreach (var informationelement in queryresultitem["Information"].AsBsonDocument.Elements)
+                {
+                    responsedictionary[informationelement.Name] = informationelement.Value.AsBsonArray.Select(arrayitem =>
+                        arrayitem.AsBsonValue.ToString()
+                    );
+                }
+                response = response.Concat(new[] { responsedictionary });
+            }
+
+            return response;
         }
 
         public void StoreInformation(Dictionary<string, IEnumerable<object>> information)
