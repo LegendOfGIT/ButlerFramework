@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="7039afc3-adea-4078-8f9c-c79989bb2e4a" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:50039/InformationWarehouse.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="InformationWarehouse.xsd" MetadataType="Schema" ID="137fc0ee-4f68-4bc9-b26d-bc0d5c2e156d" SourceId="1" SourceUrl="http://localhost:50039/InformationWarehouse.svc?xsd=xsd2" />
+    <MetadataFile FileName="InformationWarehouse1.xsd" MetadataType="Schema" ID="003389e4-5b9d-4d7b-9ca5-61887c775dff" SourceId="1" SourceUrl="http://localhost:50039/InformationWarehouse.svc?xsd=xsd0" />
+    <MetadataFile FileName="InformationWarehouse.wsdl" MetadataType="Wsdl" ID="cbc193c7-29af-4b04-9875-7a78d57368ee" SourceId="1" SourceUrl="http://localhost:50039/InformationWarehouse.svc?wsdl" />
+    <MetadataFile FileName="InformationWarehouse2.xsd" MetadataType="Schema" ID="02f7e93d-b39b-425c-95e4-44b9731bf2a4" SourceId="1" SourceUrl="http://localhost:50039/InformationWarehouse.svc?xsd=xsd1" />
+    <MetadataFile FileName="InformationWarehouse.disco" MetadataType="Disco" ID="690d5234-646f-42c0-9aad-4c30a1927043" SourceId="1" SourceUrl="http://localhost:50039/InformationWarehouse.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
