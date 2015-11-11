@@ -49,16 +49,13 @@ namespace InformationWarehouse
         {
             var response = Enumerable.Empty<Dictionary<string, IEnumerable<object>>>();
 
-            var queryresult = Find(Builders<BsonDocument>.Filter.Gt("Information.price", 90)).Result;
+            var queryresult = Find(
+                Builders<BsonDocument>.Filter.Gt("Information.price", 0.5) &
+                (Builders<BsonDocument>.Filter.Regex("Information.title", ".*STAR.*"))
+            ).Result;
             foreach(var queryresultitem in queryresult)
             {
-                var responsedictionary = new Dictionary<string, IEnumerable<object>>();
-                foreach (var informationelement in queryresultitem["Information"].AsBsonDocument.Elements)
-                {
-                    responsedictionary[informationelement.Name] = informationelement.Value.AsBsonArray.Select(arrayitem =>
-                        arrayitem.AsBsonValue.ToString()
-                    );
-                }
+                var responsedictionary = queryresultitem.ToInformationDictionary();
                 response = response.Concat(new[] { responsedictionary });
             }
 

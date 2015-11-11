@@ -93,6 +93,7 @@
     <Compile Include="InformationWarehouse.svc.cs">
       <DependentUpon>InformationWarehouse.svc</DependentUpon>
     </Compile>
+    <Compile Include="MongoWarehouseExtensions.cs" />
     <Compile Include="MongoWarehouseProvider.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
