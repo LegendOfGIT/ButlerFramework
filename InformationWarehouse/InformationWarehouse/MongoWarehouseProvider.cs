@@ -49,10 +49,7 @@ namespace InformationWarehouse
         {
             var response = Enumerable.Empty<Dictionary<string, IEnumerable<object>>>();
 
-            var queryresult = Find(
-                Builders<BsonDocument>.Filter.Gt("Information.price", 0.5) &
-                (Builders<BsonDocument>.Filter.Regex("Information.title", ".*STAR.*"))
-            ).Result;
+            var queryresult = Find(ComposeFilter()).Result;
             foreach(var queryresultitem in queryresult)
             {
                 var responsedictionary = queryresultitem.ToInformationDictionary();
@@ -60,6 +57,19 @@ namespace InformationWarehouse
             }
 
             return response;
+        }
+        private FilterDefinition<BsonDocument> ComposeFilter()
+        {
+            var price = Builders<BsonDocument>.Filter.Gt("Information.price", 0.5);
+            var title = Builders<BsonDocument>.Filter.Regex("Information.title", ".*STAR.*");
+            var onsale = Builders<BsonDocument>.Filter.Eq("Information.onsale", false);
+
+            var filter = onsale;
+
+            //filter = filter & price;
+            //filter = filter | onsale;
+
+            return filter;
         }
 
         public void StoreInformation(Dictionary<string, IEnumerable<object>> information)
