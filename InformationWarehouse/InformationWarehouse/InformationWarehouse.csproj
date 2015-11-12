@@ -94,6 +94,7 @@
       <DependentUpon>InformationWarehouse.svc</DependentUpon>
     </Compile>
     <Compile Include="MongoWarehouseExtensions.cs" />
+    <Compile Include="Filter.cs" />
     <Compile Include="MongoWarehouseProvider.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -101,7 +102,9 @@
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="packages.config" />
+    <Content Include="packages.config">
+      <SubType>Designer</SubType>
+    </Content>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

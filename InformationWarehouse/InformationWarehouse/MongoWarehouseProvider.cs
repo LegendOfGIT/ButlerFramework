@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+
 using Data.Warehouse;
+
 using MongoDB.Bson;
 using MongoDB.Driver;
 
@@ -60,16 +62,39 @@ namespace InformationWarehouse
         }
         private FilterDefinition<BsonDocument> ComposeFilter()
         {
-            var price = Builders<BsonDocument>.Filter.Gt("Information.price", 0.5);
-            var title = Builders<BsonDocument>.Filter.Regex("Information.title", ".*STAR.*");
-            var onsale = Builders<BsonDocument>.Filter.Eq("Information.onsale", false);
+            var filter = new[]
+            {
+                new Filter
+                {
+                    Or = new []
+                    {
+                        //  Artikel, deren Titel "STAR" beinhaltet und die teurer als 50 Cent sind
+                        //  Teurer als 50 Cent ...
+                        new Filter
+                        {
+                            Target = "price",
+                            Minimum = 50.0,
+                            And = new []
+                            {
+                                //  ... und Titel enthält "STAR"
+                                new Filter
+                                {
+                                    Target = "title",
+                                    Value = ".*DISNEY.*"
+                                }
+                            }                            
+                        },
+                        //  oder Artikel im Angebot
+                        new Filter
+                        {
+                            Target = "color",
+                            Value = ".*blau.*"
+                        }
+                    }
+                }
+            };
 
-            var filter = onsale;
-
-            //filter = filter & price;
-            //filter = filter | onsale;
-
-            return filter;
+            return filter.ToMongoDatabaseFilter();
         }
 
         public void StoreInformation(Dictionary<string, IEnumerable<object>> information)
