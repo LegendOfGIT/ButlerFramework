@@ -11,5 +11,7 @@ namespace InformationWarehouse
 
         public IEnumerable<Filter> And { get; set; }
         public IEnumerable<Filter> Or { get; set; }
+
+        public Filter Parent { get; set; }
     }
 }

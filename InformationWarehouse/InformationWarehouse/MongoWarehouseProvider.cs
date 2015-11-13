@@ -51,7 +51,8 @@ namespace InformationWarehouse
         {
             var response = Enumerable.Empty<Dictionary<string, IEnumerable<object>>>();
 
-            var queryresult = Find(ComposeFilter()).Result;
+            var composedfilter = ComposeFilter();
+            var queryresult = Find(composedfilter).Result;
             foreach(var queryresultitem in queryresult)
             {
                 var responsedictionary = queryresultitem.ToInformationDictionary();
@@ -62,39 +63,31 @@ namespace InformationWarehouse
         }
         private FilterDefinition<BsonDocument> ComposeFilter()
         {
-            var filter = new[]
-            {
-                new Filter
-                {
-                    Or = new []
-                    {
-                        //  Artikel, deren Titel "STAR" beinhaltet und die teurer als 50 Cent sind
-                        //  Teurer als 50 Cent ...
-                        new Filter
-                        {
-                            Target = "price",
-                            Minimum = 50.0,
-                            And = new []
-                            {
-                                //  ... und Titel enthält "STAR"
-                                new Filter
-                                {
-                                    Target = "title",
-                                    Value = ".*DISNEY.*"
-                                }
-                            }                            
-                        },
-                        //  oder Artikel im Angebot
-                        new Filter
-                        {
-                            Target = "color",
-                            Value = ".*blau.*"
-                        }
-                    }
-                }
-            };
+            var or = new Filter { };
+            var brand = new Filter { Target = "brand", Value = ".*TAILOR.*" };
+            var price = new Filter { Target = "price", Minimum = 10.0 };
+            var title = new Filter { Target = "title", Value = ".*STAR.*" };
 
-            return filter.ToMongoDatabaseFilter();
+            or.Or = new[]
+            {
+                //  Artikel, deren Titel "STAR" beinhaltet und die teurer als 50 Cent sind
+                //  Teurer als 50 Cent ...
+                price,
+                //  oder Artikel blau ist
+                brand
+            };
+            price.Parent = or;
+            brand.Parent = or;
+
+            //Preis
+            price.And = new[]
+            {
+                //  ... und Titel enthält "STAR"
+                title
+            };
+            title.Parent = price;
+
+            return or.Or.ToMongoDatabaseFilter();
         }
 
         public void StoreInformation(Dictionary<string, IEnumerable<object>> information)

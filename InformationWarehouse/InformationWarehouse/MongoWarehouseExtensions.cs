@@ -76,11 +76,20 @@ namespace InformationWarehouse
                 if(!string.IsNullOrEmpty(f.Target))
                 {
                     var targetfilter = f.ToMongoDatabaseFilter();
-                    
+                    var parentfilter = f.Parent;
+
                     //  Es gibt noch keine Filterbasis. Datenbankfilter neu erstellen
                     if(mongofilter == default(FilterDefinition<BsonDocument>) && targetfilter != null)
                     {
                         mongofilter = targetfilter;
+                    }
+                    else if(parentfilter != null)
+                    {
+                        mongofilter =
+                            parentfilter?.Or != null && parentfilter.Or.Contains(f) ? 
+                            mongofilter | targetfilter :
+                            mongofilter & targetfilter
+                        ;
                     }
                 }
 
