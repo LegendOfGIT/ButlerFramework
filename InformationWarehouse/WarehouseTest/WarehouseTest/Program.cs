@@ -11,7 +11,7 @@ namespace WarehouseTest
         static void Main(string[] args)
         {
             var client = new InformationWarehouse.InformationWarehouseClient();
-            var information = client.DigInformation("Kleidung bis 20 EUR");
+            var information = client.DigInformation("Kleidung in Größe M bis 20 EUR");
         }
     }
 }
