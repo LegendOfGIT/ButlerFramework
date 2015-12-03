@@ -42,29 +42,29 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Data.Mining, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\Data.Warehouse.1.0.8\lib\net45\Data.Mining.dll</HintPath>
+    <Reference Include="Data.Mining, Version=1.0.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Data.Mining.1.0.2\lib\net45\Data.Mining.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Data.Warehouse, Version=1.0.8.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\Data.Warehouse.1.0.8\lib\net45\Data.Warehouse.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Data.Web, Version=1.0.1.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\Data.Warehouse.1.0.8\lib\net45\Data.Web.dll</HintPath>
+    <Reference Include="Data.Web, Version=1.0.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Data.Web.1.0.2\lib\net45\Data.Web.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
-    <Reference Include="MongoDB.Bson, Version=2.1.0.145, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\MongoDB.Bson.2.1.0\lib\net45\MongoDB.Bson.dll</HintPath>
+    <Reference Include="MongoDB.Bson, Version=2.1.1.5, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\MongoDB.Bson.2.1.1\lib\net45\MongoDB.Bson.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="MongoDB.Driver, Version=2.1.0.145, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\MongoDB.Driver.2.1.0\lib\net45\MongoDB.Driver.dll</HintPath>
+    <Reference Include="MongoDB.Driver, Version=2.1.1.5, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\MongoDB.Driver.2.1.1\lib\net45\MongoDB.Driver.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="MongoDB.Driver.Core, Version=2.1.0.145, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\MongoDB.Driver.Core.2.1.0\lib\net45\MongoDB.Driver.Core.dll</HintPath>
+    <Reference Include="MongoDB.Driver.Core, Version=2.1.1.5, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\MongoDB.Driver.Core.2.1.1\lib\net45\MongoDB.Driver.Core.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Data.DataSetExtensions" />
@@ -94,7 +94,6 @@
       <DependentUpon>InformationWarehouse.svc</DependentUpon>
     </Compile>
     <Compile Include="MongoWarehouseExtensions.cs" />
-    <Compile Include="Filter.cs" />
     <Compile Include="MongoWarehouseProvider.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

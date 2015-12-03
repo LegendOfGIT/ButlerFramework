@@ -1,6 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
+using Data.Mining;
+
 using MongoDB.Bson;
 using MongoDB.Driver;
 
@@ -8,7 +10,7 @@ namespace InformationWarehouse
 {
     public static class MongoWarehouseExtensions
     {
-        private static FilterDefinition<BsonDocument> ToMongoDatabaseFilter(this Filter filter)
+        private static FilterDefinition<BsonDocument> ToMongoDatabaseFilter(this MiningFilter filter)
         {
             var mongofilter = default(FilterDefinition<BsonDocument>);
 
@@ -21,10 +23,23 @@ namespace InformationWarehouse
                 var maximum = filter?.Maximum;
                 var value = filter?.Value;
 
-                //  Größer als
-                if(minimum != null && maximum == null)
+                //  Kleiner als
+                if (minimum == null && maximum != null)
                 {
-                    mongofilter = Builders<BsonDocument>.Filter.Gt(target, (double)minimum);
+                    mongofilter = Builders<BsonDocument>.Filter.Lte(target, (double)(decimal)maximum);
+                }
+                //  Größer als
+                if (minimum != null && maximum == null)
+                {
+                    mongofilter = Builders<BsonDocument>.Filter.Gte(target, (double)(decimal)minimum);
+                }
+                //  Zwischen
+                if (minimum != null && maximum != null)
+                {
+                    mongofilter = 
+                        Builders<BsonDocument>.Filter.Lte(target, (double)(decimal)maximum) &
+                        Builders<BsonDocument>.Filter.Gte(target, (double)(decimal)minimum)
+                    ;
                 }
                 //  Prüfung auf bestimmten Wert
                 else if (value != null)
@@ -67,7 +82,7 @@ namespace InformationWarehouse
 
             return dictionary;
         }
-        public static FilterDefinition<BsonDocument> ToMongoDatabaseFilter(this IEnumerable<Filter> filter)
+        public static FilterDefinition<BsonDocument> ToMongoDatabaseFilter(this IEnumerable<MiningFilter> filter)
         {
             var mongofilter = default(FilterDefinition<BsonDocument>);
 

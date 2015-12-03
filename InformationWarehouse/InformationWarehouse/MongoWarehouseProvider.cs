@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-
+using Data.Mining;
 using Data.Warehouse;
 
 using MongoDB.Bson;
@@ -51,43 +51,24 @@ namespace InformationWarehouse
         {
             var response = Enumerable.Empty<Dictionary<string, IEnumerable<object>>>();
 
-            var composedfilter = ComposeFilter();
+            var composedfilter = ComposeFilter(question);
             var queryresult = Find(composedfilter).Result;
-            foreach(var queryresultitem in queryresult)
-            {
-                var responsedictionary = queryresultitem.ToInformationDictionary();
-                response = response.Concat(new[] { responsedictionary });
+
+            if (queryresult != null)
+            { 
+                foreach(var queryresultitem in queryresult)
+                {
+                    var responsedictionary = queryresultitem.ToInformationDictionary();
+                    response = response.Concat(new[] { responsedictionary });
+                }
             }
 
             return response;
         }
-        private FilterDefinition<BsonDocument> ComposeFilter()
+        private FilterDefinition<BsonDocument> ComposeFilter(string question)
         {
-            var or = new Filter { };
-            var brand = new Filter { Target = "brand", Value = ".*TAILOR.*" };
-            var price = new Filter { Target = "price", Minimum = 10.0 };
-            var title = new Filter { Target = "title", Value = ".*STAR.*" };
-
-            or.Or = new[]
-            {
-                //  Artikel, deren Titel "STAR" beinhaltet und die teurer als 50 Cent sind
-                //  Teurer als 50 Cent ...
-                price,
-                //  oder Artikel blau ist
-                brand
-            };
-            price.Parent = or;
-            brand.Parent = or;
-
-            //Preis
-            price.And = new[]
-            {
-                //  ... und Titel enthält "STAR"
-                title
-            };
-            title.Parent = price;
-
-            return or.Or.ToMongoDatabaseFilter();
+            var filter = MiningCompiler.ComposeFilter(question);
+            return filter?.And?.ToMongoDatabaseFilter();
         }
 
         public void StoreInformation(Dictionary<string, IEnumerable<object>> information)
