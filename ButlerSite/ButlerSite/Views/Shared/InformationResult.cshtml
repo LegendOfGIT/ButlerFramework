@@ -1,0 +1,13 @@
+﻿@using ButlerSite.Models
+@model IEnumerable<InformationViewModel>
+
+@if(Model != null)
+{
+    foreach(var item in Model)
+    {
+        if(item.Images != null && item.Images.Any())
+        {
+            <image src="@item.Images.First().AbsoluteUri"/>
+        }
+    }
+}

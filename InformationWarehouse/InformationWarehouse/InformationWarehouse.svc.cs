@@ -1,6 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.Collections.Generic;
+using System.Runtime.Serialization;
 using System.ServiceModel;
 
 using Data.Warehouse;
@@ -8,6 +7,7 @@ using Data.Warehouse;
 namespace InformationWarehouse
 {
     [ServiceContract]
+    [DataContract]
     public class InformationWarehouse : DataWarehouseProvider
     {
         private DataWarehouseProvider WarehouseProvider = default(DataWarehouseProvider);

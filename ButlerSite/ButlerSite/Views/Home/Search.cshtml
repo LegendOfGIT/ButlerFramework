@@ -1,4 +1,5 @@
-﻿@model ButlerSite.Models.InformationViewModel
+﻿@using ButlerSite.Models
+@model IEnumerable<InformationViewModel>
 
 @{
     ViewBag.Title = "Search";
@@ -6,4 +7,12 @@
 
 <h2>Search</h2>
 
-<input type="text" class="form-control">
+@using (Ajax.BeginForm("Search", "Home", new AjaxOptions { UpdateTargetId = "SearchResults", HttpMethod = "Post" }))
+{
+    @Html.TextBox("question")
+    <input type="submit" value="Suchen" />
+}
+<div id="SearchResults">
+    @Html.Partial("InformationResult", Model)
+</div>
+
