@@ -4,10 +4,15 @@
 @if(Model != null)
 {
     foreach(var item in Model)
-    {
+    {            
         if(item.Images != null && item.Images.Any())
         {
-            <image src="@item.Images.First().AbsoluteUri"/>
+            if (item.Uri != null)
+            {
+              <a href="@item.Uri.AbsoluteUri" target="_blank">
+                <image src="@item.Images.First().AbsoluteUri"/>
+              </a>
+            }
         }
     }
 }
