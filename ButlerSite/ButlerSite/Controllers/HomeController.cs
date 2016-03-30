@@ -53,6 +53,14 @@ namespace ButlerSite.Controllers
             informationitem.Images = subinformation.Where(info => !string.IsNullOrEmpty(info.ToString())).Select(info => new Uri(info.ToString()));
           }
 
+          //  Titel
+          key = "title";
+          subinformation = item.ContainsKey(key) ? item[key] : default(IEnumerable<object>);
+          if (subinformation != null && subinformation.Any())
+          {
+            informationitem.Title = subinformation.FirstOrDefault(info => !string.IsNullOrEmpty(info.ToString())) as string;
+          }
+
           //  Uri
           key = "uri";
           subinformation = item.ContainsKey(key) ? item[key] : default(IEnumerable<object>);
